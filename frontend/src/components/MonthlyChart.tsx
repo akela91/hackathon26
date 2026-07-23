@@ -16,7 +16,14 @@ export default function MonthlyChart({ summary }: { summary: Summary }) {
   const palette = getChartPalette(theme);
   const chartKey = `${theme}-${selectedLibrary}-${selectedYear}`;
 
-  const data = summary.monthly_checkouts;
+  // A backend file_year scope-ja a nyitott/megújított kölcsönzések miatt korábbi
+  // hónapokat is tartalmazhat egy adott év kiválasztásakor — az X tengelyt itt
+  // szűkítjük explicit módon a kiválasztott évre, hogy a trend csak arra az évre
+  // vonatkozzon.
+  const data =
+    selectedYear === "ALL"
+      ? summary.monthly_checkouts
+      : summary.monthly_checkouts.filter((d) => d.month.startsWith(selectedYear));
   const categories = data.map((d) => d.month);
   const fmtMonth = (v: string) => formatMonth(v, dict.monthsShort, lang);
 

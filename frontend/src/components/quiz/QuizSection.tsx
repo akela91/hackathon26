@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { Gamepad2, BookOpen, ListOrdered, Award, RotateCcw } from "lucide-react";
 import type { QuizData } from "@/lib/types";
@@ -16,6 +16,15 @@ export default function QuizSection({ quiz }: { quiz: QuizData }) {
   const [stage, setStage] = useState<Stage>("intro");
   const [bookScore, setBookScore] = useState({ correct: 0, total: 0 });
   const [authorScore, setAuthorScore] = useState({ correct: 0, total: 0 });
+
+  // Ha felül megváltozik a könyvtár vagy az évszám, a `quiz` prop új referenciát
+  // kap (friss fetch) — ilyenkor a kvíz teljesen újrakezdődik friss kérdésekkel,
+  // még akkor is, ha a felhasználó épp félúton volt.
+  useEffect(() => {
+    setStage("intro");
+    setBookScore({ correct: 0, total: 0 });
+    setAuthorScore({ correct: 0, total: 0 });
+  }, [quiz]);
 
   const totalCorrect = bookScore.correct + authorScore.correct;
   const totalQuestions = bookScore.total + authorScore.total;

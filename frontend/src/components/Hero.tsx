@@ -14,7 +14,7 @@ export default function Hero({ summary }: { summary: Summary }) {
   const yearLabel = selectedYear === "ALL" ? t("hero.allYears") : selectedYear;
 
   return (
-    <section className="relative flex min-h-screen flex-col items-center justify-center px-5 text-center">
+    <section className="relative flex min-h-[calc(100vh-9.5rem)] flex-col items-center justify-center px-5 text-center sm:min-h-[calc(100vh-7.5rem)]">
       {/* Az interaktív év-választó a fejléc sticky második sorában él
           (nav/YearSelector.tsx) — itt csak a jelenlegi választás látszik. */}
       <motion.div
