@@ -6,12 +6,15 @@ import type { Summary } from "@/lib/types";
 import { formatMonth, formatNumber } from "@/lib/format";
 import { useLanguage } from "@/lib/language-context";
 import { useTheme } from "@/lib/theme-context";
+import { useLibrary } from "@/lib/library-context";
 import { getChartPalette } from "@/lib/chart-theme";
 
 export default function MonthlyChart({ summary }: { summary: Summary }) {
   const { t, lang, dict } = useLanguage();
   const { theme } = useTheme();
+  const { selectedLibrary, selectedYear } = useLibrary();
   const palette = getChartPalette(theme);
+  const chartKey = `${theme}-${selectedLibrary}-${selectedYear}`;
 
   const data = summary.monthly_checkouts;
   const categories = data.map((d) => d.month);
@@ -73,7 +76,7 @@ export default function MonthlyChart({ summary }: { summary: Summary }) {
 
   return (
     <div className="glass p-5 sm:p-7">
-      <ApexChart key={theme} options={options} series={series} type="area" height={340} />
+      <ApexChart key={chartKey} options={options} series={series} type="area" height={340} />
     </div>
   );
 }

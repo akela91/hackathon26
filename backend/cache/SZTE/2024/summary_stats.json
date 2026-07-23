@@ -1,0 +1,364 @@
+{
+  "generated_at": "2026-07-23T15:16:48.860017+00:00",
+  "dataset": "full",
+  "scope": "SZTE",
+  "total_checkouts": 76547,
+  "total_value_huf": 325575202,
+  "unique_patrons": 8562,
+  "unique_titles": 31127,
+  "total_renewals": 16238,
+  "avg_renewals": 0.21,
+  "libraries": [
+    "SZTE"
+  ],
+  "by_year": [
+    {
+      "year": "2024",
+      "checkouts": 76547,
+      "value_huf": 325575202.31999993
+    }
+  ],
+  "by_library": [
+    {
+      "library": "SZTE",
+      "checkouts": 76547,
+      "value_huf": 325575202.31999993,
+      "patrons": 8562
+    }
+  ],
+  "by_doc_type": [
+    {
+      "code": "B",
+      "checkouts": 76039,
+      "label": "Könyv"
+    },
+    {
+      "code": "C",
+      "checkouts": 463,
+      "label": "AV / CD"
+    },
+    {
+      "code": "M",
+      "checkouts": 20,
+      "label": "Térkép"
+    },
+    {
+      "code": "S",
+      "checkouts": 18,
+      "label": "Periodika / Sorozat"
+    },
+    {
+      "code": "R",
+      "checkouts": 5,
+      "label": "R"
+    },
+    {
+      "code": "D",
+      "checkouts": 2,
+      "label": "Disszertáció"
+    }
+  ],
+  "by_language": [
+    {
+      "language": "hun",
+      "checkouts": 68098
+    },
+    {
+      "language": "eng",
+      "checkouts": 4612
+    },
+    {
+      "language": "ger",
+      "checkouts": 1697
+    },
+    {
+      "language": "fre",
+      "checkouts": 493
+    },
+    {
+      "language": "spa",
+      "checkouts": 407
+    },
+    {
+      "language": "ita",
+      "checkouts": 330
+    }
+  ],
+  "top_renewed_books": [
+    {
+      "title": "Kukorica : a nemzet aranya : élelmiszer, takarmány, bioenergia",
+      "author": "Nagy János",
+      "isbn": "9789635750023",
+      "total_renewals": 23,
+      "checkouts": 18
+    },
+    {
+      "title": "Tápanyag-gazdálkodás : [tankönyv]",
+      "author": null,
+      "isbn": "9639239089",
+      "total_renewals": 19,
+      "checkouts": 13
+    },
+    {
+      "title": "Talajművelők zsebkönyve",
+      "author": "Birkás Márta",
+      "isbn": "9789632866260",
+      "total_renewals": 19,
+      "checkouts": 12
+    },
+    {
+      "title": "Humán anatómiai atlasz",
+      "author": "Netter, Frank Henry",
+      "isbn": "963242848X",
+      "total_renewals": 17,
+      "checkouts": 29
+    },
+    {
+      "title": "Talajtan",
+      "author": "Stefanovits Pál",
+      "isbn": "9639239135",
+      "total_renewals": 17,
+      "checkouts": 13
+    },
+    {
+      "title": "Földművelés és földhasználat : [tankönyv]",
+      "author": null,
+      "isbn": "9632862384",
+      "total_renewals": 17,
+      "checkouts": 11
+    },
+    {
+      "title": "Traumatológia",
+      "author": null,
+      "isbn": "9789632263380",
+      "total_renewals": 16,
+      "checkouts": 67
+    },
+    {
+      "title": "Hogyan írjunk szakdolgozatot?",
+      "author": "Eco, Umberto",
+      "isbn": "9632824636",
+      "total_renewals": 16,
+      "checkouts": 14
+    },
+    {
+      "title": "Fenntartható szemléletű szántóföldi növénytermesztéstan : 2. [köt.]",
+      "author": null,
+      "isbn": "9789635029495",
+      "total_renewals": 16,
+      "checkouts": 12
+    },
+    {
+      "title": "A művészet története",
+      "author": "Gombrich, Ernst Hans Josef",
+      "isbn": "9639283649",
+      "total_renewals": 16,
+      "checkouts": 10
+    }
+  ],
+  "most_active_period": {
+    "busiest_month": {
+      "month": "2024-04",
+      "checkouts": 8163
+    },
+    "busiest_weekday": {
+      "weekday": 0,
+      "checkouts": 15630,
+      "label": "Hétfő"
+    },
+    "busiest_hour": {
+      "hour": 10,
+      "checkouts": 7449
+    }
+  },
+  "monthly_checkouts": [
+    {
+      "month": "2021-01",
+      "checkouts": 10
+    },
+    {
+      "month": "2021-03",
+      "checkouts": 2
+    },
+    {
+      "month": "2021-04",
+      "checkouts": 6
+    },
+    {
+      "month": "2021-05",
+      "checkouts": 2
+    },
+    {
+      "month": "2021-06",
+      "checkouts": 4
+    },
+    {
+      "month": "2021-07",
+      "checkouts": 1
+    },
+    {
+      "month": "2021-08",
+      "checkouts": 7
+    },
+    {
+      "month": "2021-09",
+      "checkouts": 9
+    },
+    {
+      "month": "2021-10",
+      "checkouts": 6
+    },
+    {
+      "month": "2021-11",
+      "checkouts": 1
+    },
+    {
+      "month": "2021-12",
+      "checkouts": 2
+    },
+    {
+      "month": "2022-01",
+      "checkouts": 8
+    },
+    {
+      "month": "2022-02",
+      "checkouts": 13
+    },
+    {
+      "month": "2022-03",
+      "checkouts": 4
+    },
+    {
+      "month": "2022-04",
+      "checkouts": 4
+    },
+    {
+      "month": "2022-05",
+      "checkouts": 6
+    },
+    {
+      "month": "2022-06",
+      "checkouts": 5
+    },
+    {
+      "month": "2022-07",
+      "checkouts": 2
+    },
+    {
+      "month": "2022-08",
+      "checkouts": 11
+    },
+    {
+      "month": "2022-09",
+      "checkouts": 52
+    },
+    {
+      "month": "2022-10",
+      "checkouts": 6
+    },
+    {
+      "month": "2022-11",
+      "checkouts": 11
+    },
+    {
+      "month": "2022-12",
+      "checkouts": 2
+    },
+    {
+      "month": "2023-01",
+      "checkouts": 10
+    },
+    {
+      "month": "2023-02",
+      "checkouts": 16
+    },
+    {
+      "month": "2023-03",
+      "checkouts": 51
+    },
+    {
+      "month": "2023-04",
+      "checkouts": 13
+    },
+    {
+      "month": "2023-05",
+      "checkouts": 23
+    },
+    {
+      "month": "2023-06",
+      "checkouts": 162
+    },
+    {
+      "month": "2023-07",
+      "checkouts": 271
+    },
+    {
+      "month": "2023-08",
+      "checkouts": 276
+    },
+    {
+      "month": "2023-09",
+      "checkouts": 585
+    },
+    {
+      "month": "2023-10",
+      "checkouts": 658
+    },
+    {
+      "month": "2023-11",
+      "checkouts": 2254
+    },
+    {
+      "month": "2023-12",
+      "checkouts": 4240
+    },
+    {
+      "month": "2024-01",
+      "checkouts": 7164
+    },
+    {
+      "month": "2024-02",
+      "checkouts": 7233
+    },
+    {
+      "month": "2024-03",
+      "checkouts": 7746
+    },
+    {
+      "month": "2024-04",
+      "checkouts": 8163
+    },
+    {
+      "month": "2024-05",
+      "checkouts": 6545
+    },
+    {
+      "month": "2024-06",
+      "checkouts": 4072
+    },
+    {
+      "month": "2024-07",
+      "checkouts": 2596
+    },
+    {
+      "month": "2024-08",
+      "checkouts": 2000
+    },
+    {
+      "month": "2024-09",
+      "checkouts": 6460
+    },
+    {
+      "month": "2024-10",
+      "checkouts": 7807
+    },
+    {
+      "month": "2024-11",
+      "checkouts": 6626
+    },
+    {
+      "month": "2024-12",
+      "checkouts": 1284
+    }
+  ]
+}

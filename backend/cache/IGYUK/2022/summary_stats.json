@@ -1,0 +1,265 @@
+{
+  "generated_at": "2026-07-23T15:16:22.304104+00:00",
+  "dataset": "full",
+  "scope": "IGYUK",
+  "total_checkouts": 52817,
+  "total_value_huf": 114104357,
+  "unique_patrons": 2426,
+  "unique_titles": 21965,
+  "total_renewals": 37214,
+  "avg_renewals": 0.7,
+  "libraries": [
+    "IGYUK"
+  ],
+  "by_year": [
+    {
+      "year": "2022",
+      "checkouts": 52817,
+      "value_huf": 114104357.73000002
+    }
+  ],
+  "by_library": [
+    {
+      "library": "IGYUK",
+      "checkouts": 52817,
+      "value_huf": 114104357.73000002,
+      "patrons": 2426
+    }
+  ],
+  "by_doc_type": [
+    {
+      "code": "B",
+      "checkouts": 49062,
+      "label": "Könyv"
+    },
+    {
+      "code": "F",
+      "checkouts": 2143,
+      "label": "F"
+    },
+    {
+      "code": "D",
+      "checkouts": 842,
+      "label": "Disszertáció"
+    },
+    {
+      "code": "R",
+      "checkouts": 521,
+      "label": "R"
+    },
+    {
+      "code": "S",
+      "checkouts": 199,
+      "label": "Periodika / Sorozat"
+    },
+    {
+      "code": "C",
+      "checkouts": 32,
+      "label": "AV / CD"
+    },
+    {
+      "code": "M",
+      "checkouts": 18,
+      "label": "Térkép"
+    }
+  ],
+  "by_language": [
+    {
+      "language": "hun",
+      "checkouts": 51692
+    },
+    {
+      "language": "eng",
+      "checkouts": 654
+    },
+    {
+      "language": "ger",
+      "checkouts": 316
+    },
+    {
+      "language": "fre",
+      "checkouts": 37
+    },
+    {
+      "language": "ita",
+      "checkouts": 31
+    },
+    {
+      "language": "rus",
+      "checkouts": 26
+    }
+  ],
+  "top_renewed_books": [
+    {
+      "title": "Tom Jones",
+      "author": "Fielding, Henry",
+      "isbn": "9781405882750",
+      "total_renewals": 292,
+      "checkouts": 4
+    },
+    {
+      "title": "Hív az óceán [elektronikus vizuális dok.] = Morning light : verseny szárazon és vízen",
+      "author": "Monroe, Mark",
+      "isbn": null,
+      "total_renewals": 87,
+      "checkouts": 1
+    },
+    {
+      "title": "Life and death in Shanghai",
+      "author": "Cheng, Nien",
+      "isbn": "014010870X",
+      "total_renewals": 85,
+      "checkouts": 1
+    },
+    {
+      "title": "Bilderbuch der Liebe : Aus der Geschichte der Freude und der moralischen Entrüstung",
+      "author": "Brusendorff, Ove",
+      "isbn": null,
+      "total_renewals": 85,
+      "checkouts": 1
+    },
+    {
+      "title": "Rumini",
+      "author": "Berg Judit",
+      "isbn": "9789639727649",
+      "total_renewals": 82,
+      "checkouts": 30
+    },
+    {
+      "title": "Babamesék : a tihanyi Babamúzeumból",
+      "author": null,
+      "isbn": null,
+      "total_renewals": 81,
+      "checkouts": 1
+    },
+    {
+      "title": "Utánam, srácok! 2. [elektronikus vizuális dok.]",
+      "author": "Fejér Tamás",
+      "isbn": null,
+      "total_renewals": 80,
+      "checkouts": 1
+    },
+    {
+      "title": "A Szent Johanna gimi",
+      "author": "Leiner Laura",
+      "isbn": "9789635397020",
+      "total_renewals": 79,
+      "checkouts": 147
+    },
+    {
+      "title": "Szeleburdi vakáció [elektronikus vizuális dok.]",
+      "author": "Palásthy György",
+      "isbn": null,
+      "total_renewals": 79,
+      "checkouts": 1
+    },
+    {
+      "title": "Functionalis anatomia : az ember anatómiája, fejlődéstana, szövettana  és tájanatómiája",
+      "author": "Szentágothai János",
+      "isbn": null,
+      "total_renewals": 78,
+      "checkouts": 6
+    }
+  ],
+  "most_active_period": {
+    "busiest_month": {
+      "month": "2022-03",
+      "checkouts": 5537
+    },
+    "busiest_weekday": {
+      "weekday": 0,
+      "checkouts": 14120,
+      "label": "Hétfő"
+    },
+    "busiest_hour": {
+      "hour": 9,
+      "checkouts": 9150
+    }
+  },
+  "monthly_checkouts": [
+    {
+      "month": "2021-04",
+      "checkouts": 1
+    },
+    {
+      "month": "2021-05",
+      "checkouts": 5
+    },
+    {
+      "month": "2021-06",
+      "checkouts": 1
+    },
+    {
+      "month": "2021-07",
+      "checkouts": 2
+    },
+    {
+      "month": "2021-08",
+      "checkouts": 7
+    },
+    {
+      "month": "2021-09",
+      "checkouts": 9
+    },
+    {
+      "month": "2021-10",
+      "checkouts": 16
+    },
+    {
+      "month": "2021-11",
+      "checkouts": 142
+    },
+    {
+      "month": "2021-12",
+      "checkouts": 1800
+    },
+    {
+      "month": "2022-01",
+      "checkouts": 4941
+    },
+    {
+      "month": "2022-02",
+      "checkouts": 4239
+    },
+    {
+      "month": "2022-03",
+      "checkouts": 5537
+    },
+    {
+      "month": "2022-04",
+      "checkouts": 4428
+    },
+    {
+      "month": "2022-05",
+      "checkouts": 4383
+    },
+    {
+      "month": "2022-06",
+      "checkouts": 4829
+    },
+    {
+      "month": "2022-07",
+      "checkouts": 5261
+    },
+    {
+      "month": "2022-08",
+      "checkouts": 3694
+    },
+    {
+      "month": "2022-09",
+      "checkouts": 4079
+    },
+    {
+      "month": "2022-10",
+      "checkouts": 4575
+    },
+    {
+      "month": "2022-11",
+      "checkouts": 3991
+    },
+    {
+      "month": "2022-12",
+      "checkouts": 808
+    }
+  ]
+}

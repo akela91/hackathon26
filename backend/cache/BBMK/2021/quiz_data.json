@@ -1,0 +1,127 @@
+{
+  "book_quiz": {
+    "top_books": [
+      {
+        "title": "A Szent Johanna gimi / Leiner Laura",
+        "author": "Leiner Laura",
+        "record_id": "bibBBM00398274",
+        "isbn": "97896353970061",
+        "checkouts": 36
+      },
+      {
+        "title": "Egy új korszak hajnala : A katedrális előzménye : Kingsbridge",
+        "author": "Follett, Ken",
+        "record_id": "bibBBM00394351",
+        "isbn": "9789635660018",
+        "checkouts": 22
+      },
+      {
+        "title": "Az ártatlan",
+        "author": "Kelényi Angelika, R.",
+        "record_id": "bibBBM00379201",
+        "isbn": "9789634754794",
+        "checkouts": 22
+      },
+      {
+        "title": "Hunyadi",
+        "author": "Bán János",
+        "record_id": "bibBBM00357596",
+        "isbn": "97896342645389",
+        "checkouts": 17
+      },
+      {
+        "title": "Felhőszakadás : Jack Courtney kalandjai",
+        "author": "Smith, Wilbur",
+        "record_id": "bibBBM00394326",
+        "isbn": "9786155781667",
+        "checkouts": 17
+      }
+    ],
+    "decoys": [
+      {
+        "title": "Halálos titkok",
+        "author": "Bryndza, Robert",
+        "isbn": "9789634335733",
+        "checkouts": 11
+      },
+      {
+        "title": "Te vagy az esetem : Luke",
+        "author": "Aston, Jana",
+        "isbn": "9789635700790",
+        "checkouts": 4
+      },
+      {
+        "title": "Berci és a tetűriadó",
+        "author": "Tielmann, Christian",
+        "isbn": "9789634031703",
+        "checkouts": 3
+      },
+      {
+        "title": "Sherlock Holmes : A reigate-i urak : Az Apátság major : két novella angolul és magyarul nyelvtanulóknak",
+        "author": "Doyle, Arthur Conan,",
+        "isbn": "9789634090380",
+        "checkouts": 2
+      },
+      {
+        "title": "...mégis mondj igent az életre! : egy pszichológus megéli a koncentrációs tábort",
+        "author": "Frankl, Viktor Emil",
+        "isbn": "9789639670198",
+        "checkouts": 2
+      },
+      {
+        "title": "Anus mundi : öt év Auschwitzban",
+        "author": "Kielar, Wieslaw",
+        "isbn": "9789632673424",
+        "checkouts": 1
+      },
+      {
+        "title": "A csodaóra és más mesék",
+        "author": "Benedek Elek",
+        "isbn": "9789636431679",
+        "checkouts": 1
+      },
+      {
+        "title": "A Talmudtól a felvilágosodásig",
+        "author": "Allerhand, Jacob",
+        "isbn": "9639351180",
+        "checkouts": 1
+      },
+      {
+        "title": "Mesegyűjtemény : Disney Micimackó",
+        "author": "Feldman, Thea",
+        "isbn": "9789634372479",
+        "checkouts": 1
+      },
+      {
+        "title": "November előtt",
+        "author": "Reynolds, Aurora Rose",
+        "isbn": "9786155676154",
+        "checkouts": 1
+      }
+    ]
+  },
+  "author_quiz": {
+    "top_authors": [
+      {
+        "author": "Roberts, Nora",
+        "checkouts": 178
+      },
+      {
+        "author": "Steel, Danielle",
+        "checkouts": 159
+      },
+      {
+        "author": "Dami, Elisabetta",
+        "checkouts": 143
+      },
+      {
+        "author": "March, Meghan",
+        "checkouts": 110
+      },
+      {
+        "author": "Nesbo, Jo",
+        "checkouts": 108
+      }
+    ]
+  }
+}

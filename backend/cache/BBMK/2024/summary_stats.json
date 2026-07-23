@@ -1,0 +1,343 @@
+{
+  "generated_at": "2026-07-23T15:15:35.216443+00:00",
+  "dataset": "full",
+  "scope": "BBMK",
+  "total_checkouts": 32655,
+  "total_value_huf": 77232202,
+  "unique_patrons": 1680,
+  "unique_titles": 14014,
+  "total_renewals": 20495,
+  "avg_renewals": 0.63,
+  "libraries": [
+    "BBMK"
+  ],
+  "by_year": [
+    {
+      "year": "2024",
+      "checkouts": 32655,
+      "value_huf": 77232202.62999979
+    }
+  ],
+  "by_library": [
+    {
+      "library": "BBMK",
+      "checkouts": 32655,
+      "value_huf": 77232202.62999979,
+      "patrons": 1680
+    }
+  ],
+  "by_doc_type": [
+    {
+      "code": "B",
+      "checkouts": 32235,
+      "label": "Könyv"
+    },
+    {
+      "code": "F",
+      "checkouts": 319,
+      "label": "F"
+    },
+    {
+      "code": "R",
+      "checkouts": 93,
+      "label": "R"
+    },
+    {
+      "code": "M",
+      "checkouts": 5,
+      "label": "Térkép"
+    },
+    {
+      "code": "C",
+      "checkouts": 3,
+      "label": "AV / CD"
+    }
+  ],
+  "by_language": [
+    {
+      "language": "hun",
+      "checkouts": 32243
+    },
+    {
+      "language": "eng",
+      "checkouts": 302
+    },
+    {
+      "language": "ger",
+      "checkouts": 37
+    },
+    {
+      "language": "mul",
+      "checkouts": 13
+    },
+    {
+      "language": "fre",
+      "checkouts": 10
+    },
+    {
+      "language": "ita",
+      "checkouts": 9
+    }
+  ],
+  "top_renewed_books": [
+    {
+      "title": "A Szent Johanna gimi / Leiner Laura",
+      "author": "Leiner Laura",
+      "isbn": "97896353970061",
+      "total_renewals": 33,
+      "checkouts": 43
+    },
+    {
+      "title": "Mesebeli hercegnők",
+      "author": "Disney, Walt",
+      "isbn": "9636277400",
+      "total_renewals": 30,
+      "checkouts": 1
+    },
+    {
+      "title": "A sirály a király?",
+      "author": "Bosnyák Viktória",
+      "isbn": "9786150107233",
+      "total_renewals": 27,
+      "checkouts": 29
+    },
+    {
+      "title": "Sobotta : az ember anatómiai atlasza",
+      "author": "Sobotta, Johannes",
+      "isbn": "9789632261027",
+      "total_renewals": 27,
+      "checkouts": 5
+    },
+    {
+      "title": "Egri csillagok",
+      "author": "Gárdonyi Géza",
+      "isbn": "9789634474937",
+      "total_renewals": 23,
+      "checkouts": 21
+    },
+    {
+      "title": "A funtineli boszorkány",
+      "author": "Wass Albert",
+      "isbn": "9786156016706",
+      "total_renewals": 22,
+      "checkouts": 22
+    },
+    {
+      "title": "A klastrom titka",
+      "author": "Austen, Jane",
+      "isbn": "9789635843756",
+      "total_renewals": 22,
+      "checkouts": 2
+    },
+    {
+      "title": "A két Lotti",
+      "author": "Kastner, Erich",
+      "isbn": "9789631198812",
+      "total_renewals": 21,
+      "checkouts": 16
+    },
+    {
+      "title": "Stories from the five towns",
+      "author": "Bennett, Arnold",
+      "isbn": "9780194790727",
+      "total_renewals": 20,
+      "checkouts": 8
+    },
+    {
+      "title": "Puccs Moszkvában : Putyin végnapjai : André Calvi visszatér",
+      "author": "Frei Tamás",
+      "isbn": "9789636043711",
+      "total_renewals": 19,
+      "checkouts": 24
+    }
+  ],
+  "most_active_period": {
+    "busiest_month": {
+      "month": "2024-07",
+      "checkouts": 3220
+    },
+    "busiest_weekday": {
+      "weekday": 1,
+      "checkouts": 10221,
+      "label": "Kedd"
+    },
+    "busiest_hour": {
+      "hour": 9,
+      "checkouts": 6845
+    }
+  },
+  "monthly_checkouts": [
+    {
+      "month": "2021-01",
+      "checkouts": 7
+    },
+    {
+      "month": "2021-04",
+      "checkouts": 3
+    },
+    {
+      "month": "2021-08",
+      "checkouts": 7
+    },
+    {
+      "month": "2021-09",
+      "checkouts": 3
+    },
+    {
+      "month": "2021-10",
+      "checkouts": 13
+    },
+    {
+      "month": "2021-11",
+      "checkouts": 2
+    },
+    {
+      "month": "2021-12",
+      "checkouts": 3
+    },
+    {
+      "month": "2022-01",
+      "checkouts": 3
+    },
+    {
+      "month": "2022-02",
+      "checkouts": 10
+    },
+    {
+      "month": "2022-03",
+      "checkouts": 9
+    },
+    {
+      "month": "2022-04",
+      "checkouts": 2
+    },
+    {
+      "month": "2022-05",
+      "checkouts": 6
+    },
+    {
+      "month": "2022-06",
+      "checkouts": 1
+    },
+    {
+      "month": "2022-07",
+      "checkouts": 7
+    },
+    {
+      "month": "2022-08",
+      "checkouts": 1
+    },
+    {
+      "month": "2022-09",
+      "checkouts": 5
+    },
+    {
+      "month": "2022-10",
+      "checkouts": 3
+    },
+    {
+      "month": "2022-11",
+      "checkouts": 20
+    },
+    {
+      "month": "2022-12",
+      "checkouts": 2
+    },
+    {
+      "month": "2023-01",
+      "checkouts": 1
+    },
+    {
+      "month": "2023-02",
+      "checkouts": 4
+    },
+    {
+      "month": "2023-03",
+      "checkouts": 8
+    },
+    {
+      "month": "2023-04",
+      "checkouts": 5
+    },
+    {
+      "month": "2023-05",
+      "checkouts": 17
+    },
+    {
+      "month": "2023-06",
+      "checkouts": 16
+    },
+    {
+      "month": "2023-07",
+      "checkouts": 6
+    },
+    {
+      "month": "2023-08",
+      "checkouts": 9
+    },
+    {
+      "month": "2023-09",
+      "checkouts": 19
+    },
+    {
+      "month": "2023-10",
+      "checkouts": 40
+    },
+    {
+      "month": "2023-11",
+      "checkouts": 114
+    },
+    {
+      "month": "2023-12",
+      "checkouts": 1671
+    },
+    {
+      "month": "2024-01",
+      "checkouts": 2977
+    },
+    {
+      "month": "2024-02",
+      "checkouts": 2549
+    },
+    {
+      "month": "2024-03",
+      "checkouts": 2134
+    },
+    {
+      "month": "2024-04",
+      "checkouts": 2840
+    },
+    {
+      "month": "2024-05",
+      "checkouts": 2824
+    },
+    {
+      "month": "2024-06",
+      "checkouts": 2820
+    },
+    {
+      "month": "2024-07",
+      "checkouts": 3220
+    },
+    {
+      "month": "2024-08",
+      "checkouts": 2914
+    },
+    {
+      "month": "2024-09",
+      "checkouts": 2303
+    },
+    {
+      "month": "2024-10",
+      "checkouts": 3181
+    },
+    {
+      "month": "2024-11",
+      "checkouts": 2353
+    },
+    {
+      "month": "2024-12",
+      "checkouts": 362
+    }
+  ]
+}

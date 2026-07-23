@@ -1,0 +1,127 @@
+{
+  "book_quiz": {
+    "top_books": [
+      {
+        "title": "Sobotta : az ember anatómiájának atlasza",
+        "author": "Sobotta, Johannes",
+        "record_id": "bibKLT00061042",
+        "isbn": "9789632267081",
+        "checkouts": 273
+      },
+      {
+        "title": "Funkcionális anatómia : egyetemi tankönyv",
+        "author": "Szentágothai János",
+        "record_id": "bibKLT00319995",
+        "isbn": "9632425642",
+        "checkouts": 171
+      },
+      {
+        "title": "Langman orvosi embriológia",
+        "author": "Sadler, Thomas W.",
+        "record_id": "bibDEK00948770",
+        "isbn": "9789632266831",
+        "checkouts": 141
+      },
+      {
+        "title": "Az orvosi élettan tankönyve",
+        "author": "Fonyó Attila",
+        "record_id": "bibDEK01044710",
+        "isbn": "9789632267340",
+        "checkouts": 128
+      },
+      {
+        "title": "Szövettan",
+        "author": "Kühnel, Wolfgang",
+        "record_id": "bibDEK00899248",
+        "isbn": "9789633313220",
+        "checkouts": 101
+      }
+    ],
+    "decoys": [
+      {
+        "title": "Nemzetközi jog",
+        "author": "Szűcs Lászlóné Siska Katalin",
+        "isbn": "9786156491275",
+        "checkouts": 21
+      },
+      {
+        "title": "Genetika BS : jegyzet",
+        "author": "Maróy Péter",
+        "isbn": "9789633060032",
+        "checkouts": 3
+      },
+      {
+        "title": "Bilingualism",
+        "author": "Romaine, Suzanne",
+        "isbn": "0631152261",
+        "checkouts": 2
+      },
+      {
+        "title": "Ha Rómában jársz",
+        "author": "Adams, Sarah",
+        "isbn": "9786156414526",
+        "checkouts": 2
+      },
+      {
+        "title": "A nagy háborútól a nagy válságig : bank- és pénztörténeti tanulmányok a két világháború közötti Magyarországról",
+        "author": "Pogány Ágnes",
+        "isbn": "9789634149736",
+        "checkouts": 1
+      },
+      {
+        "title": "O biznesie po polsku : podręcznik do nauki języka polskiego : wprowadzenie do języka biznesu : średni B1 B2",
+        "author": "Kowalska, Marzena",
+        "isbn": "9788324205905",
+        "checkouts": 1
+      },
+      {
+        "title": "Minden ember (rövid) története : a génjeinkben rejlő válasz a legfontosabb kérdésekre",
+        "author": "Rutherford, Adam",
+        "isbn": "9789632521077",
+        "checkouts": 1
+      },
+      {
+        "title": "Otthonkeresés a színpadon : beszélgetések ír drámaírókkal",
+        "author": "Kurdi Mária",
+        "isbn": "9634728596",
+        "checkouts": 1
+      },
+      {
+        "title": "Európai családjog : házassággal, gyermekelhelyezéssel és -tartással kapcsolatos ügyek az európai közösségi jogban és más jogforrásokban",
+        "author": "Wopera Zsuzsa",
+        "isbn": "9789632580685",
+        "checkouts": 1
+      },
+      {
+        "title": "A gyöngéd születés",
+        "author": "Leboyer, Frédérick",
+        "isbn": "9639303062",
+        "checkouts": 1
+      }
+    ]
+  },
+  "author_quiz": {
+    "top_authors": [
+      {
+        "author": "Sobotta, Johannes",
+        "checkouts": 308
+      },
+      {
+        "author": "Bach, Johann Sebastian",
+        "checkouts": 251
+      },
+      {
+        "author": "Kodály Zoltán",
+        "checkouts": 205
+      },
+      {
+        "author": "Sadler, Thomas W.",
+        "checkouts": 190
+      },
+      {
+        "author": "Bartók Béla",
+        "checkouts": 182
+      }
+    ]
+  }
+}

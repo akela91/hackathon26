@@ -6,12 +6,17 @@ import type { HeatmapTime } from "@/lib/types";
 import { formatNumber } from "@/lib/format";
 import { useLanguage } from "@/lib/language-context";
 import { useTheme } from "@/lib/theme-context";
+import { useLibrary } from "@/lib/library-context";
 import { getChartPalette } from "@/lib/chart-theme";
 
 export default function TimeHeatmap({ data }: { data: HeatmapTime }) {
   const { t, lang, dict } = useLanguage();
   const { theme } = useTheme();
+  const { selectedLibrary, selectedYear } = useLibrary();
   const palette = getChartPalette(theme);
+  // Adatváltáskor (téma/könyvtár/év) TISZTA remount — így elkerüljük az
+  // ApexCharts heatmap updateOptions hibáját (shadeRGBColor undefined crash).
+  const chartKey = `${theme}-${selectedLibrary}-${selectedYear}`;
 
   // Saját fordított sorozat építése (a hétfőt akarjuk felül -> megfordítjuk).
   const series = data.weekdays
@@ -69,7 +74,7 @@ export default function TimeHeatmap({ data }: { data: HeatmapTime }) {
 
   return (
     <div className="glass p-5 sm:p-7">
-      <ApexChart key={theme} options={options} series={series} type="heatmap" height={380} />
+      <ApexChart key={chartKey} options={options} series={series} type="heatmap" height={380} />
     </div>
   );
 }

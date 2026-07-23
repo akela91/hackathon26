@@ -1,0 +1,127 @@
+{
+  "book_quiz": {
+    "top_books": [
+      {
+        "title": "Naruto",
+        "author": "Kishimoto Masashi",
+        "record_id": "bibVFM00168598",
+        "isbn": null,
+        "checkouts": 107
+      },
+      {
+        "title": "Hunyadi",
+        "author": "Bán János",
+        "record_id": "bibVFM00261063",
+        "isbn": null,
+        "checkouts": 66
+      },
+      {
+        "title": "Barbara : a találkozás",
+        "author": "Náray Tamás",
+        "record_id": "bibVFM00260103",
+        "isbn": "9789636042387",
+        "checkouts": 56
+      },
+      {
+        "title": "A Bridgerton család",
+        "author": "Quinn, Julia",
+        "record_id": "bibVFM00230345",
+        "isbn": null,
+        "checkouts": 55
+      },
+      {
+        "title": "\"A Szent Korona nevében...\" [Hangfelvétel]",
+        "author": "Pap Gábor",
+        "record_id": "bibVFK00024843",
+        "isbn": null,
+        "checkouts": 48
+      }
+    ],
+    "decoys": [
+      {
+        "title": "Rumini",
+        "author": "Berg Judit",
+        "isbn": "9789634106159",
+        "checkouts": 21
+      },
+      {
+        "title": "Franklin és a barátság",
+        "author": "Bourgeois, Paulette",
+        "isbn": "9789639619289",
+        "checkouts": 5
+      },
+      {
+        "title": "És a tűz után",
+        "author": "Belfer, Lauren",
+        "isbn": "9789633554807",
+        "checkouts": 3
+      },
+      {
+        "title": "Kutyatartás : [101 nélkülözhetetlen jó tanács]",
+        "author": "Tombesi-Walton, David",
+        "isbn": "9789634332305",
+        "checkouts": 3
+      },
+      {
+        "title": "Jó leszek",
+        "author": "Berkesi Zsuzsa",
+        "isbn": "9786155730382",
+        "checkouts": 2
+      },
+      {
+        "title": "Auschwitz : A nácik és a \"végső megoldás\" : [Az Auschwitzban meggyilkolt 1,1 millió férfi, nő és gyermek emlékére]",
+        "author": "Rees, Laurence",
+        "isbn": "9633690412",
+        "checkouts": 2
+      },
+      {
+        "title": "Kunhímzéses párnavégek : 17-19. századi nagykunsági szőrhímzések gyűjteménye",
+        "author": "Kovács Ilona, S.",
+        "isbn": "9786150087047",
+        "checkouts": 1
+      },
+      {
+        "title": "Szellem és élet",
+        "author": "Jung, Carl Gustav",
+        "isbn": "963094085X",
+        "checkouts": 1
+      },
+      {
+        "title": "Pénz, érme, érem : Bevezetés a numizmatikába",
+        "author": "Káplár László",
+        "isbn": "963813377596390",
+        "checkouts": 1
+      },
+      {
+        "title": "A mindennapi kenyérnél is fontosabb remény",
+        "author": "Böjte Csaba",
+        "isbn": "9789632274317",
+        "checkouts": 1
+      }
+    ]
+  },
+  "author_quiz": {
+    "top_authors": [
+      {
+        "author": "Bartos Erika",
+        "checkouts": 646
+      },
+      {
+        "author": "Roberts, Nora",
+        "checkouts": 592
+      },
+      {
+        "author": "Dami, Elisabetta",
+        "checkouts": 497
+      },
+      {
+        "author": "Steel, Danielle",
+        "checkouts": 488
+      },
+      {
+        "author": "Berg Judit",
+        "checkouts": 369
+      }
+    ]
+  }
+}

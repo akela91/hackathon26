@@ -1,0 +1,336 @@
+{
+  "generated_at": "2026-07-23T15:16:52.728755+00:00",
+  "dataset": "full",
+  "scope": "VFMK",
+  "total_checkouts": 115459,
+  "total_value_huf": 277748856,
+  "unique_patrons": 4913,
+  "unique_titles": 34761,
+  "total_renewals": 60929,
+  "avg_renewals": 0.53,
+  "libraries": [
+    "VFMK"
+  ],
+  "by_year": [
+    {
+      "year": "2025",
+      "checkouts": 115459,
+      "value_huf": 277748856.08
+    }
+  ],
+  "by_library": [
+    {
+      "library": "VFMK",
+      "checkouts": 115459,
+      "value_huf": 277748856.08,
+      "patrons": 4913
+    }
+  ],
+  "by_doc_type": [
+    {
+      "code": "B",
+      "checkouts": 113027,
+      "label": "Könyv"
+    },
+    {
+      "code": "F",
+      "checkouts": 1223,
+      "label": "F"
+    },
+    {
+      "code": "R",
+      "checkouts": 1113,
+      "label": "R"
+    },
+    {
+      "code": "M",
+      "checkouts": 64,
+      "label": "Térkép"
+    },
+    {
+      "code": "C",
+      "checkouts": 22,
+      "label": "AV / CD"
+    },
+    {
+      "code": "D",
+      "checkouts": 10,
+      "label": "Disszertáció"
+    }
+  ],
+  "by_language": [
+    {
+      "language": "hun",
+      "checkouts": 114508
+    },
+    {
+      "language": "eng",
+      "checkouts": 650
+    },
+    {
+      "language": "und",
+      "checkouts": 61
+    },
+    {
+      "language": "ger",
+      "checkouts": 49
+    },
+    {
+      "language": "fre",
+      "checkouts": 48
+    },
+    {
+      "language": "spa",
+      "checkouts": 27
+    }
+  ],
+  "top_renewed_books": [
+    {
+      "title": "Kötelezők röviden",
+      "author": null,
+      "isbn": null,
+      "total_renewals": 231,
+      "checkouts": 5
+    },
+    {
+      "title": "Fizikai feladatok egyetemi és főiskolai felvételi vizsgára készülők számára",
+      "author": "Dér János",
+      "isbn": "9631763498",
+      "total_renewals": 143,
+      "checkouts": 2
+    },
+    {
+      "title": "Public Relations",
+      "author": "Nyárády Gáborné",
+      "isbn": "9633946069",
+      "total_renewals": 111,
+      "checkouts": 2
+    },
+    {
+      "title": "Készüljünk együtt a középszintű érettségi vizsgára!",
+      "author": null,
+      "isbn": null,
+      "total_renewals": 109,
+      "checkouts": 2
+    },
+    {
+      "title": "Összefoglaló feladatgyűjtemény matematikából : Megoldások",
+      "author": null,
+      "isbn": "9631831558",
+      "total_renewals": 86,
+      "checkouts": 2
+    },
+    {
+      "title": "Hunyadi",
+      "author": "Bán János",
+      "isbn": null,
+      "total_renewals": 79,
+      "checkouts": 276
+    },
+    {
+      "title": "Toldi ; Toldi szerelme ; Toldi estéje",
+      "author": "Arany János",
+      "isbn": null,
+      "total_renewals": 78,
+      "checkouts": 7
+    },
+    {
+      "title": "Az elsősegély kézikönyve : [a Magyar Vöröskereszt, Polgári Védelem, Budapesti Mentőalapítvány hivatalos kézikönyve]",
+      "author": "Marsden, Andrew K.",
+      "isbn": "9638354062",
+      "total_renewals": 77,
+      "checkouts": 3
+    },
+    {
+      "title": "Stratégiai menedzsment",
+      "author": "Bowman, Cliff",
+      "isbn": "9789630594745",
+      "total_renewals": 77,
+      "checkouts": 3
+    },
+    {
+      "title": "Vincent van Gogh, 1853-1890 : Látomás és valóság",
+      "author": "Walther, Ingo F.",
+      "isbn": "9639323020382",
+      "total_renewals": 76,
+      "checkouts": 1
+    }
+  ],
+  "most_active_period": {
+    "busiest_month": {
+      "month": "2025-07",
+      "checkouts": 10965
+    },
+    "busiest_weekday": {
+      "weekday": 1,
+      "checkouts": 29971,
+      "label": "Kedd"
+    },
+    "busiest_hour": {
+      "hour": 9,
+      "checkouts": 17303
+    }
+  },
+  "monthly_checkouts": [
+    {
+      "month": "2021-07",
+      "checkouts": 7
+    },
+    {
+      "month": "2021-09",
+      "checkouts": 2
+    },
+    {
+      "month": "2022-02",
+      "checkouts": 5
+    },
+    {
+      "month": "2022-06",
+      "checkouts": 3
+    },
+    {
+      "month": "2022-07",
+      "checkouts": 1
+    },
+    {
+      "month": "2022-08",
+      "checkouts": 1
+    },
+    {
+      "month": "2022-09",
+      "checkouts": 1
+    },
+    {
+      "month": "2023-02",
+      "checkouts": 5
+    },
+    {
+      "month": "2023-03",
+      "checkouts": 1
+    },
+    {
+      "month": "2023-04",
+      "checkouts": 6
+    },
+    {
+      "month": "2023-06",
+      "checkouts": 1
+    },
+    {
+      "month": "2023-08",
+      "checkouts": 12
+    },
+    {
+      "month": "2023-09",
+      "checkouts": 8
+    },
+    {
+      "month": "2023-10",
+      "checkouts": 9
+    },
+    {
+      "month": "2023-11",
+      "checkouts": 17
+    },
+    {
+      "month": "2023-12",
+      "checkouts": 3
+    },
+    {
+      "month": "2024-01",
+      "checkouts": 2
+    },
+    {
+      "month": "2024-02",
+      "checkouts": 2
+    },
+    {
+      "month": "2024-03",
+      "checkouts": 3
+    },
+    {
+      "month": "2024-04",
+      "checkouts": 8
+    },
+    {
+      "month": "2024-05",
+      "checkouts": 1
+    },
+    {
+      "month": "2024-06",
+      "checkouts": 2
+    },
+    {
+      "month": "2024-07",
+      "checkouts": 53
+    },
+    {
+      "month": "2024-08",
+      "checkouts": 5
+    },
+    {
+      "month": "2024-09",
+      "checkouts": 128
+    },
+    {
+      "month": "2024-10",
+      "checkouts": 224
+    },
+    {
+      "month": "2024-11",
+      "checkouts": 1648
+    },
+    {
+      "month": "2024-12",
+      "checkouts": 5923
+    },
+    {
+      "month": "2025-01",
+      "checkouts": 10922
+    },
+    {
+      "month": "2025-02",
+      "checkouts": 9358
+    },
+    {
+      "month": "2025-03",
+      "checkouts": 9719
+    },
+    {
+      "month": "2025-04",
+      "checkouts": 10309
+    },
+    {
+      "month": "2025-05",
+      "checkouts": 9087
+    },
+    {
+      "month": "2025-06",
+      "checkouts": 9203
+    },
+    {
+      "month": "2025-07",
+      "checkouts": 10965
+    },
+    {
+      "month": "2025-08",
+      "checkouts": 7249
+    },
+    {
+      "month": "2025-09",
+      "checkouts": 10086
+    },
+    {
+      "month": "2025-10",
+      "checkouts": 10060
+    },
+    {
+      "month": "2025-11",
+      "checkouts": 8488
+    },
+    {
+      "month": "2025-12",
+      "checkouts": 1932
+    }
+  ]
+}

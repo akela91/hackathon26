@@ -1,0 +1,127 @@
+{
+  "book_quiz": {
+    "top_books": [
+      {
+        "title": "Hunyadi",
+        "author": "Bán János",
+        "record_id": "bibVFM00053354",
+        "isbn": null,
+        "checkouts": 276
+      },
+      {
+        "title": "A Bridgerton család",
+        "author": "Quinn, Julia",
+        "record_id": "bibVFM00230345",
+        "isbn": null,
+        "checkouts": 96
+      },
+      {
+        "title": "A Monarchia szerelmesei",
+        "author": "Fábián Janka",
+        "record_id": "bibVFM00269177",
+        "isbn": "9789636043483",
+        "checkouts": 96
+      },
+      {
+        "title": "Apám szerint",
+        "author": "Náray Tamás",
+        "record_id": "bibVFM00268860",
+        "isbn": "9789636045890",
+        "checkouts": 91
+      },
+      {
+        "title": "Naruto",
+        "author": "Kishimoto Masashi",
+        "record_id": "bibVFM00168598",
+        "isbn": null,
+        "checkouts": 91
+      }
+    ],
+    "decoys": [
+      {
+        "title": "Randevú Rómában : [újrakezdés Olaszországban]",
+        "author": "Fisher, Kerry",
+        "isbn": "9789635708819",
+        "checkouts": 38
+      },
+      {
+        "title": "Megrontott éden : hiába menekülsz, a sorsod végül utolér",
+        "author": "Baily, Virginia",
+        "isbn": "9789634477488",
+        "checkouts": 8
+      },
+      {
+        "title": "A rezonancia törvénye : ismerd meg lehetőségeid varázslatos világát!",
+        "author": "Franckh, Pierre",
+        "isbn": "9789632911366",
+        "checkouts": 5
+      },
+      {
+        "title": "George a kutyakiállításon : Joe Fallon rajzfilmsorozatának adaptációja",
+        "author": "Perez, Monica",
+        "isbn": "9786155220982",
+        "checkouts": 3
+      },
+      {
+        "title": "Arsene Lupin kalandjai",
+        "author": "Leblanc, Maurice",
+        "isbn": "9789632667775",
+        "checkouts": 2
+      },
+      {
+        "title": "Ki téged így szeret",
+        "author": "Bruck, Edith",
+        "isbn": "9630732629",
+        "checkouts": 2
+      },
+      {
+        "title": "Érettségi témakörök vázlata kémiából : közép- és emelt szinten : 2024-től alkalmazott érettségi",
+        "author": "Tóth Zoltán",
+        "isbn": "9789634997351",
+        "checkouts": 1
+      },
+      {
+        "title": "Párisz ítélete : az impresszionizmus születésének évtizede",
+        "author": "King, Ross",
+        "isbn": "9789635309665",
+        "checkouts": 1
+      },
+      {
+        "title": "Charlotte : vészhelyzet a lovardában",
+        "author": "Neuhaus, Nele",
+        "isbn": "9789634031826",
+        "checkouts": 1
+      },
+      {
+        "title": "Ibrahimović",
+        "author": "Oldfield, Matt",
+        "isbn": "9789634794219",
+        "checkouts": 1
+      }
+    ]
+  },
+  "author_quiz": {
+    "top_authors": [
+      {
+        "author": "Bartos Erika",
+        "checkouts": 1517
+      },
+      {
+        "author": "Steel, Danielle",
+        "checkouts": 1138
+      },
+      {
+        "author": "Dami, Elisabetta",
+        "checkouts": 1071
+      },
+      {
+        "author": "Roberts, Nora",
+        "checkouts": 852
+      },
+      {
+        "author": "Berg Judit",
+        "checkouts": 711
+      }
+    ]
+  }
+}

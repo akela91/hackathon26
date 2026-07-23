@@ -156,16 +156,18 @@ def build_base_view(con: duckdb.DuckDBPyConnection, glob_pattern: str) -> tuple[
     return int(n), libraries
 
 
-def build_scope_views(con: duckdb.DuckDBPyConnection, library: str) -> None:
-    """A `tx_cur` / `txt_cur` nézeteket állítja a kért scope-ra (ALL vagy egy
-    adott könyvtár kódja). Minden gen_* függvény ezekre a nézetekre épít."""
-    if library == "ALL":
-        con.execute("CREATE OR REPLACE VIEW tx_cur AS SELECT * FROM tx")
-        con.execute("CREATE OR REPLACE VIEW txt_cur AS SELECT * FROM txt")
-    else:
-        code = sql_ident(library)
-        con.execute(f"CREATE OR REPLACE VIEW tx_cur AS SELECT * FROM tx WHERE library = '{code}'")
-        con.execute(f"CREATE OR REPLACE VIEW txt_cur AS SELECT * FROM txt WHERE library = '{code}'")
+def build_scope_views(con: duckdb.DuckDBPyConnection, library: str, year: str = "ALL") -> None:
+    """A `tx_cur` / `txt_cur` nézeteket állítja a kért scope-ra: könyvtár (ALL
+    vagy egy kód) ÉS év (ALL vagy egy évszám, a file_year alapján). Minden
+    gen_* függvény ezekre a nézetekre épül."""
+    conds = []
+    if library != "ALL":
+        conds.append(f"library = '{sql_ident(library)}'")
+    if year != "ALL":
+        conds.append(f"file_year = '{sql_ident(year)}'")
+    where = (" WHERE " + " AND ".join(conds)) if conds else ""
+    con.execute(f"CREATE OR REPLACE VIEW tx_cur AS SELECT * FROM tx{where}")
+    con.execute(f"CREATE OR REPLACE VIEW txt_cur AS SELECT * FROM txt{where}")
 
 
 def dicts(con: duckdb.DuckDBPyConnection, sql: str) -> list[dict]:
@@ -594,18 +596,28 @@ def main() -> int:
 
     scopes = ["ALL"] + libraries
 
-    for scope in scopes:
-        scope_dir = out_dir / scope
-        scope_dir.mkdir(parents=True, exist_ok=True)
-        build_scope_views(con, scope)
+    # Elérhető évek a fájlnevekből (file_year). Az "ALL" az összes évet jelenti.
+    years = [
+        r[0]
+        for r in con.execute(
+            "SELECT DISTINCT file_year FROM tx WHERE file_year <> '' ORDER BY file_year"
+        ).fetchall()
+    ]
+    year_options = ["ALL"] + years
+    log(f"Talált évek: {', '.join(years)}")
 
-        for fname, gen_fn in GENERATORS.items():
-            payload = gen_fn(con, args.dataset, scope)
-            path = scope_dir / fname
-            with path.open("w", encoding="utf-8") as f:
-                json.dump(payload, f, ensure_ascii=False, indent=2, default=str)
-        size_kb = sum((scope_dir / f).stat().st_size for f in GENERATORS) / 1024
-        log(f"  ✓ {scope}/  ({size_kb:.1f} KB, {len(GENERATORS)} fájl)")
+    # Minden könyvtár-scope × év-scope kombinációra legeneráljuk a JSON-okat a
+    # cache/<SCOPE>/<YEAR>/ struktúrába (a YEAR lehet "ALL" = összes év).
+    for scope in scopes:
+        for year in year_options:
+            out_sub = out_dir / scope / year
+            out_sub.mkdir(parents=True, exist_ok=True)
+            build_scope_views(con, scope, year)
+            for fname, gen_fn in GENERATORS.items():
+                payload = gen_fn(con, args.dataset, scope)
+                with (out_sub / fname).open("w", encoding="utf-8") as f:
+                    json.dump(payload, f, ensure_ascii=False, indent=2, default=str)
+        log(f"  ✓ {scope}/  ({len(year_options)} év × {len(GENERATORS)} fájl)")
 
     manifest = {
         "generated_at": datetime.now(timezone.utc).isoformat(),
@@ -613,13 +625,14 @@ def main() -> int:
         "total_checkouts": n,
         "libraries": libraries,
         "scopes": scopes,
+        "years": years,
     }
     with (out_dir / "manifest.json").open("w", encoding="utf-8") as f:
         json.dump(manifest, f, ensure_ascii=False, indent=2, default=str)
     log("  ✓ manifest.json")
 
     con.close()
-    log("Kész. Minden JSON legenerálva minden scope-ra.")
+    log("Kész. Minden JSON legenerálva minden scope × év kombinációra.")
     return 0
 
 

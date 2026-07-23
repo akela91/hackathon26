@@ -1,0 +1,127 @@
+{
+  "book_quiz": {
+    "top_books": [
+      {
+        "title": "Garfield",
+        "author": null,
+        "record_id": "bibSOK00465733",
+        "isbn": null,
+        "checkouts": 491
+      },
+      {
+        "title": "A Szent Johanna gimi",
+        "author": "Leiner Laura",
+        "record_id": "bibSOK00549103",
+        "isbn": "9789635397020",
+        "checkouts": 453
+      },
+      {
+        "title": "Idődetektívek",
+        "author": "Lenk, Fabian",
+        "record_id": "bibSOK00456179",
+        "isbn": null,
+        "checkouts": 352
+      },
+      {
+        "title": "Nők lapja",
+        "author": null,
+        "record_id": "bibSOK00464853",
+        "isbn": null,
+        "checkouts": 284
+      },
+      {
+        "title": "Hunyadi",
+        "author": "Bán János",
+        "record_id": "bibSOK00548374",
+        "isbn": null,
+        "checkouts": 258
+      }
+    ],
+    "decoys": [
+      {
+        "title": "Hullámsír",
+        "author": "Szlavicsek Judit",
+        "isbn": "9789634339847",
+        "checkouts": 90
+      },
+      {
+        "title": "Ordításmentes gyereknevelés : egy forradalmian új módszer, hogy olyan szülő válhasson belőled, akit nem lehet kihozni a sodrából",
+        "author": "Runkel, Hal Edward",
+        "isbn": "9786155492778",
+        "checkouts": 14
+      },
+      {
+        "title": "A jádekő sárkánya",
+        "author": "Chen, Amber",
+        "isbn": "9789635846498",
+        "checkouts": 7
+      },
+      {
+        "title": "Hogyan erősítsük meg gyermekünk immunrendszerét? : amit tudni kell az allergiáról, a védőoltásokról, az antibiotikumokról és a táplálkozásról : több mint 160 recepttel",
+        "author": "Burney, Lucy",
+        "isbn": "9789639285712",
+        "checkouts": 4
+      },
+      {
+        "title": "Runaway flame = Futótűz : [krimi CD-melléklettel] : [angol-magyar szószedettel] : [... változatos feladatokkal] : [B1/B2]",
+        "author": "Niemitz, C. J.",
+        "isbn": "9789632611358",
+        "checkouts": 3
+      },
+      {
+        "title": "Born at midnight = Született éjfélkor : [Alkonyvölgy tábor 1]",
+        "author": "Craig, Christie",
+        "isbn": "9789633738603",
+        "checkouts": 2
+      },
+      {
+        "title": "Kívánjunk sikeresen! : az álmok valóra váltásának 7 szabálya",
+        "author": "Franckh, Pierre",
+        "isbn": "9789639652323",
+        "checkouts": 2
+      },
+      {
+        "title": "Ébenfekete",
+        "author": "Simukka, Salla",
+        "isbn": "9789632932828",
+        "checkouts": 1
+      },
+      {
+        "title": "Az aranyifjú",
+        "author": "Wodehouse, Pelham Grenville",
+        "isbn": "9789634320098",
+        "checkouts": 1
+      },
+      {
+        "title": "Csokoládéország",
+        "author": "Telegdi Ágnes",
+        "isbn": "9789638795519",
+        "checkouts": 1
+      }
+    ]
+  },
+  "author_quiz": {
+    "top_authors": [
+      {
+        "author": "Bartos Erika",
+        "checkouts": 5229
+      },
+      {
+        "author": "Dami, Elisabetta",
+        "checkouts": 4375
+      },
+      {
+        "author": "Berg Judit",
+        "checkouts": 4193
+      },
+      {
+        "author": "Marék Veronika",
+        "checkouts": 2108
+      },
+      {
+        "author": "Schneider, Liane",
+        "checkouts": 1914
+      }
+    ]
+  }
+}

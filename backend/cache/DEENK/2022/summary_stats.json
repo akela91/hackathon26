@@ -1,0 +1,269 @@
+{
+  "generated_at": "2026-07-23T15:15:43.899027+00:00",
+  "dataset": "full",
+  "scope": "DEENK",
+  "total_checkouts": 18735,
+  "total_value_huf": 62373551,
+  "unique_patrons": 1619,
+  "unique_titles": 12686,
+  "total_renewals": 30566,
+  "avg_renewals": 1.63,
+  "libraries": [
+    "DEENK"
+  ],
+  "by_year": [
+    {
+      "year": "2022",
+      "checkouts": 18735,
+      "value_huf": 62373551.33000001
+    }
+  ],
+  "by_library": [
+    {
+      "library": "DEENK",
+      "checkouts": 18735,
+      "value_huf": 62373551.33000001,
+      "patrons": 1619
+    }
+  ],
+  "by_doc_type": [
+    {
+      "code": "B",
+      "checkouts": 17351,
+      "label": "Könyv"
+    },
+    {
+      "code": "C",
+      "checkouts": 1195,
+      "label": "AV / CD"
+    },
+    {
+      "code": "a",
+      "checkouts": 51,
+      "label": "a"
+    },
+    {
+      "code": "R",
+      "checkouts": 50,
+      "label": "R"
+    },
+    {
+      "code": "F",
+      "checkouts": 40,
+      "label": "F"
+    },
+    {
+      "code": "S",
+      "checkouts": 39,
+      "label": "Periodika / Sorozat"
+    },
+    {
+      "code": "M",
+      "checkouts": 9,
+      "label": "Térkép"
+    }
+  ],
+  "by_language": [
+    {
+      "language": "hun",
+      "checkouts": 16281
+    },
+    {
+      "language": "eng",
+      "checkouts": 1263
+    },
+    {
+      "language": "mul",
+      "checkouts": 481
+    },
+    {
+      "language": "ger",
+      "checkouts": 378
+    },
+    {
+      "language": "lat",
+      "checkouts": 63
+    },
+    {
+      "language": "ita",
+      "checkouts": 45
+    }
+  ],
+  "top_renewed_books": [
+    {
+      "title": "Sobotta : az ember anatómiájának atlasza",
+      "author": "Sobotta, Johannes",
+      "isbn": "9789632267081",
+      "total_renewals": 203,
+      "checkouts": 69
+    },
+    {
+      "title": "Funkcionális anatómia : egyetemi tankönyv",
+      "author": "Szentágothai János",
+      "isbn": "9632425642",
+      "total_renewals": 185,
+      "checkouts": 60
+    },
+    {
+      "title": "Dinastia Borgia [hangdokumentum] : Chiesa e potere nel rinascimento = Dinastie Borgia : eglise et Pouvoir a la Renaissance = Borgia dynastry : church and power in the renaissance = Dinastria Borja : eglésia i poder al renaixement = Die Dynastie Borja",
+      "author": "Javier, Francisco",
+      "isbn": null,
+      "total_renewals": 160,
+      "checkouts": 4
+    },
+    {
+      "title": "Orvosi biofizika",
+      "author": null,
+      "isbn": "9789632261270",
+      "total_renewals": 115,
+      "checkouts": 42
+    },
+    {
+      "title": "Sejtbiológia",
+      "author": "Darvas Zsuzsanna",
+      "isbn": "9789632261898",
+      "total_renewals": 114,
+      "checkouts": 41
+    },
+    {
+      "title": "Langman orvosi embriológia",
+      "author": "Sadler, Thomas W.",
+      "isbn": "9789632266831",
+      "total_renewals": 109,
+      "checkouts": 40
+    },
+    {
+      "title": "Gyermekgyógyászati kézikönyv : diagnosztikai és terápiás útmutató gyakorló gyermekgyógyászoknak",
+      "author": null,
+      "isbn": "9789632261768",
+      "total_renewals": 104,
+      "checkouts": 8
+    },
+    {
+      "title": "A római jog története és institúciói",
+      "author": "Földi András",
+      "isbn": "9789631981278",
+      "total_renewals": 94,
+      "checkouts": 34
+    },
+    {
+      "title": "Tájanatómia",
+      "author": "Csillik Bertalan",
+      "isbn": "9789632266381",
+      "total_renewals": 86,
+      "checkouts": 31
+    },
+    {
+      "title": "A pszichiátria magyar kézikönyve",
+      "author": null,
+      "isbn": "9789632265209",
+      "total_renewals": 86,
+      "checkouts": 8
+    }
+  ],
+  "most_active_period": {
+    "busiest_month": {
+      "month": "2022-09",
+      "checkouts": 1976
+    },
+    "busiest_weekday": {
+      "weekday": 0,
+      "checkouts": 4354,
+      "label": "Hétfő"
+    },
+    "busiest_hour": {
+      "hour": 8,
+      "checkouts": 2607
+    }
+  },
+  "monthly_checkouts": [
+    {
+      "month": "2021-01",
+      "checkouts": 11
+    },
+    {
+      "month": "2021-02",
+      "checkouts": 6
+    },
+    {
+      "month": "2021-05",
+      "checkouts": 1
+    },
+    {
+      "month": "2021-06",
+      "checkouts": 28
+    },
+    {
+      "month": "2021-07",
+      "checkouts": 10
+    },
+    {
+      "month": "2021-08",
+      "checkouts": 6
+    },
+    {
+      "month": "2021-09",
+      "checkouts": 142
+    },
+    {
+      "month": "2021-10",
+      "checkouts": 44
+    },
+    {
+      "month": "2021-11",
+      "checkouts": 214
+    },
+    {
+      "month": "2021-12",
+      "checkouts": 568
+    },
+    {
+      "month": "2022-01",
+      "checkouts": 1722
+    },
+    {
+      "month": "2022-02",
+      "checkouts": 1497
+    },
+    {
+      "month": "2022-03",
+      "checkouts": 1536
+    },
+    {
+      "month": "2022-04",
+      "checkouts": 1353
+    },
+    {
+      "month": "2022-05",
+      "checkouts": 1801
+    },
+    {
+      "month": "2022-06",
+      "checkouts": 1340
+    },
+    {
+      "month": "2022-07",
+      "checkouts": 911
+    },
+    {
+      "month": "2022-08",
+      "checkouts": 1331
+    },
+    {
+      "month": "2022-09",
+      "checkouts": 1976
+    },
+    {
+      "month": "2022-10",
+      "checkouts": 1749
+    },
+    {
+      "month": "2022-11",
+      "checkouts": 1883
+    },
+    {
+      "month": "2022-12",
+      "checkouts": 502
+    }
+  ]
+}

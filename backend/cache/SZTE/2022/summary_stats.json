@@ -1,0 +1,272 @@
+{
+  "generated_at": "2026-07-23T15:16:47.884406+00:00",
+  "dataset": "full",
+  "scope": "SZTE",
+  "total_checkouts": 50593,
+  "total_value_huf": 189862465,
+  "unique_patrons": 5532,
+  "unique_titles": 23051,
+  "total_renewals": 8766,
+  "avg_renewals": 0.17,
+  "libraries": [
+    "SZTE"
+  ],
+  "by_year": [
+    {
+      "year": "2022",
+      "checkouts": 50593,
+      "value_huf": 189862465.18999982
+    }
+  ],
+  "by_library": [
+    {
+      "library": "SZTE",
+      "checkouts": 50593,
+      "value_huf": 189862465.18999982,
+      "patrons": 5532
+    }
+  ],
+  "by_doc_type": [
+    {
+      "code": "B",
+      "checkouts": 50185,
+      "label": "Könyv"
+    },
+    {
+      "code": "C",
+      "checkouts": 377,
+      "label": "AV / CD"
+    },
+    {
+      "code": "S",
+      "checkouts": 15,
+      "label": "Periodika / Sorozat"
+    },
+    {
+      "code": "M",
+      "checkouts": 14,
+      "label": "Térkép"
+    },
+    {
+      "code": "D",
+      "checkouts": 1,
+      "label": "Disszertáció"
+    },
+    {
+      "code": "F",
+      "checkouts": 1,
+      "label": "F"
+    }
+  ],
+  "by_language": [
+    {
+      "language": "hun",
+      "checkouts": 45014
+    },
+    {
+      "language": "eng",
+      "checkouts": 3046
+    },
+    {
+      "language": "ger",
+      "checkouts": 1091
+    },
+    {
+      "language": "fre",
+      "checkouts": 389
+    },
+    {
+      "language": "spa",
+      "checkouts": 248
+    },
+    {
+      "language": "mul",
+      "checkouts": 200
+    }
+  ],
+  "top_renewed_books": [
+    {
+      "title": "Sobotta : az ember anatómiájának atlasza : Törzs, zsigerek, alsó végtag. 2. köt.",
+      "author": "Sobotta, Johannes",
+      "isbn": "9638154535",
+      "total_renewals": 22,
+      "checkouts": 31
+    },
+    {
+      "title": "Sobotta : az ember anatómiájának atlasza : Fej, nyak, felső végtag. 1. köt.",
+      "author": "Sobotta, Johannes",
+      "isbn": "9638154527",
+      "total_renewals": 21,
+      "checkouts": 38
+    },
+    {
+      "title": "A gazdasági állatok élettana az anatómia alapjaival : [tankönyv]",
+      "author": null,
+      "isbn": "9639239291",
+      "total_renewals": 17,
+      "checkouts": 10
+    },
+    {
+      "title": "Tápanyag-gazdálkodás : [tankönyv]",
+      "author": null,
+      "isbn": "9639239089",
+      "total_renewals": 15,
+      "checkouts": 10
+    },
+    {
+      "title": "55 kétszólamú énekgyakorlat [nyomtatott kotta] : alsó szólam",
+      "author": "Kodály Zoltán",
+      "isbn": null,
+      "total_renewals": 14,
+      "checkouts": 16
+    },
+    {
+      "title": "55 kétszólamú énekgyakorlat [nyomtatott kotta] : felső szólam",
+      "author": "Kodály Zoltán",
+      "isbn": null,
+      "total_renewals": 14,
+      "checkouts": 16
+    },
+    {
+      "title": "A legnagyszerűbb könyv a nárcizmusról",
+      "author": "Bánki György",
+      "isbn": "9786155640261",
+      "total_renewals": 13,
+      "checkouts": 12
+    },
+    {
+      "title": "Mezőgazdasági növénytan",
+      "author": null,
+      "isbn": "9633562279",
+      "total_renewals": 13,
+      "checkouts": 7
+    },
+    {
+      "title": "Állattenyésztés : [felsőoktatási tankönyv] : Szarvasmarha, juh, ló. 1. [köt.]",
+      "author": null,
+      "isbn": "9639239461",
+      "total_renewals": 12,
+      "checkouts": 8
+    },
+    {
+      "title": "Alkalmazott élettan - kórélettan",
+      "author": null,
+      "isbn": "9789637152757",
+      "total_renewals": 11,
+      "checkouts": 25
+    }
+  ],
+  "most_active_period": {
+    "busiest_month": {
+      "month": "2022-03",
+      "checkouts": 5447
+    },
+    "busiest_weekday": {
+      "weekday": 0,
+      "checkouts": 10942,
+      "label": "Hétfő"
+    },
+    "busiest_hour": {
+      "hour": 10,
+      "checkouts": 5119
+    }
+  },
+  "monthly_checkouts": [
+    {
+      "month": "2021-01",
+      "checkouts": 7
+    },
+    {
+      "month": "2021-02",
+      "checkouts": 25
+    },
+    {
+      "month": "2021-03",
+      "checkouts": 12
+    },
+    {
+      "month": "2021-04",
+      "checkouts": 14
+    },
+    {
+      "month": "2021-05",
+      "checkouts": 39
+    },
+    {
+      "month": "2021-06",
+      "checkouts": 57
+    },
+    {
+      "month": "2021-07",
+      "checkouts": 148
+    },
+    {
+      "month": "2021-08",
+      "checkouts": 180
+    },
+    {
+      "month": "2021-09",
+      "checkouts": 338
+    },
+    {
+      "month": "2021-10",
+      "checkouts": 409
+    },
+    {
+      "month": "2021-11",
+      "checkouts": 1139
+    },
+    {
+      "month": "2021-12",
+      "checkouts": 2802
+    },
+    {
+      "month": "2022-01",
+      "checkouts": 4203
+    },
+    {
+      "month": "2022-02",
+      "checkouts": 4558
+    },
+    {
+      "month": "2022-03",
+      "checkouts": 5447
+    },
+    {
+      "month": "2022-04",
+      "checkouts": 5136
+    },
+    {
+      "month": "2022-05",
+      "checkouts": 4613
+    },
+    {
+      "month": "2022-06",
+      "checkouts": 2917
+    },
+    {
+      "month": "2022-07",
+      "checkouts": 1611
+    },
+    {
+      "month": "2022-08",
+      "checkouts": 1349
+    },
+    {
+      "month": "2022-09",
+      "checkouts": 5040
+    },
+    {
+      "month": "2022-10",
+      "checkouts": 4929
+    },
+    {
+      "month": "2022-11",
+      "checkouts": 4586
+    },
+    {
+      "month": "2022-12",
+      "checkouts": 836
+    }
+  ]
+}

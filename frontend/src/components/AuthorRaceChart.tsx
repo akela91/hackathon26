@@ -8,23 +8,35 @@ import type { AuthorsMonthly } from "@/lib/types";
 import { formatMonth, formatNumber } from "@/lib/format";
 import { useLanguage } from "@/lib/language-context";
 import { useTheme } from "@/lib/theme-context";
+import { useLibrary } from "@/lib/library-context";
 import { getChartPalette } from "@/lib/chart-theme";
 
 export default function AuthorRaceChart({ data }: { data: AuthorsMonthly }) {
   const { t, lang, dict } = useLanguage();
   const { theme } = useTheme();
+  const { selectedLibrary, selectedYear } = useLibrary();
   const palette = getChartPalette(theme);
   const PALETTE = palette.categorical;
   const { months, authors } = data;
+  const chartKey = `${theme}-${selectedLibrary}-${selectedYear}`;
   const [idx, setIdx] = useState(months.length - 1);
   const [playing, setPlaying] = useState(false);
   const timer = useRef<ReturnType<typeof setInterval> | null>(null);
+
+  // Ha az adat (hónapok) változik (könyvtár/év váltás), az idx-et a végére
+  // állítjuk, hogy sose fusson túl a tömbön (undefined hónap → crash).
+  useEffect(() => {
+    setIdx(months.length - 1);
+    setPlaying(false);
+  }, [months.length, selectedLibrary, selectedYear]);
+
+  const safeIdx = Math.min(idx, months.length - 1);
 
   // Kumulált értékek az aktuális hónapig, csökkenő sorrendben.
   const { categories, values, colors } = useMemo(() => {
     const cum = authors.map((a) => ({
       author: a.author,
-      value: a.data.slice(0, idx + 1).reduce((s, v) => s + v, 0),
+      value: a.data.slice(0, safeIdx + 1).reduce((s, v) => s + v, 0),
     }));
     cum.sort((x, y) => x.value - y.value); // ApexCharts alulról épít, ezért növekvő
     return {
@@ -32,7 +44,7 @@ export default function AuthorRaceChart({ data }: { data: AuthorsMonthly }) {
       values: cum.map((c) => c.value),
       colors: cum.map((_, i) => PALETTE[(cum.length - 1 - i) % PALETTE.length]),
     };
-  }, [authors, idx, PALETTE]);
+  }, [authors, safeIdx, PALETTE]);
 
   useEffect(() => {
     if (!playing) return;
@@ -106,7 +118,7 @@ export default function AuthorRaceChart({ data }: { data: AuthorsMonthly }) {
             {t("authorRace.cumulativeUntil")}
           </div>
           <div className="text-2xl font-black gradient-text-cool">
-            {formatMonth(months[idx], dict.monthsShort, lang)}
+            {formatMonth(months[safeIdx], dict.monthsShort, lang)}
           </div>
         </div>
         <div className="flex items-center gap-2">
@@ -137,7 +149,7 @@ export default function AuthorRaceChart({ data }: { data: AuthorsMonthly }) {
         type="range"
         min={0}
         max={months.length - 1}
-        value={idx}
+        value={safeIdx}
         onChange={(e) => {
           setPlaying(false);
           setIdx(Number(e.target.value));
@@ -145,7 +157,7 @@ export default function AuthorRaceChart({ data }: { data: AuthorsMonthly }) {
         className="mb-4 w-full accent-fuchsia-500"
       />
 
-      <ApexChart key={theme} options={options} series={series} type="bar" height={460} />
+      <ApexChart key={chartKey} options={options} series={series} type="bar" height={460} />
     </div>
   );
 }

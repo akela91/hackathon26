@@ -1,0 +1,127 @@
+{
+  "book_quiz": {
+    "top_books": [
+      {
+        "title": "Brúnó Budapesten",
+        "author": "Bartos Erika",
+        "record_id": "bibBMK00060126",
+        "isbn": null,
+        "checkouts": 122
+      },
+      {
+        "title": "Naruto",
+        "author": "Kishimoto Masashi",
+        "record_id": "bibBMK00048741",
+        "isbn": null,
+        "checkouts": 112
+      },
+      {
+        "title": "Mágikus állatok iskolája",
+        "author": "Auer, Margit",
+        "record_id": "bibBMK00074111",
+        "isbn": null,
+        "checkouts": 109
+      },
+      {
+        "title": "A Szent Johanna gimi",
+        "author": "Leiner Laura",
+        "record_id": "bibBMK00038946",
+        "isbn": "9789635397020",
+        "checkouts": 103
+      },
+      {
+        "title": "Thomas, a gőzmozdony : válogatott mesék",
+        "author": "Awdry, Wilbert",
+        "record_id": "bibBMK00021018",
+        "isbn": null,
+        "checkouts": 75
+      }
+    ],
+    "decoys": [
+      {
+        "title": "Porlik, mint a szikla",
+        "author": "Bauer Barbara",
+        "isbn": "9789634750024",
+        "checkouts": 30
+      },
+      {
+        "title": "Hóesés Notting Hillben",
+        "author": "Wake, Jules",
+        "isbn": "9789634337799",
+        "checkouts": 7
+      },
+      {
+        "title": "Szerelem 5 lépésben",
+        "author": "Higginson, Rachel",
+        "isbn": "9789634574910",
+        "checkouts": 4
+      },
+      {
+        "title": "Éld az életed!",
+        "author": "Hay, Louise L.",
+        "isbn": "9789635295012",
+        "checkouts": 3
+      },
+      {
+        "title": "Szellemharcos",
+        "author": "De Bie, Erik Scott",
+        "isbn": "9639679070",
+        "checkouts": 2
+      },
+      {
+        "title": "Murphy politikai törvénykönyve",
+        "author": "Lloyd, Benny",
+        "isbn": "9638044047",
+        "checkouts": 2
+      },
+      {
+        "title": "A nő hétszer : életmód- és stíluskalauz minden korosztálynak",
+        "author": "Lakatos Márk",
+        "isbn": "9789633579688",
+        "checkouts": 1
+      },
+      {
+        "title": "Lakásvásárlók kézikönyve",
+        "author": "Szalai Anna",
+        "isbn": "9639263230",
+        "checkouts": 1
+      },
+      {
+        "title": "Felix Austria",
+        "author": "Andruhovyc, Sofia",
+        "isbn": "9789632799322",
+        "checkouts": 1
+      },
+      {
+        "title": "A sötétség lángjai",
+        "author": "Dodd, Christina",
+        "isbn": "9789633573914",
+        "checkouts": 1
+      }
+    ]
+  },
+  "author_quiz": {
+    "top_authors": [
+      {
+        "author": "Bartos Erika",
+        "checkouts": 1153
+      },
+      {
+        "author": "Stilton, Geronimo",
+        "checkouts": 791
+      },
+      {
+        "author": "Roberts, Nora",
+        "checkouts": 786
+      },
+      {
+        "author": "Steel, Danielle",
+        "checkouts": 595
+      },
+      {
+        "author": "Marék Veronika",
+        "checkouts": 549
+      }
+    ]
+  }
+}

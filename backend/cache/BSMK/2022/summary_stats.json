@@ -1,0 +1,282 @@
+{
+  "generated_at": "2026-07-23T15:15:40.338240+00:00",
+  "dataset": "full",
+  "scope": "BSMK",
+  "total_checkouts": 123842,
+  "total_value_huf": 265208083,
+  "unique_patrons": 6461,
+  "unique_titles": 30633,
+  "total_renewals": 44971,
+  "avg_renewals": 0.36,
+  "libraries": [
+    "BSMK"
+  ],
+  "by_year": [
+    {
+      "year": "2022",
+      "checkouts": 123842,
+      "value_huf": 265208083.24000007
+    }
+  ],
+  "by_library": [
+    {
+      "library": "BSMK",
+      "checkouts": 123842,
+      "value_huf": 265208083.24000007,
+      "patrons": 6461
+    }
+  ],
+  "by_doc_type": [
+    {
+      "code": "B",
+      "checkouts": 121259,
+      "label": "Könyv"
+    },
+    {
+      "code": "R",
+      "checkouts": 1545,
+      "label": "R"
+    },
+    {
+      "code": "F",
+      "checkouts": 633,
+      "label": "F"
+    },
+    {
+      "code": "S",
+      "checkouts": 247,
+      "label": "Periodika / Sorozat"
+    },
+    {
+      "code": "C",
+      "checkouts": 94,
+      "label": "AV / CD"
+    },
+    {
+      "code": "M",
+      "checkouts": 36,
+      "label": "Térkép"
+    },
+    {
+      "code": "D",
+      "checkouts": 27,
+      "label": "Disszertáció"
+    },
+    {
+      "code": "U",
+      "checkouts": 1,
+      "label": "U"
+    }
+  ],
+  "by_language": [
+    {
+      "language": "hun",
+      "checkouts": 117436
+    },
+    {
+      "language": "eng",
+      "checkouts": 3913
+    },
+    {
+      "language": "ger",
+      "checkouts": 1080
+    },
+    {
+      "language": "mul",
+      "checkouts": 223
+    },
+    {
+      "language": "rus",
+      "checkouts": 220
+    },
+    {
+      "language": "spa",
+      "checkouts": 140
+    }
+  ],
+  "top_renewed_books": [
+    {
+      "title": "Cifra palota [hangfelvétel] : kisiskolások aranyalbuma",
+      "author": null,
+      "isbn": null,
+      "total_renewals": 82,
+      "checkouts": 2
+    },
+    {
+      "title": "Megint Mazsola [hangfelvétel] : hangoskönyv",
+      "author": "Bálint Ágnes",
+      "isbn": null,
+      "total_renewals": 82,
+      "checkouts": 2
+    },
+    {
+      "title": "Lúdas Matyi és más Benedek Elek mesék [Hangfelvétel]",
+      "author": "Benedek Elek",
+      "isbn": null,
+      "total_renewals": 82,
+      "checkouts": 1
+    },
+    {
+      "title": "Háromszor hét magyar népmese [hangfelvétel] : hangoskönyv : első korong",
+      "author": "Illyés Gyula",
+      "isbn": null,
+      "total_renewals": 82,
+      "checkouts": 1
+    },
+    {
+      "title": "Barkácsoljunk egész évben : színes kartonpapírból",
+      "author": "Koers, Margret",
+      "isbn": "963962425X",
+      "total_renewals": 81,
+      "checkouts": 1
+    },
+    {
+      "title": "Népi játékok",
+      "author": "Lázár Katalin",
+      "isbn": "9632862317",
+      "total_renewals": 61,
+      "checkouts": 4
+    },
+    {
+      "title": "A Pál utcai fiúk",
+      "author": "Molnár Ferenc",
+      "isbn": "9789634152590",
+      "total_renewals": 57,
+      "checkouts": 72
+    },
+    {
+      "title": "Egri csillagok",
+      "author": "Gárdonyi Géza",
+      "isbn": "9789633490983",
+      "total_renewals": 54,
+      "checkouts": 72
+    },
+    {
+      "title": "?",
+      "author": null,
+      "isbn": "9789636290962",
+      "total_renewals": 53,
+      "checkouts": 103
+    },
+    {
+      "title": "Bükk [kartográfiai dokumentum] : turistakalauz térképpel : Turistenführer mit Karte : tourist guide with map",
+      "author": "Papp-Váry Árpád",
+      "isbn": "963353139X",
+      "total_renewals": 51,
+      "checkouts": 1
+    }
+  ],
+  "most_active_period": {
+    "busiest_month": {
+      "month": "2022-01",
+      "checkouts": 11120
+    },
+    "busiest_weekday": {
+      "weekday": 1,
+      "checkouts": 25798,
+      "label": "Kedd"
+    },
+    "busiest_hour": {
+      "hour": 10,
+      "checkouts": 18056
+    }
+  },
+  "monthly_checkouts": [
+    {
+      "month": "2021-01",
+      "checkouts": 61
+    },
+    {
+      "month": "2021-02",
+      "checkouts": 54
+    },
+    {
+      "month": "2021-03",
+      "checkouts": 6
+    },
+    {
+      "month": "2021-04",
+      "checkouts": 149
+    },
+    {
+      "month": "2021-05",
+      "checkouts": 185
+    },
+    {
+      "month": "2021-06",
+      "checkouts": 134
+    },
+    {
+      "month": "2021-07",
+      "checkouts": 222
+    },
+    {
+      "month": "2021-08",
+      "checkouts": 294
+    },
+    {
+      "month": "2021-09",
+      "checkouts": 447
+    },
+    {
+      "month": "2021-10",
+      "checkouts": 1195
+    },
+    {
+      "month": "2021-11",
+      "checkouts": 3493
+    },
+    {
+      "month": "2021-12",
+      "checkouts": 5847
+    },
+    {
+      "month": "2022-01",
+      "checkouts": 11120
+    },
+    {
+      "month": "2022-02",
+      "checkouts": 9746
+    },
+    {
+      "month": "2022-03",
+      "checkouts": 10758
+    },
+    {
+      "month": "2022-04",
+      "checkouts": 9933
+    },
+    {
+      "month": "2022-05",
+      "checkouts": 10401
+    },
+    {
+      "month": "2022-06",
+      "checkouts": 9620
+    },
+    {
+      "month": "2022-07",
+      "checkouts": 9542
+    },
+    {
+      "month": "2022-08",
+      "checkouts": 10412
+    },
+    {
+      "month": "2022-09",
+      "checkouts": 10032
+    },
+    {
+      "month": "2022-10",
+      "checkouts": 9436
+    },
+    {
+      "month": "2022-11",
+      "checkouts": 8657
+    },
+    {
+      "month": "2022-12",
+      "checkouts": 1389
+    }
+  ]
+}

@@ -1,0 +1,127 @@
+{
+  "book_quiz": {
+    "top_books": [
+      {
+        "title": "Brúnó Budapesten",
+        "author": "Bartos Erika",
+        "record_id": "bibBMK00060126",
+        "isbn": null,
+        "checkouts": 538
+      },
+      {
+        "title": "A Szent Johanna gimi",
+        "author": "Leiner Laura",
+        "record_id": "bibBMK00091051",
+        "isbn": "9789635397020",
+        "checkouts": 477
+      },
+      {
+        "title": "Mágikus állatok iskolája",
+        "author": "Auer, Margit",
+        "record_id": "bibBMK00050524",
+        "isbn": null,
+        "checkouts": 432
+      },
+      {
+        "title": "Hunyadi",
+        "author": "Bán János",
+        "record_id": "bibBMK00029706",
+        "isbn": null,
+        "checkouts": 363
+      },
+      {
+        "title": "Thomas, a gőzmozdony : válogatott mesék",
+        "author": "Awdry, Wilbert",
+        "record_id": "bibBMK00021018",
+        "isbn": null,
+        "checkouts": 355
+      }
+    ],
+    "decoys": [
+      {
+        "title": "Az utolsó boszorkány történetei",
+        "author": "Fábián Janka",
+        "isbn": null,
+        "checkouts": 132
+      },
+      {
+        "title": "A hóhér háza",
+        "author": "Tompa Andrea",
+        "isbn": "9789636766481",
+        "checkouts": 17
+      },
+      {
+        "title": "Psyché [DVD-felvétel] : háromrészes, rendezői változat Weöres Sándor műve nyomán",
+        "author": "Bódy Gábor",
+        "isbn": null,
+        "checkouts": 9
+      },
+      {
+        "title": "Thanos : Thanos győz",
+        "author": "Cates, Donny",
+        "isbn": "9789634700807",
+        "checkouts": 6
+      },
+      {
+        "title": "Háború gyűlölet nélkül",
+        "author": "Rommel, Erwin",
+        "isbn": "9630049716",
+        "checkouts": 4
+      },
+      {
+        "title": "Patatanya [DVD-felvétel] :]",
+        "author": "Oedekerk, Steve",
+        "isbn": null,
+        "checkouts": 3
+      },
+      {
+        "title": "Valami Amerika 3. [DVD-felvétel]",
+        "author": "Herendi Gábor",
+        "isbn": null,
+        "checkouts": 2
+      },
+      {
+        "title": "Rudolf Steiner él : az élő antropozófia",
+        "author": "Bistey Zsuzsa",
+        "isbn": "9638539615",
+        "checkouts": 2
+      },
+      {
+        "title": "Játékos mondókák : nyelvtörők, játékok gyerekeknek",
+        "author": "Bálint Mariann",
+        "isbn": "9789639812215",
+        "checkouts": 1
+      },
+      {
+        "title": "Trisztán és Izolda regéje",
+        "author": "Bédier, Joseph",
+        "isbn": "9631165159",
+        "checkouts": 1
+      }
+    ]
+  },
+  "author_quiz": {
+    "top_authors": [
+      {
+        "author": "Bartos Erika",
+        "checkouts": 5919
+      },
+      {
+        "author": "Roberts, Nora",
+        "checkouts": 3302
+      },
+      {
+        "author": "Stilton, Geronimo",
+        "checkouts": 3164
+      },
+      {
+        "author": "Berg Judit",
+        "checkouts": 3106
+      },
+      {
+        "author": "Steel, Danielle",
+        "checkouts": 2890
+      }
+    ]
+  }
+}

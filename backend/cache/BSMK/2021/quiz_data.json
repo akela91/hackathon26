@@ -1,0 +1,127 @@
+{
+  "book_quiz": {
+    "top_books": [
+      {
+        "title": "A Szent Johanna gimi",
+        "author": "Leiner Laura",
+        "record_id": "SZIKLA_0154_934211",
+        "isbn": "9789635397020",
+        "checkouts": 113
+      },
+      {
+        "title": "?",
+        "author": "Bodor Endre",
+        "record_id": "SZIKLA_0154_590125",
+        "isbn": "9789636290962",
+        "checkouts": 101
+      },
+      {
+        "title": "A Pál utcai fiúk",
+        "author": "Molnár Ferenc",
+        "record_id": "bibBSM00158669",
+        "isbn": "9789634152590",
+        "checkouts": 74
+      },
+      {
+        "title": "Rumini",
+        "author": "Berg Judit",
+        "record_id": "bibBSM00177938",
+        "isbn": "9789634100904",
+        "checkouts": 72
+      },
+      {
+        "title": "Ahol a folyami rákok énekelnek",
+        "author": "Owens, Delia",
+        "record_id": "bibBSM00211855",
+        "isbn": "9789634335665",
+        "checkouts": 66
+      }
+    ],
+    "decoys": [
+      {
+        "title": "Cholera-napló",
+        "author": "Fábián Janka",
+        "isbn": "9789634338932",
+        "checkouts": 31
+      },
+      {
+        "title": "A Romanov-kereszt",
+        "author": "Masello, Robert",
+        "isbn": "9786155638329",
+        "checkouts": 7
+      },
+      {
+        "title": "Haladj a dolgaiddal! : GTD : időmenedzsment fiataloknak : [inspiráció fiataloknak]",
+        "author": "Allen, David",
+        "isbn": "9789633048184",
+        "checkouts": 4
+      },
+      {
+        "title": "Volt egyszer egy Amerika",
+        "author": "Grey, Harry",
+        "isbn": "9639475505",
+        "checkouts": 3
+      },
+      {
+        "title": "Végvidék, 1561-1569",
+        "author": "Wodianer-Nemessuri Zoltán",
+        "isbn": "9789630835756",
+        "checkouts": 2
+      },
+      {
+        "title": "Felnőtteknek írtam",
+        "author": "Janikovszky Éva",
+        "isbn": "9631173976",
+        "checkouts": 2
+      },
+      {
+        "title": "Piszkos Fred közbelép (Fülig Jimmy őszinte sajnálatára)",
+        "author": "Rejtő Jenő",
+        "isbn": "9786155476167",
+        "checkouts": 1
+      },
+      {
+        "title": "3+1 : a négy évszak szimbolikája : fejezetek A számok könyvéből",
+        "author": "Jankovics Marcell",
+        "isbn": "9632602129",
+        "checkouts": 1
+      },
+      {
+        "title": "Így tedd rá! 2. [DVD-felvétel]",
+        "author": "Budainé Balatoni Katalin",
+        "isbn": "9789630888141",
+        "checkouts": 1
+      },
+      {
+        "title": "Csábíts el!",
+        "author": "Donovan, Susan",
+        "isbn": "9789639943995",
+        "checkouts": 1
+      }
+    ]
+  },
+  "author_quiz": {
+    "top_authors": [
+      {
+        "author": "Bartos Erika",
+        "checkouts": 1102
+      },
+      {
+        "author": "Dami, Elisabetta",
+        "checkouts": 815
+      },
+      {
+        "author": "Roberts, Nora",
+        "checkouts": 809
+      },
+      {
+        "author": "Steel, Danielle",
+        "checkouts": 703
+      },
+      {
+        "author": "Berg Judit",
+        "checkouts": 659
+      }
+    ]
+  }
+}

@@ -1,0 +1,320 @@
+{
+  "generated_at": "2026-07-23T15:16:52.163696+00:00",
+  "dataset": "full",
+  "scope": "VFMK",
+  "total_checkouts": 69049,
+  "total_value_huf": 163956061,
+  "unique_patrons": 3886,
+  "unique_titles": 27860,
+  "total_renewals": 46007,
+  "avg_renewals": 0.67,
+  "libraries": [
+    "VFMK"
+  ],
+  "by_year": [
+    {
+      "year": "2024",
+      "checkouts": 69049,
+      "value_huf": 163956061.44999996
+    }
+  ],
+  "by_library": [
+    {
+      "library": "VFMK",
+      "checkouts": 69049,
+      "value_huf": 163956061.44999996,
+      "patrons": 3886
+    }
+  ],
+  "by_doc_type": [
+    {
+      "code": "B",
+      "checkouts": 66903,
+      "label": "Könyv"
+    },
+    {
+      "code": "R",
+      "checkouts": 1058,
+      "label": "R"
+    },
+    {
+      "code": "F",
+      "checkouts": 1033,
+      "label": "F"
+    },
+    {
+      "code": "M",
+      "checkouts": 26,
+      "label": "Térkép"
+    },
+    {
+      "code": "C",
+      "checkouts": 19,
+      "label": "AV / CD"
+    },
+    {
+      "code": "D",
+      "checkouts": 10,
+      "label": "Disszertáció"
+    }
+  ],
+  "by_language": [
+    {
+      "language": "hun",
+      "checkouts": 68276
+    },
+    {
+      "language": "eng",
+      "checkouts": 548
+    },
+    {
+      "language": "ger",
+      "checkouts": 58
+    },
+    {
+      "language": "und",
+      "checkouts": 45
+    },
+    {
+      "language": "fre",
+      "checkouts": 27
+    },
+    {
+      "language": "ita",
+      "checkouts": 26
+    }
+  ],
+  "top_renewed_books": [
+    {
+      "title": "Üvegmatrica-festés a konyhában és a fürdőben",
+      "author": "Hettinger, Gudrun",
+      "isbn": "9636840008",
+      "total_renewals": 240,
+      "checkouts": 7
+    },
+    {
+      "title": "Papírállatok gyöngyökkel : kartonból és gyöngyből",
+      "author": "Kipp, Angelika",
+      "isbn": "9639489182",
+      "total_renewals": 240,
+      "checkouts": 3
+    },
+    {
+      "title": "Drámák",
+      "author": "Csehov, Anton Pavlovics",
+      "isbn": "9630711273",
+      "total_renewals": 185,
+      "checkouts": 14
+    },
+    {
+      "title": "Van Gogh [Videofelvétel]",
+      "author": "Pialat, Maurice",
+      "isbn": null,
+      "total_renewals": 121,
+      "checkouts": 1
+    },
+    {
+      "title": "Karamazov testvérek [Videofelvétel] : 1-2. rész",
+      "author": "Pyr'ev, Ivan",
+      "isbn": null,
+      "total_renewals": 119,
+      "checkouts": 1
+    },
+    {
+      "title": "Megszállottság [Videofelvétel]",
+      "author": "Visconti, Luchino",
+      "isbn": null,
+      "total_renewals": 119,
+      "checkouts": 1
+    },
+    {
+      "title": "Az olvasószolgálat tartalmi kérdései és technológiája",
+      "author": "Halász Béla",
+      "isbn": "9632013409",
+      "total_renewals": 108,
+      "checkouts": 1
+    },
+    {
+      "title": "A Büntető törvénykönyv magyarázata",
+      "author": null,
+      "isbn": "9632216091",
+      "total_renewals": 102,
+      "checkouts": 2
+    },
+    {
+      "title": "A kőszívű ember fiai : Regény",
+      "author": "Jókai Mór",
+      "isbn": "9630766515",
+      "total_renewals": 102,
+      "checkouts": 2
+    },
+    {
+      "title": "\"A Szent Korona nevében...\" [Hangfelvétel]",
+      "author": "Pap Gábor",
+      "isbn": null,
+      "total_renewals": 100,
+      "checkouts": 48
+    }
+  ],
+  "most_active_period": {
+    "busiest_month": {
+      "month": "2024-10",
+      "checkouts": 8990
+    },
+    "busiest_weekday": {
+      "weekday": 1,
+      "checkouts": 19037,
+      "label": "Kedd"
+    },
+    "busiest_hour": {
+      "hour": 9,
+      "checkouts": 9810
+    }
+  },
+  "monthly_checkouts": [
+    {
+      "month": "2021-07",
+      "checkouts": 15
+    },
+    {
+      "month": "2021-08",
+      "checkouts": 1
+    },
+    {
+      "month": "2021-11",
+      "checkouts": 19
+    },
+    {
+      "month": "2022-01",
+      "checkouts": 10
+    },
+    {
+      "month": "2022-02",
+      "checkouts": 3
+    },
+    {
+      "month": "2022-03",
+      "checkouts": 1
+    },
+    {
+      "month": "2022-04",
+      "checkouts": 1
+    },
+    {
+      "month": "2022-06",
+      "checkouts": 2
+    },
+    {
+      "month": "2022-07",
+      "checkouts": 5
+    },
+    {
+      "month": "2022-09",
+      "checkouts": 4
+    },
+    {
+      "month": "2022-10",
+      "checkouts": 8
+    },
+    {
+      "month": "2022-11",
+      "checkouts": 1
+    },
+    {
+      "month": "2022-12",
+      "checkouts": 9
+    },
+    {
+      "month": "2023-01",
+      "checkouts": 12
+    },
+    {
+      "month": "2023-02",
+      "checkouts": 4
+    },
+    {
+      "month": "2023-04",
+      "checkouts": 4
+    },
+    {
+      "month": "2023-05",
+      "checkouts": 4
+    },
+    {
+      "month": "2023-06",
+      "checkouts": 2
+    },
+    {
+      "month": "2023-07",
+      "checkouts": 9
+    },
+    {
+      "month": "2023-08",
+      "checkouts": 50
+    },
+    {
+      "month": "2023-09",
+      "checkouts": 56
+    },
+    {
+      "month": "2023-10",
+      "checkouts": 126
+    },
+    {
+      "month": "2023-11",
+      "checkouts": 853
+    },
+    {
+      "month": "2023-12",
+      "checkouts": 3451
+    },
+    {
+      "month": "2024-01",
+      "checkouts": 5955
+    },
+    {
+      "month": "2024-02",
+      "checkouts": 5009
+    },
+    {
+      "month": "2024-03",
+      "checkouts": 5010
+    },
+    {
+      "month": "2024-04",
+      "checkouts": 5116
+    },
+    {
+      "month": "2024-05",
+      "checkouts": 5005
+    },
+    {
+      "month": "2024-06",
+      "checkouts": 4896
+    },
+    {
+      "month": "2024-07",
+      "checkouts": 6475
+    },
+    {
+      "month": "2024-08",
+      "checkouts": 2209
+    },
+    {
+      "month": "2024-09",
+      "checkouts": 7150
+    },
+    {
+      "month": "2024-10",
+      "checkouts": 8990
+    },
+    {
+      "month": "2024-11",
+      "checkouts": 7083
+    },
+    {
+      "month": "2024-12",
+      "checkouts": 1501
+    }
+  ]
+}

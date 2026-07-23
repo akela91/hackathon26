@@ -1,0 +1,446 @@
+{
+  "by_zip": [
+    {
+      "zip": "3300",
+      "city": "Eger",
+      "checkouts": 77317,
+      "patrons": 2943
+    },
+    {
+      "zip": "3326",
+      "city": "Ostoros",
+      "checkouts": 4551,
+      "patrons": 210
+    },
+    {
+      "zip": "3324",
+      "city": "Felsőtárkány",
+      "checkouts": 4219,
+      "patrons": 145
+    },
+    {
+      "zip": "3245",
+      "city": "Recsk",
+      "checkouts": 3826,
+      "patrons": 201
+    },
+    {
+      "zip": "3325",
+      "city": "Noszvaj",
+      "checkouts": 3591,
+      "patrons": 144
+    },
+    {
+      "zip": "3399",
+      "city": "Andornaktálya",
+      "checkouts": 2320,
+      "patrons": 132
+    },
+    {
+      "zip": "3013",
+      "city": "Ecséd",
+      "checkouts": 2007,
+      "patrons": 119
+    },
+    {
+      "zip": "3390",
+      "city": "Füzesabony",
+      "checkouts": 1716,
+      "patrons": 100
+    },
+    {
+      "zip": "3397",
+      "city": "Maklár",
+      "checkouts": 1694,
+      "patrons": 132
+    },
+    {
+      "zip": "3348",
+      "city": "Szilvásvárad",
+      "checkouts": 1573,
+      "patrons": 63
+    },
+    {
+      "zip": "3323",
+      "city": "Szarvaskő",
+      "checkouts": 1431,
+      "patrons": 83
+    },
+    {
+      "zip": "3394",
+      "city": "Egerszalók",
+      "checkouts": 1405,
+      "patrons": 70
+    },
+    {
+      "zip": "3328",
+      "city": "Egerszólát",
+      "checkouts": 1178,
+      "patrons": 59
+    },
+    {
+      "zip": "3032",
+      "city": "Apc",
+      "checkouts": 985,
+      "patrons": 58
+    },
+    {
+      "zip": "3240",
+      "city": "Parád",
+      "checkouts": 964,
+      "patrons": 67
+    },
+    {
+      "zip": "3327",
+      "city": "Novaj",
+      "checkouts": 957,
+      "patrons": 65
+    },
+    {
+      "zip": "3359",
+      "city": "Tenk",
+      "checkouts": 825,
+      "patrons": 57
+    },
+    {
+      "zip": "3281",
+      "city": "Karácsond",
+      "checkouts": 819,
+      "patrons": 27
+    },
+    {
+      "zip": "3346",
+      "city": "Bélapátfalva",
+      "checkouts": 812,
+      "patrons": 47
+    },
+    {
+      "zip": "3377",
+      "city": "Szihalom",
+      "checkouts": 805,
+      "patrons": 114
+    },
+    {
+      "zip": "3263",
+      "city": "Domoszló",
+      "checkouts": 759,
+      "patrons": 70
+    },
+    {
+      "zip": "3036",
+      "city": "Gyöngyöstarján",
+      "checkouts": 751,
+      "patrons": 56
+    },
+    {
+      "zip": "3261",
+      "city": "Abasár",
+      "checkouts": 719,
+      "patrons": 92
+    },
+    {
+      "zip": "3246",
+      "city": "Mátraderecske",
+      "checkouts": 718,
+      "patrons": 37
+    },
+    {
+      "zip": "3321",
+      "city": "Egerbakta",
+      "checkouts": 708,
+      "patrons": 30
+    },
+    {
+      "zip": "3352",
+      "city": "Feldebrő",
+      "checkouts": 670,
+      "patrons": 83
+    },
+    {
+      "zip": "3384",
+      "city": "Kisköre",
+      "checkouts": 658,
+      "patrons": 54
+    },
+    {
+      "zip": "3033",
+      "city": "Rózsaszentmárton",
+      "checkouts": 648,
+      "patrons": 117
+    },
+    {
+      "zip": "3243",
+      "city": "Bodony",
+      "checkouts": 633,
+      "patrons": 37
+    },
+    {
+      "zip": "3349",
+      "city": "Nagyvisnyó",
+      "checkouts": 613,
+      "patrons": 41
+    },
+    {
+      "zip": "3242",
+      "city": "Parádsasvár",
+      "checkouts": 568,
+      "patrons": 14
+    },
+    {
+      "zip": "3271",
+      "city": "Visonta",
+      "checkouts": 562,
+      "patrons": 56
+    },
+    {
+      "zip": "3213",
+      "city": "Atkár",
+      "checkouts": 536,
+      "patrons": 66
+    },
+    {
+      "zip": "3332",
+      "city": "Sirok",
+      "checkouts": 534,
+      "patrons": 25
+    },
+    {
+      "zip": "3023",
+      "city": "Petőfibánya",
+      "checkouts": 501,
+      "patrons": 39
+    },
+    {
+      "zip": "3356",
+      "city": "Kompolt",
+      "checkouts": 483,
+      "patrons": 58
+    },
+    {
+      "zip": "3351",
+      "city": "Verpelét",
+      "checkouts": 458,
+      "patrons": 31
+    },
+    {
+      "zip": "3257",
+      "city": "Bükkszenterzsébet",
+      "checkouts": 451,
+      "patrons": 25
+    },
+    {
+      "zip": "3395",
+      "city": "Demjén",
+      "checkouts": 429,
+      "patrons": 34
+    },
+    {
+      "zip": "3031",
+      "city": "Zagyvaszántó",
+      "checkouts": 425,
+      "patrons": 42
+    }
+  ],
+  "by_city": [
+    {
+      "city": "Eger",
+      "checkouts": 77451,
+      "patrons": 2948
+    },
+    {
+      "city": "Ostoros",
+      "checkouts": 4556,
+      "patrons": 211
+    },
+    {
+      "city": "Felsőtárkány",
+      "checkouts": 4243,
+      "patrons": 145
+    },
+    {
+      "city": "Recsk",
+      "checkouts": 3826,
+      "patrons": 201
+    },
+    {
+      "city": "Noszvaj",
+      "checkouts": 3620,
+      "patrons": 146
+    },
+    {
+      "city": "Andornaktálya",
+      "checkouts": 2317,
+      "patrons": 132
+    },
+    {
+      "city": "Ecséd",
+      "checkouts": 1993,
+      "patrons": 113
+    },
+    {
+      "city": "Füzesabony",
+      "checkouts": 1713,
+      "patrons": 98
+    },
+    {
+      "city": "Maklár",
+      "checkouts": 1682,
+      "patrons": 129
+    },
+    {
+      "city": "Szilvásvárad",
+      "checkouts": 1573,
+      "patrons": 63
+    },
+    {
+      "city": "Egerszalók",
+      "checkouts": 1405,
+      "patrons": 70
+    },
+    {
+      "city": "Szarvaskő",
+      "checkouts": 1200,
+      "patrons": 71
+    },
+    {
+      "city": "Egerszólát",
+      "checkouts": 1183,
+      "patrons": 60
+    },
+    {
+      "city": "Apc",
+      "checkouts": 979,
+      "patrons": 57
+    },
+    {
+      "city": "Parád",
+      "checkouts": 964,
+      "patrons": 67
+    },
+    {
+      "city": "Novaj",
+      "checkouts": 957,
+      "patrons": 65
+    },
+    {
+      "city": "Budapest",
+      "checkouts": 835,
+      "patrons": 60
+    },
+    {
+      "city": "Tenk",
+      "checkouts": 825,
+      "patrons": 57
+    },
+    {
+      "city": "Karácsond",
+      "checkouts": 819,
+      "patrons": 27
+    },
+    {
+      "city": "Szihalom",
+      "checkouts": 806,
+      "patrons": 114
+    },
+    {
+      "city": "Domoszló",
+      "checkouts": 759,
+      "patrons": 70
+    },
+    {
+      "city": "Gyöngyöstarján",
+      "checkouts": 751,
+      "patrons": 56
+    },
+    {
+      "city": "Mátraderecske",
+      "checkouts": 718,
+      "patrons": 37
+    },
+    {
+      "city": "Egerbakta",
+      "checkouts": 708,
+      "patrons": 30
+    },
+    {
+      "city": "Abasár",
+      "checkouts": 671,
+      "patrons": 82
+    },
+    {
+      "city": "Feldebrő",
+      "checkouts": 670,
+      "patrons": 83
+    },
+    {
+      "city": "Kisköre",
+      "checkouts": 657,
+      "patrons": 53
+    },
+    {
+      "city": "Rózsaszentmárton",
+      "checkouts": 643,
+      "patrons": 115
+    },
+    {
+      "city": "Bodony",
+      "checkouts": 633,
+      "patrons": 37
+    },
+    {
+      "city": "Nagyvisnyó",
+      "checkouts": 613,
+      "patrons": 41
+    },
+    {
+      "city": "Bélapátfalva",
+      "checkouts": 570,
+      "patrons": 42
+    },
+    {
+      "city": "Parádsasvár",
+      "checkouts": 568,
+      "patrons": 14
+    },
+    {
+      "city": "Visonta",
+      "checkouts": 562,
+      "patrons": 56
+    },
+    {
+      "city": "Atkár",
+      "checkouts": 536,
+      "patrons": 66
+    },
+    {
+      "city": "Sirok",
+      "checkouts": 534,
+      "patrons": 25
+    },
+    {
+      "city": "Petőfibánya",
+      "checkouts": 501,
+      "patrons": 39
+    },
+    {
+      "city": "Kompolt",
+      "checkouts": 483,
+      "patrons": 58
+    },
+    {
+      "city": "Verpelét",
+      "checkouts": 458,
+      "patrons": 31
+    },
+    {
+      "city": "Bükkszenterzsébet",
+      "checkouts": 433,
+      "patrons": 24
+    },
+    {
+      "city": "Demjén",
+      "checkouts": 429,
+      "patrons": 34
+    }
+  ]
+}

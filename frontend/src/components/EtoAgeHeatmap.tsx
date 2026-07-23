@@ -6,6 +6,7 @@ import ApexChart from "./charts/ApexChart";
 import type { EtoAgeHeatmap as EtoAgeData } from "@/lib/types";
 import { useLanguage } from "@/lib/language-context";
 import { useTheme } from "@/lib/theme-context";
+import { useLibrary } from "@/lib/library-context";
 import { getChartPalette } from "@/lib/chart-theme";
 import { formatNumber } from "@/lib/format";
 
@@ -15,7 +16,9 @@ const AGE_MAX = 100;
 export default function EtoAgeHeatmap({ data }: { data: EtoAgeData }) {
   const { t, lang, dict } = useLanguage();
   const { theme } = useTheme();
+  const { selectedLibrary, selectedYear } = useLibrary();
   const palette = getChartPalette(theme);
+  const chartKey = `${theme}-${selectedLibrary}-${selectedYear}`;
 
   // Egyetlen életkor 0–100 között. A bucket-méret (5 év) alapján képezzük le
   // a mátrix sorára.
@@ -127,7 +130,7 @@ export default function EtoAgeHeatmap({ data }: { data: EtoAgeData }) {
 
       <div className="grid grid-cols-1 gap-6 lg:grid-cols-3">
         <div className="glass p-5 sm:p-7 lg:col-span-2">
-          <ApexChart key={theme} options={options} series={series} type="heatmap" height={420} />
+          <ApexChart key={chartKey} options={options} series={series} type="heatmap" height={420} />
         </div>
 
         <div className="glass p-5 sm:p-7">

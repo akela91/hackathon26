@@ -1,0 +1,127 @@
+{
+  "book_quiz": {
+    "top_books": [
+      {
+        "title": "A Bridgerton család",
+        "author": "Quinn, Julia",
+        "record_id": "bibVFM00073892",
+        "isbn": null,
+        "checkouts": 59
+      },
+      {
+        "title": "Hunyadi",
+        "author": "Bán János",
+        "record_id": "bibVFM00053354",
+        "isbn": null,
+        "checkouts": 58
+      },
+      {
+        "title": "A Szent Johanna gimi",
+        "author": "Leiner Laura",
+        "record_id": "bibVFM00200112",
+        "isbn": "9786155653339",
+        "checkouts": 51
+      },
+      {
+        "title": "Idődetektívek",
+        "author": "Lenk, Fabian",
+        "record_id": "bibVFM00059731",
+        "isbn": null,
+        "checkouts": 45
+      },
+      {
+        "title": "Vaják = the witcher",
+        "author": "Sapkowski, Andrzej",
+        "record_id": "bibVFM00171880",
+        "isbn": null,
+        "checkouts": 36
+      }
+    ],
+    "decoys": [
+      {
+        "title": "A két Lotti",
+        "author": "Kästner, Erich",
+        "isbn": "9789631198812",
+        "checkouts": 13
+      },
+      {
+        "title": "Az őrült majom",
+        "author": "Szent-Györgyi Albert",
+        "isbn": "9789639872301",
+        "checkouts": 4
+      },
+      {
+        "title": "Hűség bilincsében : elbeszélések, novellák, karcolatok, emlékezések",
+        "author": "Wass Albert",
+        "isbn": null,
+        "checkouts": 3
+      },
+      {
+        "title": "Ősz velencében : Ernest Hemingway utolsó szerelme",
+        "author": "Di Robilant, Andrea",
+        "isbn": "9789634335511",
+        "checkouts": 2
+      },
+      {
+        "title": "Gyémánt és csalárdság : [Somerton Court]",
+        "author": "Rasheed, Leila",
+        "isbn": "9789636355913",
+        "checkouts": 2
+      },
+      {
+        "title": "Rosszcsont Peti és a zombivámpír",
+        "author": "Simon, Francesca",
+        "isbn": "9789633240618",
+        "checkouts": 1
+      },
+      {
+        "title": "Perdül a kocka",
+        "author": "Holt, Victoria",
+        "isbn": "9636352712",
+        "checkouts": 1
+      },
+      {
+        "title": "Dolgos Minyonok",
+        "author": "King, Trey",
+        "isbn": "9789634842989",
+        "checkouts": 1
+      },
+      {
+        "title": "Echo, gyere haza! : egy elveszett kiskutya hihetetlen kalandjai",
+        "author": "Rix, Megan",
+        "isbn": "9789634033899",
+        "checkouts": 1
+      },
+      {
+        "title": "A lélek egészségvédelme : a lelki egészségvédelem jelene és távlatai",
+        "author": "Hárdi István",
+        "isbn": "9637922474",
+        "checkouts": 1
+      }
+    ]
+  },
+  "author_quiz": {
+    "top_authors": [
+      {
+        "author": "Roberts, Nora",
+        "checkouts": 460
+      },
+      {
+        "author": "Bartos Erika",
+        "checkouts": 306
+      },
+      {
+        "author": "Steel, Danielle",
+        "checkouts": 230
+      },
+      {
+        "author": "Marék Veronika",
+        "checkouts": 211
+      },
+      {
+        "author": "Berg Judit",
+        "checkouts": 195
+      }
+    ]
+  }
+}

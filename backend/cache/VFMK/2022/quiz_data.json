@@ -1,0 +1,127 @@
+{
+  "book_quiz": {
+    "top_books": [
+      {
+        "title": "Naruto",
+        "author": "Kishimoto Masashi",
+        "record_id": "bibVFM00168598",
+        "isbn": null,
+        "checkouts": 66
+      },
+      {
+        "title": "A Bridgerton család",
+        "author": "Quinn, Julia",
+        "record_id": "bibVFM00073892",
+        "isbn": null,
+        "checkouts": 65
+      },
+      {
+        "title": "\"A Szent Korona nevében...\" [Hangfelvétel]",
+        "author": "Pap Gábor",
+        "record_id": "bibVFK00024843",
+        "isbn": null,
+        "checkouts": 52
+      },
+      {
+        "title": "Hunyadi",
+        "author": "Bán János",
+        "record_id": "bibVFM00053354",
+        "isbn": null,
+        "checkouts": 47
+      },
+      {
+        "title": "Idődetektívek",
+        "author": "Lenk, Fabian",
+        "record_id": "bibVFM00059731",
+        "isbn": null,
+        "checkouts": 46
+      }
+    ],
+    "decoys": [
+      {
+        "title": "Az utolsó reggel Párizsban : valóságos regény : I-II. kötet",
+        "author": "Náray Tamás",
+        "isbn": "9789633107102",
+        "checkouts": 16
+      },
+      {
+        "title": "Gyógyuló lélek",
+        "author": "Woodsmall, Cindy",
+        "isbn": "9789635443307",
+        "checkouts": 5
+      },
+      {
+        "title": "Nyugalom : 48 lecke a kiegyensúlyozott élethez",
+        "author": "Masuno, Shunmyo",
+        "isbn": "9789635682140",
+        "checkouts": 3
+      },
+      {
+        "title": "Társas intelligencia : az emberi kapcsolatok új tudománya",
+        "author": "Goleman, Daniel",
+        "isbn": null,
+        "checkouts": 2
+      },
+      {
+        "title": "Kérdezz-felelek : Kvízkönyv",
+        "author": "Kramer, Ann",
+        "isbn": "963654268",
+        "checkouts": 2
+      },
+      {
+        "title": "Lídia, 17",
+        "author": "Gévai Csilla",
+        "isbn": "9786155441950",
+        "checkouts": 1
+      },
+      {
+        "title": "Jón és gonoszon túl : egy jövőbéli filozófia előjátéka",
+        "author": "Nietzsche, Friedrich",
+        "isbn": "9789639857476",
+        "checkouts": 1
+      },
+      {
+        "title": "Történetek a lovardából",
+        "author": "Reider, Katja",
+        "isbn": "9789637461620",
+        "checkouts": 1
+      },
+      {
+        "title": "Schweitzer",
+        "author": "Nosik, Boris Mihajlovič",
+        "isbn": "9630902907",
+        "checkouts": 1
+      },
+      {
+        "title": "A lány és a hegy",
+        "author": "Lawrence, Mark",
+        "isbn": "9789634702290",
+        "checkouts": 1
+      }
+    ]
+  },
+  "author_quiz": {
+    "top_authors": [
+      {
+        "author": "Bartos Erika",
+        "checkouts": 586
+      },
+      {
+        "author": "Roberts, Nora",
+        "checkouts": 441
+      },
+      {
+        "author": "Berg Judit",
+        "checkouts": 321
+      },
+      {
+        "author": "Dami, Elisabetta",
+        "checkouts": 317
+      },
+      {
+        "author": "Marék Veronika",
+        "checkouts": 309
+      }
+    ]
+  }
+}

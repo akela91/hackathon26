@@ -1,0 +1,234 @@
+{
+  "generated_at": "2026-07-23T15:16:01.318384+00:00",
+  "dataset": "full",
+  "scope": "FSZEK",
+  "total_checkouts": 1038400,
+  "total_value_huf": 3004779805,
+  "unique_patrons": 53599,
+  "unique_titles": 100101,
+  "total_renewals": 581742,
+  "avg_renewals": 0.56,
+  "libraries": [
+    "FSZEK"
+  ],
+  "by_year": [
+    {
+      "year": "2021",
+      "checkouts": 1038400,
+      "value_huf": 3004779805.0599995
+    }
+  ],
+  "by_library": [
+    {
+      "library": "FSZEK",
+      "checkouts": 1038400,
+      "value_huf": 3004779805.0599995,
+      "patrons": 53599
+    }
+  ],
+  "by_doc_type": [
+    {
+      "code": "B",
+      "checkouts": 1012555,
+      "label": "Könyv"
+    },
+    {
+      "code": "F",
+      "checkouts": 13853,
+      "label": "F"
+    },
+    {
+      "code": "R",
+      "checkouts": 4183,
+      "label": "R"
+    },
+    {
+      "code": "S",
+      "checkouts": 3975,
+      "label": "Periodika / Sorozat"
+    },
+    {
+      "code": "C",
+      "checkouts": 2101,
+      "label": "AV / CD"
+    },
+    {
+      "code": "D",
+      "checkouts": 1251,
+      "label": "Disszertáció"
+    },
+    {
+      "code": "M",
+      "checkouts": 478,
+      "label": "Térkép"
+    },
+    {
+      "code": "A",
+      "checkouts": 4,
+      "label": "A"
+    }
+  ],
+  "by_language": [
+    {
+      "language": "hun",
+      "checkouts": 1017835
+    },
+    {
+      "language": "eng",
+      "checkouts": 14711
+    },
+    {
+      "language": "ger",
+      "checkouts": 2986
+    },
+    {
+      "language": "zxx",
+      "checkouts": 640
+    },
+    {
+      "language": "fre",
+      "checkouts": 615
+    },
+    {
+      "language": "ita",
+      "checkouts": 383
+    }
+  ],
+  "top_renewed_books": [
+    {
+      "title": "Zseb-Garfield",
+      "author": "Davis, Jim",
+      "isbn": null,
+      "total_renewals": 720,
+      "checkouts": 1155
+    },
+    {
+      "title": "Garfield",
+      "author": null,
+      "isbn": null,
+      "total_renewals": 613,
+      "checkouts": 884
+    },
+    {
+      "title": "Rumini",
+      "author": "Berg Judit",
+      "isbn": "9789639727649",
+      "total_renewals": 449,
+      "checkouts": 460
+    },
+    {
+      "title": "Thomas, a gőzmozdony : válogatott mesék",
+      "author": "Awdry, Wilbert",
+      "isbn": null,
+      "total_renewals": 379,
+      "checkouts": 684
+    },
+    {
+      "title": "A Pál utcai fiúk",
+      "author": "Molnár Ferenc",
+      "isbn": "9789634158127",
+      "total_renewals": 373,
+      "checkouts": 407
+    },
+    {
+      "title": "Szent Péter esernyője",
+      "author": "Mikszáth Kálmán",
+      "isbn": "9636450498",
+      "total_renewals": 362,
+      "checkouts": 316
+    },
+    {
+      "title": "Egri csillagok",
+      "author": "Gárdonyi Géza",
+      "isbn": "9789634153092",
+      "total_renewals": 322,
+      "checkouts": 266
+    },
+    {
+      "title": "Harry Potter és a bölcsek köve",
+      "author": "Rowling, Joanne Kathleen",
+      "isbn": "9639307106",
+      "total_renewals": 312,
+      "checkouts": 418
+    },
+    {
+      "title": "Dinoszauruszok",
+      "author": "Lambert, David",
+      "isbn": "9789632442686",
+      "total_renewals": 279,
+      "checkouts": 399
+    },
+    {
+      "title": "Abigél",
+      "author": "Szabó Magda",
+      "isbn": "9789631189797",
+      "total_renewals": 250,
+      "checkouts": 265
+    }
+  ],
+  "most_active_period": {
+    "busiest_month": {
+      "month": "2021-11",
+      "checkouts": 126542
+    },
+    "busiest_weekday": {
+      "weekday": 0,
+      "checkouts": 206622,
+      "label": "Hétfő"
+    },
+    "busiest_hour": {
+      "hour": 12,
+      "checkouts": 103228
+    }
+  },
+  "monthly_checkouts": [
+    {
+      "month": "2021-01",
+      "checkouts": 2202
+    },
+    {
+      "month": "2021-02",
+      "checkouts": 31968
+    },
+    {
+      "month": "2021-03",
+      "checkouts": 17037
+    },
+    {
+      "month": "2021-04",
+      "checkouts": 24800
+    },
+    {
+      "month": "2021-05",
+      "checkouts": 57817
+    },
+    {
+      "month": "2021-06",
+      "checkouts": 98588
+    },
+    {
+      "month": "2021-07",
+      "checkouts": 118820
+    },
+    {
+      "month": "2021-08",
+      "checkouts": 125303
+    },
+    {
+      "month": "2021-09",
+      "checkouts": 115951
+    },
+    {
+      "month": "2021-10",
+      "checkouts": 122102
+    },
+    {
+      "month": "2021-11",
+      "checkouts": 126542
+    },
+    {
+      "month": "2021-12",
+      "checkouts": 44412
+    }
+  ]
+}

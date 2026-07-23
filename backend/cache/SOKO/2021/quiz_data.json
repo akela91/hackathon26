@@ -1,0 +1,127 @@
+{
+  "book_quiz": {
+    "top_books": [
+      {
+        "title": "A Szent Johanna gimi",
+        "author": "Leiner Laura",
+        "record_id": "bibSOK00505711",
+        "isbn": "9789635397020",
+        "checkouts": 336
+      },
+      {
+        "title": "Idődetektívek",
+        "author": "Lenk, Fabian",
+        "record_id": "bibSOK00507632",
+        "isbn": null,
+        "checkouts": 239
+      },
+      {
+        "title": "Időfutár",
+        "author": "Gimesi Dóra",
+        "record_id": "bibSOK00507047",
+        "isbn": null,
+        "checkouts": 211
+      },
+      {
+        "title": "Percy Jackson és az olimposziak",
+        "author": "Riordan, Rick",
+        "record_id": "bibSOK00509645",
+        "isbn": null,
+        "checkouts": 165
+      },
+      {
+        "title": "Hunyadi",
+        "author": "Bán János",
+        "record_id": "bibSOK00515422",
+        "isbn": null,
+        "checkouts": 155
+      }
+    ],
+    "decoys": [
+      {
+        "title": "A meredély szélén",
+        "author": "Riley, Lucinda",
+        "isbn": "9789634524014",
+        "checkouts": 55
+      },
+      {
+        "title": "Kedvenc számítógépes történeteim",
+        "author": "Brosche, Heidemarie",
+        "isbn": "9638648406",
+        "checkouts": 9
+      },
+      {
+        "title": "A világítótorony",
+        "author": "Woolf, Virginia",
+        "isbn": "9786155303562",
+        "checkouts": 5
+      },
+      {
+        "title": "Egy piaci nap",
+        "author": "Závada Pál",
+        "isbn": "9789631433869",
+        "checkouts": 3
+      },
+      {
+        "title": "Görögdinnye édes levében",
+        "author": "Brautigan, Richard",
+        "isbn": "963271461X",
+        "checkouts": 2
+      },
+      {
+        "title": "Legjobb önmagad, vagy még jobb",
+        "author": "Bayer, Mike",
+        "isbn": "9789635070367",
+        "checkouts": 2
+      },
+      {
+        "title": "A szerelmes körtefa [Hgf.]",
+        "author": "Schäffer Erzsébet",
+        "isbn": "9789630976206",
+        "checkouts": 1
+      },
+      {
+        "title": "Életem könyve : Boncza Bertának, Ady Endre özvegyének visszaemlékezései",
+        "author": "Boncza Berta",
+        "isbn": "9635478291",
+        "checkouts": 1
+      },
+      {
+        "title": "Első Larousse állatos atlaszom",
+        "author": "Mathivet, Éric",
+        "isbn": "9789639705173",
+        "checkouts": 1
+      },
+      {
+        "title": "A rendes lányok miért nem lesznek gazdagok? : 75 hiba, amivel a nők szabotálják a gazdagság útját",
+        "author": "Frankel, Lois P.",
+        "isbn": "9789639769267",
+        "checkouts": 1
+      }
+    ]
+  },
+  "author_quiz": {
+    "top_authors": [
+      {
+        "author": "Dami, Elisabetta",
+        "checkouts": 1970
+      },
+      {
+        "author": "Berg Judit",
+        "checkouts": 1784
+      },
+      {
+        "author": "Bartos Erika",
+        "checkouts": 1781
+      },
+      {
+        "author": "Roberts, Nora",
+        "checkouts": 1166
+      },
+      {
+        "author": "Steel, Danielle",
+        "checkouts": 1088
+      }
+    ]
+  }
+}

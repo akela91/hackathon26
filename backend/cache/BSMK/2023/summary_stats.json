@@ -1,0 +1,330 @@
+{
+  "generated_at": "2026-07-23T15:15:41.189332+00:00",
+  "dataset": "full",
+  "scope": "BSMK",
+  "total_checkouts": 141732,
+  "total_value_huf": 325341305,
+  "unique_patrons": 7728,
+  "unique_titles": 33377,
+  "total_renewals": 40363,
+  "avg_renewals": 0.28,
+  "libraries": [
+    "BSMK"
+  ],
+  "by_year": [
+    {
+      "year": "2023",
+      "checkouts": 141732,
+      "value_huf": 325341305.82
+    }
+  ],
+  "by_library": [
+    {
+      "library": "BSMK",
+      "checkouts": 141732,
+      "value_huf": 325341305.82,
+      "patrons": 7728
+    }
+  ],
+  "by_doc_type": [
+    {
+      "code": "B",
+      "checkouts": 138507,
+      "label": "Könyv"
+    },
+    {
+      "code": "R",
+      "checkouts": 1852,
+      "label": "R"
+    },
+    {
+      "code": "F",
+      "checkouts": 813,
+      "label": "F"
+    },
+    {
+      "code": "S",
+      "checkouts": 324,
+      "label": "Periodika / Sorozat"
+    },
+    {
+      "code": "C",
+      "checkouts": 132,
+      "label": "AV / CD"
+    },
+    {
+      "code": "M",
+      "checkouts": 72,
+      "label": "Térkép"
+    },
+    {
+      "code": "D",
+      "checkouts": 27,
+      "label": "Disszertáció"
+    },
+    {
+      "code": "U",
+      "checkouts": 5,
+      "label": "U"
+    }
+  ],
+  "by_language": [
+    {
+      "language": "hun",
+      "checkouts": 134483
+    },
+    {
+      "language": "eng",
+      "checkouts": 4439
+    },
+    {
+      "language": "ger",
+      "checkouts": 1093
+    },
+    {
+      "language": "rus",
+      "checkouts": 308
+    },
+    {
+      "language": "mul",
+      "checkouts": 273
+    },
+    {
+      "language": "spa",
+      "checkouts": 165
+    }
+  ],
+  "top_renewed_books": [
+    {
+      "title": "Gőgös Gúnár Gedeon",
+      "author": "Varga Katalin",
+      "isbn": "9631174905",
+      "total_renewals": 78,
+      "checkouts": 15
+    },
+    {
+      "title": "Egri csillagok",
+      "author": "Gárdonyi Géza",
+      "isbn": "9789633490983",
+      "total_renewals": 76,
+      "checkouts": 81
+    },
+    {
+      "title": "Vadak a vadonban",
+      "author": "Durrell, Gerald",
+      "isbn": "9789635046850",
+      "total_renewals": 66,
+      "checkouts": 2
+    },
+    {
+      "title": "Szamártolvajok",
+      "author": "Durrell, Gerald",
+      "isbn": "9638466219",
+      "total_renewals": 65,
+      "checkouts": 1
+    },
+    {
+      "title": "Tejbegríz : finom irodalom gyerekeknek és felnőtteknek",
+      "author": null,
+      "isbn": "9789639820401",
+      "total_renewals": 61,
+      "checkouts": 2
+    },
+    {
+      "title": "Idődetektívek",
+      "author": "Lenk, Fabian",
+      "isbn": null,
+      "total_renewals": 55,
+      "checkouts": 68
+    },
+    {
+      "title": "Rumini",
+      "author": "Berg Judit",
+      "isbn": "9789634100904",
+      "total_renewals": 52,
+      "checkouts": 85
+    },
+    {
+      "title": "Teák gyógynövényekből és gyümölcsökből : gyűjtés, elkészítés és fogyasztás",
+      "author": "Beiser, Rudi",
+      "isbn": "9786155178078",
+      "total_renewals": 51,
+      "checkouts": 1
+    },
+    {
+      "title": "Bogyó és Babóca az óvodában",
+      "author": "Bartos Erika",
+      "isbn": "9786155883187",
+      "total_renewals": 46,
+      "checkouts": 27
+    },
+    {
+      "title": "A Szent Johanna gimi",
+      "author": "Leiner Laura",
+      "isbn": "9789635397020",
+      "total_renewals": 41,
+      "checkouts": 132
+    }
+  ],
+  "most_active_period": {
+    "busiest_month": {
+      "month": "2023-01",
+      "checkouts": 13022
+    },
+    "busiest_weekday": {
+      "weekday": 1,
+      "checkouts": 29561,
+      "label": "Kedd"
+    },
+    "busiest_hour": {
+      "hour": 9,
+      "checkouts": 19352
+    }
+  },
+  "monthly_checkouts": [
+    {
+      "month": "2021-01",
+      "checkouts": 15
+    },
+    {
+      "month": "2021-02",
+      "checkouts": 13
+    },
+    {
+      "month": "2021-03",
+      "checkouts": 5
+    },
+    {
+      "month": "2021-04",
+      "checkouts": 46
+    },
+    {
+      "month": "2021-05",
+      "checkouts": 7
+    },
+    {
+      "month": "2021-06",
+      "checkouts": 16
+    },
+    {
+      "month": "2021-07",
+      "checkouts": 18
+    },
+    {
+      "month": "2021-08",
+      "checkouts": 24
+    },
+    {
+      "month": "2021-09",
+      "checkouts": 7
+    },
+    {
+      "month": "2021-10",
+      "checkouts": 39
+    },
+    {
+      "month": "2021-11",
+      "checkouts": 17
+    },
+    {
+      "month": "2021-12",
+      "checkouts": 17
+    },
+    {
+      "month": "2022-01",
+      "checkouts": 43
+    },
+    {
+      "month": "2022-02",
+      "checkouts": 36
+    },
+    {
+      "month": "2022-03",
+      "checkouts": 52
+    },
+    {
+      "month": "2022-04",
+      "checkouts": 78
+    },
+    {
+      "month": "2022-05",
+      "checkouts": 98
+    },
+    {
+      "month": "2022-06",
+      "checkouts": 122
+    },
+    {
+      "month": "2022-07",
+      "checkouts": 266
+    },
+    {
+      "month": "2022-08",
+      "checkouts": 329
+    },
+    {
+      "month": "2022-09",
+      "checkouts": 634
+    },
+    {
+      "month": "2022-10",
+      "checkouts": 1007
+    },
+    {
+      "month": "2022-11",
+      "checkouts": 3090
+    },
+    {
+      "month": "2022-12",
+      "checkouts": 7550
+    },
+    {
+      "month": "2023-01",
+      "checkouts": 13022
+    },
+    {
+      "month": "2023-02",
+      "checkouts": 11571
+    },
+    {
+      "month": "2023-03",
+      "checkouts": 12921
+    },
+    {
+      "month": "2023-04",
+      "checkouts": 10627
+    },
+    {
+      "month": "2023-05",
+      "checkouts": 11195
+    },
+    {
+      "month": "2023-06",
+      "checkouts": 11635
+    },
+    {
+      "month": "2023-07",
+      "checkouts": 11548
+    },
+    {
+      "month": "2023-08",
+      "checkouts": 11118
+    },
+    {
+      "month": "2023-09",
+      "checkouts": 11097
+    },
+    {
+      "month": "2023-10",
+      "checkouts": 11308
+    },
+    {
+      "month": "2023-11",
+      "checkouts": 9594
+    },
+    {
+      "month": "2023-12",
+      "checkouts": 1554
+    }
+  ]
+}

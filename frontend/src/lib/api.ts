@@ -23,8 +23,11 @@ async function getJSON<T>(path: string): Promise<T> {
  * konkrét könyvtárkód). A backend minden végpontot előre kiszámolva szolgál
  * ki scope-onként, így ez is csak statikus JSON-öket olvas fel.
  */
-export async function fetchAppData(library: string = "ALL"): Promise<AppData> {
-  const q = `?library=${encodeURIComponent(library)}`;
+export async function fetchAppData(
+  library: string = "ALL",
+  year: string = "ALL"
+): Promise<AppData> {
+  const q = `?library=${encodeURIComponent(library)}&year=${encodeURIComponent(year)}`;
   const [summary, authors, quiz, heatmaps, etoAge] = await Promise.all([
     getJSON<Summary>(`/api/summary${q}`),
     getJSON<AuthorsMonthly>(`/api/authors${q}`),

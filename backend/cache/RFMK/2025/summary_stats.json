@@ -1,0 +1,410 @@
+{
+  "generated_at": "2026-07-23T15:16:36.327137+00:00",
+  "dataset": "full",
+  "scope": "RFMK",
+  "total_checkouts": 229343,
+  "total_value_huf": 503256836,
+  "unique_patrons": 8740,
+  "unique_titles": 49524,
+  "total_renewals": 172270,
+  "avg_renewals": 0.75,
+  "libraries": [
+    "RFMK"
+  ],
+  "by_year": [
+    {
+      "year": "2025",
+      "checkouts": 229343,
+      "value_huf": 503256836.0799972
+    }
+  ],
+  "by_library": [
+    {
+      "library": "RFMK",
+      "checkouts": 229343,
+      "value_huf": 503256836.0799972,
+      "patrons": 8740
+    }
+  ],
+  "by_doc_type": [
+    {
+      "code": "B",
+      "checkouts": 213735,
+      "label": "Könyv"
+    },
+    {
+      "code": "S",
+      "checkouts": 7072,
+      "label": "Periodika / Sorozat"
+    },
+    {
+      "code": "F",
+      "checkouts": 5054,
+      "label": "F"
+    },
+    {
+      "code": "R",
+      "checkouts": 2941,
+      "label": "R"
+    },
+    {
+      "code": "C",
+      "checkouts": 369,
+      "label": "AV / CD"
+    },
+    {
+      "code": "D",
+      "checkouts": 108,
+      "label": "Disszertáció"
+    },
+    {
+      "code": "M",
+      "checkouts": 63,
+      "label": "Térkép"
+    },
+    {
+      "code": "a",
+      "checkouts": 1,
+      "label": "a"
+    }
+  ],
+  "by_language": [
+    {
+      "language": "hun",
+      "checkouts": 223516
+    },
+    {
+      "language": "eng",
+      "checkouts": 3731
+    },
+    {
+      "language": "ger",
+      "checkouts": 827
+    },
+    {
+      "language": "ita",
+      "checkouts": 227
+    },
+    {
+      "language": "fre",
+      "checkouts": 177
+    },
+    {
+      "language": "und",
+      "checkouts": 153
+    }
+  ],
+  "top_renewed_books": [
+    {
+      "title": "Nők lapja : heti női magazin",
+      "author": null,
+      "isbn": null,
+      "total_renewals": 460,
+      "checkouts": 989
+    },
+    {
+      "title": "Best magazin",
+      "author": null,
+      "isbn": null,
+      "total_renewals": 331,
+      "checkouts": 546
+    },
+    {
+      "title": "A Szent Johanna gimi",
+      "author": "Leiner Laura",
+      "isbn": "9789635397020",
+      "total_renewals": 311,
+      "checkouts": 406
+    },
+    {
+      "title": "Story : a sztármagazin",
+      "author": null,
+      "isbn": null,
+      "total_renewals": 291,
+      "checkouts": 532
+    },
+    {
+      "title": "Zseb-Garfield",
+      "author": null,
+      "isbn": null,
+      "total_renewals": 262,
+      "checkouts": 255
+    },
+    {
+      "title": "Hot! : képes szórakoztató hetilap",
+      "author": null,
+      "isbn": null,
+      "total_renewals": 257,
+      "checkouts": 432
+    },
+    {
+      "title": "Garfield",
+      "author": null,
+      "isbn": null,
+      "total_renewals": 253,
+      "checkouts": 236
+    },
+    {
+      "title": "Szent Péter esernyője",
+      "author": "Mikszáth Kálmán",
+      "isbn": "9789636450496",
+      "total_renewals": 249,
+      "checkouts": 134
+    },
+    {
+      "title": "Masnik",
+      "author": "Eigl, Maria",
+      "isbn": "9639327557",
+      "total_renewals": 244,
+      "checkouts": 1
+    },
+    {
+      "title": "Üdvözlőkártyák szárított virágokkal",
+      "author": "Hartel, Traudel",
+      "isbn": "9636840288",
+      "total_renewals": 243,
+      "checkouts": 1
+    }
+  ],
+  "most_active_period": {
+    "busiest_month": {
+      "month": "2025-01",
+      "checkouts": 21758
+    },
+    "busiest_weekday": {
+      "weekday": 0,
+      "checkouts": 50301,
+      "label": "Hétfő"
+    },
+    "busiest_hour": {
+      "hour": 9,
+      "checkouts": 28398
+    }
+  },
+  "monthly_checkouts": [
+    {
+      "month": "2021-02",
+      "checkouts": 4
+    },
+    {
+      "month": "2021-03",
+      "checkouts": 9
+    },
+    {
+      "month": "2021-05",
+      "checkouts": 9
+    },
+    {
+      "month": "2021-07",
+      "checkouts": 10
+    },
+    {
+      "month": "2021-08",
+      "checkouts": 5
+    },
+    {
+      "month": "2021-09",
+      "checkouts": 3
+    },
+    {
+      "month": "2021-11",
+      "checkouts": 3
+    },
+    {
+      "month": "2021-12",
+      "checkouts": 1
+    },
+    {
+      "month": "2022-01",
+      "checkouts": 3
+    },
+    {
+      "month": "2022-02",
+      "checkouts": 7
+    },
+    {
+      "month": "2022-03",
+      "checkouts": 6
+    },
+    {
+      "month": "2022-04",
+      "checkouts": 4
+    },
+    {
+      "month": "2022-05",
+      "checkouts": 7
+    },
+    {
+      "month": "2022-06",
+      "checkouts": 7
+    },
+    {
+      "month": "2022-07",
+      "checkouts": 4
+    },
+    {
+      "month": "2022-08",
+      "checkouts": 4
+    },
+    {
+      "month": "2022-09",
+      "checkouts": 4
+    },
+    {
+      "month": "2022-10",
+      "checkouts": 8
+    },
+    {
+      "month": "2022-11",
+      "checkouts": 3
+    },
+    {
+      "month": "2022-12",
+      "checkouts": 6
+    },
+    {
+      "month": "2023-01",
+      "checkouts": 3
+    },
+    {
+      "month": "2023-02",
+      "checkouts": 16
+    },
+    {
+      "month": "2023-03",
+      "checkouts": 3
+    },
+    {
+      "month": "2023-04",
+      "checkouts": 7
+    },
+    {
+      "month": "2023-05",
+      "checkouts": 8
+    },
+    {
+      "month": "2023-06",
+      "checkouts": 8
+    },
+    {
+      "month": "2023-07",
+      "checkouts": 14
+    },
+    {
+      "month": "2023-08",
+      "checkouts": 122
+    },
+    {
+      "month": "2023-09",
+      "checkouts": 25
+    },
+    {
+      "month": "2023-10",
+      "checkouts": 11
+    },
+    {
+      "month": "2023-11",
+      "checkouts": 17
+    },
+    {
+      "month": "2023-12",
+      "checkouts": 13
+    },
+    {
+      "month": "2024-01",
+      "checkouts": 8
+    },
+    {
+      "month": "2024-02",
+      "checkouts": 15
+    },
+    {
+      "month": "2024-03",
+      "checkouts": 14
+    },
+    {
+      "month": "2024-04",
+      "checkouts": 26
+    },
+    {
+      "month": "2024-05",
+      "checkouts": 50
+    },
+    {
+      "month": "2024-06",
+      "checkouts": 59
+    },
+    {
+      "month": "2024-07",
+      "checkouts": 79
+    },
+    {
+      "month": "2024-08",
+      "checkouts": 90
+    },
+    {
+      "month": "2024-09",
+      "checkouts": 124
+    },
+    {
+      "month": "2024-10",
+      "checkouts": 198
+    },
+    {
+      "month": "2024-11",
+      "checkouts": 615
+    },
+    {
+      "month": "2024-12",
+      "checkouts": 8906
+    },
+    {
+      "month": "2025-01",
+      "checkouts": 21758
+    },
+    {
+      "month": "2025-02",
+      "checkouts": 18131
+    },
+    {
+      "month": "2025-03",
+      "checkouts": 19555
+    },
+    {
+      "month": "2025-04",
+      "checkouts": 18620
+    },
+    {
+      "month": "2025-05",
+      "checkouts": 18808
+    },
+    {
+      "month": "2025-06",
+      "checkouts": 17172
+    },
+    {
+      "month": "2025-07",
+      "checkouts": 20488
+    },
+    {
+      "month": "2025-08",
+      "checkouts": 18550
+    },
+    {
+      "month": "2025-09",
+      "checkouts": 19133
+    },
+    {
+      "month": "2025-10",
+      "checkouts": 19985
+    },
+    {
+      "month": "2025-11",
+      "checkouts": 17988
+    },
+    {
+      "month": "2025-12",
+      "checkouts": 8508
+    }
+  ]
+}

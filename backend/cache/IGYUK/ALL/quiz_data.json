@@ -1,0 +1,127 @@
+{
+  "book_quiz": {
+    "top_books": [
+      {
+        "title": "Számítógép száma: 1.",
+        "author": "Számítógép használat",
+        "record_id": "bibTMK00276981",
+        "isbn": null,
+        "checkouts": 1261
+      },
+      {
+        "title": "Számítógép száma: 2.",
+        "author": "Számítógép használat",
+        "record_id": "bibTMK00276983",
+        "isbn": null,
+        "checkouts": 798
+      },
+      {
+        "title": "Számítógép száma: 3.",
+        "author": "Számítógép használat",
+        "record_id": "bibTMK00276984",
+        "isbn": null,
+        "checkouts": 716
+      },
+      {
+        "title": "A Szent Johanna gimi",
+        "author": "Leiner Laura",
+        "record_id": "bibTMK00236530",
+        "isbn": "9789635397020",
+        "checkouts": 513
+      },
+      {
+        "title": "Hunyadi",
+        "author": "Bán János",
+        "record_id": "bibTMK00230241",
+        "isbn": null,
+        "checkouts": 399
+      }
+    ],
+    "decoys": [
+      {
+        "title": "Boribon beteg",
+        "author": "Marék Veronika",
+        "isbn": "9638665521",
+        "checkouts": 75
+      },
+      {
+        "title": "Kardos Margit disszidál",
+        "author": "Szentesi Éva",
+        "isbn": "9789632936093",
+        "checkouts": 13
+      },
+      {
+        "title": "Póniszív : Anni megment egy csikót",
+        "author": "Luhn, Usch",
+        "isbn": "9789632449883",
+        "checkouts": 7
+      },
+      {
+        "title": "Woke up like this = Egy csapásra 30",
+        "author": "Lea, Amy",
+        "isbn": "9789636365233",
+        "checkouts": 5
+      },
+      {
+        "title": "Rajzos vázlatok a történelem tanításához : rajzok, térképek, táblázatok, diagramok általános és középiskolásoknak",
+        "author": "Szabolcs Ottó",
+        "isbn": "963919140",
+        "checkouts": 3
+      },
+      {
+        "title": "Hídváros : Szolnok regénye",
+        "author": "Benedek Szabolcs",
+        "isbn": "9789636205522",
+        "checkouts": 2
+      },
+      {
+        "title": "Mozart",
+        "author": "Solomon, Maynard",
+        "isbn": "9635307268",
+        "checkouts": 2
+      },
+      {
+        "title": "Országúton [elektronikus vizuális dok.]",
+        "author": "Fellini, Federico",
+        "isbn": null,
+        "checkouts": 1
+      },
+      {
+        "title": "Scooby-Doo! Vámpírmusical [elektronikus vizuális dok.] = Scooby Doo! Music of the Vampire : egész estés rajzfilm",
+        "author": "Block, David",
+        "isbn": null,
+        "checkouts": 1
+      },
+      {
+        "title": "A patchwork technikáinak enciklopédiája : átfogó illusztrált útmutató a foltvarrás- és tűzéstechnikákhoz",
+        "author": "Guerrier, Katharine",
+        "isbn": "9789634061373",
+        "checkouts": 1
+      }
+    ]
+  },
+  "author_quiz": {
+    "top_authors": [
+      {
+        "author": "Bartos Erika",
+        "checkouts": 4114
+      },
+      {
+        "author": "Számítógép használat",
+        "checkouts": 3418
+      },
+      {
+        "author": "Berg Judit",
+        "checkouts": 2760
+      },
+      {
+        "author": "Marék Veronika",
+        "checkouts": 2375
+      },
+      {
+        "author": "Roberts, Nora",
+        "checkouts": 2053
+      }
+    ]
+  }
+}

@@ -1,0 +1,127 @@
+{
+  "book_quiz": {
+    "top_books": [
+      {
+        "title": "Anyám szerint",
+        "author": "Náray Tamás",
+        "record_id": "bibBSM00236403",
+        "isbn": "9789636040338",
+        "checkouts": 155
+      },
+      {
+        "title": "Ahol a folyami rákok énekelnek",
+        "author": "Owens, Delia",
+        "record_id": "bibBSM00208164",
+        "isbn": "9789634335665",
+        "checkouts": 137
+      },
+      {
+        "title": "A Szent Johanna gimi",
+        "author": "Leiner Laura",
+        "record_id": "SZIKLA_0154_934211",
+        "isbn": "9789635397020",
+        "checkouts": 132
+      },
+      {
+        "title": "?",
+        "author": "Éva Katalin",
+        "record_id": "SZIKLA_0154_16745",
+        "isbn": "9630747294",
+        "checkouts": 114
+      },
+      {
+        "title": "A Pál utcai fiúk",
+        "author": "Molnár Ferenc",
+        "record_id": "bibBSM00176314",
+        "isbn": "9789634158127",
+        "checkouts": 102
+      }
+    ],
+    "decoys": [
+      {
+        "title": "A tanítónő",
+        "author": "Baldini, Laura",
+        "isbn": "9789633248935",
+        "checkouts": 50
+      },
+      {
+        "title": "Kippi játékosdoboza",
+        "author": "Inkpen, Mick",
+        "isbn": "9789634106487",
+        "checkouts": 10
+      },
+      {
+        "title": "Az orosz : Sötét lelkek 1",
+        "author": "Miller, Marilyn",
+        "isbn": "9789635705962",
+        "checkouts": 6
+      },
+      {
+        "title": "Klassz-IQs : [klasszikus zene könnyen és komolyan]",
+        "author": "Pogue, David",
+        "isbn": "9786155186158",
+        "checkouts": 4
+      },
+      {
+        "title": "Zoom",
+        "author": "Bányai István",
+        "isbn": "9780140557749",
+        "checkouts": 3
+      },
+      {
+        "title": "Hannibal ébredése",
+        "author": "Harris, Thomas",
+        "isbn": "9789631425772",
+        "checkouts": 2
+      },
+      {
+        "title": "Válás Budán [hangfelvétel] : CD 5",
+        "author": "Márai Sándor",
+        "isbn": null,
+        "checkouts": 2
+      },
+      {
+        "title": "Mesemaraton [hangfelvétel] : beszélőkönyv",
+        "author": "Fable, Vavyan",
+        "isbn": "9789639300309",
+        "checkouts": 1
+      },
+      {
+        "title": "Összefonódva",
+        "author": "Landers, Melissa",
+        "isbn": "9789632617701",
+        "checkouts": 1
+      },
+      {
+        "title": "Üdvözöllek a gyereked agyában : mi jár a fejében a fogantatástól a diplomáig?",
+        "author": "Aamodt, Sandra",
+        "isbn": "9789638937957",
+        "checkouts": 1
+      }
+    ]
+  },
+  "author_quiz": {
+    "top_authors": [
+      {
+        "author": "Bartos Erika",
+        "checkouts": 1862
+      },
+      {
+        "author": "Dami, Elisabetta",
+        "checkouts": 1340
+      },
+      {
+        "author": "Roberts, Nora",
+        "checkouts": 1071
+      },
+      {
+        "author": "Berg Judit",
+        "checkouts": 1042
+      },
+      {
+        "author": "Marék Veronika",
+        "checkouts": 930
+      }
+    ]
+  }
+}

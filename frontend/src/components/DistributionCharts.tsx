@@ -6,12 +6,15 @@ import type { Summary } from "@/lib/types";
 import { formatNumber } from "@/lib/format";
 import { useLanguage } from "@/lib/language-context";
 import { useTheme } from "@/lib/theme-context";
+import { useLibrary } from "@/lib/library-context";
 import { getChartPalette } from "@/lib/chart-theme";
 
 export default function DistributionCharts({ summary }: { summary: Summary }) {
   const { t, lang, dict } = useLanguage();
   const { theme } = useTheme();
+  const { selectedLibrary, selectedYear } = useLibrary();
   const palette = getChartPalette(theme);
+  const chartKey = `${theme}-${selectedLibrary}-${selectedYear}`;
 
   const docs = summary.by_doc_type.filter((d) => d.checkouts > 0);
   const docLabel = (code?: string, fallback?: string) =>
@@ -66,7 +69,7 @@ export default function DistributionCharts({ summary }: { summary: Summary }) {
       <div className="glass p-5 sm:p-7">
         <h3 className="mb-3 text-lg font-bold">{t("distribution.docTypesTitle")}</h3>
         <ApexChart
-          key={theme}
+          key={chartKey}
           options={donut}
           series={docs.map((d) => d.checkouts)}
           type="donut"

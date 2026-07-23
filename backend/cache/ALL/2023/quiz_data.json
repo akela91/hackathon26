@@ -1,0 +1,127 @@
+{
+  "book_quiz": {
+    "top_books": [
+      {
+        "title": "Zseb-Garfield",
+        "author": "Davis, Jim",
+        "record_id": "bibBSM00252572",
+        "isbn": null,
+        "checkouts": 4329
+      },
+      {
+        "title": "Garfield",
+        "author": null,
+        "record_id": "bibBSM00122697",
+        "isbn": null,
+        "checkouts": 3528
+      },
+      {
+        "title": "A Szent Johanna gimi",
+        "author": "Leiner Laura",
+        "record_id": "bibBSM00209474",
+        "isbn": "9789635397020",
+        "checkouts": 1890
+      },
+      {
+        "title": "Anyám szerint",
+        "author": "Náray Tamás",
+        "record_id": "bibBSM00236403",
+        "isbn": "9789636040338",
+        "checkouts": 1466
+      },
+      {
+        "title": "Ahol a folyami rákok énekelnek",
+        "author": "Owens, Delia",
+        "record_id": "bibBSM00208164",
+        "isbn": "9789634335665",
+        "checkouts": 1391
+      }
+    ],
+    "decoys": [
+      {
+        "title": "Egy ropi naplója : pechszéria",
+        "author": "Kinney, Jeff",
+        "isbn": "9789633991275",
+        "checkouts": 678
+      },
+      {
+        "title": "Egy rosszcsont kutya naplója : egy év Blake, a szerető... a harcos... az EB életéből",
+        "author": "Howard, Martin",
+        "isbn": "9789635903887",
+        "checkouts": 30
+      },
+      {
+        "title": "A nők ruhái : történetek",
+        "author": "Kronauer, Brigitte",
+        "isbn": "9789634930266",
+        "checkouts": 11
+      },
+      {
+        "title": "Lemaradt angyalok : novellák",
+        "author": "Fejes Endre",
+        "isbn": "9637539271",
+        "checkouts": 6
+      },
+      {
+        "title": "The witches of Pendle",
+        "author": "Akinyemi, Rowena",
+        "isbn": "0194229572",
+        "checkouts": 4
+      },
+      {
+        "title": "A Halál-folyó : két regény",
+        "author": "MacLean, Alistair",
+        "isbn": "9633268893",
+        "checkouts": 2
+      },
+      {
+        "title": "A síkság városai : Határvidék-trilógia : harmadik rész",
+        "author": "McCarthy, Cormac",
+        "isbn": "9789631431827",
+        "checkouts": 2
+      },
+      {
+        "title": "Requiem op. 48 [Hangfelvétel]",
+        "author": "Fauré, Gabriel",
+        "isbn": null,
+        "checkouts": 1
+      },
+      {
+        "title": "Ételkészítés a vendéglátóiparban",
+        "author": "Venesz József",
+        "isbn": null,
+        "checkouts": 1
+      },
+      {
+        "title": "Két körkép",
+        "author": "Kovács Ákos",
+        "isbn": "9638552069",
+        "checkouts": 1
+      }
+    ]
+  },
+  "author_quiz": {
+    "top_authors": [
+      {
+        "author": "Bartos Erika",
+        "checkouts": 35758
+      },
+      {
+        "author": "Dami, Elisabetta",
+        "checkouts": 35696
+      },
+      {
+        "author": "Berg Judit",
+        "checkouts": 29860
+      },
+      {
+        "author": "Roberts, Nora",
+        "checkouts": 22428
+      },
+      {
+        "author": "Steel, Danielle",
+        "checkouts": 19131
+      }
+    ]
+  }
+}

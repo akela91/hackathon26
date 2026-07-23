@@ -1,0 +1,369 @@
+{
+  "generated_at": "2026-07-23T15:16:44.175570+00:00",
+  "dataset": "full",
+  "scope": "SOKO",
+  "total_checkouts": 282955,
+  "total_value_huf": 587851507,
+  "unique_patrons": 12123,
+  "unique_titles": 53802,
+  "total_renewals": 158788,
+  "avg_renewals": 0.56,
+  "libraries": [
+    "SOKO"
+  ],
+  "by_year": [
+    {
+      "year": "2024",
+      "checkouts": 282955,
+      "value_huf": 587851507.44
+    }
+  ],
+  "by_library": [
+    {
+      "library": "SOKO",
+      "checkouts": 282955,
+      "value_huf": 587851507.44,
+      "patrons": 12123
+    }
+  ],
+  "by_doc_type": [
+    {
+      "code": "B",
+      "checkouts": 277365,
+      "label": "Könyv"
+    },
+    {
+      "code": "F",
+      "checkouts": 2767,
+      "label": "F"
+    },
+    {
+      "code": "R",
+      "checkouts": 1299,
+      "label": "R"
+    },
+    {
+      "code": "S",
+      "checkouts": 929,
+      "label": "Periodika / Sorozat"
+    },
+    {
+      "code": "C",
+      "checkouts": 498,
+      "label": "AV / CD"
+    },
+    {
+      "code": "M",
+      "checkouts": 95,
+      "label": "Térkép"
+    },
+    {
+      "code": "U",
+      "checkouts": 2,
+      "label": "U"
+    }
+  ],
+  "by_language": [
+    {
+      "language": "hun",
+      "checkouts": 279377
+    },
+    {
+      "language": "eng",
+      "checkouts": 2249
+    },
+    {
+      "language": "ger",
+      "checkouts": 625
+    },
+    {
+      "language": "fre",
+      "checkouts": 147
+    },
+    {
+      "language": "ita",
+      "checkouts": 126
+    },
+    {
+      "language": "rus",
+      "checkouts": 90
+    }
+  ],
+  "top_renewed_books": [
+    {
+      "title": "A Szent Johanna gimi",
+      "author": "Leiner Laura",
+      "isbn": "9789635397020",
+      "total_renewals": 205,
+      "checkouts": 409
+    },
+    {
+      "title": "Lengemesék",
+      "author": "Berg Judit",
+      "isbn": null,
+      "total_renewals": 171,
+      "checkouts": 212
+    },
+    {
+      "title": "Időfutár",
+      "author": "Gimesi Dóra",
+      "isbn": null,
+      "total_renewals": 168,
+      "checkouts": 253
+    },
+    {
+      "title": "Rumini",
+      "author": "Berg Judit",
+      "isbn": "9786155291470",
+      "total_renewals": 134,
+      "checkouts": 122
+    },
+    {
+      "title": "Egri csillagok",
+      "author": "Gárdonyi Géza",
+      "isbn": "9789633493236",
+      "total_renewals": 128,
+      "checkouts": 108
+    },
+    {
+      "title": "Idődetektívek",
+      "author": "Lenk, Fabian",
+      "isbn": null,
+      "total_renewals": 126,
+      "checkouts": 234
+    },
+    {
+      "title": "Dinoszauruszok",
+      "author": "Parker, Steve",
+      "isbn": "9789632946566",
+      "total_renewals": 118,
+      "checkouts": 134
+    },
+    {
+      "title": "A Pál utcai fiúk",
+      "author": "Molnár Ferenc",
+      "isbn": "9789635992997",
+      "total_renewals": 109,
+      "checkouts": 128
+    },
+    {
+      "title": "Percy Jackson és az olimposziak",
+      "author": "Riordan, Rick",
+      "isbn": null,
+      "total_renewals": 108,
+      "checkouts": 184
+    },
+    {
+      "title": "Harry Potter és a bölcsek köve",
+      "author": "Rowling, Joanne Kathleen",
+      "isbn": "9789636140533",
+      "total_renewals": 105,
+      "checkouts": 128
+    }
+  ],
+  "most_active_period": {
+    "busiest_month": {
+      "month": "2024-01",
+      "checkouts": 26511
+    },
+    "busiest_weekday": {
+      "weekday": 0,
+      "checkouts": 64772,
+      "label": "Hétfő"
+    },
+    "busiest_hour": {
+      "hour": 9,
+      "checkouts": 37614
+    }
+  },
+  "monthly_checkouts": [
+    {
+      "month": "2021-01",
+      "checkouts": 1
+    },
+    {
+      "month": "2021-02",
+      "checkouts": 7
+    },
+    {
+      "month": "2021-03",
+      "checkouts": 1
+    },
+    {
+      "month": "2021-05",
+      "checkouts": 6
+    },
+    {
+      "month": "2021-06",
+      "checkouts": 1
+    },
+    {
+      "month": "2021-07",
+      "checkouts": 1
+    },
+    {
+      "month": "2021-08",
+      "checkouts": 1
+    },
+    {
+      "month": "2021-09",
+      "checkouts": 5
+    },
+    {
+      "month": "2021-10",
+      "checkouts": 1
+    },
+    {
+      "month": "2021-11",
+      "checkouts": 2
+    },
+    {
+      "month": "2021-12",
+      "checkouts": 2
+    },
+    {
+      "month": "2022-01",
+      "checkouts": 2
+    },
+    {
+      "month": "2022-02",
+      "checkouts": 4
+    },
+    {
+      "month": "2022-03",
+      "checkouts": 4
+    },
+    {
+      "month": "2022-04",
+      "checkouts": 3
+    },
+    {
+      "month": "2022-05",
+      "checkouts": 3
+    },
+    {
+      "month": "2022-06",
+      "checkouts": 2
+    },
+    {
+      "month": "2022-07",
+      "checkouts": 2
+    },
+    {
+      "month": "2022-08",
+      "checkouts": 6
+    },
+    {
+      "month": "2022-09",
+      "checkouts": 11
+    },
+    {
+      "month": "2022-10",
+      "checkouts": 2
+    },
+    {
+      "month": "2022-11",
+      "checkouts": 10
+    },
+    {
+      "month": "2022-12",
+      "checkouts": 19
+    },
+    {
+      "month": "2023-01",
+      "checkouts": 2
+    },
+    {
+      "month": "2023-02",
+      "checkouts": 3
+    },
+    {
+      "month": "2023-03",
+      "checkouts": 17
+    },
+    {
+      "month": "2023-04",
+      "checkouts": 19
+    },
+    {
+      "month": "2023-05",
+      "checkouts": 23
+    },
+    {
+      "month": "2023-06",
+      "checkouts": 40
+    },
+    {
+      "month": "2023-07",
+      "checkouts": 20
+    },
+    {
+      "month": "2023-08",
+      "checkouts": 140
+    },
+    {
+      "month": "2023-09",
+      "checkouts": 167
+    },
+    {
+      "month": "2023-10",
+      "checkouts": 278
+    },
+    {
+      "month": "2023-11",
+      "checkouts": 1135
+    },
+    {
+      "month": "2023-12",
+      "checkouts": 14907
+    },
+    {
+      "month": "2024-01",
+      "checkouts": 26511
+    },
+    {
+      "month": "2024-02",
+      "checkouts": 24491
+    },
+    {
+      "month": "2024-03",
+      "checkouts": 23259
+    },
+    {
+      "month": "2024-04",
+      "checkouts": 24504
+    },
+    {
+      "month": "2024-05",
+      "checkouts": 23795
+    },
+    {
+      "month": "2024-06",
+      "checkouts": 23164
+    },
+    {
+      "month": "2024-07",
+      "checkouts": 24307
+    },
+    {
+      "month": "2024-08",
+      "checkouts": 20751
+    },
+    {
+      "month": "2024-09",
+      "checkouts": 23901
+    },
+    {
+      "month": "2024-10",
+      "checkouts": 25086
+    },
+    {
+      "month": "2024-11",
+      "checkouts": 22253
+    },
+    {
+      "month": "2024-12",
+      "checkouts": 4082
+    }
+  ]
+}

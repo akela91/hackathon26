@@ -1,0 +1,273 @@
+{
+  "generated_at": "2026-07-23T15:16:23.459849+00:00",
+  "dataset": "full",
+  "scope": "IGYUK",
+  "total_checkouts": 72899,
+  "total_value_huf": 171931616,
+  "unique_patrons": 3368,
+  "unique_titles": 26697,
+  "total_renewals": 42709,
+  "avg_renewals": 0.59,
+  "libraries": [
+    "IGYUK"
+  ],
+  "by_year": [
+    {
+      "year": "2025",
+      "checkouts": 72899,
+      "value_huf": 171931616.20000002
+    }
+  ],
+  "by_library": [
+    {
+      "library": "IGYUK",
+      "checkouts": 72899,
+      "value_huf": 171931616.20000002,
+      "patrons": 3368
+    }
+  ],
+  "by_doc_type": [
+    {
+      "code": "B",
+      "checkouts": 68043,
+      "label": "Könyv"
+    },
+    {
+      "code": "F",
+      "checkouts": 2438,
+      "label": "F"
+    },
+    {
+      "code": "D",
+      "checkouts": 877,
+      "label": "Disszertáció"
+    },
+    {
+      "code": "R",
+      "checkouts": 834,
+      "label": "R"
+    },
+    {
+      "code": "S",
+      "checkouts": 663,
+      "label": "Periodika / Sorozat"
+    },
+    {
+      "code": "C",
+      "checkouts": 35,
+      "label": "AV / CD"
+    },
+    {
+      "code": "M",
+      "checkouts": 9,
+      "label": "Térkép"
+    }
+  ],
+  "by_language": [
+    {
+      "language": "hun",
+      "checkouts": 71378
+    },
+    {
+      "language": "eng",
+      "checkouts": 962
+    },
+    {
+      "language": "ger",
+      "checkouts": 383
+    },
+    {
+      "language": "fre",
+      "checkouts": 52
+    },
+    {
+      "language": "spa",
+      "checkouts": 24
+    },
+    {
+      "language": "ita",
+      "checkouts": 23
+    }
+  ],
+  "top_renewed_books": [
+    {
+      "title": "A zodiákus [elektronikus vizuális dok.] = Zodiac",
+      "author": "Fincher, David",
+      "isbn": null,
+      "total_renewals": 164,
+      "checkouts": 1
+    },
+    {
+      "title": "Naplójegyzetek",
+      "author": "Illyés Gyula",
+      "isbn": "963153202X",
+      "total_renewals": 102,
+      "checkouts": 3
+    },
+    {
+      "title": "A legfelsőbb hadúr és hadserege",
+      "author": "Dombrády Lóránd",
+      "isbn": "9789636625573",
+      "total_renewals": 94,
+      "checkouts": 1
+    },
+    {
+      "title": "Angol nyelvvizsga gyakorlófeladatok : angol : alapfok (B1) ; középfok (B2)",
+      "author": null,
+      "isbn": "9789630592284",
+      "total_renewals": 66,
+      "checkouts": 12
+    },
+    {
+      "title": "Állatfarm : tündérmese",
+      "author": "Orwell, George",
+      "isbn": "9789632675060",
+      "total_renewals": 54,
+      "checkouts": 11
+    },
+    {
+      "title": "A Szent Johanna gimi",
+      "author": "Leiner Laura",
+      "isbn": "9789635397020",
+      "total_renewals": 51,
+      "checkouts": 78
+    },
+    {
+      "title": "Harry Potter és a Titkok Kamrája",
+      "author": "Rowling, Joanne Kathleen",
+      "isbn": "9789633246610",
+      "total_renewals": 49,
+      "checkouts": 19
+    },
+    {
+      "title": "Darutollasok : Szegedtől a királyi várig",
+      "author": "Karsai Elek",
+      "isbn": null,
+      "total_renewals": 49,
+      "checkouts": 1
+    },
+    {
+      "title": "Horthy Miklós a fehérek vezére",
+      "author": "Hollós Ervin",
+      "isbn": "9630926822",
+      "total_renewals": 49,
+      "checkouts": 1
+    },
+    {
+      "title": "A Nyugat alkonya : a világtörténelem morfológiájának körvonalai",
+      "author": "Spengler, Oswald",
+      "isbn": "9789639996335",
+      "total_renewals": 48,
+      "checkouts": 4
+    }
+  ],
+  "most_active_period": {
+    "busiest_month": {
+      "month": "2025-01",
+      "checkouts": 7117
+    },
+    "busiest_weekday": {
+      "weekday": 0,
+      "checkouts": 20114,
+      "label": "Hétfő"
+    },
+    "busiest_hour": {
+      "hour": 9,
+      "checkouts": 10839
+    }
+  },
+  "monthly_checkouts": [
+    {
+      "month": "2021-06",
+      "checkouts": 1
+    },
+    {
+      "month": "2023-06",
+      "checkouts": 3
+    },
+    {
+      "month": "2023-07",
+      "checkouts": 1
+    },
+    {
+      "month": "2024-03",
+      "checkouts": 1
+    },
+    {
+      "month": "2024-04",
+      "checkouts": 1
+    },
+    {
+      "month": "2024-06",
+      "checkouts": 3
+    },
+    {
+      "month": "2024-08",
+      "checkouts": 5
+    },
+    {
+      "month": "2024-09",
+      "checkouts": 28
+    },
+    {
+      "month": "2024-10",
+      "checkouts": 247
+    },
+    {
+      "month": "2024-11",
+      "checkouts": 884
+    },
+    {
+      "month": "2024-12",
+      "checkouts": 3113
+    },
+    {
+      "month": "2025-01",
+      "checkouts": 7117
+    },
+    {
+      "month": "2025-02",
+      "checkouts": 5764
+    },
+    {
+      "month": "2025-03",
+      "checkouts": 6536
+    },
+    {
+      "month": "2025-04",
+      "checkouts": 5749
+    },
+    {
+      "month": "2025-05",
+      "checkouts": 5985
+    },
+    {
+      "month": "2025-06",
+      "checkouts": 5520
+    },
+    {
+      "month": "2025-07",
+      "checkouts": 6783
+    },
+    {
+      "month": "2025-08",
+      "checkouts": 5802
+    },
+    {
+      "month": "2025-09",
+      "checkouts": 5340
+    },
+    {
+      "month": "2025-10",
+      "checkouts": 7065
+    },
+    {
+      "month": "2025-11",
+      "checkouts": 5242
+    },
+    {
+      "month": "2025-12",
+      "checkouts": 1701
+    }
+  ]
+}

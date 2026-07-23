@@ -1,0 +1,234 @@
+{
+  "generated_at": "2026-07-23T15:16:27.058645+00:00",
+  "dataset": "full",
+  "scope": "PMVE",
+  "total_checkouts": 175549,
+  "total_value_huf": 427222346,
+  "unique_patrons": 13612,
+  "unique_titles": 56498,
+  "total_renewals": 120002,
+  "avg_renewals": 0.68,
+  "libraries": [
+    "PMVE"
+  ],
+  "by_year": [
+    {
+      "year": "2021",
+      "checkouts": 175549,
+      "value_huf": 427222346.2800006
+    }
+  ],
+  "by_library": [
+    {
+      "library": "PMVE",
+      "checkouts": 175549,
+      "value_huf": 427222346.2800006,
+      "patrons": 13612
+    }
+  ],
+  "by_doc_type": [
+    {
+      "code": "B",
+      "checkouts": 171123,
+      "label": "Könyv"
+    },
+    {
+      "code": "F",
+      "checkouts": 1698,
+      "label": "F"
+    },
+    {
+      "code": "C",
+      "checkouts": 1236,
+      "label": "AV / CD"
+    },
+    {
+      "code": "R",
+      "checkouts": 1169,
+      "label": "R"
+    },
+    {
+      "code": "M",
+      "checkouts": 135,
+      "label": "Térkép"
+    },
+    {
+      "code": "S",
+      "checkouts": 109,
+      "label": "Periodika / Sorozat"
+    },
+    {
+      "code": "D",
+      "checkouts": 61,
+      "label": "Disszertáció"
+    },
+    {
+      "code": "a",
+      "checkouts": 15,
+      "label": "a"
+    }
+  ],
+  "by_language": [
+    {
+      "language": "hun",
+      "checkouts": 167197
+    },
+    {
+      "language": "eng",
+      "checkouts": 4865
+    },
+    {
+      "language": "ger",
+      "checkouts": 2172
+    },
+    {
+      "language": "mul",
+      "checkouts": 401
+    },
+    {
+      "language": "fre",
+      "checkouts": 185
+    },
+    {
+      "language": "ita",
+      "checkouts": 128
+    }
+  ],
+  "top_renewed_books": [
+    {
+      "title": "A Szent Johanna gimi",
+      "author": "Leiner Laura",
+      "isbn": "9789635397020",
+      "total_renewals": 208,
+      "checkouts": 356
+    },
+    {
+      "title": "Az orvosi élettan tankönyve",
+      "author": "Fonyó Attila",
+      "isbn": "9789632265049",
+      "total_renewals": 196,
+      "checkouts": 143
+    },
+    {
+      "title": "Kórélettani alapok",
+      "author": null,
+      "isbn": "9789632262802",
+      "total_renewals": 166,
+      "checkouts": 110
+    },
+    {
+      "title": "Az orvosi mikrobiológia tankönyve",
+      "author": null,
+      "isbn": "9789632264639",
+      "total_renewals": 136,
+      "checkouts": 92
+    },
+    {
+      "title": "Funkcionális anatómia : egyetemi tankönyv",
+      "author": "Szentágothai János",
+      "isbn": "9632425642",
+      "total_renewals": 134,
+      "checkouts": 91
+    },
+    {
+      "title": "Sobotta : az ember anatómiájának atlasza",
+      "author": "Sobotta, Johannes",
+      "isbn": "9789632263663",
+      "total_renewals": 132,
+      "checkouts": 107
+    },
+    {
+      "title": "Klinikai gyermekgyógyászat",
+      "author": null,
+      "isbn": "9789632266398",
+      "total_renewals": 132,
+      "checkouts": 87
+    },
+    {
+      "title": "Az ember anatómiájának atlasza",
+      "author": "Sobotta, Johannes",
+      "isbn": "9789632263663",
+      "total_renewals": 129,
+      "checkouts": 67
+    },
+    {
+      "title": "Robbins a pathológia alapjai",
+      "author": "Kumar, Vinay",
+      "isbn": "9789632264783",
+      "total_renewals": 126,
+      "checkouts": 70
+    },
+    {
+      "title": "Római magánjog",
+      "author": "Benedek Ferenc",
+      "isbn": "9786155376931",
+      "total_renewals": 109,
+      "checkouts": 95
+    }
+  ],
+  "most_active_period": {
+    "busiest_month": {
+      "month": "2021-10",
+      "checkouts": 20522
+    },
+    "busiest_weekday": {
+      "weekday": 1,
+      "checkouts": 29435,
+      "label": "Kedd"
+    },
+    "busiest_hour": {
+      "hour": 9,
+      "checkouts": 18618
+    }
+  },
+  "monthly_checkouts": [
+    {
+      "month": "2021-01",
+      "checkouts": 4652
+    },
+    {
+      "month": "2021-02",
+      "checkouts": 4888
+    },
+    {
+      "month": "2021-03",
+      "checkouts": 3758
+    },
+    {
+      "month": "2021-04",
+      "checkouts": 3426
+    },
+    {
+      "month": "2021-05",
+      "checkouts": 7602
+    },
+    {
+      "month": "2021-06",
+      "checkouts": 13641
+    },
+    {
+      "month": "2021-07",
+      "checkouts": 18571
+    },
+    {
+      "month": "2021-08",
+      "checkouts": 18020
+    },
+    {
+      "month": "2021-09",
+      "checkouts": 19729
+    },
+    {
+      "month": "2021-10",
+      "checkouts": 20522
+    },
+    {
+      "month": "2021-11",
+      "checkouts": 19738
+    },
+    {
+      "month": "2021-12",
+      "checkouts": 4512
+    }
+  ]
+}

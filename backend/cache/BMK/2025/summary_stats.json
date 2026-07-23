@@ -1,0 +1,291 @@
+{
+  "generated_at": "2026-07-23T15:15:38.137373+00:00",
+  "dataset": "full",
+  "scope": "BMK",
+  "total_checkouts": 90110,
+  "total_value_huf": 226280535,
+  "unique_patrons": 4135,
+  "unique_titles": 28222,
+  "total_renewals": 48261,
+  "avg_renewals": 0.54,
+  "libraries": [
+    "BMK"
+  ],
+  "by_year": [
+    {
+      "year": "2025",
+      "checkouts": 90110,
+      "value_huf": 226280535.0
+    }
+  ],
+  "by_library": [
+    {
+      "library": "BMK",
+      "checkouts": 90110,
+      "value_huf": 226280535.0,
+      "patrons": 4135
+    }
+  ],
+  "by_doc_type": [
+    {
+      "code": "B",
+      "checkouts": 86007,
+      "label": "Könyv"
+    },
+    {
+      "code": "F",
+      "checkouts": 2772,
+      "label": "F"
+    },
+    {
+      "code": "R",
+      "checkouts": 1257,
+      "label": "R"
+    },
+    {
+      "code": "C",
+      "checkouts": 37,
+      "label": "AV / CD"
+    },
+    {
+      "code": "S",
+      "checkouts": 37,
+      "label": "Periodika / Sorozat"
+    }
+  ],
+  "by_language": [
+    {
+      "language": "hun",
+      "checkouts": 89118
+    },
+    {
+      "language": "eng",
+      "checkouts": 623
+    },
+    {
+      "language": "ger",
+      "checkouts": 89
+    },
+    {
+      "language": "und",
+      "checkouts": 60
+    },
+    {
+      "language": "mul",
+      "checkouts": 56
+    },
+    {
+      "language": "fre",
+      "checkouts": 41
+    }
+  ],
+  "top_renewed_books": [
+    {
+      "title": "Dianetika [Hangfelvétel] : a szellemi egészség modern tudománya",
+      "author": "Hubbard, L. Ron",
+      "isbn": "9788764911060",
+      "total_renewals": 102,
+      "checkouts": 52
+    },
+    {
+      "title": "Brúnó Budapesten",
+      "author": "Bartos Erika",
+      "isbn": null,
+      "total_renewals": 67,
+      "checkouts": 137
+    },
+    {
+      "title": "Hunyadi",
+      "author": "Bán János",
+      "isbn": null,
+      "total_renewals": 57,
+      "checkouts": 147
+    },
+    {
+      "title": "Mágikus állatok iskolája",
+      "author": "Auer, Margit",
+      "isbn": null,
+      "total_renewals": 53,
+      "checkouts": 109
+    },
+    {
+      "title": "Gól!",
+      "author": "Garlando, Luigi",
+      "isbn": "9789633045619",
+      "total_renewals": 48,
+      "checkouts": 40
+    },
+    {
+      "title": "Brúnó a Balatonon",
+      "author": "Bartos Erika",
+      "isbn": null,
+      "total_renewals": 47,
+      "checkouts": 82
+    },
+    {
+      "title": "A Szent Johanna gimi",
+      "author": "Leiner Laura",
+      "isbn": "9789635397020",
+      "total_renewals": 46,
+      "checkouts": 92
+    },
+    {
+      "title": "A Pál utcai fiúk",
+      "author": "Molnár Ferenc",
+      "isbn": "9789632675831",
+      "total_renewals": 42,
+      "checkouts": 37
+    },
+    {
+      "title": "Könyvkötés",
+      "author": "Türk Péter",
+      "isbn": "9638558903",
+      "total_renewals": 42,
+      "checkouts": 3
+    },
+    {
+      "title": "Mágikus állatok iskolája : Végre vakáció!",
+      "author": "Auer, Margit",
+      "isbn": null,
+      "total_renewals": 37,
+      "checkouts": 48
+    }
+  ],
+  "most_active_period": {
+    "busiest_month": {
+      "month": "2025-01",
+      "checkouts": 8650
+    },
+    "busiest_weekday": {
+      "weekday": 0,
+      "checkouts": 18198,
+      "label": "Hétfő"
+    },
+    "busiest_hour": {
+      "hour": 15,
+      "checkouts": 13666
+    }
+  },
+  "monthly_checkouts": [
+    {
+      "month": "2022-07",
+      "checkouts": 1
+    },
+    {
+      "month": "2023-01",
+      "checkouts": 1
+    },
+    {
+      "month": "2023-04",
+      "checkouts": 1
+    },
+    {
+      "month": "2023-05",
+      "checkouts": 1
+    },
+    {
+      "month": "2023-06",
+      "checkouts": 1
+    },
+    {
+      "month": "2023-11",
+      "checkouts": 1
+    },
+    {
+      "month": "2023-12",
+      "checkouts": 1
+    },
+    {
+      "month": "2024-01",
+      "checkouts": 2
+    },
+    {
+      "month": "2024-03",
+      "checkouts": 16
+    },
+    {
+      "month": "2024-04",
+      "checkouts": 5
+    },
+    {
+      "month": "2024-05",
+      "checkouts": 8
+    },
+    {
+      "month": "2024-06",
+      "checkouts": 2
+    },
+    {
+      "month": "2024-07",
+      "checkouts": 6
+    },
+    {
+      "month": "2024-08",
+      "checkouts": 32
+    },
+    {
+      "month": "2024-09",
+      "checkouts": 24
+    },
+    {
+      "month": "2024-10",
+      "checkouts": 90
+    },
+    {
+      "month": "2024-11",
+      "checkouts": 794
+    },
+    {
+      "month": "2024-12",
+      "checkouts": 5182
+    },
+    {
+      "month": "2025-01",
+      "checkouts": 8650
+    },
+    {
+      "month": "2025-02",
+      "checkouts": 7564
+    },
+    {
+      "month": "2025-03",
+      "checkouts": 7527
+    },
+    {
+      "month": "2025-04",
+      "checkouts": 7579
+    },
+    {
+      "month": "2025-05",
+      "checkouts": 7641
+    },
+    {
+      "month": "2025-06",
+      "checkouts": 6368
+    },
+    {
+      "month": "2025-07",
+      "checkouts": 7819
+    },
+    {
+      "month": "2025-08",
+      "checkouts": 7300
+    },
+    {
+      "month": "2025-09",
+      "checkouts": 7400
+    },
+    {
+      "month": "2025-10",
+      "checkouts": 7623
+    },
+    {
+      "month": "2025-11",
+      "checkouts": 6554
+    },
+    {
+      "month": "2025-12",
+      "checkouts": 1917
+    }
+  ]
+}

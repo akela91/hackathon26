@@ -1,0 +1,127 @@
+{
+  "book_quiz": {
+    "top_books": [
+      {
+        "title": "Hunyadi",
+        "author": "Bán János",
+        "record_id": "bibBBM00357599",
+        "isbn": "97896342613772",
+        "checkouts": 219
+      },
+      {
+        "title": "A Szent Johanna gimi / Leiner Laura",
+        "author": "Leiner Laura",
+        "record_id": "bibBBM00398275",
+        "isbn": "97896353970061",
+        "checkouts": 170
+      },
+      {
+        "title": "Az ártatlan",
+        "author": "Coben, Harlan",
+        "record_id": "bibBBM00398360",
+        "isbn": "9789634754794",
+        "checkouts": 107
+      },
+      {
+        "title": "Árvízi napló",
+        "author": "Fábián Janka",
+        "record_id": "bibBBM00404252",
+        "isbn": "9789634339663",
+        "checkouts": 97
+      },
+      {
+        "title": "A sirály a király?",
+        "author": "Bosnyák Viktória",
+        "record_id": "bibBBM00402715",
+        "isbn": "9786150107233",
+        "checkouts": 96
+      }
+    ],
+    "decoys": [
+      {
+        "title": "Toszkána vére : Hatalom, mámor, Toszkána 1.",
+        "author": "Líbor Erzsébet",
+        "isbn": "9786156145680",
+        "checkouts": 51
+      },
+      {
+        "title": "Egyszer már szerettél",
+        "author": "Michaels, Corinne",
+        "isbn": "9789635703487",
+        "checkouts": 11
+      },
+      {
+        "title": "A csendgyár",
+        "author": "Collins, Bridget",
+        "isbn": "9789635685110",
+        "checkouts": 6
+      },
+      {
+        "title": "Mit titkol Cara Winter?",
+        "author": "Harper, Annika",
+        "isbn": "9789635091140",
+        "checkouts": 4
+      },
+      {
+        "title": "Csók Mikonoszon : hiába menekülsz a szerelem elől, úgyis utolér",
+        "author": "Rider, Catherine (álnév)",
+        "isbn": "9789635841509",
+        "checkouts": 3
+      },
+      {
+        "title": "Óramű : hogyan tedd önjáróvá a vállalkozásod",
+        "author": "Michalowicz, Mike",
+        "isbn": "9786155263385",
+        "checkouts": 2
+      },
+      {
+        "title": "Misu és Cili kockás könyve : sárga-szürke",
+        "author": "Beck Andrea",
+        "isbn": "9786158070607",
+        "checkouts": 2
+      },
+      {
+        "title": "Hova bújtál, kisróka?",
+        "author": "Taplin, Sam",
+        "isbn": "9789636143589",
+        "checkouts": 1
+      },
+      {
+        "title": "Világ",
+        "author": "Széchenyi István",
+        "isbn": "9789633291535",
+        "checkouts": 1
+      },
+      {
+        "title": "Machiavelli",
+        "author": "Skinner, Quentin Robert",
+        "isbn": "9637979720",
+        "checkouts": 1
+      }
+    ]
+  },
+  "author_quiz": {
+    "top_authors": [
+      {
+        "author": "Roberts, Nora",
+        "checkouts": 1470
+      },
+      {
+        "author": "Steel, Danielle",
+        "checkouts": 1413
+      },
+      {
+        "author": "Brown, Borsa (álnév)",
+        "checkouts": 1186
+      },
+      {
+        "author": "Bartos Erika",
+        "checkouts": 1102
+      },
+      {
+        "author": "Dami, Elisabetta",
+        "checkouts": 1010
+      }
+    ]
+  }
+}

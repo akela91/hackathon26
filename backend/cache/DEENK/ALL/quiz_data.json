@@ -1,0 +1,127 @@
+{
+  "book_quiz": {
+    "top_books": [
+      {
+        "title": "Sobotta : az ember anatómiájának atlasza",
+        "author": "Sobotta, Johannes",
+        "record_id": "bibKLT00061042",
+        "isbn": "9789632267081",
+        "checkouts": 738
+      },
+      {
+        "title": "Funkcionális anatómia : egyetemi tankönyv",
+        "author": "Szentágothai János",
+        "record_id": "bibKLT00319995",
+        "isbn": "9632425642",
+        "checkouts": 408
+      },
+      {
+        "title": "Langman orvosi embriológia",
+        "author": "Sadler, Thomas W.",
+        "record_id": "bibDEK00948770",
+        "isbn": "9789632266831",
+        "checkouts": 382
+      },
+      {
+        "title": "Az orvosi élettan tankönyve",
+        "author": "Fonyó Attila",
+        "record_id": "bibDEK01044710",
+        "isbn": "9789632267340",
+        "checkouts": 330
+      },
+      {
+        "title": "Szövettan",
+        "author": "Kühnel, Wolfgang",
+        "record_id": "bibDEK00899248",
+        "isbn": "9789633313220",
+        "checkouts": 294
+      }
+    ],
+    "decoys": [
+      {
+        "title": "Zweistimmige Inventionen [nyomtatott kotta] : BWV 772-786 = Two-part Inventions = Kétszólamú invenciók",
+        "author": "Bach, Johann Sebastian",
+        "isbn": null,
+        "checkouts": 55
+      },
+      {
+        "title": "Maszat öltözik",
+        "author": "Berg Judit",
+        "isbn": "9789634107613",
+        "checkouts": 4
+      },
+      {
+        "title": "Oedipus Rex [nyomtatott kotta] : Opera - Oratorio en deux actes d'aprés Sophocle = in two acts after Sophocles = in zwei Akten nach Sophokles",
+        "author": "Stravinskij, Igor",
+        "isbn": null,
+        "checkouts": 3
+      },
+      {
+        "title": "Zaklatók, áldozatok, szemlélők: az iskolai erőszak : óvodától középiskoláig: hogyan szakíthatja meg a szülő és a pedagógus az erőszak körforgását?",
+        "author": "Coloroso, Barbara",
+        "isbn": "9789632881966",
+        "checkouts": 2
+      },
+      {
+        "title": "A jól működő család 5 jellemzője",
+        "author": "Chapman, Gary D.",
+        "isbn": "9789632882932",
+        "checkouts": 2
+      },
+      {
+        "title": "Liturgika : a keresztény istentisztelet protestáns megközelítésben, ökumenikus szellemben",
+        "author": "Hafenscher Károly",
+        "isbn": "9789639979079",
+        "checkouts": 1
+      },
+      {
+        "title": "Harry Potter és a Titkok Kamrája : Hollóhát",
+        "author": "Rowling, Joanne Kathleen",
+        "isbn": "9789633248591",
+        "checkouts": 1
+      },
+      {
+        "title": "Hosszú-rövid mesék : játékos helyesírási feladatok magánhangzókkal",
+        "author": "Pásztor Zsuzsanna",
+        "isbn": "9789636035372",
+        "checkouts": 1
+      },
+      {
+        "title": "Liftakna",
+        "author": "Barclay, Linwood",
+        "isbn": "9789634524557",
+        "checkouts": 1
+      },
+      {
+        "title": "Geschichte des österreichischen Bildungswesens : Erziehung und Unterricht auf dem Boden Österreichs",
+        "author": "Engelbrecht, Helmut",
+        "isbn": null,
+        "checkouts": 1
+      }
+    ]
+  },
+  "author_quiz": {
+    "top_authors": [
+      {
+        "author": "Sobotta, Johannes",
+        "checkouts": 856
+      },
+      {
+        "author": "Mozart, Wolfgang Amadeus",
+        "checkouts": 712
+      },
+      {
+        "author": "Bach, Johann Sebastian",
+        "checkouts": 664
+      },
+      {
+        "author": "Kodály Zoltán",
+        "checkouts": 636
+      },
+      {
+        "author": "Sadler, Thomas W.",
+        "checkouts": 587
+      }
+    ]
+  }
+}

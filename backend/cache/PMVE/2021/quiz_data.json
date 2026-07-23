@@ -1,0 +1,127 @@
+{
+  "book_quiz": {
+    "top_books": [
+      {
+        "title": "A Szent Johanna gimi",
+        "author": "Leiner Laura",
+        "record_id": "MOKKAI0009004609",
+        "isbn": "9789635397020",
+        "checkouts": 356
+      },
+      {
+        "title": "Idődetektívek",
+        "author": "Lenk, Fabian",
+        "record_id": "bibPMV00982914",
+        "isbn": null,
+        "checkouts": 165
+      },
+      {
+        "title": "A Bridgerton család",
+        "author": "Quinn, Julia",
+        "record_id": "MOKKAI0009085498",
+        "isbn": null,
+        "checkouts": 153
+      },
+      {
+        "title": "Az orvosi élettan tankönyve",
+        "author": "Fonyó Attila",
+        "record_id": "bibMOK01625812",
+        "isbn": "9789632265049",
+        "checkouts": 143
+      },
+      {
+        "title": "Angol-magyar, magyar-angol orvosi szótár = Medical dictionary English-Hungarian, Hungarian-English",
+        "author": "Unseld, Dieter Werner",
+        "record_id": "MOKKAN0003887876",
+        "isbn": "9632260155",
+        "checkouts": 126
+      }
+    ],
+    "decoys": [
+      {
+        "title": "A boldog hülye és az okos depressziós",
+        "author": "Kepes András",
+        "isbn": "9789634338086",
+        "checkouts": 47
+      },
+      {
+        "title": "Gyilkosság a golfpályán",
+        "author": "Christie, Agatha",
+        "isbn": "9789634055334",
+        "checkouts": 7
+      },
+      {
+        "title": "Egy tiszta nő",
+        "author": "Hardy, Thomas",
+        "isbn": "9630703300",
+        "checkouts": 4
+      },
+      {
+        "title": "48 óra alatt angolul",
+        "author": "Czifra Éva",
+        "isbn": "9789638981233",
+        "checkouts": 3
+      },
+      {
+        "title": "Az utolsó tréfa",
+        "author": "Dick, Philip K.",
+        "isbn": "9789634196235",
+        "checkouts": 2
+      },
+      {
+        "title": "Borsos Miklós",
+        "author": "Kovásznai Viktória, L.",
+        "isbn": "9633362482",
+        "checkouts": 1
+      },
+      {
+        "title": "Karma és reinkarnáció : miért kell újjászületnünk?",
+        "author": "Horváth Andrea",
+        "isbn": "9633754143",
+        "checkouts": 1
+      },
+      {
+        "title": "Ásványok, drágakövek, kőzetek",
+        "author": "Hochleitner, Rupert",
+        "isbn": "9637268227",
+        "checkouts": 1
+      },
+      {
+        "title": "A fekete nyíl : Kalandos történelmi regény",
+        "author": "Stevenson Robert Louis",
+        "isbn": "9631107841",
+        "checkouts": 1
+      },
+      {
+        "title": "Egy illúzió halála : Keserű gyógykönyv gyanakvó fiataloknak és csalódott öregeknek",
+        "author": "Popper Péter",
+        "isbn": "9637168397",
+        "checkouts": 1
+      }
+    ]
+  },
+  "author_quiz": {
+    "top_authors": [
+      {
+        "author": "Roberts, Nora",
+        "checkouts": 1948
+      },
+      {
+        "author": "Bartos Erika",
+        "checkouts": 1526
+      },
+      {
+        "author": "Berg Judit",
+        "checkouts": 1320
+      },
+      {
+        "author": "Steel, Danielle",
+        "checkouts": 1112
+      },
+      {
+        "author": "Leiner Laura",
+        "checkouts": 826
+      }
+    ]
+  }
+}

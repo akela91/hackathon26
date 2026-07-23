@@ -1,0 +1,127 @@
+{
+  "book_quiz": {
+    "top_books": [
+      {
+        "title": "Számítógép száma: 1.",
+        "author": "Számítógép használat",
+        "record_id": "bibTMK00276981",
+        "isbn": null,
+        "checkouts": 395
+      },
+      {
+        "title": "Számítógép száma: 2.",
+        "author": "Számítógép használat",
+        "record_id": "bibTMK00276983",
+        "isbn": null,
+        "checkouts": 346
+      },
+      {
+        "title": "Hunyadi",
+        "author": "Bán János",
+        "record_id": "bibTMK00230241",
+        "isbn": null,
+        "checkouts": 130
+      },
+      {
+        "title": "Számítógép száma: 3.",
+        "author": "Számítógép használat",
+        "record_id": "bibTMK00276984",
+        "isbn": null,
+        "checkouts": 118
+      },
+      {
+        "title": "A Szent Johanna gimi",
+        "author": "Leiner Laura",
+        "record_id": "bibTMK00236530",
+        "isbn": "9789635397020",
+        "checkouts": 78
+      }
+    ],
+    "decoys": [
+      {
+        "title": "Egy ropi naplója : lépjünk le!",
+        "author": "Kinney, Jeff",
+        "isbn": "9789634572411",
+        "checkouts": 22
+      },
+      {
+        "title": "A Teve Klub",
+        "author": "Baldacci, David",
+        "isbn": "9789630787963",
+        "checkouts": 6
+      },
+      {
+        "title": "Piaci viszonyok",
+        "author": "Kötter Tamás",
+        "isbn": "9786156702449",
+        "checkouts": 4
+      },
+      {
+        "title": "A titkok kertje",
+        "author": "Stilton, Tea",
+        "isbn": "9789634374954",
+        "checkouts": 3
+      },
+      {
+        "title": "Róma első embere",
+        "author": "McCullough, Colleen",
+        "isbn": "963307195X",
+        "checkouts": 2
+      },
+      {
+        "title": "Egy az isten : 1876-77",
+        "author": "Jókai Mór",
+        "isbn": null,
+        "checkouts": 2
+      },
+      {
+        "title": "Violanász",
+        "author": "Tömöry Péter",
+        "isbn": "9786069011232",
+        "checkouts": 1
+      },
+      {
+        "title": "A királynő esküje",
+        "author": "Gortner, C. W.",
+        "isbn": "9786155285073",
+        "checkouts": 1
+      },
+      {
+        "title": "A tökéletes férfi",
+        "author": "O'Flanagan, Sheila",
+        "isbn": "9789632976259",
+        "checkouts": 1
+      },
+      {
+        "title": "Célzott gondolatok : válogatott idézetek családról, szeretetről, kitartásról és hitről",
+        "author": "Szobonya Erzsébet",
+        "isbn": "9789635705948",
+        "checkouts": 1
+      }
+    ]
+  },
+  "author_quiz": {
+    "top_authors": [
+      {
+        "author": "Bartos Erika",
+        "checkouts": 1358
+      },
+      {
+        "author": "Számítógép használat",
+        "checkouts": 877
+      },
+      {
+        "author": "Berg Judit",
+        "checkouts": 851
+      },
+      {
+        "author": "Marék Veronika",
+        "checkouts": 682
+      },
+      {
+        "author": "Roberts, Nora",
+        "checkouts": 532
+      }
+    ]
+  }
+}

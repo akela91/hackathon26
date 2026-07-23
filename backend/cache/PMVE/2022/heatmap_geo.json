@@ -1,0 +1,446 @@
+{
+  "by_zip": [
+    {
+      "zip": "7632",
+      "city": "Pécs",
+      "checkouts": 32877,
+      "patrons": 1625
+    },
+    {
+      "zip": "7624",
+      "city": "Pécs",
+      "checkouts": 20327,
+      "patrons": 1071
+    },
+    {
+      "zip": "7633",
+      "city": "Pécs",
+      "checkouts": 15903,
+      "patrons": 811
+    },
+    {
+      "zip": "7634",
+      "city": "Pécs",
+      "checkouts": 14772,
+      "patrons": 714
+    },
+    {
+      "zip": "7635",
+      "city": "Pécs",
+      "checkouts": 12686,
+      "patrons": 642
+    },
+    {
+      "zip": "7625",
+      "city": "Pécs",
+      "checkouts": 11887,
+      "patrons": 547
+    },
+    {
+      "zip": "7623",
+      "city": "Pécs",
+      "checkouts": 11539,
+      "patrons": 598
+    },
+    {
+      "zip": "7627",
+      "city": "Pécs",
+      "checkouts": 9724,
+      "patrons": 543
+    },
+    {
+      "zip": "7636",
+      "city": "Pécs",
+      "checkouts": 6955,
+      "patrons": 392
+    },
+    {
+      "zip": "7621",
+      "city": "Pécs",
+      "checkouts": 6506,
+      "patrons": 434
+    },
+    {
+      "zip": "7630",
+      "city": "Pécs",
+      "checkouts": 6082,
+      "patrons": 318
+    },
+    {
+      "zip": "7629",
+      "city": "Pécs",
+      "checkouts": 5520,
+      "patrons": 272
+    },
+    {
+      "zip": "7761",
+      "city": "Kozármisleny",
+      "checkouts": 5426,
+      "patrons": 290
+    },
+    {
+      "zip": "7626",
+      "city": "Pécs",
+      "checkouts": 4895,
+      "patrons": 293
+    },
+    {
+      "zip": "7694",
+      "city": "Hosszúhetény",
+      "checkouts": 4764,
+      "patrons": 266
+    },
+    {
+      "zip": "7741",
+      "city": "Nagykozár",
+      "checkouts": 4383,
+      "patrons": 178
+    },
+    {
+      "zip": "7900",
+      "city": "Szigetvár",
+      "checkouts": 4130,
+      "patrons": 301
+    },
+    {
+      "zip": "7631",
+      "city": "Pécs",
+      "checkouts": 3437,
+      "patrons": 185
+    },
+    {
+      "zip": "7622",
+      "city": "Pécs",
+      "checkouts": 3279,
+      "patrons": 207
+    },
+    {
+      "zip": "7691",
+      "city": "Pécs",
+      "checkouts": 2240,
+      "patrons": 119
+    },
+    {
+      "zip": "7668",
+      "city": "Keszü",
+      "checkouts": 2165,
+      "patrons": 108
+    },
+    {
+      "zip": "7720",
+      "city": "Pécsvárad",
+      "checkouts": 1745,
+      "patrons": 123
+    },
+    {
+      "zip": "7666",
+      "city": "Pogány",
+      "checkouts": 1736,
+      "patrons": 118
+    },
+    {
+      "zip": "7300",
+      "city": "Komló",
+      "checkouts": 1722,
+      "patrons": 155
+    },
+    {
+      "zip": "7628",
+      "city": "Pécs",
+      "checkouts": 1715,
+      "patrons": 138
+    },
+    {
+      "zip": "7960",
+      "city": "Sellye",
+      "checkouts": 1710,
+      "patrons": 102
+    },
+    {
+      "zip": "7763",
+      "city": "Egerág",
+      "checkouts": 1608,
+      "patrons": 80
+    },
+    {
+      "zip": "7100",
+      "city": "Szekszárd",
+      "checkouts": 1464,
+      "patrons": 152
+    },
+    {
+      "zip": "7400",
+      "city": "Kaposvár",
+      "checkouts": 1296,
+      "patrons": 196
+    },
+    {
+      "zip": "7831",
+      "city": "Pellérd",
+      "checkouts": 1274,
+      "patrons": 99
+    },
+    {
+      "zip": "7742",
+      "city": "Bogád",
+      "checkouts": 1175,
+      "patrons": 53
+    },
+    {
+      "zip": "7693",
+      "city": "Pécs",
+      "checkouts": 1174,
+      "patrons": 74
+    },
+    {
+      "zip": "7673",
+      "city": "Cserkút",
+      "checkouts": 1159,
+      "patrons": 71
+    },
+    {
+      "zip": "7762",
+      "city": "Pécsudvard",
+      "checkouts": 1140,
+      "patrons": 43
+    },
+    {
+      "zip": "7745",
+      "city": "Hásságy",
+      "checkouts": 929,
+      "patrons": 59
+    },
+    {
+      "zip": "7639",
+      "city": "Kökény",
+      "checkouts": 881,
+      "patrons": 35
+    },
+    {
+      "zip": "7932",
+      "city": "Almáskeresztúr",
+      "checkouts": 873,
+      "patrons": 23
+    },
+    {
+      "zip": "7675",
+      "city": "Kővágótőttős",
+      "checkouts": 811,
+      "patrons": 21
+    },
+    {
+      "zip": "7677",
+      "city": "Orfű",
+      "checkouts": 741,
+      "patrons": 50
+    },
+    {
+      "zip": "7811",
+      "city": "Szalánta",
+      "checkouts": 726,
+      "patrons": 50
+    }
+  ],
+  "by_city": [
+    {
+      "city": "Pécs",
+      "checkouts": 171085,
+      "patrons": 8967
+    },
+    {
+      "city": "Kozármisleny",
+      "checkouts": 4893,
+      "patrons": 260
+    },
+    {
+      "city": "Hosszúhetény",
+      "checkouts": 4752,
+      "patrons": 263
+    },
+    {
+      "city": "Nagykozár",
+      "checkouts": 4383,
+      "patrons": 178
+    },
+    {
+      "city": "Szigetvár",
+      "checkouts": 4032,
+      "patrons": 293
+    },
+    {
+      "city": "Budapest",
+      "checkouts": 2817,
+      "patrons": 346
+    },
+    {
+      "city": "Pogány",
+      "checkouts": 1736,
+      "patrons": 118
+    },
+    {
+      "city": "Komló",
+      "checkouts": 1732,
+      "patrons": 156
+    },
+    {
+      "city": "Keszü",
+      "checkouts": 1632,
+      "patrons": 72
+    },
+    {
+      "city": "Sellye",
+      "checkouts": 1631,
+      "patrons": 99
+    },
+    {
+      "city": "Szekszárd",
+      "checkouts": 1454,
+      "patrons": 151
+    },
+    {
+      "city": "Kaposvár",
+      "checkouts": 1334,
+      "patrons": 205
+    },
+    {
+      "city": "Pellérd",
+      "checkouts": 1315,
+      "patrons": 100
+    },
+    {
+      "city": "Bogád",
+      "checkouts": 1176,
+      "patrons": 54
+    },
+    {
+      "city": "Pécsvárad",
+      "checkouts": 1157,
+      "patrons": 79
+    },
+    {
+      "city": "Pécsudvard",
+      "checkouts": 1140,
+      "patrons": 43
+    },
+    {
+      "city": "Kökény",
+      "checkouts": 1025,
+      "patrons": 35
+    },
+    {
+      "city": "Hásságy",
+      "checkouts": 782,
+      "patrons": 40
+    },
+    {
+      "city": "Orfű",
+      "checkouts": 755,
+      "patrons": 51
+    },
+    {
+      "city": "Bonyhád",
+      "checkouts": 716,
+      "patrons": 72
+    },
+    {
+      "city": "Almáskeresztúr",
+      "checkouts": 692,
+      "patrons": 14
+    },
+    {
+      "city": "Kővágótőttős",
+      "checkouts": 689,
+      "patrons": 13
+    },
+    {
+      "city": "Mohács",
+      "checkouts": 683,
+      "patrons": 96
+    },
+    {
+      "city": "Egerág",
+      "checkouts": 658,
+      "patrons": 43
+    },
+    {
+      "city": "Cserkút",
+      "checkouts": 636,
+      "patrons": 32
+    },
+    {
+      "city": "Szalánta",
+      "checkouts": 583,
+      "patrons": 37
+    },
+    {
+      "city": "Szentlőrinc",
+      "checkouts": 574,
+      "patrons": 60
+    },
+    {
+      "city": "Dombóvár",
+      "checkouts": 570,
+      "patrons": 77
+    },
+    {
+      "city": "Bükkösd",
+      "checkouts": 555,
+      "patrons": 16
+    },
+    {
+      "city": "Székesfehérvár",
+      "checkouts": 548,
+      "patrons": 85
+    },
+    {
+      "city": "Bicsérd",
+      "checkouts": 535,
+      "patrons": 48
+    },
+    {
+      "city": "Kővágószőlős",
+      "checkouts": 519,
+      "patrons": 38
+    },
+    {
+      "city": "Romonya",
+      "checkouts": 513,
+      "patrons": 30
+    },
+    {
+      "city": "Abaliget",
+      "checkouts": 508,
+      "patrons": 19
+    },
+    {
+      "city": "Nagykanizsa",
+      "checkouts": 490,
+      "patrons": 69
+    },
+    {
+      "city": "Lothárd",
+      "checkouts": 481,
+      "patrons": 29
+    },
+    {
+      "city": "Mecseknádasd",
+      "checkouts": 480,
+      "patrons": 34
+    },
+    {
+      "city": "Feked",
+      "checkouts": 474,
+      "patrons": 19
+    },
+    {
+      "city": "Zalaegerszeg",
+      "checkouts": 450,
+      "patrons": 71
+    },
+    {
+      "city": "Drávacsepely",
+      "checkouts": 430,
+      "patrons": 20
+    }
+  ]
+}

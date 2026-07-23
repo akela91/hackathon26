@@ -1,0 +1,127 @@
+{
+  "book_quiz": {
+    "top_books": [
+      {
+        "title": "[Szekrény] [tárgy]",
+        "author": null,
+        "record_id": "bibDEK00692820",
+        "isbn": null,
+        "checkouts": 20
+      },
+      {
+        "title": "Magnificat [nyomtatott kotta] : BWV 243",
+        "author": "Bach, Johann Sebastian",
+        "record_id": "bibDEK00926714",
+        "isbn": null,
+        "checkouts": 18
+      },
+      {
+        "title": "Az asszertivitás világa",
+        "author": "Pintér Tamás",
+        "record_id": "bibDEK00964101",
+        "isbn": null,
+        "checkouts": 15
+      },
+      {
+        "title": "A történelem segédtudományai",
+        "author": null,
+        "record_id": "bibDEK00608954",
+        "isbn": "9633891450",
+        "checkouts": 15
+      },
+      {
+        "title": "A római jog története és institúciói",
+        "author": "Földi András",
+        "record_id": "bibDEK00859393",
+        "isbn": "9789631971248",
+        "checkouts": 14
+      }
+    ],
+    "decoys": [
+      {
+        "title": "Általános kémia",
+        "author": "Csányi László",
+        "isbn": "9789633151730",
+        "checkouts": 4
+      },
+      {
+        "title": "Arvisura - igazszólás : regék a hun és a magyar törzsszövetség rovásírásos krónikájából",
+        "author": "Paál Zoltán",
+        "isbn": null,
+        "checkouts": 2
+      },
+      {
+        "title": "A vallomás befolyásolása a büntetőeljárásban",
+        "author": "Elek Balázs",
+        "isbn": "9789635965724",
+        "checkouts": 1
+      },
+      {
+        "title": "Archetípusos minták a mesében",
+        "author": "Franz, Marie-Louise von",
+        "isbn": "9635283121",
+        "checkouts": 1
+      },
+      {
+        "title": "A hortobágyi kőhíd építése Debrecen város mátai pusztáján, 1827-33 : Magyarország leghosszabb közúti kőhídja",
+        "author": "Lósy-Schmidt Ede",
+        "isbn": null,
+        "checkouts": 1
+      },
+      {
+        "title": "Magyarország követei : ezeréves történelmünk külügyei",
+        "author": "Szatmári Jenő István",
+        "isbn": "9789633755631",
+        "checkouts": 1
+      },
+      {
+        "title": "The theater essays of Arthur Miller",
+        "author": "Miller, Arthur",
+        "isbn": "0140049037",
+        "checkouts": 1
+      },
+      {
+        "title": "Előítélet és tolerancia",
+        "author": "Síklaki István",
+        "isbn": "9789630586382",
+        "checkouts": 1
+      },
+      {
+        "title": "Des Knaben Wunderhorn ; Lieder eines fahrenden Gesellen [Hgf.]",
+        "author": "Mahler, Gustav",
+        "isbn": null,
+        "checkouts": 1
+      },
+      {
+        "title": "Minden és a hold",
+        "author": "Quinn, Julia",
+        "isbn": "9789634063711",
+        "checkouts": 1
+      }
+    ]
+  },
+  "author_quiz": {
+    "top_authors": [
+      {
+        "author": "Roberts, Nora",
+        "checkouts": 89
+      },
+      {
+        "author": "Haydn, Joseph",
+        "checkouts": 37
+      },
+      {
+        "author": "Mozart, Wolfgang Amadeus",
+        "checkouts": 32
+      },
+      {
+        "author": "Gergely Pál",
+        "checkouts": 31
+      },
+      {
+        "author": "Binder Károly",
+        "checkouts": 30
+      }
+    ]
+  }
+}

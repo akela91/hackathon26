@@ -1,0 +1,446 @@
+{
+  "by_zip": [
+    {
+      "zip": "1118",
+      "city": "Budapest",
+      "checkouts": 22711,
+      "patrons": 1103
+    },
+    {
+      "zip": "1039",
+      "city": "Budapest",
+      "checkouts": 15933,
+      "patrons": 849
+    },
+    {
+      "zip": "1171",
+      "city": "Budapest",
+      "checkouts": 15292,
+      "patrons": 681
+    },
+    {
+      "zip": "1112",
+      "city": "Budapest",
+      "checkouts": 15131,
+      "patrons": 818
+    },
+    {
+      "zip": "1119",
+      "city": "Budapest",
+      "checkouts": 14985,
+      "patrons": 682
+    },
+    {
+      "zip": "1213",
+      "city": "Budapest",
+      "checkouts": 14872,
+      "patrons": 751
+    },
+    {
+      "zip": "1048",
+      "city": "Budapest",
+      "checkouts": 14853,
+      "patrons": 765
+    },
+    {
+      "zip": "1138",
+      "city": "Budapest",
+      "checkouts": 14599,
+      "patrons": 724
+    },
+    {
+      "zip": "1173",
+      "city": "Budapest",
+      "checkouts": 13992,
+      "patrons": 669
+    },
+    {
+      "zip": "1144",
+      "city": "Budapest",
+      "checkouts": 13989,
+      "patrons": 620
+    },
+    {
+      "zip": "1165",
+      "city": "Budapest",
+      "checkouts": 13515,
+      "patrons": 617
+    },
+    {
+      "zip": "1131",
+      "city": "Budapest",
+      "checkouts": 13512,
+      "patrons": 718
+    },
+    {
+      "zip": "1188",
+      "city": "Budapest",
+      "checkouts": 12582,
+      "patrons": 740
+    },
+    {
+      "zip": "1163",
+      "city": "Budapest",
+      "checkouts": 12552,
+      "patrons": 642
+    },
+    {
+      "zip": "1126",
+      "city": "Budapest",
+      "checkouts": 12037,
+      "patrons": 613
+    },
+    {
+      "zip": "1214",
+      "city": "Budapest",
+      "checkouts": 11676,
+      "patrons": 536
+    },
+    {
+      "zip": "1141",
+      "city": "Budapest",
+      "checkouts": 11496,
+      "patrons": 598
+    },
+    {
+      "zip": "1181",
+      "city": "Budapest",
+      "checkouts": 11266,
+      "patrons": 567
+    },
+    {
+      "zip": "1203",
+      "city": "Budapest",
+      "checkouts": 10967,
+      "patrons": 446
+    },
+    {
+      "zip": "1108",
+      "city": "Budapest",
+      "checkouts": 10934,
+      "patrons": 484
+    },
+    {
+      "zip": "1037",
+      "city": "Budapest",
+      "checkouts": 10686,
+      "patrons": 598
+    },
+    {
+      "zip": "1133",
+      "city": "Budapest",
+      "checkouts": 10639,
+      "patrons": 505
+    },
+    {
+      "zip": "1124",
+      "city": "Budapest",
+      "checkouts": 10507,
+      "patrons": 474
+    },
+    {
+      "zip": "1221",
+      "city": "Budapest",
+      "checkouts": 10426,
+      "patrons": 544
+    },
+    {
+      "zip": "1145",
+      "city": "Budapest",
+      "checkouts": 10365,
+      "patrons": 500
+    },
+    {
+      "zip": "1125",
+      "city": "Budapest",
+      "checkouts": 10190,
+      "patrons": 464
+    },
+    {
+      "zip": "1191",
+      "city": "Budapest",
+      "checkouts": 9738,
+      "patrons": 420
+    },
+    {
+      "zip": "1116",
+      "city": "Budapest",
+      "checkouts": 9732,
+      "patrons": 488
+    },
+    {
+      "zip": "1147",
+      "city": "Budapest",
+      "checkouts": 9658,
+      "patrons": 494
+    },
+    {
+      "zip": "1183",
+      "city": "Budapest",
+      "checkouts": 9495,
+      "patrons": 516
+    },
+    {
+      "zip": "1222",
+      "city": "Budapest",
+      "checkouts": 9348,
+      "patrons": 490
+    },
+    {
+      "zip": "1161",
+      "city": "Budapest",
+      "checkouts": 9229,
+      "patrons": 437
+    },
+    {
+      "zip": "1142",
+      "city": "Budapest",
+      "checkouts": 9146,
+      "patrons": 459
+    },
+    {
+      "zip": "1182",
+      "city": "Budapest",
+      "checkouts": 9029,
+      "patrons": 507
+    },
+    {
+      "zip": "1025",
+      "city": "Budapest",
+      "checkouts": 8727,
+      "patrons": 464
+    },
+    {
+      "zip": "1162",
+      "city": "Budapest",
+      "checkouts": 8692,
+      "patrons": 435
+    },
+    {
+      "zip": "1158",
+      "city": "Budapest",
+      "checkouts": 8533,
+      "patrons": 418
+    },
+    {
+      "zip": "1139",
+      "city": "Budapest",
+      "checkouts": 8408,
+      "patrons": 424
+    },
+    {
+      "zip": "1172",
+      "city": "Budapest",
+      "checkouts": 8369,
+      "patrons": 413
+    },
+    {
+      "zip": "1148",
+      "city": "Budapest",
+      "checkouts": 8138,
+      "patrons": 364
+    }
+  ],
+  "by_city": [
+    {
+      "city": "Budapest",
+      "checkouts": 958336,
+      "patrons": 47538
+    },
+    {
+      "city": "Érd",
+      "checkouts": 3082,
+      "patrons": 247
+    },
+    {
+      "city": "Szigetszentmiklós",
+      "checkouts": 2595,
+      "patrons": 181
+    },
+    {
+      "city": "Dunakeszi",
+      "checkouts": 2152,
+      "patrons": 146
+    },
+    {
+      "city": "Budaörs",
+      "checkouts": 2103,
+      "patrons": 123
+    },
+    {
+      "city": "Pécel",
+      "checkouts": 1886,
+      "patrons": 115
+    },
+    {
+      "city": "Budakeszi",
+      "checkouts": 1875,
+      "patrons": 101
+    },
+    {
+      "city": "Pomáz",
+      "checkouts": 1465,
+      "patrons": 96
+    },
+    {
+      "city": "Gyál",
+      "checkouts": 1370,
+      "patrons": 98
+    },
+    {
+      "city": "Budakalász",
+      "checkouts": 1367,
+      "patrons": 92
+    },
+    {
+      "city": "Göd",
+      "checkouts": 1343,
+      "patrons": 102
+    },
+    {
+      "city": "Fót",
+      "checkouts": 1245,
+      "patrons": 75
+    },
+    {
+      "city": "Kistarcsa",
+      "checkouts": 1034,
+      "patrons": 59
+    },
+    {
+      "city": "Biatorbágy",
+      "checkouts": 1006,
+      "patrons": 44
+    },
+    {
+      "city": "Diósd",
+      "checkouts": 982,
+      "patrons": 54
+    },
+    {
+      "city": "Törökbálint",
+      "checkouts": 843,
+      "patrons": 58
+    },
+    {
+      "city": "Solymár",
+      "checkouts": 824,
+      "patrons": 58
+    },
+    {
+      "city": "Üröm",
+      "checkouts": 808,
+      "patrons": 66
+    },
+    {
+      "city": "Piliscsaba",
+      "checkouts": 789,
+      "patrons": 39
+    },
+    {
+      "city": "Vác",
+      "checkouts": 782,
+      "patrons": 71
+    },
+    {
+      "city": "Páty",
+      "checkouts": 761,
+      "patrons": 38
+    },
+    {
+      "city": "Szentendre",
+      "checkouts": 752,
+      "patrons": 65
+    },
+    {
+      "city": "Gyömrő",
+      "checkouts": 725,
+      "patrons": 57
+    },
+    {
+      "city": "Veresegyház",
+      "checkouts": 716,
+      "patrons": 43
+    },
+    {
+      "city": "Gödöllő",
+      "checkouts": 690,
+      "patrons": 58
+    },
+    {
+      "city": "Tárnok",
+      "checkouts": 674,
+      "patrons": 31
+    },
+    {
+      "city": "Nagytarcsa",
+      "checkouts": 648,
+      "patrons": 38
+    },
+    {
+      "city": "Nagykovácsi",
+      "checkouts": 607,
+      "patrons": 40
+    },
+    {
+      "city": "Fony",
+      "checkouts": 580,
+      "patrons": 9
+    },
+    {
+      "city": "Debrecen",
+      "checkouts": 575,
+      "patrons": 60
+    },
+    {
+      "city": "Halásztelek",
+      "checkouts": 574,
+      "patrons": 29
+    },
+    {
+      "city": "Csömör",
+      "checkouts": 571,
+      "patrons": 45
+    },
+    {
+      "city": "Isaszeg",
+      "checkouts": 565,
+      "patrons": 23
+    },
+    {
+      "city": "Szigethalom",
+      "checkouts": 564,
+      "patrons": 27
+    },
+    {
+      "city": "Vecsés",
+      "checkouts": 548,
+      "patrons": 50
+    },
+    {
+      "city": "Pilisborosjenő",
+      "checkouts": 547,
+      "patrons": 24
+    },
+    {
+      "city": "Dunaharaszti",
+      "checkouts": 542,
+      "patrons": 45
+    },
+    {
+      "city": "Kerepes",
+      "checkouts": 538,
+      "patrons": 37
+    },
+    {
+      "city": "Miskolc",
+      "checkouts": 528,
+      "patrons": 51
+    },
+    {
+      "city": "Velence",
+      "checkouts": 528,
+      "patrons": 18
+    }
+  ]
+}

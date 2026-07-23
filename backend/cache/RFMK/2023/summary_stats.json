@@ -1,0 +1,330 @@
+{
+  "generated_at": "2026-07-23T15:16:34.248481+00:00",
+  "dataset": "full",
+  "scope": "RFMK",
+  "total_checkouts": 160448,
+  "total_value_huf": 326932219,
+  "unique_patrons": 7236,
+  "unique_titles": 44519,
+  "total_renewals": 142418,
+  "avg_renewals": 0.89,
+  "libraries": [
+    "RFMK"
+  ],
+  "by_year": [
+    {
+      "year": "2023",
+      "checkouts": 160448,
+      "value_huf": 326932219.4800002
+    }
+  ],
+  "by_library": [
+    {
+      "library": "RFMK",
+      "checkouts": 160448,
+      "value_huf": 326932219.4800002,
+      "patrons": 7236
+    }
+  ],
+  "by_doc_type": [
+    {
+      "code": "B",
+      "checkouts": 154386,
+      "label": "Könyv"
+    },
+    {
+      "code": "F",
+      "checkouts": 3016,
+      "label": "F"
+    },
+    {
+      "code": "R",
+      "checkouts": 1782,
+      "label": "R"
+    },
+    {
+      "code": "S",
+      "checkouts": 834,
+      "label": "Periodika / Sorozat"
+    },
+    {
+      "code": "C",
+      "checkouts": 307,
+      "label": "AV / CD"
+    },
+    {
+      "code": "D",
+      "checkouts": 72,
+      "label": "Disszertáció"
+    },
+    {
+      "code": "M",
+      "checkouts": 46,
+      "label": "Térkép"
+    },
+    {
+      "code": "a",
+      "checkouts": 5,
+      "label": "a"
+    }
+  ],
+  "by_language": [
+    {
+      "language": "hun",
+      "checkouts": 156673
+    },
+    {
+      "language": "eng",
+      "checkouts": 1931
+    },
+    {
+      "language": "ger",
+      "checkouts": 759
+    },
+    {
+      "language": "und",
+      "checkouts": 228
+    },
+    {
+      "language": "ita",
+      "checkouts": 132
+    },
+    {
+      "language": "fre",
+      "checkouts": 116
+    }
+  ],
+  "top_renewed_books": [
+    {
+      "title": "A kiadványszerkesztés",
+      "author": "Énekes Ferenc",
+      "isbn": "9637953949",
+      "total_renewals": 499,
+      "checkouts": 4
+    },
+    {
+      "title": "A Szent Johanna gimi",
+      "author": "Leiner Laura",
+      "isbn": "9789635397020",
+      "total_renewals": 248,
+      "checkouts": 400
+    },
+    {
+      "title": "Zseb-Garfield",
+      "author": null,
+      "isbn": null,
+      "total_renewals": 235,
+      "checkouts": 207
+    },
+    {
+      "title": "Psalmus hungaricus [Hangfelvétel] ; Peacock variations",
+      "author": "Kodály Zoltán",
+      "isbn": null,
+      "total_renewals": 202,
+      "checkouts": 1
+    },
+    {
+      "title": "A művészet vége? : [Hans Belting, Arthur C. Danto, Perneczky Géza és Gianni Vattimo tanulmánya]",
+      "author": null,
+      "isbn": "9638553324",
+      "total_renewals": 202,
+      "checkouts": 1
+    },
+    {
+      "title": "A hídember [DVD-felvétel]",
+      "author": "Bereményi Géza",
+      "isbn": null,
+      "total_renewals": 200,
+      "checkouts": 1
+    },
+    {
+      "title": "A színháztechnika elméleti alapjai",
+      "author": "Óvári Győző",
+      "isbn": "9630106833",
+      "total_renewals": 174,
+      "checkouts": 1
+    },
+    {
+      "title": "A színésznevelés breviáriuma",
+      "author": null,
+      "isbn": "9635631650",
+      "total_renewals": 173,
+      "checkouts": 2
+    },
+    {
+      "title": "Matematikai, fizikai, kémiai összefüggések : négyjegyű függvénytáblázatok",
+      "author": "Hortobágyi István",
+      "isbn": "9639362131",
+      "total_renewals": 171,
+      "checkouts": 13
+    },
+    {
+      "title": "A férfi joga két nőre",
+      "author": "Vilar, Esther",
+      "isbn": "9638512938",
+      "total_renewals": 165,
+      "checkouts": 1
+    }
+  ],
+  "most_active_period": {
+    "busiest_month": {
+      "month": "2023-08",
+      "checkouts": 14963
+    },
+    "busiest_weekday": {
+      "weekday": 0,
+      "checkouts": 35087,
+      "label": "Hétfő"
+    },
+    "busiest_hour": {
+      "hour": 9,
+      "checkouts": 19623
+    }
+  },
+  "monthly_checkouts": [
+    {
+      "month": "2021-01",
+      "checkouts": 2
+    },
+    {
+      "month": "2021-02",
+      "checkouts": 3
+    },
+    {
+      "month": "2021-03",
+      "checkouts": 28
+    },
+    {
+      "month": "2021-04",
+      "checkouts": 15
+    },
+    {
+      "month": "2021-05",
+      "checkouts": 7
+    },
+    {
+      "month": "2021-06",
+      "checkouts": 6
+    },
+    {
+      "month": "2021-07",
+      "checkouts": 5
+    },
+    {
+      "month": "2021-08",
+      "checkouts": 28
+    },
+    {
+      "month": "2021-09",
+      "checkouts": 62
+    },
+    {
+      "month": "2021-10",
+      "checkouts": 21
+    },
+    {
+      "month": "2021-11",
+      "checkouts": 25
+    },
+    {
+      "month": "2021-12",
+      "checkouts": 13
+    },
+    {
+      "month": "2022-01",
+      "checkouts": 19
+    },
+    {
+      "month": "2022-02",
+      "checkouts": 31
+    },
+    {
+      "month": "2022-03",
+      "checkouts": 39
+    },
+    {
+      "month": "2022-04",
+      "checkouts": 53
+    },
+    {
+      "month": "2022-05",
+      "checkouts": 25
+    },
+    {
+      "month": "2022-06",
+      "checkouts": 62
+    },
+    {
+      "month": "2022-07",
+      "checkouts": 102
+    },
+    {
+      "month": "2022-08",
+      "checkouts": 138
+    },
+    {
+      "month": "2022-09",
+      "checkouts": 152
+    },
+    {
+      "month": "2022-10",
+      "checkouts": 228
+    },
+    {
+      "month": "2022-11",
+      "checkouts": 1729
+    },
+    {
+      "month": "2022-12",
+      "checkouts": 5789
+    },
+    {
+      "month": "2023-01",
+      "checkouts": 10926
+    },
+    {
+      "month": "2023-02",
+      "checkouts": 11336
+    },
+    {
+      "month": "2023-03",
+      "checkouts": 12072
+    },
+    {
+      "month": "2023-04",
+      "checkouts": 11418
+    },
+    {
+      "month": "2023-05",
+      "checkouts": 13866
+    },
+    {
+      "month": "2023-06",
+      "checkouts": 13597
+    },
+    {
+      "month": "2023-07",
+      "checkouts": 14475
+    },
+    {
+      "month": "2023-08",
+      "checkouts": 14963
+    },
+    {
+      "month": "2023-09",
+      "checkouts": 14600
+    },
+    {
+      "month": "2023-10",
+      "checkouts": 14925
+    },
+    {
+      "month": "2023-11",
+      "checkouts": 13706
+    },
+    {
+      "month": "2023-12",
+      "checkouts": 5817
+    }
+  ]
+}

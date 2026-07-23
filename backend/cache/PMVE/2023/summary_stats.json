@@ -1,0 +1,322 @@
+{
+  "generated_at": "2026-07-23T15:16:28.583481+00:00",
+  "dataset": "full",
+  "scope": "PMVE",
+  "total_checkouts": 277501,
+  "total_value_huf": 676870232,
+  "unique_patrons": 16991,
+  "unique_titles": 69855,
+  "total_renewals": 221820,
+  "avg_renewals": 0.8,
+  "libraries": [
+    "PMVE"
+  ],
+  "by_year": [
+    {
+      "year": "2023",
+      "checkouts": 277501,
+      "value_huf": 676870232.2500014
+    }
+  ],
+  "by_library": [
+    {
+      "library": "PMVE",
+      "checkouts": 277501,
+      "value_huf": 676870232.2500014,
+      "patrons": 16991
+    }
+  ],
+  "by_doc_type": [
+    {
+      "code": "B",
+      "checkouts": 270911,
+      "label": "Könyv"
+    },
+    {
+      "code": "F",
+      "checkouts": 2157,
+      "label": "F"
+    },
+    {
+      "code": "C",
+      "checkouts": 2069,
+      "label": "AV / CD"
+    },
+    {
+      "code": "R",
+      "checkouts": 1893,
+      "label": "R"
+    },
+    {
+      "code": "S",
+      "checkouts": 193,
+      "label": "Periodika / Sorozat"
+    },
+    {
+      "code": "M",
+      "checkouts": 151,
+      "label": "Térkép"
+    },
+    {
+      "code": "D",
+      "checkouts": 104,
+      "label": "Disszertáció"
+    },
+    {
+      "code": "A",
+      "checkouts": 10,
+      "label": "A"
+    }
+  ],
+  "by_language": [
+    {
+      "language": "hun",
+      "checkouts": 266701
+    },
+    {
+      "language": "eng",
+      "checkouts": 5856
+    },
+    {
+      "language": "ger",
+      "checkouts": 2261
+    },
+    {
+      "language": "mul",
+      "checkouts": 1193
+    },
+    {
+      "language": "fre",
+      "checkouts": 289
+    },
+    {
+      "language": "ita",
+      "checkouts": 261
+    }
+  ],
+  "top_renewed_books": [
+    {
+      "title": "A Szent Johanna gimi",
+      "author": "Leiner Laura",
+      "isbn": "9789635397020",
+      "total_renewals": 315,
+      "checkouts": 625
+    },
+    {
+      "title": "Az orvosi élettan tankönyve",
+      "author": "Fonyó Attila",
+      "isbn": "9789632267340",
+      "total_renewals": 265,
+      "checkouts": 165
+    },
+    {
+      "title": "Molekuláris sejtbiológia",
+      "author": "Szeberényi József",
+      "isbn": "9789639950542",
+      "total_renewals": 263,
+      "checkouts": 171
+    },
+    {
+      "title": "Klinikai gyermekgyógyászat",
+      "author": null,
+      "isbn": "9789632266398",
+      "total_renewals": 262,
+      "checkouts": 178
+    },
+    {
+      "title": "Idődetektívek",
+      "author": "Lenk, Fabian",
+      "isbn": null,
+      "total_renewals": 260,
+      "checkouts": 262
+    },
+    {
+      "title": "Sobotta : az ember anatómiájának atlasza",
+      "author": "Sobotta, Johannes",
+      "isbn": "9789632267081",
+      "total_renewals": 255,
+      "checkouts": 191
+    },
+    {
+      "title": "Kórélettani alapok",
+      "author": null,
+      "isbn": "9789632266756",
+      "total_renewals": 208,
+      "checkouts": 131
+    },
+    {
+      "title": "Gyakorlati neurológia és neuroanatómia : Egyetemi tankönyv",
+      "author": "Komoly Sámuel",
+      "isbn": "9789632266817",
+      "total_renewals": 195,
+      "checkouts": 147
+    },
+    {
+      "title": "Az orvosi mikrobiológia tankönyve",
+      "author": null,
+      "isbn": "9789632267722",
+      "total_renewals": 195,
+      "checkouts": 120
+    },
+    {
+      "title": "Angol orvosi szaknyelv : gyakorlókönyv a szóbeli szaknyelvi vizsgára : közös Európai referenciakeret : B1 szint (alapfok) : B2 szint (középfok) : C1 szint (felsőfok)",
+      "author": null,
+      "isbn": "9789634294986",
+      "total_renewals": 186,
+      "checkouts": 147
+    }
+  ],
+  "most_active_period": {
+    "busiest_month": {
+      "month": "2023-03",
+      "checkouts": 25550
+    },
+    "busiest_weekday": {
+      "weekday": 1,
+      "checkouts": 60968,
+      "label": "Kedd"
+    },
+    "busiest_hour": {
+      "hour": 9,
+      "checkouts": 35874
+    }
+  },
+  "monthly_checkouts": [
+    {
+      "month": "2021-01",
+      "checkouts": 22
+    },
+    {
+      "month": "2021-03",
+      "checkouts": 1
+    },
+    {
+      "month": "2021-05",
+      "checkouts": 1
+    },
+    {
+      "month": "2021-06",
+      "checkouts": 4
+    },
+    {
+      "month": "2021-07",
+      "checkouts": 23
+    },
+    {
+      "month": "2021-08",
+      "checkouts": 16
+    },
+    {
+      "month": "2021-09",
+      "checkouts": 32
+    },
+    {
+      "month": "2021-10",
+      "checkouts": 19
+    },
+    {
+      "month": "2021-11",
+      "checkouts": 43
+    },
+    {
+      "month": "2021-12",
+      "checkouts": 11
+    },
+    {
+      "month": "2022-01",
+      "checkouts": 25
+    },
+    {
+      "month": "2022-02",
+      "checkouts": 40
+    },
+    {
+      "month": "2022-03",
+      "checkouts": 46
+    },
+    {
+      "month": "2022-04",
+      "checkouts": 50
+    },
+    {
+      "month": "2022-05",
+      "checkouts": 50
+    },
+    {
+      "month": "2022-06",
+      "checkouts": 134
+    },
+    {
+      "month": "2022-07",
+      "checkouts": 142
+    },
+    {
+      "month": "2022-08",
+      "checkouts": 125
+    },
+    {
+      "month": "2022-09",
+      "checkouts": 453
+    },
+    {
+      "month": "2022-10",
+      "checkouts": 932
+    },
+    {
+      "month": "2022-11",
+      "checkouts": 3930
+    },
+    {
+      "month": "2022-12",
+      "checkouts": 13496
+    },
+    {
+      "month": "2023-01",
+      "checkouts": 24808
+    },
+    {
+      "month": "2023-02",
+      "checkouts": 22370
+    },
+    {
+      "month": "2023-03",
+      "checkouts": 25550
+    },
+    {
+      "month": "2023-04",
+      "checkouts": 23323
+    },
+    {
+      "month": "2023-05",
+      "checkouts": 25303
+    },
+    {
+      "month": "2023-06",
+      "checkouts": 23382
+    },
+    {
+      "month": "2023-07",
+      "checkouts": 20266
+    },
+    {
+      "month": "2023-08",
+      "checkouts": 19507
+    },
+    {
+      "month": "2023-09",
+      "checkouts": 21650
+    },
+    {
+      "month": "2023-10",
+      "checkouts": 24053
+    },
+    {
+      "month": "2023-11",
+      "checkouts": 22100
+    },
+    {
+      "month": "2023-12",
+      "checkouts": 5365
+    }
+  ]
+}

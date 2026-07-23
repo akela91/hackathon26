@@ -7,12 +7,15 @@ import type { HeatmapGeo } from "@/lib/types";
 import { formatNumber } from "@/lib/format";
 import { useLanguage } from "@/lib/language-context";
 import { useTheme } from "@/lib/theme-context";
+import { useLibrary } from "@/lib/library-context";
 import { getChartPalette } from "@/lib/chart-theme";
 
 export default function GeoSection({ data }: { data: HeatmapGeo }) {
   const { t, lang } = useLanguage();
   const { theme } = useTheme();
+  const { selectedLibrary, selectedYear } = useLibrary();
   const palette = getChartPalette(theme);
+  const chartKey = `${theme}-${selectedLibrary}-${selectedYear}`;
 
   const topCities = data.by_city.slice(0, 12).reverse();
 
@@ -57,7 +60,7 @@ export default function GeoSection({ data }: { data: HeatmapGeo }) {
     <div className="grid grid-cols-1 gap-6 lg:grid-cols-3">
       <div className="glass p-5 sm:p-7 lg:col-span-2">
         <h3 className="mb-3 text-lg font-bold">{t("geo.topCitiesTitle")}</h3>
-        <ApexChart key={theme} options={options} series={series} type="bar" height={420} />
+        <ApexChart key={chartKey} options={options} series={series} type="bar" height={420} />
       </div>
 
       <div className="glass p-5 sm:p-7">

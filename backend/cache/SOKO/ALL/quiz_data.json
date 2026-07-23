@@ -1,0 +1,127 @@
+{
+  "book_quiz": {
+    "top_books": [
+      {
+        "title": "A Szent Johanna gimi",
+        "author": "Leiner Laura",
+        "record_id": "bibSOK00475591",
+        "isbn": "9789635397020",
+        "checkouts": 2169
+      },
+      {
+        "title": "Idődetektívek",
+        "author": "Lenk, Fabian",
+        "record_id": "bibSOK00456179",
+        "isbn": null,
+        "checkouts": 1414
+      },
+      {
+        "title": "Időfutár",
+        "author": "Gimesi Dóra",
+        "record_id": "bibSOK00507047",
+        "isbn": null,
+        "checkouts": 1173
+      },
+      {
+        "title": "Percy Jackson és az olimposziak",
+        "author": "Riordan, Rick",
+        "record_id": "bibSOK00444479",
+        "isbn": null,
+        "checkouts": 993
+      },
+      {
+        "title": "Lengemesék",
+        "author": "Berg Judit",
+        "record_id": "bibSOK00498353",
+        "isbn": null,
+        "checkouts": 973
+      }
+    ],
+    "decoys": [
+      {
+        "title": "Rendőrség",
+        "author": "Schreuder, Benjamin",
+        "isbn": "9789632946153",
+        "checkouts": 325
+      },
+      {
+        "title": "Bartimaeus trilógia",
+        "author": "Stroud, Jonathan",
+        "isbn": null,
+        "checkouts": 34
+      },
+      {
+        "title": "Nyaral a Creeper család : [egy nem hivatalos Minecraft regény]",
+        "author": "Mann, Greyson",
+        "isbn": "9786155716102",
+        "checkouts": 15
+      },
+      {
+        "title": "Célpont",
+        "author": "Greaney, Mark",
+        "isbn": "9789635980277",
+        "checkouts": 9
+      },
+      {
+        "title": "A semmi könyve : [a nulla kialakulásától a kvantumvákuumig]",
+        "author": "Barrow, John D.",
+        "isbn": "9789639429758",
+        "checkouts": 5
+      },
+      {
+        "title": "Nyakig a miszóban : japán pszichothriller",
+        "author": "Murakami Ryu",
+        "isbn": "9639602221",
+        "checkouts": 4
+      },
+      {
+        "title": "Szabadesés : urbán erotika",
+        "author": "Gyuricza Gergely",
+        "isbn": "9786156380043",
+        "checkouts": 3
+      },
+      {
+        "title": "Pusztaszer : egy elfeledett vadászterület",
+        "author": "Pinjung Emil",
+        "isbn": "9786156243287",
+        "checkouts": 2
+      },
+      {
+        "title": "Gyermekeink és a hit : miért olyan fontos a vallásos nevelés?",
+        "author": "Biesinger, Albert",
+        "isbn": "9786155376252",
+        "checkouts": 1
+      },
+      {
+        "title": "King Solomon's mines : [complete and unabridged]",
+        "author": "Haggard, Henry Rider",
+        "isbn": "1855345064",
+        "checkouts": 1
+      }
+    ]
+  },
+  "author_quiz": {
+    "top_authors": [
+      {
+        "author": "Bartos Erika",
+        "checkouts": 17426
+      },
+      {
+        "author": "Dami, Elisabetta",
+        "checkouts": 17180
+      },
+      {
+        "author": "Berg Judit",
+        "checkouts": 15275
+      },
+      {
+        "author": "Marék Veronika",
+        "checkouts": 7876
+      },
+      {
+        "author": "Roberts, Nora",
+        "checkouts": 7562
+      }
+    ]
+  }
+}

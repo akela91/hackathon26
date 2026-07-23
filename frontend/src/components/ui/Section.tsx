@@ -24,7 +24,7 @@ export default function Section({
   return (
     <section
       id={id}
-      className={`mx-auto w-full max-w-6xl px-5 py-20 sm:px-8 ${className}`}
+      className={`mx-auto w-full max-w-[86rem] px-5 py-20 sm:px-8 ${className}`}
     >
       {(eyebrow || title || subtitle) && (
         <motion.header

@@ -1,0 +1,127 @@
+{
+  "book_quiz": {
+    "top_books": [
+      {
+        "title": "A Szent Johanna gimi",
+        "author": "Leiner Laura",
+        "record_id": "SZIKLA_0154_934211",
+        "isbn": "9789635397020",
+        "checkouts": 141
+      },
+      {
+        "title": "Ahol a folyami rákok énekelnek",
+        "author": "Owens, Delia",
+        "record_id": "bibBSM00208164",
+        "isbn": "9789634335665",
+        "checkouts": 114
+      },
+      {
+        "title": "?",
+        "author": null,
+        "record_id": "SZIKLA_0154_591253",
+        "isbn": "9789636290962",
+        "checkouts": 103
+      },
+      {
+        "title": "Volt egyszer egy varrodám : ...a valóságos regény folytatódik",
+        "author": "Náray Tamás",
+        "record_id": "bibBSM00233414",
+        "isbn": "9789634337591",
+        "checkouts": 97
+      },
+      {
+        "title": "Dinoszauruszok",
+        "author": "Weinhold, Angela",
+        "record_id": "bibBSM00206237",
+        "isbn": "9789632448404",
+        "checkouts": 93
+      }
+    ],
+    "decoys": [
+      {
+        "title": "A párizsi könyvtár",
+        "author": "Skeslien Charles, Janet",
+        "isbn": "9789634336662",
+        "checkouts": 46
+      },
+      {
+        "title": "Anyaseb : hogyan gyógyítsuk meg a transzgenerációs sebeinket és találjunk rá önmagunkra?",
+        "author": "Webster, Bethany",
+        "isbn": "9789635650613",
+        "checkouts": 9
+      },
+      {
+        "title": "Szerinted?! : Janka naplója ; Szerinted?! : anya naplója : [ellenpontok]",
+        "author": "Fiala Borcsa",
+        "isbn": "9789634031932",
+        "checkouts": 6
+      },
+      {
+        "title": "Trainspotting",
+        "author": "Welsh, Irvine",
+        "isbn": "9789632275123",
+        "checkouts": 4
+      },
+      {
+        "title": "Kerekítő manó a tanyán : J. Kovács Judit válogatása",
+        "author": "Jakabosné Kovács Judit",
+        "isbn": "9789631199918",
+        "checkouts": 3
+      },
+      {
+        "title": "Simi karácsonyi kalandja",
+        "author": "Bentley, Sue",
+        "isbn": "9789634037019",
+        "checkouts": 2
+      },
+      {
+        "title": "Jogtalan elbirtoklás : egy szerelem története",
+        "author": "Andersson, Lena",
+        "isbn": "9789633243459",
+        "checkouts": 2
+      },
+      {
+        "title": "Démonlélek : WarCraft",
+        "author": "Knaak, Richard A.",
+        "isbn": "9634971326",
+        "checkouts": 1
+      },
+      {
+        "title": "Colores 2 : spanyol munkafüzet : [A2-B1]",
+        "author": "Nagy Erika",
+        "isbn": "9789631977998",
+        "checkouts": 1
+      },
+      {
+        "title": "Másféle iskolák : talán a Waldorf?",
+        "author": "Vekerdy Tamás",
+        "isbn": "963716829X",
+        "checkouts": 1
+      }
+    ]
+  },
+  "author_quiz": {
+    "top_authors": [
+      {
+        "author": "Bartos Erika",
+        "checkouts": 1823
+      },
+      {
+        "author": "Dami, Elisabetta",
+        "checkouts": 1304
+      },
+      {
+        "author": "Berg Judit",
+        "checkouts": 1009
+      },
+      {
+        "author": "Roberts, Nora",
+        "checkouts": 1003
+      },
+      {
+        "author": "Steel, Danielle",
+        "checkouts": 964
+      }
+    ]
+  }
+}

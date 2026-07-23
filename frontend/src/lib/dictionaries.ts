@@ -19,6 +19,8 @@ export interface Dictionary {
     statPatrons: string;
     statTitles: string;
     scrollHint: string;
+    yearSelectorLabel: string;
+    allYears: string;
   };
   sections: {
     stats: { eyebrow: string; title: string; subtitle: string };
@@ -147,6 +149,8 @@ export const dictionaries: Record<Lang, Dictionary> = {
       statPatrons: "olvasó",
       statTitles: "egyedi cím",
       scrollHint: "Görgess",
+      yearSelectorLabel: "Évválasztó",
+      allYears: "MIND",
     },
     sections: {
       stats: {
@@ -341,6 +345,8 @@ export const dictionaries: Record<Lang, Dictionary> = {
       statPatrons: "patrons",
       statTitles: "unique titles",
       scrollHint: "Scroll",
+      yearSelectorLabel: "Year selector",
+      allYears: "ALL",
     },
     sections: {
       stats: {
@@ -532,6 +538,8 @@ export const dictionaries: Record<Lang, Dictionary> = {
       statPatrons: "读者",
       statTitles: "独立书目",
       scrollHint: "向下滚动",
+      yearSelectorLabel: "年份选择",
+      allYears: "全部",
     },
     sections: {
       stats: {

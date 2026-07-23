@@ -1,0 +1,321 @@
+{
+  "generated_at": "2026-07-23T15:15:37.187828+00:00",
+  "dataset": "full",
+  "scope": "BMK",
+  "total_checkouts": 82175,
+  "total_value_huf": 190237976,
+  "unique_patrons": 3751,
+  "unique_titles": 27046,
+  "total_renewals": 43993,
+  "avg_renewals": 0.54,
+  "libraries": [
+    "BMK"
+  ],
+  "by_year": [
+    {
+      "year": "2023",
+      "checkouts": 82175,
+      "value_huf": 190237976.0
+    }
+  ],
+  "by_library": [
+    {
+      "library": "BMK",
+      "checkouts": 82175,
+      "value_huf": 190237976.0,
+      "patrons": 3751
+    }
+  ],
+  "by_doc_type": [
+    {
+      "code": "B",
+      "checkouts": 78029,
+      "label": "Könyv"
+    },
+    {
+      "code": "F",
+      "checkouts": 2659,
+      "label": "F"
+    },
+    {
+      "code": "R",
+      "checkouts": 1357,
+      "label": "R"
+    },
+    {
+      "code": "C",
+      "checkouts": 66,
+      "label": "AV / CD"
+    },
+    {
+      "code": "S",
+      "checkouts": 58,
+      "label": "Periodika / Sorozat"
+    },
+    {
+      "code": "M",
+      "checkouts": 5,
+      "label": "Térkép"
+    },
+    {
+      "code": "D",
+      "checkouts": 1,
+      "label": "Disszertáció"
+    }
+  ],
+  "by_language": [
+    {
+      "language": "hun",
+      "checkouts": 81006
+    },
+    {
+      "language": "eng",
+      "checkouts": 637
+    },
+    {
+      "language": "und",
+      "checkouts": 235
+    },
+    {
+      "language": "mul",
+      "checkouts": 93
+    },
+    {
+      "language": "ger",
+      "checkouts": 52
+    },
+    {
+      "language": "fre",
+      "checkouts": 47
+    }
+  ],
+  "top_renewed_books": [
+    {
+      "title": "Brúnó Budapesten",
+      "author": "Bartos Erika",
+      "isbn": null,
+      "total_renewals": 73,
+      "checkouts": 107
+    },
+    {
+      "title": "Thomas, a gőzmozdony : válogatott mesék",
+      "author": "Awdry, Wilbert",
+      "isbn": null,
+      "total_renewals": 48,
+      "checkouts": 89
+    },
+    {
+      "title": "Űrpionírok [DVD-felvétel]",
+      "author": null,
+      "isbn": null,
+      "total_renewals": 44,
+      "checkouts": 4
+    },
+    {
+      "title": "Mágikus állatok iskolája",
+      "author": "Auer, Margit",
+      "isbn": null,
+      "total_renewals": 42,
+      "checkouts": 82
+    },
+    {
+      "title": "Brúnó a Balatonon",
+      "author": "Bartos Erika",
+      "isbn": null,
+      "total_renewals": 41,
+      "checkouts": 62
+    },
+    {
+      "title": "80s classics [Hangfelvétel] : the collection",
+      "author": null,
+      "isbn": null,
+      "total_renewals": 40,
+      "checkouts": 16
+    },
+    {
+      "title": "Az ajándék : 12 életmentő lecke",
+      "author": "Eger, Edith Eva",
+      "isbn": "9789635721108",
+      "total_renewals": 38,
+      "checkouts": 34
+    },
+    {
+      "title": "A várakozás művészete [Hangfelvétel] : Gondviselés",
+      "author": "Müller Péter",
+      "isbn": "9789630990585",
+      "total_renewals": 38,
+      "checkouts": 18
+    },
+    {
+      "title": "A Szent Johanna gimi",
+      "author": "Leiner Laura",
+      "isbn": "9789635397020",
+      "total_renewals": 37,
+      "checkouts": 88
+    },
+    {
+      "title": "Star wars [DVD-felvétel]",
+      "author": "Lucas, George",
+      "isbn": null,
+      "total_renewals": 36,
+      "checkouts": 18
+    }
+  ],
+  "most_active_period": {
+    "busiest_month": {
+      "month": "2023-10",
+      "checkouts": 7246
+    },
+    "busiest_weekday": {
+      "weekday": 0,
+      "checkouts": 15511,
+      "label": "Hétfő"
+    },
+    "busiest_hour": {
+      "hour": 13,
+      "checkouts": 12822
+    }
+  },
+  "monthly_checkouts": [
+    {
+      "month": "2021-01",
+      "checkouts": 8
+    },
+    {
+      "month": "2021-02",
+      "checkouts": 18
+    },
+    {
+      "month": "2021-03",
+      "checkouts": 1
+    },
+    {
+      "month": "2021-04",
+      "checkouts": 3
+    },
+    {
+      "month": "2021-05",
+      "checkouts": 5
+    },
+    {
+      "month": "2021-07",
+      "checkouts": 7
+    },
+    {
+      "month": "2021-08",
+      "checkouts": 2
+    },
+    {
+      "month": "2021-09",
+      "checkouts": 12
+    },
+    {
+      "month": "2021-10",
+      "checkouts": 13
+    },
+    {
+      "month": "2021-11",
+      "checkouts": 5
+    },
+    {
+      "month": "2021-12",
+      "checkouts": 11
+    },
+    {
+      "month": "2022-01",
+      "checkouts": 9
+    },
+    {
+      "month": "2022-02",
+      "checkouts": 11
+    },
+    {
+      "month": "2022-03",
+      "checkouts": 11
+    },
+    {
+      "month": "2022-04",
+      "checkouts": 40
+    },
+    {
+      "month": "2022-05",
+      "checkouts": 12
+    },
+    {
+      "month": "2022-06",
+      "checkouts": 23
+    },
+    {
+      "month": "2022-07",
+      "checkouts": 23
+    },
+    {
+      "month": "2022-08",
+      "checkouts": 30
+    },
+    {
+      "month": "2022-09",
+      "checkouts": 56
+    },
+    {
+      "month": "2022-10",
+      "checkouts": 134
+    },
+    {
+      "month": "2022-11",
+      "checkouts": 1400
+    },
+    {
+      "month": "2022-12",
+      "checkouts": 4568
+    },
+    {
+      "month": "2023-01",
+      "checkouts": 6604
+    },
+    {
+      "month": "2023-02",
+      "checkouts": 6474
+    },
+    {
+      "month": "2023-03",
+      "checkouts": 6762
+    },
+    {
+      "month": "2023-04",
+      "checkouts": 6205
+    },
+    {
+      "month": "2023-05",
+      "checkouts": 6707
+    },
+    {
+      "month": "2023-06",
+      "checkouts": 6525
+    },
+    {
+      "month": "2023-07",
+      "checkouts": 6847
+    },
+    {
+      "month": "2023-08",
+      "checkouts": 6992
+    },
+    {
+      "month": "2023-09",
+      "checkouts": 6563
+    },
+    {
+      "month": "2023-10",
+      "checkouts": 7246
+    },
+    {
+      "month": "2023-11",
+      "checkouts": 6726
+    },
+    {
+      "month": "2023-12",
+      "checkouts": 1995
+    }
+  ]
+}

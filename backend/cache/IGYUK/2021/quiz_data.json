@@ -1,0 +1,127 @@
+{
+  "book_quiz": {
+    "top_books": [
+      {
+        "title": "Számítógép száma: 7.",
+        "author": "Számítógép használat",
+        "record_id": "bibTMK00276988",
+        "isbn": null,
+        "checkouts": 176
+      },
+      {
+        "title": "Számítógép száma: 1.",
+        "author": "Számítógép használat",
+        "record_id": "bibTMK00276981",
+        "isbn": null,
+        "checkouts": 141
+      },
+      {
+        "title": "A Szent Johanna gimi",
+        "author": "Leiner Laura",
+        "record_id": "bibTMK00236530",
+        "isbn": "9789635397020",
+        "checkouts": 128
+      },
+      {
+        "title": "Népszava : a magyar szakszervezetek központi lapja",
+        "author": null,
+        "record_id": "bibTMK00323096",
+        "isbn": null,
+        "checkouts": 100
+      },
+      {
+        "title": "Világgazdaság : üzleti napilap",
+        "author": null,
+        "record_id": "bibTMK00323099",
+        "isbn": null,
+        "checkouts": 43
+      }
+    ],
+    "decoys": [
+      {
+        "title": "A vezércsel",
+        "author": "Tevis, Walter",
+        "isbn": "9789635660261",
+        "checkouts": 13
+      },
+      {
+        "title": "A megváltás útján",
+        "author": "Hart, John",
+        "isbn": "9789634520078",
+        "checkouts": 4
+      },
+      {
+        "title": "Láthatatlan Magyarország",
+        "author": "Ritók Nóra, L.",
+        "isbn": "9786158015547",
+        "checkouts": 3
+      },
+      {
+        "title": "A sasíjász legendája",
+        "author": "Jin Yong",
+        "isbn": null,
+        "checkouts": 2
+      },
+      {
+        "title": "Limara a nagyvilágban : 72 recepttel a Föld körül",
+        "author": "Tóthné Libor Mária",
+        "isbn": "9786158027021",
+        "checkouts": 2
+      },
+      {
+        "title": "Cili Cica a Tejúton [diafilm]",
+        "author": "Németh István",
+        "isbn": null,
+        "checkouts": 1
+      },
+      {
+        "title": "Gyógyító praktikák : néprajzi gyűjtés a bukovinai székelyeknél",
+        "author": "Sebestyén Ádám",
+        "isbn": "9789638783073",
+        "checkouts": 1
+      },
+      {
+        "title": "Holdfénypart",
+        "author": "Krentz, Jayne Ann",
+        "isbn": "9789630792967",
+        "checkouts": 1
+      },
+      {
+        "title": "Intrika és erotika : Szulejmán asszonya 2.",
+        "author": "Loósz Vera",
+        "isbn": "9789633106730",
+        "checkouts": 1
+      },
+      {
+        "title": "Természetes anti-aging : hogyan fiatalodjunk meg a természet erejével?",
+        "author": "Dillon, Roxy",
+        "isbn": "9786155783081",
+        "checkouts": 1
+      }
+    ]
+  },
+  "author_quiz": {
+    "top_authors": [
+      {
+        "author": "Bartos Erika",
+        "checkouts": 386
+      },
+      {
+        "author": "Számítógép használat",
+        "checkouts": 385
+      },
+      {
+        "author": "Berg Judit",
+        "checkouts": 335
+      },
+      {
+        "author": "Roberts, Nora",
+        "checkouts": 297
+      },
+      {
+        "author": "Steel, Danielle",
+        "checkouts": 262
+      }
+    ]
+  }
+}

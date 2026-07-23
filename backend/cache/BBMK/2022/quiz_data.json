@@ -1,0 +1,127 @@
+{
+  "book_quiz": {
+    "top_books": [
+      {
+        "title": "Hunyadi",
+        "author": "Bán János",
+        "record_id": "bibBBM00366531",
+        "isbn": "97896342618274",
+        "checkouts": 46
+      },
+      {
+        "title": "Soha",
+        "author": "Follett, Ken",
+        "record_id": "bibBBM00402985",
+        "isbn": "9789635662203",
+        "checkouts": 32
+      },
+      {
+        "title": "Szent Péter esernyője",
+        "author": "Mikszáth Kálmán",
+        "record_id": "bibBBM00377000",
+        "isbn": "9789633468982",
+        "checkouts": 27
+      },
+      {
+        "title": "A Szent Johanna gimi / Leiner Laura",
+        "author": "Leiner Laura",
+        "record_id": "bibBBM00392953",
+        "isbn": "97896353970061",
+        "checkouts": 27
+      },
+      {
+        "title": "A hívás",
+        "author": "Barker, J. D.",
+        "record_id": "bibBBM00402917",
+        "isbn": "9789634199656",
+        "checkouts": 25
+      }
+    ],
+    "decoys": [
+      {
+        "title": "Szétválasztva : Szövevényes szerelem 1.",
+        "author": "Contreras, Claire",
+        "isbn": "9789635700950",
+        "checkouts": 14
+      },
+      {
+        "title": "Talált kincsek : Bella Vista lankái",
+        "author": "Wiggs, Susan",
+        "isbn": "9789635402557",
+        "checkouts": 5
+      },
+      {
+        "title": "Jakab Borit keresi : első böngészőm",
+        "author": "Grimm, Sandra",
+        "isbn": "9789634037651",
+        "checkouts": 3
+      },
+      {
+        "title": "A sünimentő akció",
+        "author": "Mészöly Ágnes",
+        "isbn": "9789635871445",
+        "checkouts": 2
+      },
+      {
+        "title": "Az auschwitzi ikrek",
+        "author": "Mozes Kor, Eva",
+        "isbn": "9789634479215",
+        "checkouts": 2
+      },
+      {
+        "title": "Nyúl Péter és barátai : Beatrix Potter összes meséje",
+        "author": "Potter, Beatrix",
+        "isbn": "9789634038313",
+        "checkouts": 1
+      },
+      {
+        "title": "Sün Peti és barátai : kalandok az erdei óvodában",
+        "author": "Kepes Ágnes",
+        "isbn": "9786155065408",
+        "checkouts": 1
+      },
+      {
+        "title": "Zsófi és az elnévtelenedett falu : a trilógia első kötete",
+        "author": "Böszörményi Gyula",
+        "isbn": "963867850X",
+        "checkouts": 1
+      },
+      {
+        "title": "Plusz 15 próbaérettségi matematikából : [középszint-írásbeli]",
+        "author": "Fröhlich Lajos",
+        "isbn": "9789639624504",
+        "checkouts": 1
+      },
+      {
+        "title": "Érettségi témakörök vázlata történelemből középszinten : [a 2017-től érvényes érettségi követelményrendszer alapján]",
+        "author": "Boronkai Szabolcs",
+        "isbn": "9789632615370",
+        "checkouts": 1
+      }
+    ]
+  },
+  "author_quiz": {
+    "top_authors": [
+      {
+        "author": "Roberts, Nora",
+        "checkouts": 293
+      },
+      {
+        "author": "Steel, Danielle",
+        "checkouts": 260
+      },
+      {
+        "author": "Brown, Borsa (álnév)",
+        "checkouts": 229
+      },
+      {
+        "author": "Dami, Elisabetta",
+        "checkouts": 222
+      },
+      {
+        "author": "Smith, Wilbur",
+        "checkouts": 199
+      }
+    ]
+  }
+}

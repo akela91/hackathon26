@@ -1,0 +1,127 @@
+{
+  "book_quiz": {
+    "top_books": [
+      {
+        "title": "Brúnó Budapesten",
+        "author": "Bartos Erika",
+        "record_id": "bibBMK00060126",
+        "isbn": null,
+        "checkouts": 118
+      },
+      {
+        "title": "Mágikus állatok iskolája",
+        "author": "Auer, Margit",
+        "record_id": "bibBMK00074112",
+        "isbn": null,
+        "checkouts": 102
+      },
+      {
+        "title": "A Szent Johanna gimi",
+        "author": "Leiner Laura",
+        "record_id": "bibBMK00079794",
+        "isbn": "9789635397020",
+        "checkouts": 99
+      },
+      {
+        "title": "Hunyadi",
+        "author": "Bán János",
+        "record_id": "bibBMK00054801",
+        "isbn": null,
+        "checkouts": 87
+      },
+      {
+        "title": "A végzet",
+        "author": "Náray Tamás",
+        "record_id": "bibBMK00086308",
+        "isbn": "9789636041984",
+        "checkouts": 86
+      }
+    ],
+    "decoys": [
+      {
+        "title": "Dacszövetség 1.",
+        "author": "Palotás Petra",
+        "isbn": "9789635707904",
+        "checkouts": 30
+      },
+      {
+        "title": "Megérte meghalni",
+        "author": "Child, Lee",
+        "isbn": "9789634525417",
+        "checkouts": 7
+      },
+      {
+        "title": "Az aszfalt királyai [DVD-felvétel]",
+        "author": "Mangold, James",
+        "isbn": null,
+        "checkouts": 4
+      },
+      {
+        "title": "Riviéra Hotel",
+        "author": "Adler, Elizabeth",
+        "isbn": "9637253726",
+        "checkouts": 3
+      },
+      {
+        "title": "A bükki füvesember nyomában : házi patika Gyuri bácsi gyógynövényeivel",
+        "author": "Lopes-Szabó Zsuzsa",
+        "isbn": "9789630864879",
+        "checkouts": 2
+      },
+      {
+        "title": "Csendes víz",
+        "author": "Dippel, Julia",
+        "isbn": "9786155653964",
+        "checkouts": 2
+      },
+      {
+        "title": "Íme, az ember : a humánetológus szemével",
+        "author": "Csányi Vilmos",
+        "isbn": "9789633104101",
+        "checkouts": 1
+      },
+      {
+        "title": "Magyarország képes atlasza",
+        "author": "Rácz Ildikó",
+        "isbn": "9789639232730",
+        "checkouts": 1
+      },
+      {
+        "title": "A magányos lovas [DVD-felvétel]",
+        "author": "Verbinski, Gore",
+        "isbn": null,
+        "checkouts": 1
+      },
+      {
+        "title": "A szabadság illata",
+        "author": "Hunter, Georgia",
+        "isbn": "9789634474630",
+        "checkouts": 1
+      }
+    ]
+  },
+  "author_quiz": {
+    "top_authors": [
+      {
+        "author": "Bartos Erika",
+        "checkouts": 1361
+      },
+      {
+        "author": "Berg Judit",
+        "checkouts": 685
+      },
+      {
+        "author": "Roberts, Nora",
+        "checkouts": 605
+      },
+      {
+        "author": "Stilton, Geronimo",
+        "checkouts": 605
+      },
+      {
+        "author": "Kinney, Jeff",
+        "checkouts": 581
+      }
+    ]
+  }
+}

@@ -1,0 +1,358 @@
+{
+  "generated_at": "2026-07-23T15:15:44.398895+00:00",
+  "dataset": "full",
+  "scope": "DEENK",
+  "total_checkouts": 39833,
+  "total_value_huf": 151411893,
+  "unique_patrons": 3746,
+  "unique_titles": 22381,
+  "total_renewals": 74462,
+  "avg_renewals": 1.87,
+  "libraries": [
+    "DEENK"
+  ],
+  "by_year": [
+    {
+      "year": "2024",
+      "checkouts": 39833,
+      "value_huf": 151411893.46000004
+    }
+  ],
+  "by_library": [
+    {
+      "library": "DEENK",
+      "checkouts": 39833,
+      "value_huf": 151411893.46000004,
+      "patrons": 3746
+    }
+  ],
+  "by_doc_type": [
+    {
+      "code": "B",
+      "checkouts": 36949,
+      "label": "Könyv"
+    },
+    {
+      "code": "C",
+      "checkouts": 2535,
+      "label": "AV / CD"
+    },
+    {
+      "code": "a",
+      "checkouts": 137,
+      "label": "a"
+    },
+    {
+      "code": "R",
+      "checkouts": 68,
+      "label": "R"
+    },
+    {
+      "code": "S",
+      "checkouts": 54,
+      "label": "Periodika / Sorozat"
+    },
+    {
+      "code": "F",
+      "checkouts": 51,
+      "label": "F"
+    },
+    {
+      "code": "M",
+      "checkouts": 33,
+      "label": "Térkép"
+    },
+    {
+      "code": "D",
+      "checkouts": 4,
+      "label": "Disszertáció"
+    }
+  ],
+  "by_language": [
+    {
+      "language": "hun",
+      "checkouts": 34585
+    },
+    {
+      "language": "eng",
+      "checkouts": 2544
+    },
+    {
+      "language": "mul",
+      "checkouts": 1224
+    },
+    {
+      "language": "ger",
+      "checkouts": 700
+    },
+    {
+      "language": "fre",
+      "checkouts": 150
+    },
+    {
+      "language": "lat",
+      "checkouts": 121
+    }
+  ],
+  "top_renewed_books": [
+    {
+      "title": "Sobotta : az ember anatómiájának atlasza",
+      "author": "Sobotta, Johannes",
+      "isbn": "9789632267081",
+      "total_renewals": 805,
+      "checkouts": 234
+    },
+    {
+      "title": "Az orvosi élettan tankönyve",
+      "author": "Fonyó Attila",
+      "isbn": "9789632267340",
+      "total_renewals": 313,
+      "checkouts": 102
+    },
+    {
+      "title": "Funkcionális anatómia : egyetemi tankönyv",
+      "author": "Szentágothai János",
+      "isbn": "9632425642",
+      "total_renewals": 312,
+      "checkouts": 106
+    },
+    {
+      "title": "Langman orvosi embriológia",
+      "author": "Sadler, Thomas W.",
+      "isbn": "9789632266831",
+      "total_renewals": 304,
+      "checkouts": 95
+    },
+    {
+      "title": "Orvosi biokémia : egyetemi tankönyv",
+      "author": null,
+      "isbn": "9789633314005",
+      "total_renewals": 287,
+      "checkouts": 97
+    },
+    {
+      "title": "Funkcionális anatómia",
+      "author": "Réthelyi Miklós",
+      "isbn": "9789632264653",
+      "total_renewals": 210,
+      "checkouts": 85
+    },
+    {
+      "title": "Szövettan",
+      "author": null,
+      "isbn": "9789633313220",
+      "total_renewals": 203,
+      "checkouts": 86
+    },
+    {
+      "title": "Robbins a patológia alapjai",
+      "author": "Kumar, Vinay",
+      "isbn": "9789632266824",
+      "total_renewals": 181,
+      "checkouts": 55
+    },
+    {
+      "title": "Szerves kémia",
+      "author": "Antus Sándor",
+      "isbn": "9789631957167",
+      "total_renewals": 171,
+      "checkouts": 50
+    },
+    {
+      "title": "Élettan gyógyszerészhallgatók részére",
+      "author": "Fonyó Attila",
+      "isbn": "9789632265438",
+      "total_renewals": 161,
+      "checkouts": 50
+    }
+  ],
+  "most_active_period": {
+    "busiest_month": {
+      "month": "2024-10",
+      "checkouts": 4148
+    },
+    "busiest_weekday": {
+      "weekday": 0,
+      "checkouts": 9435,
+      "label": "Hétfő"
+    },
+    "busiest_hour": {
+      "hour": 8,
+      "checkouts": 4438
+    }
+  },
+  "monthly_checkouts": [
+    {
+      "month": "2021-01",
+      "checkouts": 3
+    },
+    {
+      "month": "2021-06",
+      "checkouts": 14
+    },
+    {
+      "month": "2021-07",
+      "checkouts": 9
+    },
+    {
+      "month": "2021-08",
+      "checkouts": 6
+    },
+    {
+      "month": "2021-09",
+      "checkouts": 3
+    },
+    {
+      "month": "2021-10",
+      "checkouts": 1
+    },
+    {
+      "month": "2021-12",
+      "checkouts": 19
+    },
+    {
+      "month": "2022-01",
+      "checkouts": 1
+    },
+    {
+      "month": "2022-02",
+      "checkouts": 2
+    },
+    {
+      "month": "2022-03",
+      "checkouts": 2
+    },
+    {
+      "month": "2022-04",
+      "checkouts": 1
+    },
+    {
+      "month": "2022-05",
+      "checkouts": 2
+    },
+    {
+      "month": "2022-06",
+      "checkouts": 2
+    },
+    {
+      "month": "2022-07",
+      "checkouts": 5
+    },
+    {
+      "month": "2022-08",
+      "checkouts": 8
+    },
+    {
+      "month": "2022-09",
+      "checkouts": 6
+    },
+    {
+      "month": "2022-10",
+      "checkouts": 12
+    },
+    {
+      "month": "2022-11",
+      "checkouts": 1
+    },
+    {
+      "month": "2022-12",
+      "checkouts": 6
+    },
+    {
+      "month": "2023-01",
+      "checkouts": 7
+    },
+    {
+      "month": "2023-02",
+      "checkouts": 15
+    },
+    {
+      "month": "2023-03",
+      "checkouts": 28
+    },
+    {
+      "month": "2023-04",
+      "checkouts": 10
+    },
+    {
+      "month": "2023-05",
+      "checkouts": 16
+    },
+    {
+      "month": "2023-06",
+      "checkouts": 7
+    },
+    {
+      "month": "2023-07",
+      "checkouts": 23
+    },
+    {
+      "month": "2023-08",
+      "checkouts": 82
+    },
+    {
+      "month": "2023-09",
+      "checkouts": 258
+    },
+    {
+      "month": "2023-10",
+      "checkouts": 106
+    },
+    {
+      "month": "2023-11",
+      "checkouts": 345
+    },
+    {
+      "month": "2023-12",
+      "checkouts": 1077
+    },
+    {
+      "month": "2024-01",
+      "checkouts": 3405
+    },
+    {
+      "month": "2024-02",
+      "checkouts": 3545
+    },
+    {
+      "month": "2024-03",
+      "checkouts": 3296
+    },
+    {
+      "month": "2024-04",
+      "checkouts": 3580
+    },
+    {
+      "month": "2024-05",
+      "checkouts": 3728
+    },
+    {
+      "month": "2024-06",
+      "checkouts": 2929
+    },
+    {
+      "month": "2024-07",
+      "checkouts": 2229
+    },
+    {
+      "month": "2024-08",
+      "checkouts": 1939
+    },
+    {
+      "month": "2024-09",
+      "checkouts": 3938
+    },
+    {
+      "month": "2024-10",
+      "checkouts": 4148
+    },
+    {
+      "month": "2024-11",
+      "checkouts": 3803
+    },
+    {
+      "month": "2024-12",
+      "checkouts": 1176
+    }
+  ]
+}

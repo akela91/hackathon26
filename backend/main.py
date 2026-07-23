@@ -40,8 +40,8 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-# Memóriacache: (scope, fájlnév) -> tartalom
-_CACHE: dict[tuple[str, str], dict] = {}
+# Memóriacache: (scope, év, fájlnév) -> tartalom
+_CACHE: dict[tuple[str, str, str], dict] = {}
 _MANIFEST: dict | None = None
 
 
@@ -64,24 +64,33 @@ def _valid_scopes() -> set[str]:
     return set(_load_manifest().get("scopes", ["ALL"]))
 
 
-def _load(scope: str, name: str) -> dict:
-    """JSON betöltése a `backend/cache/<scope>/<name>` útvonalról, memóriában
-    gyorsítótárazva."""
-    key = (scope, name)
+def _valid_years() -> set[str]:
+    return {"ALL", *_load_manifest().get("years", [])}
+
+
+def _load(scope: str, year: str, name: str) -> dict:
+    """JSON betöltése a `backend/cache/<scope>/<year>/<name>` útvonalról,
+    memóriában gyorsítótárazva. A `year` lehet "ALL" (összes év) vagy egy évszám."""
+    key = (scope, year, name)
     if key in _CACHE:
         return _CACHE[key]
 
     if scope not in _valid_scopes():
         raise HTTPException(
             status_code=404,
-            detail=f"Ismeretlen könyvtár scope: '{scope}'. Érvényes értékek: {sorted(_valid_scopes())}",
+            detail=f"Ismeretlen könyvtár scope: '{scope}'. Érvényes: {sorted(_valid_scopes())}",
+        )
+    if year not in _valid_years():
+        raise HTTPException(
+            status_code=404,
+            detail=f"Ismeretlen év: '{year}'. Érvényes: {sorted(_valid_years())}",
         )
 
-    path = CACHE_DIR / scope / name
+    path = CACHE_DIR / scope / year / name
     if not path.exists():
         raise HTTPException(
             status_code=503,
-            detail=f"A(z) '{scope}/{name}' cache fájl hiányzik. Futtasd le a pipeline-t.",
+            detail=f"A(z) '{scope}/{year}/{name}' cache fájl hiányzik. Futtasd le a pipeline-t.",
         )
     with path.open("r", encoding="utf-8") as f:
         data = json.load(f)
@@ -90,6 +99,7 @@ def _load(scope: str, name: str) -> dict:
 
 
 LibraryParam = Query(default="ALL", description="Könyvtár kódja, vagy 'ALL' az összesített nézethez.")
+YearParam = Query(default="ALL", description="Évszám (pl. '2024'), vagy 'ALL' az összes évhez.")
 
 
 @app.on_event("startup")
@@ -104,16 +114,18 @@ def warm_cache() -> None:
         print(f"[backend] FIGYELEM: {exc.detail}")
         return
 
-    print(f"[backend] manifest betöltve: scopes={manifest.get('scopes')}")
+    print(f"[backend] manifest: scopes={manifest.get('scopes')} years={manifest.get('years')}")
+    year_opts = ["ALL", *manifest.get("years", [])]
     for scope in manifest.get("scopes", []):
-        scope_dir = CACHE_DIR / scope
-        if not scope_dir.exists():
-            continue
-        for path in scope_dir.glob("*.json"):
-            try:
-                _load(scope, path.name)
-            except HTTPException as exc:
-                print(f"[backend] hiba a betöltésekor {scope}/{path.name}: {exc.detail}")
+        for year in year_opts:
+            sub = CACHE_DIR / scope / year
+            if not sub.exists():
+                continue
+            for path in sub.glob("*.json"):
+                try:
+                    _load(scope, year, path.name)
+                except HTTPException as exc:
+                    print(f"[backend] hiba: {scope}/{year}/{path.name}: {exc.detail}")
     print(f"[backend] {len(_CACHE)} cache fájl betöltve.")
 
 
@@ -146,43 +158,43 @@ def get_manifest() -> dict:
 
 
 @app.get("/api/summary")
-def get_summary(library: str = LibraryParam) -> dict:
-    """Összefoglaló statisztikák egy adott könyvtárra vagy mindre (ALL)."""
-    return _load(library, "summary_stats.json")
+def get_summary(library: str = LibraryParam, year: str = YearParam) -> dict:
+    """Összefoglaló statisztikák egy adott könyvtárra/évre vagy mindre (ALL)."""
+    return _load(library, year, "summary_stats.json")
 
 
 @app.get("/api/authors")
-def get_authors(library: str = LibraryParam) -> dict:
+def get_authors(library: str = LibraryParam, year: str = YearParam) -> dict:
     """TOP szerzők havi kölcsönzési számai animált chartokhoz."""
-    return _load(library, "top_authors_monthly.json")
+    return _load(library, year, "top_authors_monthly.json")
 
 
 @app.get("/api/quiz")
-def get_quiz(library: str = LibraryParam) -> dict:
+def get_quiz(library: str = LibraryParam, year: str = YearParam) -> dict:
     """Kvíz adatok: top könyvek + kakukktojások, top szerzők."""
-    return _load(library, "quiz_data.json")
+    return _load(library, year, "quiz_data.json")
 
 
 @app.get("/api/heatmaps")
-def get_heatmaps(library: str = LibraryParam) -> dict:
+def get_heatmaps(library: str = LibraryParam, year: str = YearParam) -> dict:
     """Idő- és geo-hőtérkép adatok együtt."""
     return {
-        "time": _load(library, "heatmap_time.json"),
-        "geo": _load(library, "heatmap_geo.json"),
+        "time": _load(library, year, "heatmap_time.json"),
+        "geo": _load(library, year, "heatmap_geo.json"),
     }
 
 
 @app.get("/api/heatmaps/time")
-def get_heatmap_time(library: str = LibraryParam) -> dict:
-    return _load(library, "heatmap_time.json")
+def get_heatmap_time(library: str = LibraryParam, year: str = YearParam) -> dict:
+    return _load(library, year, "heatmap_time.json")
 
 
 @app.get("/api/heatmaps/geo")
-def get_heatmap_geo(library: str = LibraryParam) -> dict:
-    return _load(library, "heatmap_geo.json")
+def get_heatmap_geo(library: str = LibraryParam, year: str = YearParam) -> dict:
+    return _load(library, year, "heatmap_geo.json")
 
 
 @app.get("/api/heatmaps/eto-age")
-def get_heatmap_eto_age(library: str = LibraryParam) -> dict:
+def get_heatmap_eto_age(library: str = LibraryParam, year: str = YearParam) -> dict:
     """Életkor (5 éves bucket) x ETO főosztály kölcsönzési mátrix."""
-    return _load(library, "heatmap_eto_age.json")
+    return _load(library, year, "heatmap_eto_age.json")

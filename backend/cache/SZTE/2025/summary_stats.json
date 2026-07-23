@@ -1,0 +1,403 @@
+{
+  "generated_at": "2026-07-23T15:16:49.383059+00:00",
+  "dataset": "full",
+  "scope": "SZTE",
+  "total_checkouts": 74264,
+  "total_value_huf": 331146520,
+  "unique_patrons": 8514,
+  "unique_titles": 30844,
+  "total_renewals": 15374,
+  "avg_renewals": 0.21,
+  "libraries": [
+    "SZTE"
+  ],
+  "by_year": [
+    {
+      "year": "2025",
+      "checkouts": 74264,
+      "value_huf": 331146520.35999936
+    }
+  ],
+  "by_library": [
+    {
+      "library": "SZTE",
+      "checkouts": 74264,
+      "value_huf": 331146520.35999936,
+      "patrons": 8514
+    }
+  ],
+  "by_doc_type": [
+    {
+      "code": "B",
+      "checkouts": 73724,
+      "label": "Könyv"
+    },
+    {
+      "code": "C",
+      "checkouts": 500,
+      "label": "AV / CD"
+    },
+    {
+      "code": "M",
+      "checkouts": 19,
+      "label": "Térkép"
+    },
+    {
+      "code": "S",
+      "checkouts": 18,
+      "label": "Periodika / Sorozat"
+    },
+    {
+      "code": "D",
+      "checkouts": 3,
+      "label": "Disszertáció"
+    }
+  ],
+  "by_language": [
+    {
+      "language": "hun",
+      "checkouts": 65775
+    },
+    {
+      "language": "eng",
+      "checkouts": 4634
+    },
+    {
+      "language": "ger",
+      "checkouts": 1951
+    },
+    {
+      "language": "fre",
+      "checkouts": 392
+    },
+    {
+      "language": "spa",
+      "checkouts": 385
+    },
+    {
+      "language": "ita",
+      "checkouts": 313
+    }
+  ],
+  "top_renewed_books": [
+    {
+      "title": "Összhangzattan : a klasszikus zene összhangrendjének elmélete",
+      "author": "Kesztler Lőrinc",
+      "isbn": null,
+      "total_renewals": 28,
+      "checkouts": 30
+    },
+    {
+      "title": "Elmélkedések",
+      "author": "Marcus Aurelius",
+      "isbn": "9789639777392",
+      "total_renewals": 23,
+      "checkouts": 30
+    },
+    {
+      "title": "Alkalmazott élettan - kórélettan",
+      "author": null,
+      "isbn": "9789637152757",
+      "total_renewals": 20,
+      "checkouts": 26
+    },
+    {
+      "title": "Funkcionális anatómia : [tankönyv]",
+      "author": "Tarsoly Emil",
+      "isbn": "9632425324",
+      "total_renewals": 19,
+      "checkouts": 36
+    },
+    {
+      "title": "Humán anatómiai atlasz",
+      "author": "Netter, Frank Henry",
+      "isbn": "963242848X",
+      "total_renewals": 18,
+      "checkouts": 23
+    },
+    {
+      "title": "Generációk harca : hogyan értsük meg egymást?",
+      "author": "Steigervald Krisztián",
+      "isbn": "9786156058140",
+      "total_renewals": 17,
+      "checkouts": 30
+    },
+    {
+      "title": "55 kétszólamú énekgyakorlat [nyomtatott kotta] : alsó szólam",
+      "author": "Kodály Zoltán",
+      "isbn": null,
+      "total_renewals": 17,
+      "checkouts": 15
+    },
+    {
+      "title": "A szavak és a dolgok : a társadalomtudományok archeológiája",
+      "author": "Foucault, Michel",
+      "isbn": "9633795141",
+      "total_renewals": 16,
+      "checkouts": 17
+    },
+    {
+      "title": "Generációk harca a figyelemért : hogyan tanuljunk egymástól, egymásért?",
+      "author": "Steigervald Krisztián",
+      "isbn": "9786156058928",
+      "total_renewals": 16,
+      "checkouts": 16
+    },
+    {
+      "title": "Elmélkedések az első filozófiáról",
+      "author": "Descartes, René",
+      "isbn": "96379785X",
+      "total_renewals": 16,
+      "checkouts": 16
+    }
+  ],
+  "most_active_period": {
+    "busiest_month": {
+      "month": "2025-03",
+      "checkouts": 8171
+    },
+    "busiest_weekday": {
+      "weekday": 0,
+      "checkouts": 16194,
+      "label": "Hétfő"
+    },
+    "busiest_hour": {
+      "hour": 13,
+      "checkouts": 7071
+    }
+  },
+  "monthly_checkouts": [
+    {
+      "month": "2021-01",
+      "checkouts": 6
+    },
+    {
+      "month": "2021-02",
+      "checkouts": 1
+    },
+    {
+      "month": "2021-03",
+      "checkouts": 2
+    },
+    {
+      "month": "2021-05",
+      "checkouts": 4
+    },
+    {
+      "month": "2021-06",
+      "checkouts": 7
+    },
+    {
+      "month": "2021-07",
+      "checkouts": 1
+    },
+    {
+      "month": "2021-08",
+      "checkouts": 2
+    },
+    {
+      "month": "2021-09",
+      "checkouts": 28
+    },
+    {
+      "month": "2021-10",
+      "checkouts": 12
+    },
+    {
+      "month": "2021-11",
+      "checkouts": 1
+    },
+    {
+      "month": "2021-12",
+      "checkouts": 5
+    },
+    {
+      "month": "2022-01",
+      "checkouts": 8
+    },
+    {
+      "month": "2022-03",
+      "checkouts": 4
+    },
+    {
+      "month": "2022-04",
+      "checkouts": 11
+    },
+    {
+      "month": "2022-05",
+      "checkouts": 4
+    },
+    {
+      "month": "2022-06",
+      "checkouts": 11
+    },
+    {
+      "month": "2022-07",
+      "checkouts": 3
+    },
+    {
+      "month": "2022-08",
+      "checkouts": 6
+    },
+    {
+      "month": "2022-09",
+      "checkouts": 28
+    },
+    {
+      "month": "2022-10",
+      "checkouts": 8
+    },
+    {
+      "month": "2022-11",
+      "checkouts": 9
+    },
+    {
+      "month": "2022-12",
+      "checkouts": 16
+    },
+    {
+      "month": "2023-01",
+      "checkouts": 14
+    },
+    {
+      "month": "2023-02",
+      "checkouts": 10
+    },
+    {
+      "month": "2023-03",
+      "checkouts": 10
+    },
+    {
+      "month": "2023-04",
+      "checkouts": 9
+    },
+    {
+      "month": "2023-05",
+      "checkouts": 11
+    },
+    {
+      "month": "2023-06",
+      "checkouts": 6
+    },
+    {
+      "month": "2023-07",
+      "checkouts": 3
+    },
+    {
+      "month": "2023-08",
+      "checkouts": 10
+    },
+    {
+      "month": "2023-09",
+      "checkouts": 51
+    },
+    {
+      "month": "2023-10",
+      "checkouts": 34
+    },
+    {
+      "month": "2023-11",
+      "checkouts": 20
+    },
+    {
+      "month": "2023-12",
+      "checkouts": 7
+    },
+    {
+      "month": "2024-01",
+      "checkouts": 14
+    },
+    {
+      "month": "2024-02",
+      "checkouts": 5
+    },
+    {
+      "month": "2024-03",
+      "checkouts": 10
+    },
+    {
+      "month": "2024-04",
+      "checkouts": 15
+    },
+    {
+      "month": "2024-05",
+      "checkouts": 39
+    },
+    {
+      "month": "2024-06",
+      "checkouts": 65
+    },
+    {
+      "month": "2024-07",
+      "checkouts": 241
+    },
+    {
+      "month": "2024-08",
+      "checkouts": 149
+    },
+    {
+      "month": "2024-09",
+      "checkouts": 553
+    },
+    {
+      "month": "2024-10",
+      "checkouts": 505
+    },
+    {
+      "month": "2024-11",
+      "checkouts": 1389
+    },
+    {
+      "month": "2024-12",
+      "checkouts": 4855
+    },
+    {
+      "month": "2025-01",
+      "checkouts": 6727
+    },
+    {
+      "month": "2025-02",
+      "checkouts": 6895
+    },
+    {
+      "month": "2025-03",
+      "checkouts": 8171
+    },
+    {
+      "month": "2025-04",
+      "checkouts": 7381
+    },
+    {
+      "month": "2025-05",
+      "checkouts": 6404
+    },
+    {
+      "month": "2025-06",
+      "checkouts": 4415
+    },
+    {
+      "month": "2025-07",
+      "checkouts": 2503
+    },
+    {
+      "month": "2025-08",
+      "checkouts": 1882
+    },
+    {
+      "month": "2025-09",
+      "checkouts": 6419
+    },
+    {
+      "month": "2025-10",
+      "checkouts": 7297
+    },
+    {
+      "month": "2025-11",
+      "checkouts": 6703
+    },
+    {
+      "month": "2025-12",
+      "checkouts": 1129
+    }
+  ]
+}

@@ -1,0 +1,273 @@
+{
+  "generated_at": "2026-07-23T15:16:22.744727+00:00",
+  "dataset": "full",
+  "scope": "IGYUK",
+  "total_checkouts": 55609,
+  "total_value_huf": 126433138,
+  "unique_patrons": 2440,
+  "unique_titles": 22504,
+  "total_renewals": 37540,
+  "avg_renewals": 0.68,
+  "libraries": [
+    "IGYUK"
+  ],
+  "by_year": [
+    {
+      "year": "2023",
+      "checkouts": 55609,
+      "value_huf": 126433138.28999998
+    }
+  ],
+  "by_library": [
+    {
+      "library": "IGYUK",
+      "checkouts": 55609,
+      "value_huf": 126433138.28999998,
+      "patrons": 2440
+    }
+  ],
+  "by_doc_type": [
+    {
+      "code": "B",
+      "checkouts": 52036,
+      "label": "Könyv"
+    },
+    {
+      "code": "F",
+      "checkouts": 2000,
+      "label": "F"
+    },
+    {
+      "code": "R",
+      "checkouts": 602,
+      "label": "R"
+    },
+    {
+      "code": "D",
+      "checkouts": 596,
+      "label": "Disszertáció"
+    },
+    {
+      "code": "S",
+      "checkouts": 356,
+      "label": "Periodika / Sorozat"
+    },
+    {
+      "code": "M",
+      "checkouts": 11,
+      "label": "Térkép"
+    },
+    {
+      "code": "C",
+      "checkouts": 8,
+      "label": "AV / CD"
+    }
+  ],
+  "by_language": [
+    {
+      "language": "hun",
+      "checkouts": 54642
+    },
+    {
+      "language": "eng",
+      "checkouts": 610
+    },
+    {
+      "language": "ger",
+      "checkouts": 212
+    },
+    {
+      "language": "fre",
+      "checkouts": 38
+    },
+    {
+      "language": "ita",
+      "checkouts": 22
+    },
+    {
+      "language": "rus",
+      "checkouts": 15
+    }
+  ],
+  "top_renewed_books": [
+    {
+      "title": "Interjú Istennel [elektronikus vizuális dok.]",
+      "author": "Lang, Perry",
+      "isbn": null,
+      "total_renewals": 140,
+      "checkouts": 2
+    },
+    {
+      "title": "A kőszívű ember fiai",
+      "author": "Jókai Mór",
+      "isbn": "9639198137",
+      "total_renewals": 127,
+      "checkouts": 8
+    },
+    {
+      "title": "Egri csillagok",
+      "author": "Gárdonyi Géza",
+      "isbn": "9789633493236",
+      "total_renewals": 125,
+      "checkouts": 31
+    },
+    {
+      "title": "Anya és a szerelem [elektronikus vizuális dok.]",
+      "author": "Michell, Roger",
+      "isbn": null,
+      "total_renewals": 122,
+      "checkouts": 1
+    },
+    {
+      "title": "Respect [elektronikus vizuális dok.]",
+      "author": "Tommy, Liesl",
+      "isbn": null,
+      "total_renewals": 100,
+      "checkouts": 4
+    },
+    {
+      "title": "Belle és Sébastien 3. [elektronikus vizuális dok.] : mindörökké barátok",
+      "author": "Cornillac, Clovis",
+      "isbn": null,
+      "total_renewals": 95,
+      "checkouts": 2
+    },
+    {
+      "title": "Adéle élete [elektronikus vizuális dok.] : 1-2. fejezet : Abdellatif Kechiche filmje",
+      "author": "Kechiche, Abdellatif",
+      "isbn": null,
+      "total_renewals": 82,
+      "checkouts": 2
+    },
+    {
+      "title": "A Szent Johanna gimi",
+      "author": "Leiner Laura",
+      "isbn": "9789635397020",
+      "total_renewals": 78,
+      "checkouts": 101
+    },
+    {
+      "title": "A Pál utcai fiúk",
+      "author": "Molnár Ferenc",
+      "isbn": "9789634158851",
+      "total_renewals": 74,
+      "checkouts": 17
+    },
+    {
+      "title": "Vörös veréb [elektronikus vizuális dok.] = Red sparrow",
+      "author": "Lawrence, Francis",
+      "isbn": null,
+      "total_renewals": 63,
+      "checkouts": 4
+    }
+  ],
+  "most_active_period": {
+    "busiest_month": {
+      "month": "2023-07",
+      "checkouts": 5342
+    },
+    "busiest_weekday": {
+      "weekday": 4,
+      "checkouts": 15928,
+      "label": "Péntek"
+    },
+    "busiest_hour": {
+      "hour": 8,
+      "checkouts": 9777
+    }
+  },
+  "monthly_checkouts": [
+    {
+      "month": "2021-05",
+      "checkouts": 3
+    },
+    {
+      "month": "2021-06",
+      "checkouts": 13
+    },
+    {
+      "month": "2021-10",
+      "checkouts": 2
+    },
+    {
+      "month": "2021-11",
+      "checkouts": 1
+    },
+    {
+      "month": "2022-01",
+      "checkouts": 1
+    },
+    {
+      "month": "2022-05",
+      "checkouts": 1
+    },
+    {
+      "month": "2022-07",
+      "checkouts": 4
+    },
+    {
+      "month": "2022-09",
+      "checkouts": 12
+    },
+    {
+      "month": "2022-10",
+      "checkouts": 106
+    },
+    {
+      "month": "2022-11",
+      "checkouts": 1115
+    },
+    {
+      "month": "2022-12",
+      "checkouts": 1828
+    },
+    {
+      "month": "2023-01",
+      "checkouts": 4472
+    },
+    {
+      "month": "2023-02",
+      "checkouts": 3747
+    },
+    {
+      "month": "2023-03",
+      "checkouts": 4782
+    },
+    {
+      "month": "2023-04",
+      "checkouts": 4206
+    },
+    {
+      "month": "2023-05",
+      "checkouts": 4743
+    },
+    {
+      "month": "2023-06",
+      "checkouts": 4805
+    },
+    {
+      "month": "2023-07",
+      "checkouts": 5342
+    },
+    {
+      "month": "2023-08",
+      "checkouts": 4922
+    },
+    {
+      "month": "2023-09",
+      "checkouts": 4636
+    },
+    {
+      "month": "2023-10",
+      "checkouts": 5327
+    },
+    {
+      "month": "2023-11",
+      "checkouts": 4541
+    },
+    {
+      "month": "2023-12",
+      "checkouts": 975
+    }
+  ]
+}

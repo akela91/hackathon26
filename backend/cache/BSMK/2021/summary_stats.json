@@ -1,0 +1,234 @@
+{
+  "generated_at": "2026-07-23T15:15:39.727717+00:00",
+  "dataset": "full",
+  "scope": "BSMK",
+  "total_checkouts": 83140,
+  "total_value_huf": 170075671,
+  "unique_patrons": 5703,
+  "unique_titles": 27412,
+  "total_renewals": 48077,
+  "avg_renewals": 0.58,
+  "libraries": [
+    "BSMK"
+  ],
+  "by_year": [
+    {
+      "year": "2021",
+      "checkouts": 83140,
+      "value_huf": 170075671.72
+    }
+  ],
+  "by_library": [
+    {
+      "library": "BSMK",
+      "checkouts": 83140,
+      "value_huf": 170075671.72,
+      "patrons": 5703
+    }
+  ],
+  "by_doc_type": [
+    {
+      "code": "B",
+      "checkouts": 80552,
+      "label": "Könyv"
+    },
+    {
+      "code": "R",
+      "checkouts": 1856,
+      "label": "R"
+    },
+    {
+      "code": "F",
+      "checkouts": 528,
+      "label": "F"
+    },
+    {
+      "code": "S",
+      "checkouts": 97,
+      "label": "Periodika / Sorozat"
+    },
+    {
+      "code": "M",
+      "checkouts": 42,
+      "label": "Térkép"
+    },
+    {
+      "code": "D",
+      "checkouts": 32,
+      "label": "Disszertáció"
+    },
+    {
+      "code": "C",
+      "checkouts": 27,
+      "label": "AV / CD"
+    },
+    {
+      "code": "U",
+      "checkouts": 6,
+      "label": "U"
+    }
+  ],
+  "by_language": [
+    {
+      "language": "hun",
+      "checkouts": 78467
+    },
+    {
+      "language": "eng",
+      "checkouts": 2928
+    },
+    {
+      "language": "ger",
+      "checkouts": 812
+    },
+    {
+      "language": "mul",
+      "checkouts": 150
+    },
+    {
+      "language": "fre",
+      "checkouts": 124
+    },
+    {
+      "language": "rus",
+      "checkouts": 82
+    }
+  ],
+  "top_renewed_books": [
+    {
+      "title": "Egri csillagok",
+      "author": "Gárdonyi Géza",
+      "isbn": "9789633490983",
+      "total_renewals": 98,
+      "checkouts": 61
+    },
+    {
+      "title": "A Szent Johanna gimi",
+      "author": "Leiner Laura",
+      "isbn": "9789635397020",
+      "total_renewals": 96,
+      "checkouts": 113
+    },
+    {
+      "title": "A Pál utcai fiúk",
+      "author": "Molnár Ferenc",
+      "isbn": "9789634152590",
+      "total_renewals": 83,
+      "checkouts": 74
+    },
+    {
+      "title": "?",
+      "author": "Bodor Endre",
+      "isbn": "9789636290962",
+      "total_renewals": 77,
+      "checkouts": 101
+    },
+    {
+      "title": "Kézművesség 10-14 éveseknek",
+      "author": "Artner Erzsébet",
+      "isbn": null,
+      "total_renewals": 75,
+      "checkouts": 1
+    },
+    {
+      "title": "Szent Péter esernyője",
+      "author": "Mikszáth Kálmán",
+      "isbn": "9789633492024",
+      "total_renewals": 74,
+      "checkouts": 34
+    },
+    {
+      "title": "Állati jó hajtogatási ötletek : állatok papírból",
+      "author": "Täubner, Armin",
+      "isbn": "963948931X",
+      "total_renewals": 70,
+      "checkouts": 2
+    },
+    {
+      "title": "Cserépfigurák",
+      "author": "Kunkel, Natalie",
+      "isbn": "963944569X",
+      "total_renewals": 69,
+      "checkouts": 1
+    },
+    {
+      "title": "Elfelejtett lények boltja",
+      "author": null,
+      "isbn": "9789639820241",
+      "total_renewals": 63,
+      "checkouts": 5
+    },
+    {
+      "title": "Gyere haza, Mikkamakka!",
+      "author": "Lázár Ervin",
+      "isbn": "9789631196122",
+      "total_renewals": 62,
+      "checkouts": 6
+    }
+  ],
+  "most_active_period": {
+    "busiest_month": {
+      "month": "2021-09",
+      "checkouts": 8802
+    },
+    "busiest_weekday": {
+      "weekday": 1,
+      "checkouts": 16231,
+      "label": "Kedd"
+    },
+    "busiest_hour": {
+      "hour": 10,
+      "checkouts": 11093
+    }
+  },
+  "monthly_checkouts": [
+    {
+      "month": "2021-01",
+      "checkouts": 4638
+    },
+    {
+      "month": "2021-02",
+      "checkouts": 3260
+    },
+    {
+      "month": "2021-03",
+      "checkouts": 1047
+    },
+    {
+      "month": "2021-04",
+      "checkouts": 8537
+    },
+    {
+      "month": "2021-05",
+      "checkouts": 5772
+    },
+    {
+      "month": "2021-06",
+      "checkouts": 7724
+    },
+    {
+      "month": "2021-07",
+      "checkouts": 8405
+    },
+    {
+      "month": "2021-08",
+      "checkouts": 8073
+    },
+    {
+      "month": "2021-09",
+      "checkouts": 8802
+    },
+    {
+      "month": "2021-10",
+      "checkouts": 8695
+    },
+    {
+      "month": "2021-11",
+      "checkouts": 6621
+    },
+    {
+      "month": "2021-12",
+      "checkouts": 1188
+    }
+  ]
+}

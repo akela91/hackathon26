@@ -1,0 +1,278 @@
+{
+  "generated_at": "2026-07-23T15:16:03.858876+00:00",
+  "dataset": "full",
+  "scope": "FSZEK",
+  "total_checkouts": 1520221,
+  "total_value_huf": 4476596177,
+  "unique_patrons": 63564,
+  "unique_titles": 117582,
+  "total_renewals": 1077375,
+  "avg_renewals": 0.71,
+  "libraries": [
+    "FSZEK"
+  ],
+  "by_year": [
+    {
+      "year": "2022",
+      "checkouts": 1520221,
+      "value_huf": 4476596177.75
+    }
+  ],
+  "by_library": [
+    {
+      "library": "FSZEK",
+      "checkouts": 1520221,
+      "value_huf": 4476596177.749999,
+      "patrons": 63564
+    }
+  ],
+  "by_doc_type": [
+    {
+      "code": "B",
+      "checkouts": 1477276,
+      "label": "Könyv"
+    },
+    {
+      "code": "F",
+      "checkouts": 22974,
+      "label": "F"
+    },
+    {
+      "code": "S",
+      "checkouts": 8605,
+      "label": "Periodika / Sorozat"
+    },
+    {
+      "code": "R",
+      "checkouts": 5505,
+      "label": "R"
+    },
+    {
+      "code": "C",
+      "checkouts": 3243,
+      "label": "AV / CD"
+    },
+    {
+      "code": "D",
+      "checkouts": 1891,
+      "label": "Disszertáció"
+    },
+    {
+      "code": "M",
+      "checkouts": 724,
+      "label": "Térkép"
+    },
+    {
+      "code": "A",
+      "checkouts": 3,
+      "label": "A"
+    }
+  ],
+  "by_language": [
+    {
+      "language": "hun",
+      "checkouts": 1487561
+    },
+    {
+      "language": "eng",
+      "checkouts": 24080
+    },
+    {
+      "language": "ger",
+      "checkouts": 4263
+    },
+    {
+      "language": "fre",
+      "checkouts": 977
+    },
+    {
+      "language": "zxx",
+      "checkouts": 730
+    },
+    {
+      "language": "ita",
+      "checkouts": 720
+    }
+  ],
+  "top_renewed_books": [
+    {
+      "title": "Zseb-Garfield",
+      "author": "Davis, Jim",
+      "isbn": null,
+      "total_renewals": 1646,
+      "checkouts": 2419
+    },
+    {
+      "title": "Garfield",
+      "author": null,
+      "isbn": null,
+      "total_renewals": 1546,
+      "checkouts": 2269
+    },
+    {
+      "title": "Rumini",
+      "author": "Berg Judit",
+      "isbn": "9789634100904",
+      "total_renewals": 758,
+      "checkouts": 646
+    },
+    {
+      "title": "Thomas, a gőzmozdony : válogatott mesék",
+      "author": "Awdry, Wilbert",
+      "isbn": null,
+      "total_renewals": 750,
+      "checkouts": 967
+    },
+    {
+      "title": "A Pál utcai fiúk",
+      "author": "Molnár Ferenc",
+      "isbn": "9789634158127",
+      "total_renewals": 591,
+      "checkouts": 562
+    },
+    {
+      "title": "Egri csillagok",
+      "author": "Korcsmáros Pál",
+      "isbn": "9786155385674",
+      "total_renewals": 544,
+      "checkouts": 407
+    },
+    {
+      "title": "Harry Potter és a bölcsek köve",
+      "author": "Rowling, Joanne Kathleen",
+      "isbn": "9639307106",
+      "total_renewals": 536,
+      "checkouts": 565
+    },
+    {
+      "title": "Szent Péter esernyője",
+      "author": "Mikszáth Kálmán",
+      "isbn": "9636450498",
+      "total_renewals": 508,
+      "checkouts": 445
+    },
+    {
+      "title": "Dinoszauruszok",
+      "author": "Greschik, Stefan",
+      "isbn": "9789632442686",
+      "total_renewals": 492,
+      "checkouts": 547
+    },
+    {
+      "title": "A döntés",
+      "author": "Eger, Edith Eva",
+      "isbn": "9789633108208",
+      "total_renewals": 428,
+      "checkouts": 573
+    }
+  ],
+  "most_active_period": {
+    "busiest_month": {
+      "month": "2022-01",
+      "checkouts": 136119
+    },
+    "busiest_weekday": {
+      "weekday": 0,
+      "checkouts": 370776,
+      "label": "Hétfő"
+    },
+    "busiest_hour": {
+      "hour": 12,
+      "checkouts": 154268
+    }
+  },
+  "monthly_checkouts": [
+    {
+      "month": "2021-02",
+      "checkouts": 3
+    },
+    {
+      "month": "2021-03",
+      "checkouts": 1
+    },
+    {
+      "month": "2021-04",
+      "checkouts": 1
+    },
+    {
+      "month": "2021-05",
+      "checkouts": 2
+    },
+    {
+      "month": "2021-06",
+      "checkouts": 20
+    },
+    {
+      "month": "2021-07",
+      "checkouts": 29
+    },
+    {
+      "month": "2021-08",
+      "checkouts": 37
+    },
+    {
+      "month": "2021-09",
+      "checkouts": 59
+    },
+    {
+      "month": "2021-10",
+      "checkouts": 257
+    },
+    {
+      "month": "2021-11",
+      "checkouts": 2859
+    },
+    {
+      "month": "2021-12",
+      "checkouts": 73448
+    },
+    {
+      "month": "2022-01",
+      "checkouts": 136119
+    },
+    {
+      "month": "2022-02",
+      "checkouts": 117124
+    },
+    {
+      "month": "2022-03",
+      "checkouts": 133657
+    },
+    {
+      "month": "2022-04",
+      "checkouts": 126075
+    },
+    {
+      "month": "2022-05",
+      "checkouts": 132640
+    },
+    {
+      "month": "2022-06",
+      "checkouts": 126829
+    },
+    {
+      "month": "2022-07",
+      "checkouts": 120821
+    },
+    {
+      "month": "2022-08",
+      "checkouts": 122531
+    },
+    {
+      "month": "2022-09",
+      "checkouts": 132020
+    },
+    {
+      "month": "2022-10",
+      "checkouts": 128373
+    },
+    {
+      "month": "2022-11",
+      "checkouts": 133813
+    },
+    {
+      "month": "2022-12",
+      "checkouts": 33363
+    }
+  ]
+}

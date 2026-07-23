@@ -1,0 +1,224 @@
+{
+  "generated_at": "2026-07-23T15:15:34.663011+00:00",
+  "dataset": "full",
+  "scope": "BBMK",
+  "total_checkouts": 16789,
+  "total_value_huf": 35156442,
+  "unique_patrons": 1019,
+  "unique_titles": 8116,
+  "total_renewals": 8288,
+  "avg_renewals": 0.49,
+  "libraries": [
+    "BBMK"
+  ],
+  "by_year": [
+    {
+      "year": "2021",
+      "checkouts": 16789,
+      "value_huf": 35156442.28
+    }
+  ],
+  "by_library": [
+    {
+      "library": "BBMK",
+      "checkouts": 16789,
+      "value_huf": 35156442.28,
+      "patrons": 1019
+    }
+  ],
+  "by_doc_type": [
+    {
+      "code": "B",
+      "checkouts": 16737,
+      "label": "Könyv"
+    },
+    {
+      "code": "R",
+      "checkouts": 26,
+      "label": "R"
+    },
+    {
+      "code": "M",
+      "checkouts": 12,
+      "label": "Térkép"
+    },
+    {
+      "code": "F",
+      "checkouts": 9,
+      "label": "F"
+    },
+    {
+      "code": "C",
+      "checkouts": 4,
+      "label": "AV / CD"
+    },
+    {
+      "code": "D",
+      "checkouts": 1,
+      "label": "Disszertáció"
+    }
+  ],
+  "by_language": [
+    {
+      "language": "hun",
+      "checkouts": 16613
+    },
+    {
+      "language": "eng",
+      "checkouts": 127
+    },
+    {
+      "language": "ger",
+      "checkouts": 11
+    },
+    {
+      "language": "fre",
+      "checkouts": 10
+    },
+    {
+      "language": "spa",
+      "checkouts": 5
+    },
+    {
+      "language": "mul",
+      "checkouts": 5
+    }
+  ],
+  "top_renewed_books": [
+    {
+      "title": "A Szent Johanna gimi / Leiner Laura",
+      "author": "Leiner Laura",
+      "isbn": "97896353970061",
+      "total_renewals": 30,
+      "checkouts": 36
+    },
+    {
+      "title": "New English file : intermediate",
+      "author": "Oxenden, Clive",
+      "isbn": null,
+      "total_renewals": 29,
+      "checkouts": 11
+    },
+    {
+      "title": "Szent Péter esernyője",
+      "author": "Mikszáth Kálmán",
+      "isbn": "9789633468982",
+      "total_renewals": 16,
+      "checkouts": 10
+    },
+    {
+      "title": "Egy új korszak hajnala : A katedrális előzménye : Kingsbridge",
+      "author": "Follett, Ken",
+      "isbn": "9789635660018",
+      "total_renewals": 14,
+      "checkouts": 22
+    },
+    {
+      "title": "Ábel a rengetegben",
+      "author": "Tamási Áron",
+      "isbn": "9789632276526",
+      "total_renewals": 13,
+      "checkouts": 10
+    },
+    {
+      "title": "Kun László, a kétszívű",
+      "author": "Benkő László",
+      "isbn": "97896326747351",
+      "total_renewals": 12,
+      "checkouts": 16
+    },
+    {
+      "title": "Egri csillagok",
+      "author": "Gárdonyi Géza",
+      "isbn": "9789633490983",
+      "total_renewals": 12,
+      "checkouts": 12
+    },
+    {
+      "title": "Anne of Green Gables",
+      "author": "Montgomery, Lucy Maud",
+      "isbn": "9780194790529",
+      "total_renewals": 12,
+      "checkouts": 6
+    },
+    {
+      "title": "Álmok a csillagok közt",
+      "author": "Paolini, Christopher",
+      "isbn": null,
+      "total_renewals": 12,
+      "checkouts": 4
+    },
+    {
+      "title": "A farm, ahol élünk",
+      "author": "Wilder, Laura Ingalls",
+      "isbn": "97861580296051",
+      "total_renewals": 12,
+      "checkouts": 4
+    }
+  ],
+  "most_active_period": {
+    "busiest_month": {
+      "month": "2021-08",
+      "checkouts": 1751
+    },
+    "busiest_weekday": {
+      "weekday": 1,
+      "checkouts": 4791,
+      "label": "Kedd"
+    },
+    "busiest_hour": {
+      "hour": 9,
+      "checkouts": 3133
+    }
+  },
+  "monthly_checkouts": [
+    {
+      "month": "2021-01",
+      "checkouts": 546
+    },
+    {
+      "month": "2021-02",
+      "checkouts": 597
+    },
+    {
+      "month": "2021-03",
+      "checkouts": 180
+    },
+    {
+      "month": "2021-04",
+      "checkouts": 595
+    },
+    {
+      "month": "2021-05",
+      "checkouts": 1011
+    },
+    {
+      "month": "2021-06",
+      "checkouts": 1451
+    },
+    {
+      "month": "2021-07",
+      "checkouts": 1605
+    },
+    {
+      "month": "2021-08",
+      "checkouts": 1751
+    },
+    {
+      "month": "2021-09",
+      "checkouts": 1728
+    },
+    {
+      "month": "2021-10",
+      "checkouts": 1617
+    },
+    {
+      "month": "2021-11",
+      "checkouts": 1721
+    },
+    {
+      "month": "2021-12",
+      "checkouts": 669
+    }
+  ]
+}

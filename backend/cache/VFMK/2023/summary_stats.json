@@ -1,0 +1,297 @@
+{
+  "generated_at": "2026-07-23T15:16:51.617406+00:00",
+  "dataset": "full",
+  "scope": "VFMK",
+  "total_checkouts": 57504,
+  "total_value_huf": 133009370,
+  "unique_patrons": 3019,
+  "unique_titles": 23997,
+  "total_renewals": 34874,
+  "avg_renewals": 0.61,
+  "libraries": [
+    "VFMK"
+  ],
+  "by_year": [
+    {
+      "year": "2023",
+      "checkouts": 57504,
+      "value_huf": 133009370.15999998
+    }
+  ],
+  "by_library": [
+    {
+      "library": "VFMK",
+      "checkouts": 57504,
+      "value_huf": 133009370.15999998,
+      "patrons": 3019
+    }
+  ],
+  "by_doc_type": [
+    {
+      "code": "B",
+      "checkouts": 55674,
+      "label": "Könyv"
+    },
+    {
+      "code": "F",
+      "checkouts": 1032,
+      "label": "F"
+    },
+    {
+      "code": "R",
+      "checkouts": 746,
+      "label": "R"
+    },
+    {
+      "code": "M",
+      "checkouts": 27,
+      "label": "Térkép"
+    },
+    {
+      "code": "C",
+      "checkouts": 19,
+      "label": "AV / CD"
+    },
+    {
+      "code": "D",
+      "checkouts": 5,
+      "label": "Disszertáció"
+    },
+    {
+      "code": "S",
+      "checkouts": 1,
+      "label": "Periodika / Sorozat"
+    }
+  ],
+  "by_language": [
+    {
+      "language": "hun",
+      "checkouts": 56789
+    },
+    {
+      "language": "eng",
+      "checkouts": 509
+    },
+    {
+      "language": "ita",
+      "checkouts": 35
+    },
+    {
+      "language": "fre",
+      "checkouts": 32
+    },
+    {
+      "language": "spa",
+      "checkouts": 30
+    },
+    {
+      "language": "ger",
+      "checkouts": 29
+    }
+  ],
+  "top_renewed_books": [
+    {
+      "title": "\"A Szent Korona nevében...\" [Hangfelvétel]",
+      "author": "Pap Gábor",
+      "isbn": null,
+      "total_renewals": 100,
+      "checkouts": 44
+    },
+    {
+      "title": "A munkahelyi elismerés 5 nyelve : útmutató az eredményes, személyre szabott motiváció gyakorlatához",
+      "author": "Chapman, Gary D.",
+      "isbn": "9789632881362",
+      "total_renewals": 56,
+      "checkouts": 5
+    },
+    {
+      "title": "Könyvtári reneszánsz : könyvtárak az információs társadalomban 2.0",
+      "author": "Sipos Anna Magdolna",
+      "isbn": "9786155240270",
+      "total_renewals": 56,
+      "checkouts": 1
+    },
+    {
+      "title": "L' ecsó [DVD-film] = Ratatouille",
+      "author": "Bird, Brad",
+      "isbn": null,
+      "total_renewals": 55,
+      "checkouts": 1
+    },
+    {
+      "title": "Matematika",
+      "author": "Reiman István",
+      "isbn": "9789630584883",
+      "total_renewals": 54,
+      "checkouts": 5
+    },
+    {
+      "title": "A reklám alapkönyve",
+      "author": "Brochand, Bernard",
+      "isbn": "9632247930",
+      "total_renewals": 54,
+      "checkouts": 1
+    },
+    {
+      "title": "Minőség : tanuljuk, tanítsuk, valósítsuk meg és fejlesszük tovább",
+      "author": "Bálint Julianna",
+      "isbn": "9639535524",
+      "total_renewals": 53,
+      "checkouts": 1
+    },
+    {
+      "title": "TQM : Teljes körű minőségmenedzsment",
+      "author": "Tenner, Arthur R.",
+      "isbn": "9631630439",
+      "total_renewals": 50,
+      "checkouts": 1
+    },
+    {
+      "title": "Minőségmenedzsment a könyvtárban",
+      "author": "Skaliczki Judit",
+      "isbn": "9639495174",
+      "total_renewals": 50,
+      "checkouts": 1
+    },
+    {
+      "title": "Varázsló : Olvasási nehézségek felismerése : Olvasásfejlesztés",
+      "author": "Gósy Mária",
+      "isbn": "9638461659",
+      "total_renewals": 49,
+      "checkouts": 2
+    }
+  ],
+  "most_active_period": {
+    "busiest_month": {
+      "month": "2023-07",
+      "checkouts": 5727
+    },
+    "busiest_weekday": {
+      "weekday": 1,
+      "checkouts": 18007,
+      "label": "Kedd"
+    },
+    "busiest_hour": {
+      "hour": 8,
+      "checkouts": 8408
+    }
+  },
+  "monthly_checkouts": [
+    {
+      "month": "2021-06",
+      "checkouts": 4
+    },
+    {
+      "month": "2021-07",
+      "checkouts": 17
+    },
+    {
+      "month": "2021-08",
+      "checkouts": 5
+    },
+    {
+      "month": "2021-09",
+      "checkouts": 10
+    },
+    {
+      "month": "2021-11",
+      "checkouts": 1
+    },
+    {
+      "month": "2021-12",
+      "checkouts": 12
+    },
+    {
+      "month": "2022-02",
+      "checkouts": 2
+    },
+    {
+      "month": "2022-03",
+      "checkouts": 6
+    },
+    {
+      "month": "2022-04",
+      "checkouts": 4
+    },
+    {
+      "month": "2022-05",
+      "checkouts": 19
+    },
+    {
+      "month": "2022-06",
+      "checkouts": 9
+    },
+    {
+      "month": "2022-07",
+      "checkouts": 16
+    },
+    {
+      "month": "2022-08",
+      "checkouts": 17
+    },
+    {
+      "month": "2022-09",
+      "checkouts": 85
+    },
+    {
+      "month": "2022-10",
+      "checkouts": 144
+    },
+    {
+      "month": "2022-11",
+      "checkouts": 854
+    },
+    {
+      "month": "2022-12",
+      "checkouts": 3221
+    },
+    {
+      "month": "2023-01",
+      "checkouts": 4885
+    },
+    {
+      "month": "2023-02",
+      "checkouts": 4647
+    },
+    {
+      "month": "2023-03",
+      "checkouts": 4812
+    },
+    {
+      "month": "2023-04",
+      "checkouts": 4155
+    },
+    {
+      "month": "2023-05",
+      "checkouts": 4621
+    },
+    {
+      "month": "2023-06",
+      "checkouts": 5106
+    },
+    {
+      "month": "2023-07",
+      "checkouts": 5727
+    },
+    {
+      "month": "2023-08",
+      "checkouts": 4135
+    },
+    {
+      "month": "2023-09",
+      "checkouts": 4669
+    },
+    {
+      "month": "2023-10",
+      "checkouts": 4933
+    },
+    {
+      "month": "2023-11",
+      "checkouts": 3999
+    },
+    {
+      "month": "2023-12",
+      "checkouts": 751
+    }
+  ]
+}

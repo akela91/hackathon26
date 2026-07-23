@@ -1,0 +1,127 @@
+{
+  "book_quiz": {
+    "top_books": [
+      {
+        "title": "Brúnó Budapesten",
+        "author": "Bartos Erika",
+        "record_id": "bibBMK00060126",
+        "isbn": null,
+        "checkouts": 107
+      },
+      {
+        "title": "Thomas, a gőzmozdony : válogatott mesék",
+        "author": "Awdry, Wilbert",
+        "record_id": "bibBMK00021018",
+        "isbn": null,
+        "checkouts": 89
+      },
+      {
+        "title": "A Szent Johanna gimi",
+        "author": "Leiner Laura",
+        "record_id": "bibBMK00080347",
+        "isbn": "9789635397020",
+        "checkouts": 88
+      },
+      {
+        "title": "Mágikus állatok iskolája",
+        "author": "Auer, Margit",
+        "record_id": "bibBMK00074112",
+        "isbn": null,
+        "checkouts": 82
+      },
+      {
+        "title": "A végzet",
+        "author": "Náray Tamás",
+        "record_id": "bibBMK00086308",
+        "isbn": "9789636041984",
+        "checkouts": 67
+      }
+    ],
+    "decoys": [
+      {
+        "title": "Egy ropi naplója : a nagy dobás = Diary of a wimpy kid: big shot",
+        "author": "Kinney, Jeff",
+        "isbn": "9789635619344",
+        "checkouts": 31
+      },
+      {
+        "title": "Alma utca 22.",
+        "author": "Vadadi Adrienn",
+        "isbn": "9789634100270",
+        "checkouts": 7
+      },
+      {
+        "title": "Amit a fiamnak tudnia kell a világról",
+        "author": "Backman, Fredrik",
+        "isbn": "9789633242827",
+        "checkouts": 4
+      },
+      {
+        "title": "Hópehely kalandjai",
+        "author": "Harper, Piers",
+        "isbn": "9636278806",
+        "checkouts": 3
+      },
+      {
+        "title": "Poirot bravúrjai",
+        "author": "Christie, Agatha",
+        "isbn": null,
+        "checkouts": 2
+      },
+      {
+        "title": "Dream Team : hogyan hódította meg a világot és változtatta meg a kosárlabdát minden idők legjobb csapata",
+        "author": "McCallum, Jack",
+        "isbn": "9786156345127",
+        "checkouts": 2
+      },
+      {
+        "title": "Gyermekkor és társadalom",
+        "author": "Erikson, Erik H.",
+        "isbn": "9633893089",
+        "checkouts": 1
+      },
+      {
+        "title": "Szárnyak és gyökerek : külföldi élet - magyar nők szemével",
+        "author": "Szűcs Nóra",
+        "isbn": "9789639718838",
+        "checkouts": 1
+      },
+      {
+        "title": "Tippek és trükkök kezdő fotósoknak : digitális fotózás műhelytitkai kezdőknek 2 : hogyan készítsünk látványosabb képeket fényképezőgéppel és mobillal?",
+        "author": "Enczi Zoltán",
+        "isbn": "9786158078276",
+        "checkouts": 1
+      },
+      {
+        "title": "Deception point",
+        "author": "Brown, Dan",
+        "isbn": "0552151769",
+        "checkouts": 1
+      }
+    ]
+  },
+  "author_quiz": {
+    "top_authors": [
+      {
+        "author": "Bartos Erika",
+        "checkouts": 1032
+      },
+      {
+        "author": "Roberts, Nora",
+        "checkouts": 638
+      },
+      {
+        "author": "Steel, Danielle",
+        "checkouts": 607
+      },
+      {
+        "author": "Stilton, Geronimo",
+        "checkouts": 592
+      },
+      {
+        "author": "Berg Judit",
+        "checkouts": 578
+      }
+    ]
+  }
+}

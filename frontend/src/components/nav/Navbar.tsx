@@ -12,7 +12,7 @@ export default function Navbar() {
 
   return (
     <header className="navbar">
-      <div className="mx-auto flex max-w-6xl items-center gap-3 px-4 py-2.5 sm:px-8">
+      <div className="mx-auto flex max-w-[86rem] items-center gap-3 px-4 py-2.5 sm:px-8">
         <a href="#" className="flex shrink-0 items-center gap-2.5">
           <Image
             src="/logo.png"

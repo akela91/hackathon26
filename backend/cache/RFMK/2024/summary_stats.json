@@ -1,0 +1,357 @@
+{
+  "generated_at": "2026-07-23T15:16:34.973236+00:00",
+  "dataset": "full",
+  "scope": "RFMK",
+  "total_checkouts": 189812,
+  "total_value_huf": 395521672,
+  "unique_patrons": 8182,
+  "unique_titles": 47197,
+  "total_renewals": 157409,
+  "avg_renewals": 0.83,
+  "libraries": [
+    "RFMK"
+  ],
+  "by_year": [
+    {
+      "year": "2024",
+      "checkouts": 189812,
+      "value_huf": 395521672.0599978
+    }
+  ],
+  "by_library": [
+    {
+      "library": "RFMK",
+      "checkouts": 189812,
+      "value_huf": 395521672.0599978,
+      "patrons": 8182
+    }
+  ],
+  "by_doc_type": [
+    {
+      "code": "B",
+      "checkouts": 179855,
+      "label": "Könyv"
+    },
+    {
+      "code": "F",
+      "checkouts": 3846,
+      "label": "F"
+    },
+    {
+      "code": "S",
+      "checkouts": 3112,
+      "label": "Periodika / Sorozat"
+    },
+    {
+      "code": "R",
+      "checkouts": 2444,
+      "label": "R"
+    },
+    {
+      "code": "C",
+      "checkouts": 424,
+      "label": "AV / CD"
+    },
+    {
+      "code": "D",
+      "checkouts": 83,
+      "label": "Disszertáció"
+    },
+    {
+      "code": "M",
+      "checkouts": 48,
+      "label": "Térkép"
+    }
+  ],
+  "by_language": [
+    {
+      "language": "hun",
+      "checkouts": 184904
+    },
+    {
+      "language": "eng",
+      "checkouts": 3081
+    },
+    {
+      "language": "ger",
+      "checkouts": 695
+    },
+    {
+      "language": "und",
+      "checkouts": 240
+    },
+    {
+      "language": "ita",
+      "checkouts": 148
+    },
+    {
+      "language": "spa",
+      "checkouts": 93
+    }
+  ],
+  "top_renewed_books": [
+    {
+      "title": "Nők lapja : heti női magazin",
+      "author": null,
+      "isbn": null,
+      "total_renewals": 308,
+      "checkouts": 552
+    },
+    {
+      "title": "A Pál utcai fiúk",
+      "author": "Stilton, Geronimo",
+      "isbn": "9789634158851",
+      "total_renewals": 267,
+      "checkouts": 137
+    },
+    {
+      "title": "Ábel a rengetegben : regény",
+      "author": "Tamási Áron",
+      "isbn": "9631544117",
+      "total_renewals": 227,
+      "checkouts": 6
+    },
+    {
+      "title": "Allons-y 1. [Hangfelvétel] : méthode de français niveau débutant : francia nyelvkönyv kezdőknek",
+      "author": "Vida Enikő",
+      "isbn": null,
+      "total_renewals": 204,
+      "checkouts": 2
+    },
+    {
+      "title": "Így éltünk, 1969 : képes riport egy időutazásról",
+      "author": null,
+      "isbn": "9789639860513",
+      "total_renewals": 202,
+      "checkouts": 1
+    },
+    {
+      "title": "Így éltünk, 1977-78 : képes riport egy időutazásról",
+      "author": null,
+      "isbn": "9789639860568",
+      "total_renewals": 202,
+      "checkouts": 1
+    },
+    {
+      "title": "Így éltünk, 1979 : képes riport egy időutazásról",
+      "author": null,
+      "isbn": "9789639860575",
+      "total_renewals": 202,
+      "checkouts": 1
+    },
+    {
+      "title": "Így éltünk, 1961-62 : képes riport egy időutazásról",
+      "author": null,
+      "isbn": "9789639860469",
+      "total_renewals": 202,
+      "checkouts": 1
+    },
+    {
+      "title": "Így éltünk, 1963 : képes riport egy időutazásról",
+      "author": null,
+      "isbn": "9789639860476",
+      "total_renewals": 202,
+      "checkouts": 1
+    },
+    {
+      "title": "Így éltünk, 1968 : képes riport egy időutazásról",
+      "author": null,
+      "isbn": "9789639860506",
+      "total_renewals": 202,
+      "checkouts": 1
+    }
+  ],
+  "most_active_period": {
+    "busiest_month": {
+      "month": "2024-04",
+      "checkouts": 16853
+    },
+    "busiest_weekday": {
+      "weekday": 0,
+      "checkouts": 39199,
+      "label": "Hétfő"
+    },
+    "busiest_hour": {
+      "hour": 9,
+      "checkouts": 24347
+    }
+  },
+  "monthly_checkouts": [
+    {
+      "month": "2021-02",
+      "checkouts": 7
+    },
+    {
+      "month": "2021-03",
+      "checkouts": 28
+    },
+    {
+      "month": "2021-05",
+      "checkouts": 6
+    },
+    {
+      "month": "2021-06",
+      "checkouts": 1
+    },
+    {
+      "month": "2021-07",
+      "checkouts": 4
+    },
+    {
+      "month": "2021-09",
+      "checkouts": 1
+    },
+    {
+      "month": "2021-11",
+      "checkouts": 3
+    },
+    {
+      "month": "2021-12",
+      "checkouts": 7
+    },
+    {
+      "month": "2022-01",
+      "checkouts": 3
+    },
+    {
+      "month": "2022-02",
+      "checkouts": 4
+    },
+    {
+      "month": "2022-03",
+      "checkouts": 5
+    },
+    {
+      "month": "2022-04",
+      "checkouts": 2
+    },
+    {
+      "month": "2022-05",
+      "checkouts": 4
+    },
+    {
+      "month": "2022-06",
+      "checkouts": 10
+    },
+    {
+      "month": "2022-07",
+      "checkouts": 15
+    },
+    {
+      "month": "2022-08",
+      "checkouts": 5
+    },
+    {
+      "month": "2022-09",
+      "checkouts": 5
+    },
+    {
+      "month": "2022-10",
+      "checkouts": 48
+    },
+    {
+      "month": "2022-11",
+      "checkouts": 26
+    },
+    {
+      "month": "2022-12",
+      "checkouts": 6
+    },
+    {
+      "month": "2023-01",
+      "checkouts": 22
+    },
+    {
+      "month": "2023-02",
+      "checkouts": 21
+    },
+    {
+      "month": "2023-03",
+      "checkouts": 7
+    },
+    {
+      "month": "2023-04",
+      "checkouts": 17
+    },
+    {
+      "month": "2023-05",
+      "checkouts": 35
+    },
+    {
+      "month": "2023-06",
+      "checkouts": 35
+    },
+    {
+      "month": "2023-07",
+      "checkouts": 76
+    },
+    {
+      "month": "2023-08",
+      "checkouts": 189
+    },
+    {
+      "month": "2023-09",
+      "checkouts": 175
+    },
+    {
+      "month": "2023-10",
+      "checkouts": 221
+    },
+    {
+      "month": "2023-11",
+      "checkouts": 559
+    },
+    {
+      "month": "2023-12",
+      "checkouts": 7838
+    },
+    {
+      "month": "2024-01",
+      "checkouts": 16493
+    },
+    {
+      "month": "2024-02",
+      "checkouts": 15189
+    },
+    {
+      "month": "2024-03",
+      "checkouts": 14589
+    },
+    {
+      "month": "2024-04",
+      "checkouts": 16853
+    },
+    {
+      "month": "2024-05",
+      "checkouts": 15614
+    },
+    {
+      "month": "2024-06",
+      "checkouts": 14493
+    },
+    {
+      "month": "2024-07",
+      "checkouts": 15823
+    },
+    {
+      "month": "2024-08",
+      "checkouts": 15681
+    },
+    {
+      "month": "2024-09",
+      "checkouts": 15336
+    },
+    {
+      "month": "2024-10",
+      "checkouts": 16637
+    },
+    {
+      "month": "2024-11",
+      "checkouts": 16433
+    },
+    {
+      "month": "2024-12",
+      "checkouts": 7178
+    }
+  ]
+}

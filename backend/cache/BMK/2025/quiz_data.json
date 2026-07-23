@@ -1,0 +1,127 @@
+{
+  "book_quiz": {
+    "top_books": [
+      {
+        "title": "Hunyadi",
+        "author": "Bán János",
+        "record_id": "bibBMK00029706",
+        "isbn": null,
+        "checkouts": 147
+      },
+      {
+        "title": "Brúnó Budapesten",
+        "author": "Bartos Erika",
+        "record_id": "bibBMK00060126",
+        "isbn": null,
+        "checkouts": 137
+      },
+      {
+        "title": "Mágikus állatok iskolája",
+        "author": "Auer, Margit",
+        "record_id": "bibBMK00074112",
+        "isbn": null,
+        "checkouts": 109
+      },
+      {
+        "title": "A Szent Johanna gimi",
+        "author": "Leiner Laura",
+        "record_id": "bibBMK00093957",
+        "isbn": "9789635397020",
+        "checkouts": 92
+      },
+      {
+        "title": "Naruto",
+        "author": "Kishimoto Masashi",
+        "record_id": "bibBMK00048741",
+        "isbn": null,
+        "checkouts": 89
+      }
+    ],
+    "decoys": [
+      {
+        "title": "Az utolsó ígéret",
+        "author": "Hughes, Kathryn",
+        "isbn": "9789635827459",
+        "checkouts": 33
+      },
+      {
+        "title": "Évszakok",
+        "author": "Döring, Hans-Günther",
+        "isbn": "9786155220104",
+        "checkouts": 7
+      },
+      {
+        "title": "Játszani is engedd ... [Hangfelvétel]",
+        "author": "Vekerdy Tamás",
+        "isbn": "9789630982160",
+        "checkouts": 4
+      },
+      {
+        "title": "Hitetlen",
+        "author": "Slaughter, Karin",
+        "isbn": "9789632544755",
+        "checkouts": 3
+      },
+      {
+        "title": "A legnagyobb lovag",
+        "author": "Chadwick, Elizabeth",
+        "isbn": "9789632452425",
+        "checkouts": 2
+      },
+      {
+        "title": "Fullasztó tél : hó, csend, halál",
+        "author": "Simmons, Dan",
+        "isbn": "9789634477266",
+        "checkouts": 2
+      },
+      {
+        "title": "Lady Bird [DVD-felvétel]",
+        "author": "Gerwig, Greta",
+        "isbn": null,
+        "checkouts": 1
+      },
+      {
+        "title": "Lilian",
+        "author": "Caine, Ronil",
+        "isbn": "9786155508646",
+        "checkouts": 1
+      },
+      {
+        "title": "Nem és nem : tíz deka feminizmus",
+        "author": "Szécsi Noémi",
+        "isbn": "9786158255639",
+        "checkouts": 1
+      },
+      {
+        "title": "A járatlan út : a szeretet, a hagyományos értékek és a szellemi fejlődés új pszichológiája",
+        "author": "Peck, M. Scott",
+        "isbn": "9635307349",
+        "checkouts": 1
+      }
+    ]
+  },
+  "author_quiz": {
+    "top_authors": [
+      {
+        "author": "Bartos Erika",
+        "checkouts": 1670
+      },
+      {
+        "author": "Berg Judit",
+        "checkouts": 920
+      },
+      {
+        "author": "Stilton, Geronimo",
+        "checkouts": 775
+      },
+      {
+        "author": "Kinney, Jeff",
+        "checkouts": 693
+      },
+      {
+        "author": "Bauer Barbara",
+        "checkouts": 612
+      }
+    ]
+  }
+}

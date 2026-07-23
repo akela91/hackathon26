@@ -1,0 +1,229 @@
+{
+  "generated_at": "2026-07-23T15:16:47.509816+00:00",
+  "dataset": "full",
+  "scope": "SZTE",
+  "total_checkouts": 31258,
+  "total_value_huf": 102555391,
+  "unique_patrons": 4269,
+  "unique_titles": 16847,
+  "total_renewals": 5906,
+  "avg_renewals": 0.19,
+  "libraries": [
+    "SZTE"
+  ],
+  "by_year": [
+    {
+      "year": "2021",
+      "checkouts": 31258,
+      "value_huf": 102555391.15
+    }
+  ],
+  "by_library": [
+    {
+      "library": "SZTE",
+      "checkouts": 31258,
+      "value_huf": 102555391.15,
+      "patrons": 4269
+    }
+  ],
+  "by_doc_type": [
+    {
+      "code": "B",
+      "checkouts": 30985,
+      "label": "Könyv"
+    },
+    {
+      "code": "C",
+      "checkouts": 240,
+      "label": "AV / CD"
+    },
+    {
+      "code": "S",
+      "checkouts": 14,
+      "label": "Periodika / Sorozat"
+    },
+    {
+      "code": "M",
+      "checkouts": 12,
+      "label": "Térkép"
+    },
+    {
+      "code": "D",
+      "checkouts": 3,
+      "label": "Disszertáció"
+    },
+    {
+      "code": "F",
+      "checkouts": 3,
+      "label": "F"
+    },
+    {
+      "code": "A",
+      "checkouts": 1,
+      "label": "A"
+    }
+  ],
+  "by_language": [
+    {
+      "language": "hun",
+      "checkouts": 27750
+    },
+    {
+      "language": "eng",
+      "checkouts": 1769
+    },
+    {
+      "language": "ger",
+      "checkouts": 746
+    },
+    {
+      "language": "fre",
+      "checkouts": 279
+    },
+    {
+      "language": "spa",
+      "checkouts": 182
+    },
+    {
+      "language": "ita",
+      "checkouts": 162
+    }
+  ],
+  "top_renewed_books": [
+    {
+      "title": "Humán anatómiai atlasz",
+      "author": "Netter, Frank Henry",
+      "isbn": "963242848X",
+      "total_renewals": 13,
+      "checkouts": 28
+    },
+    {
+      "title": "Les loustics 1: méthode de français : livre de l'éléve A1.1",
+      "author": "Denisot, Hugues",
+      "isbn": "9782011559036",
+      "total_renewals": 12,
+      "checkouts": 13
+    },
+    {
+      "title": "A mohácsi csata",
+      "author": "Szakály Ferenc",
+      "isbn": "9630528010",
+      "total_renewals": 12,
+      "checkouts": 12
+    },
+    {
+      "title": "Pszichológia",
+      "author": null,
+      "isbn": "9633897130",
+      "total_renewals": 11,
+      "checkouts": 43
+    },
+    {
+      "title": "Alkalmazott élettan - kórélettan",
+      "author": null,
+      "isbn": "9789637152757",
+      "total_renewals": 10,
+      "checkouts": 20
+    },
+    {
+      "title": "Alice au pays du langage : pour comprendre la linguistique",
+      "author": "Yaguello, Marina",
+      "isbn": "2020057956",
+      "total_renewals": 10,
+      "checkouts": 14
+    },
+    {
+      "title": "Képes Krónika",
+      "author": null,
+      "isbn": "9630737590",
+      "total_renewals": 10,
+      "checkouts": 9
+    },
+    {
+      "title": "Bach példatár [nyomtatott kotta] : idézetek J. S. Bach kantátáiból = Bach-Beispielsammlung : Zitate aus J. S. Bachs Kantaten = Collection of Bach examples : quotations from J. S. Bach's cantatas : 1. [köt.] [Kotta] : idézetek J. S. Bach kantátáiból = Bach-Beispielsammlung : Zitate aus J. S. Bachs Kantaten = Collection of Bach examples : quotations from J. S. Bach's cantatas",
+      "author": "Hegyi Erzsébet, Legányné",
+      "isbn": "080056653",
+      "total_renewals": 10,
+      "checkouts": 9
+    },
+    {
+      "title": "A háziállatok funkcionális anatómiája : [tankönyv] : A mozgás szervei. 1. köt.",
+      "author": "Fehér György",
+      "isbn": "9632300718",
+      "total_renewals": 10,
+      "checkouts": 8
+    },
+    {
+      "title": "A szántóföldi és kertészeti növények kártevői : káros és hasznos állatok ; [felsőoktatási tankönyv]",
+      "author": null,
+      "isbn": "9638439300",
+      "total_renewals": 10,
+      "checkouts": 8
+    }
+  ],
+  "most_active_period": {
+    "busiest_month": {
+      "month": "2021-11",
+      "checkouts": 4599
+    },
+    "busiest_weekday": {
+      "weekday": 0,
+      "checkouts": 5781,
+      "label": "Hétfő"
+    },
+    "busiest_hour": {
+      "hour": 9,
+      "checkouts": 3060
+    }
+  },
+  "monthly_checkouts": [
+    {
+      "month": "2021-01",
+      "checkouts": 1036
+    },
+    {
+      "month": "2021-02",
+      "checkouts": 1114
+    },
+    {
+      "month": "2021-03",
+      "checkouts": 568
+    },
+    {
+      "month": "2021-04",
+      "checkouts": 1348
+    },
+    {
+      "month": "2021-05",
+      "checkouts": 2802
+    },
+    {
+      "month": "2021-06",
+      "checkouts": 1589
+    },
+    {
+      "month": "2021-07",
+      "checkouts": 1380
+    },
+    {
+      "month": "2021-08",
+      "checkouts": 1294
+    },
+    {
+      "month": "2021-09",
+      "checkouts": 4100
+    },
+    {
+      "month": "2021-10",
+      "checkouts": 4484
+    },
+    {
+      "month": "2021-11",
+      "checkouts": 4599
+    },
+    {
+      "month": "2021-12",
+      "checkouts": 881
+    }
+  ]
+}

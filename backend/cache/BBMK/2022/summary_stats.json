@@ -1,0 +1,256 @@
+{
+  "generated_at": "2026-07-23T15:15:34.826343+00:00",
+  "dataset": "full",
+  "scope": "BBMK",
+  "total_checkouts": 25125,
+  "total_value_huf": 54847901,
+  "unique_patrons": 1306,
+  "unique_titles": 11243,
+  "total_renewals": 17456,
+  "avg_renewals": 0.69,
+  "libraries": [
+    "BBMK"
+  ],
+  "by_year": [
+    {
+      "year": "2022",
+      "checkouts": 25125,
+      "value_huf": 54847901.19
+    }
+  ],
+  "by_library": [
+    {
+      "library": "BBMK",
+      "checkouts": 25125,
+      "value_huf": 54847901.19,
+      "patrons": 1306
+    }
+  ],
+  "by_doc_type": [
+    {
+      "code": "B",
+      "checkouts": 25002,
+      "label": "Könyv"
+    },
+    {
+      "code": "F",
+      "checkouts": 76,
+      "label": "F"
+    },
+    {
+      "code": "R",
+      "checkouts": 30,
+      "label": "R"
+    },
+    {
+      "code": "M",
+      "checkouts": 14,
+      "label": "Térkép"
+    },
+    {
+      "code": "C",
+      "checkouts": 2,
+      "label": "AV / CD"
+    },
+    {
+      "code": "D",
+      "checkouts": 1,
+      "label": "Disszertáció"
+    }
+  ],
+  "by_language": [
+    {
+      "language": "hun",
+      "checkouts": 24778
+    },
+    {
+      "language": "eng",
+      "checkouts": 276
+    },
+    {
+      "language": "ger",
+      "checkouts": 26
+    },
+    {
+      "language": "ita",
+      "checkouts": 12
+    },
+    {
+      "language": "mul",
+      "checkouts": 7
+    },
+    {
+      "language": "spa",
+      "checkouts": 5
+    }
+  ],
+  "top_renewed_books": [
+    {
+      "title": "A sirály a király?",
+      "author": "Bosnyák Viktória",
+      "isbn": "9786150107233",
+      "total_renewals": 42,
+      "checkouts": 22
+    },
+    {
+      "title": "New English file : intermediate",
+      "author": "Oxenden, Clive",
+      "isbn": null,
+      "total_renewals": 36,
+      "checkouts": 12
+    },
+    {
+      "title": "Szent Péter esernyője",
+      "author": "Mikszáth Kálmán",
+      "isbn": "9789633468982",
+      "total_renewals": 34,
+      "checkouts": 27
+    },
+    {
+      "title": "Soha",
+      "author": "Follett, Ken",
+      "isbn": "9789635662203",
+      "total_renewals": 28,
+      "checkouts": 32
+    },
+    {
+      "title": "Hunyadi",
+      "author": "Bán János",
+      "isbn": "97896342618274",
+      "total_renewals": 27,
+      "checkouts": 46
+    },
+    {
+      "title": "A farm, ahol élünk",
+      "author": "Wilder, Laura Ingalls",
+      "isbn": "97861580296051",
+      "total_renewals": 26,
+      "checkouts": 7
+    },
+    {
+      "title": "Az utolsó reggel Párizsban : valóságos regény",
+      "author": "Náray Tamás",
+      "isbn": null,
+      "total_renewals": 22,
+      "checkouts": 17
+    },
+    {
+      "title": "Légy(ott) Isztambulban",
+      "author": "Brown, Borsa (álnév)",
+      "isbn": "9789635701698",
+      "total_renewals": 20,
+      "checkouts": 23
+    },
+    {
+      "title": "Egy új korszak hajnala : A katedrális előzménye : Kingsbridge",
+      "author": "Follett, Ken",
+      "isbn": "9789635660018",
+      "total_renewals": 20,
+      "checkouts": 19
+    },
+    {
+      "title": "Ábel a rengetegben",
+      "author": "Tamási Áron",
+      "isbn": "9789632276526",
+      "total_renewals": 20,
+      "checkouts": 10
+    }
+  ],
+  "most_active_period": {
+    "busiest_month": {
+      "month": "2022-08",
+      "checkouts": 2429
+    },
+    "busiest_weekday": {
+      "weekday": 1,
+      "checkouts": 8468,
+      "label": "Kedd"
+    },
+    "busiest_hour": {
+      "hour": 9,
+      "checkouts": 5572
+    }
+  },
+  "monthly_checkouts": [
+    {
+      "month": "2021-02",
+      "checkouts": 11
+    },
+    {
+      "month": "2021-06",
+      "checkouts": 3
+    },
+    {
+      "month": "2021-07",
+      "checkouts": 8
+    },
+    {
+      "month": "2021-08",
+      "checkouts": 16
+    },
+    {
+      "month": "2021-09",
+      "checkouts": 28
+    },
+    {
+      "month": "2021-10",
+      "checkouts": 48
+    },
+    {
+      "month": "2021-11",
+      "checkouts": 97
+    },
+    {
+      "month": "2021-12",
+      "checkouts": 1102
+    },
+    {
+      "month": "2022-01",
+      "checkouts": 1882
+    },
+    {
+      "month": "2022-02",
+      "checkouts": 1614
+    },
+    {
+      "month": "2022-03",
+      "checkouts": 2011
+    },
+    {
+      "month": "2022-04",
+      "checkouts": 2095
+    },
+    {
+      "month": "2022-05",
+      "checkouts": 2215
+    },
+    {
+      "month": "2022-06",
+      "checkouts": 2342
+    },
+    {
+      "month": "2022-07",
+      "checkouts": 2391
+    },
+    {
+      "month": "2022-08",
+      "checkouts": 2429
+    },
+    {
+      "month": "2022-09",
+      "checkouts": 2286
+    },
+    {
+      "month": "2022-10",
+      "checkouts": 2270
+    },
+    {
+      "month": "2022-11",
+      "checkouts": 1933
+    },
+    {
+      "month": "2022-12",
+      "checkouts": 258
+    }
+  ]
+}

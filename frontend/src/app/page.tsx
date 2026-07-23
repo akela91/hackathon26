@@ -22,14 +22,14 @@ import QuizSection from "@/components/quiz/QuizSection";
 import MongooseEgg from "@/components/easter-egg/MongooseEgg";
 
 export default function Home() {
-  const { selectedLibrary } = useLibrary();
+  const { selectedLibrary, selectedYear } = useLibrary();
   const { t } = useLanguage();
   const [data, setData] = useState<AppData | null>(null);
   const [error, setError] = useState<string | null>(null);
   const isFirstLoad = useRef(true);
 
   useEffect(() => {
-    fetchAppData(selectedLibrary)
+    fetchAppData(selectedLibrary, selectedYear)
       .then((d) => {
         setData(d);
         setError(null);
@@ -38,7 +38,7 @@ export default function Home() {
       .finally(() => {
         isFirstLoad.current = false;
       });
-  }, [selectedLibrary]);
+  }, [selectedLibrary, selectedYear]);
 
   if (error) {
     return (
@@ -158,7 +158,7 @@ export default function Home() {
       </Section>
 
       <footer className="border-t border-white/5 py-10 text-center text-sm text-muted">
-        <div className="mx-auto flex max-w-6xl flex-col items-center gap-2 px-5">
+        <div className="mx-auto flex max-w-[86rem] flex-col items-center gap-2 px-5">
           <BookOpen className="h-6 w-6 text-accent-1" />
           <p>
             {t("footer.tagline")} · {summary.libraries.join(" • ")} ·{" "}

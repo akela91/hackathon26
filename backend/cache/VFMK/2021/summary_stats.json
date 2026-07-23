@@ -1,0 +1,224 @@
+{
+  "generated_at": "2026-07-23T15:16:50.756682+00:00",
+  "dataset": "full",
+  "scope": "VFMK",
+  "total_checkouts": 35920,
+  "total_value_huf": 79980588,
+  "unique_patrons": 2020,
+  "unique_titles": 18261,
+  "total_renewals": 31918,
+  "avg_renewals": 0.89,
+  "libraries": [
+    "VFMK"
+  ],
+  "by_year": [
+    {
+      "year": "2021",
+      "checkouts": 35920,
+      "value_huf": 79980588.64999999
+    }
+  ],
+  "by_library": [
+    {
+      "library": "VFMK",
+      "checkouts": 35920,
+      "value_huf": 79980588.64999999,
+      "patrons": 2020
+    }
+  ],
+  "by_doc_type": [
+    {
+      "code": "B",
+      "checkouts": 35161,
+      "label": "Könyv"
+    },
+    {
+      "code": "R",
+      "checkouts": 433,
+      "label": "R"
+    },
+    {
+      "code": "F",
+      "checkouts": 287,
+      "label": "F"
+    },
+    {
+      "code": "M",
+      "checkouts": 22,
+      "label": "Térkép"
+    },
+    {
+      "code": "C",
+      "checkouts": 9,
+      "label": "AV / CD"
+    },
+    {
+      "code": "D",
+      "checkouts": 8,
+      "label": "Disszertáció"
+    }
+  ],
+  "by_language": [
+    {
+      "language": "hun",
+      "checkouts": 35450
+    },
+    {
+      "language": "eng",
+      "checkouts": 282
+    },
+    {
+      "language": "ger",
+      "checkouts": 52
+    },
+    {
+      "language": "ita",
+      "checkouts": 35
+    },
+    {
+      "language": "fre",
+      "checkouts": 25
+    },
+    {
+      "language": "und",
+      "checkouts": 20
+    }
+  ],
+  "top_renewed_books": [
+    {
+      "title": "\"A Szent Korona nevében...\" [Hangfelvétel]",
+      "author": "Pap Gábor",
+      "isbn": null,
+      "total_renewals": 88,
+      "checkouts": 32
+    },
+    {
+      "title": "A Szent Johanna gimi",
+      "author": "Leiner Laura",
+      "isbn": "9786155653339",
+      "total_renewals": 57,
+      "checkouts": 51
+    },
+    {
+      "title": "Vaják = the witcher",
+      "author": "Sapkowski, Andrzej",
+      "isbn": null,
+      "total_renewals": 50,
+      "checkouts": 36
+    },
+    {
+      "title": "A Szent Johanna gimi : [egy gimi, ahova mindenki szívesen járna...]",
+      "author": "Leiner Laura",
+      "isbn": "9789635397020",
+      "total_renewals": 49,
+      "checkouts": 25
+    },
+    {
+      "title": "Hunyadi",
+      "author": "Bán János",
+      "isbn": null,
+      "total_renewals": 48,
+      "checkouts": 58
+    },
+    {
+      "title": "Irodalmi alkotások elemzése logikusan, 9.",
+      "author": "Kónya István",
+      "isbn": "9638641193",
+      "total_renewals": 48,
+      "checkouts": 1
+    },
+    {
+      "title": "Hahota fent és lent : [Viccek]",
+      "author": null,
+      "isbn": "9637597522",
+      "total_renewals": 47,
+      "checkouts": 2
+    },
+    {
+      "title": "Firenze",
+      "author": "Thoma, Wolfgang",
+      "isbn": "9637598081",
+      "total_renewals": 44,
+      "checkouts": 2
+    },
+    {
+      "title": "Könyvtárosok kézikönyve",
+      "author": null,
+      "isbn": "9633797322",
+      "total_renewals": 42,
+      "checkouts": 5
+    },
+    {
+      "title": "Évszázad-trilógia",
+      "author": "Follett, Ken",
+      "isbn": null,
+      "total_renewals": 32,
+      "checkouts": 25
+    }
+  ],
+  "most_active_period": {
+    "busiest_month": {
+      "month": "2021-07",
+      "checkouts": 4143
+    },
+    "busiest_weekday": {
+      "weekday": 1,
+      "checkouts": 9997,
+      "label": "Kedd"
+    },
+    "busiest_hour": {
+      "hour": 9,
+      "checkouts": 5321
+    }
+  },
+  "monthly_checkouts": [
+    {
+      "month": "2021-01",
+      "checkouts": 2195
+    },
+    {
+      "month": "2021-02",
+      "checkouts": 1326
+    },
+    {
+      "month": "2021-03",
+      "checkouts": 2618
+    },
+    {
+      "month": "2021-04",
+      "checkouts": 2576
+    },
+    {
+      "month": "2021-05",
+      "checkouts": 2603
+    },
+    {
+      "month": "2021-06",
+      "checkouts": 3264
+    },
+    {
+      "month": "2021-07",
+      "checkouts": 4143
+    },
+    {
+      "month": "2021-08",
+      "checkouts": 3319
+    },
+    {
+      "month": "2021-09",
+      "checkouts": 4001
+    },
+    {
+      "month": "2021-10",
+      "checkouts": 3892
+    },
+    {
+      "month": "2021-11",
+      "checkouts": 3239
+    },
+    {
+      "month": "2021-12",
+      "checkouts": 571
+    }
+  ]
+}

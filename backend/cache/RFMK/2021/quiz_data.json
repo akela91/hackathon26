@@ -1,0 +1,127 @@
+{
+  "book_quiz": {
+    "top_books": [
+      {
+        "title": "A Szent Johanna gimi",
+        "author": "Leiner Laura",
+        "record_id": "bibRFM00189877",
+        "isbn": "9789635397020",
+        "checkouts": 228
+      },
+      {
+        "title": "Idődetektívek",
+        "author": "Lenk, Fabian",
+        "record_id": "bibRFM00301400",
+        "isbn": null,
+        "checkouts": 149
+      },
+      {
+        "title": "Hunyadi",
+        "author": "Bán János",
+        "record_id": "bibRFM00119486",
+        "isbn": null,
+        "checkouts": 141
+      },
+      {
+        "title": "Rumini",
+        "author": "Berg Judit",
+        "record_id": "bibRFM00363468",
+        "isbn": "9789634106159",
+        "checkouts": 81
+      },
+      {
+        "title": "A Pál utcai fiúk",
+        "author": "Molnár Ferenc",
+        "record_id": "bibRFM00045025",
+        "isbn": "9789634158851",
+        "checkouts": 78
+      }
+    ],
+    "decoys": [
+      {
+        "title": "Támasz a viharban : A Dunmore-kastély titkai II.",
+        "author": "Taylor, Kathryn",
+        "isbn": "9789635441570",
+        "checkouts": 37
+      },
+      {
+        "title": "Ida regénye",
+        "author": "Gárdonyi Géza",
+        "isbn": "9789632520087",
+        "checkouts": 8
+      },
+      {
+        "title": "A lopakodó",
+        "author": "Robinson, Patrick",
+        "isbn": "963367722X",
+        "checkouts": 4
+      },
+      {
+        "title": "Arany Róka",
+        "author": "Smith, Wilbur",
+        "isbn": "9639124281",
+        "checkouts": 3
+      },
+      {
+        "title": "Poros úton mezítláb",
+        "author": "Mittelstaedt, Elizabeth",
+        "isbn": "9786155246104",
+        "checkouts": 2
+      },
+      {
+        "title": "Lammermoori Lucia szomorú és igaz története",
+        "author": "Erdődy János",
+        "isbn": "9632805909",
+        "checkouts": 2
+      },
+      {
+        "title": "The day of the Jackal",
+        "author": "Forsyth, Frederick",
+        "isbn": "9781405882101",
+        "checkouts": 1
+      },
+      {
+        "title": "Hölgy aranyban [DVD-felvétel]",
+        "author": "Curtis, Simon",
+        "isbn": null,
+        "checkouts": 1
+      },
+      {
+        "title": "Dínó-dili : őskori tojásvadászat",
+        "author": "West, Tracey",
+        "isbn": "9789634843405",
+        "checkouts": 1
+      },
+      {
+        "title": "Fénykatedrális : technokultúra 2001",
+        "author": "Kömlődi Ferenc",
+        "isbn": "9639169188",
+        "checkouts": 1
+      }
+    ]
+  },
+  "author_quiz": {
+    "top_authors": [
+      {
+        "author": "Roberts, Nora",
+        "checkouts": 1729
+      },
+      {
+        "author": "Bartos Erika",
+        "checkouts": 1386
+      },
+      {
+        "author": "Steel, Danielle",
+        "checkouts": 1319
+      },
+      {
+        "author": "Berg Judit",
+        "checkouts": 915
+      },
+      {
+        "author": "Stilton, Geronimo",
+        "checkouts": 887
+      }
+    ]
+  }
+}

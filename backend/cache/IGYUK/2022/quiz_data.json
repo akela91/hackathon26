@@ -1,0 +1,127 @@
+{
+  "book_quiz": {
+    "top_books": [
+      {
+        "title": "Számítógép száma: 1.",
+        "author": "Számítógép használat",
+        "record_id": "bibTMK00276981",
+        "isbn": null,
+        "checkouts": 262
+      },
+      {
+        "title": "Számítógép száma: 3.",
+        "author": "Számítógép használat",
+        "record_id": "bibTMK00276984",
+        "isbn": null,
+        "checkouts": 204
+      },
+      {
+        "title": "Számítógép száma: 7.",
+        "author": "Számítógép használat",
+        "record_id": "bibTMK00276988",
+        "isbn": null,
+        "checkouts": 168
+      },
+      {
+        "title": "A Szent Johanna gimi",
+        "author": "Leiner Laura",
+        "record_id": "bibTMK00236530",
+        "isbn": "9789635397020",
+        "checkouts": 147
+      },
+      {
+        "title": "Számítógép száma: 4.",
+        "author": "Számítógép használat",
+        "record_id": "bibTMK00276985",
+        "isbn": null,
+        "checkouts": 111
+      }
+    ],
+    "decoys": [
+      {
+        "title": "Illúzió",
+        "author": "Leiner Laura",
+        "isbn": "9786158031202",
+        "checkouts": 16
+      },
+      {
+        "title": "A lánynevelde 1. : Riva nővérek-sorozat",
+        "author": "Kelényi Angelika, R.",
+        "isbn": "9786156013002",
+        "checkouts": 5
+      },
+      {
+        "title": "Márványszív : történelmi trilógia : 3. kötet",
+        "author": "Gál Dorina",
+        "isbn": "9786155535581",
+        "checkouts": 3
+      },
+      {
+        "title": "Életem és működésem Magyarországon 1848-ban és 1849-ben",
+        "author": "Görgey Artúr",
+        "isbn": "9630746212",
+        "checkouts": 2
+      },
+      {
+        "title": "Zaklatás",
+        "author": "Grippando, James",
+        "isbn": "9789636435363",
+        "checkouts": 2
+      },
+      {
+        "title": "Szia, világ",
+        "author": "Szepes Mária",
+        "isbn": "9631121003",
+        "checkouts": 1
+      },
+      {
+        "title": "A törvénytelen",
+        "author": "Roberts, Nora",
+        "isbn": "9789635377039",
+        "checkouts": 1
+      },
+      {
+        "title": "Lábuk nyomát elmosta a víz",
+        "author": "Berze-Nagy Ilona",
+        "isbn": "963116537X",
+        "checkouts": 1
+      },
+      {
+        "title": "Az elvarázsolt egérkisasszony",
+        "author": "Bálint Ágnes",
+        "isbn": "9631115712",
+        "checkouts": 1
+      },
+      {
+        "title": "Kreativitás : merj önmagad lenni, és hagyd kibontakozni egyéniséged",
+        "author": "Rajneesh, Bhagwan",
+        "isbn": "9789635295968",
+        "checkouts": 1
+      }
+    ]
+  },
+  "author_quiz": {
+    "top_authors": [
+      {
+        "author": "Számítógép használat",
+        "checkouts": 842
+      },
+      {
+        "author": "Bartos Erika",
+        "checkouts": 726
+      },
+      {
+        "author": "Roberts, Nora",
+        "checkouts": 557
+      },
+      {
+        "author": "Marék Veronika",
+        "checkouts": 474
+      },
+      {
+        "author": "Berg Judit",
+        "checkouts": 407
+      }
+    ]
+  }
+}

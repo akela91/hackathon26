@@ -1,0 +1,127 @@
+{
+  "book_quiz": {
+    "top_books": [
+      {
+        "title": "A Szent Johanna gimi",
+        "author": "Leiner Laura",
+        "record_id": "bibSOK00501591",
+        "isbn": "9789635397020",
+        "checkouts": 409
+      },
+      {
+        "title": "Időfutár",
+        "author": "Gimesi Dóra",
+        "record_id": "bibSOK00548574",
+        "isbn": null,
+        "checkouts": 253
+      },
+      {
+        "title": "Idődetektívek",
+        "author": "Lenk, Fabian",
+        "record_id": "bibSOK00456179",
+        "isbn": null,
+        "checkouts": 234
+      },
+      {
+        "title": "Lengemesék",
+        "author": "Berg Judit",
+        "record_id": "bibSOK00542849",
+        "isbn": null,
+        "checkouts": 212
+      },
+      {
+        "title": "Percy Jackson és az olimposziak",
+        "author": "Riordan, Rick",
+        "record_id": "bibSOK00526427",
+        "isbn": null,
+        "checkouts": 184
+      }
+    ],
+    "decoys": [
+      {
+        "title": "Két macska voltam",
+        "author": "Kepes András",
+        "isbn": "9789635722631",
+        "checkouts": 86
+      },
+      {
+        "title": "Drakula",
+        "author": "Stoker, Bram",
+        "isbn": "9789635046195",
+        "checkouts": 13
+      },
+      {
+        "title": "A magányos farkas",
+        "author": "Grisham, John",
+        "isbn": "9786155331602",
+        "checkouts": 7
+      },
+      {
+        "title": "Szeresd meg önmagad! : változtasd meg kapcsolati mintáidat és gyógyítsd be a múlt sebeit!",
+        "author": "Aiyana, Sheleana",
+        "isbn": "9789635653805",
+        "checkouts": 4
+      },
+      {
+        "title": "Mu, az emberiség szülőföldje",
+        "author": "Csicsáky Jenő",
+        "isbn": null,
+        "checkouts": 3
+      },
+      {
+        "title": "The outsiders",
+        "author": "Hinton, S. E.",
+        "isbn": "9780140385724",
+        "checkouts": 2
+      },
+      {
+        "title": "A híres Báthoriak : történelmi emlékek és folklórhagyományok",
+        "author": "Magyar Zoltán",
+        "isbn": "9789636624781",
+        "checkouts": 2
+      },
+      {
+        "title": "UML 2 : [Unified Modeling Language]",
+        "author": "Störrle, Harald",
+        "isbn": "9789635454655",
+        "checkouts": 1
+      },
+      {
+        "title": "Mémoires d'une jeune fille rangée",
+        "author": "Beauvoir, Simone de",
+        "isbn": "207036786X",
+        "checkouts": 1
+      },
+      {
+        "title": "Fegyelmezés szeretettel : így kezeld a nyafogást, a hisztit, az evés körüli cirkuszt, a képernyőfüggőséget - és még sok mást!",
+        "author": "Wyckoff, Jerry",
+        "isbn": "9786155609800",
+        "checkouts": 1
+      }
+    ]
+  },
+  "author_quiz": {
+    "top_authors": [
+      {
+        "author": "Dami, Elisabetta",
+        "checkouts": 4164
+      },
+      {
+        "author": "Bartos Erika",
+        "checkouts": 4025
+      },
+      {
+        "author": "Berg Judit",
+        "checkouts": 3674
+      },
+      {
+        "author": "Schneider, Liane",
+        "checkouts": 1991
+      },
+      {
+        "author": "Marék Veronika",
+        "checkouts": 1932
+      }
+    ]
+  }
+}

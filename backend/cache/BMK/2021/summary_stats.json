@@ -1,0 +1,224 @@
+{
+  "generated_at": "2026-07-23T15:15:36.452076+00:00",
+  "dataset": "full",
+  "scope": "BMK",
+  "total_checkouts": 57500,
+  "total_value_huf": 144596255,
+  "unique_patrons": 2929,
+  "unique_titles": 21261,
+  "total_renewals": 34313,
+  "avg_renewals": 0.6,
+  "libraries": [
+    "BMK"
+  ],
+  "by_year": [
+    {
+      "year": "2021",
+      "checkouts": 57500,
+      "value_huf": 144596255.5
+    }
+  ],
+  "by_library": [
+    {
+      "library": "BMK",
+      "checkouts": 57500,
+      "value_huf": 144596255.5,
+      "patrons": 2929
+    }
+  ],
+  "by_doc_type": [
+    {
+      "code": "B",
+      "checkouts": 54029,
+      "label": "Könyv"
+    },
+    {
+      "code": "F",
+      "checkouts": 2326,
+      "label": "F"
+    },
+    {
+      "code": "R",
+      "checkouts": 1080,
+      "label": "R"
+    },
+    {
+      "code": "S",
+      "checkouts": 29,
+      "label": "Periodika / Sorozat"
+    },
+    {
+      "code": "C",
+      "checkouts": 21,
+      "label": "AV / CD"
+    },
+    {
+      "code": "M",
+      "checkouts": 15,
+      "label": "Térkép"
+    }
+  ],
+  "by_language": [
+    {
+      "language": "hun",
+      "checkouts": 56655
+    },
+    {
+      "language": "eng",
+      "checkouts": 495
+    },
+    {
+      "language": "und",
+      "checkouts": 135
+    },
+    {
+      "language": "ger",
+      "checkouts": 49
+    },
+    {
+      "language": "ita",
+      "checkouts": 40
+    },
+    {
+      "language": "fre",
+      "checkouts": 29
+    }
+  ],
+  "top_renewed_books": [
+    {
+      "title": "Brúnó Budapesten",
+      "author": "Bartos Erika",
+      "isbn": null,
+      "total_renewals": 52,
+      "checkouts": 54
+    },
+    {
+      "title": "Csengetett, Mylord? [DVD-felvétel] : díszdoboz : a teljes sorozat",
+      "author": "Croft, David",
+      "isbn": null,
+      "total_renewals": 48,
+      "checkouts": 18
+    },
+    {
+      "title": "Mágikus állatok iskolája",
+      "author": "Auer, Margit",
+      "isbn": null,
+      "total_renewals": 47,
+      "checkouts": 30
+    },
+    {
+      "title": "Egri csillagok",
+      "author": "Gárdonyi Géza",
+      "isbn": "9639492612",
+      "total_renewals": 42,
+      "checkouts": 25
+    },
+    {
+      "title": "Román társalgás",
+      "author": null,
+      "isbn": "9789638978769",
+      "total_renewals": 42,
+      "checkouts": 1
+    },
+    {
+      "title": "A Szent Johanna gimi",
+      "author": "Leiner Laura",
+      "isbn": "9789635397020",
+      "total_renewals": 41,
+      "checkouts": 95
+    },
+    {
+      "title": "Dalok a testnek, dalok a léleknek [Hangfelvétel] : 33.",
+      "author": "EDDA Művek",
+      "isbn": null,
+      "total_renewals": 38,
+      "checkouts": 18
+    },
+    {
+      "title": "The Beatles / 1967-1970 [Hangfelvétel]",
+      "author": null,
+      "isbn": null,
+      "total_renewals": 38,
+      "checkouts": 18
+    },
+    {
+      "title": "István, a király [Hangfelvétel] : Rockopera Boldizsár Miklós \"Ezredforduló\" c. drámája nyomán",
+      "author": "Boldizsár Miklós",
+      "isbn": null,
+      "total_renewals": 38,
+      "checkouts": 18
+    },
+    {
+      "title": "A várakozás művészete [Hangfelvétel] : Gondviselés",
+      "author": "Müller Péter",
+      "isbn": "9789630990585",
+      "total_renewals": 38,
+      "checkouts": 16
+    }
+  ],
+  "most_active_period": {
+    "busiest_month": {
+      "month": "2021-10",
+      "checkouts": 5871
+    },
+    "busiest_weekday": {
+      "weekday": 0,
+      "checkouts": 11418,
+      "label": "Hétfő"
+    },
+    "busiest_hour": {
+      "hour": 14,
+      "checkouts": 7098
+    }
+  },
+  "monthly_checkouts": [
+    {
+      "month": "2021-01",
+      "checkouts": 4840
+    },
+    {
+      "month": "2021-02",
+      "checkouts": 3803
+    },
+    {
+      "month": "2021-03",
+      "checkouts": 2295
+    },
+    {
+      "month": "2021-04",
+      "checkouts": 3715
+    },
+    {
+      "month": "2021-05",
+      "checkouts": 4064
+    },
+    {
+      "month": "2021-06",
+      "checkouts": 4599
+    },
+    {
+      "month": "2021-07",
+      "checkouts": 5341
+    },
+    {
+      "month": "2021-08",
+      "checkouts": 5748
+    },
+    {
+      "month": "2021-09",
+      "checkouts": 5260
+    },
+    {
+      "month": "2021-10",
+      "checkouts": 5871
+    },
+    {
+      "month": "2021-11",
+      "checkouts": 5551
+    },
+    {
+      "month": "2021-12",
+      "checkouts": 1967
+    }
+  ]
+}

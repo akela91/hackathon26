@@ -1,0 +1,229 @@
+{
+  "generated_at": "2026-07-23T15:16:21.921026+00:00",
+  "dataset": "full",
+  "scope": "IGYUK",
+  "total_checkouts": 41438,
+  "total_value_huf": 88903666,
+  "unique_patrons": 2175,
+  "unique_titles": 19204,
+  "total_renewals": 42848,
+  "avg_renewals": 1.03,
+  "libraries": [
+    "IGYUK"
+  ],
+  "by_year": [
+    {
+      "year": "2021",
+      "checkouts": 41438,
+      "value_huf": 88903666.14999998
+    }
+  ],
+  "by_library": [
+    {
+      "library": "IGYUK",
+      "checkouts": 41438,
+      "value_huf": 88903666.14999998,
+      "patrons": 2175
+    }
+  ],
+  "by_doc_type": [
+    {
+      "code": "B",
+      "checkouts": 38251,
+      "label": "Könyv"
+    },
+    {
+      "code": "F",
+      "checkouts": 1728,
+      "label": "F"
+    },
+    {
+      "code": "R",
+      "checkouts": 583,
+      "label": "R"
+    },
+    {
+      "code": "S",
+      "checkouts": 465,
+      "label": "Periodika / Sorozat"
+    },
+    {
+      "code": "D",
+      "checkouts": 385,
+      "label": "Disszertáció"
+    },
+    {
+      "code": "C",
+      "checkouts": 13,
+      "label": "AV / CD"
+    },
+    {
+      "code": "M",
+      "checkouts": 13,
+      "label": "Térkép"
+    }
+  ],
+  "by_language": [
+    {
+      "language": "hun",
+      "checkouts": 40509
+    },
+    {
+      "language": "eng",
+      "checkouts": 558
+    },
+    {
+      "language": "ger",
+      "checkouts": 234
+    },
+    {
+      "language": "ita",
+      "checkouts": 34
+    },
+    {
+      "language": "rus",
+      "checkouts": 29
+    },
+    {
+      "language": "fre",
+      "checkouts": 29
+    }
+  ],
+  "top_renewed_books": [
+    {
+      "title": "Históriások, históriák",
+      "author": "Takács Lajos",
+      "isbn": null,
+      "total_renewals": 118,
+      "checkouts": 2
+    },
+    {
+      "title": "A tükör két oldala : bevezetés a kulturális antropológiába",
+      "author": null,
+      "isbn": "9789639725218",
+      "total_renewals": 99,
+      "checkouts": 1
+    },
+    {
+      "title": "A magyar labdarúgás története",
+      "author": "Dénes Tamás",
+      "isbn": "9789633578575",
+      "total_renewals": 95,
+      "checkouts": 5
+    },
+    {
+      "title": "Erdei ünnepek és hétköznapok gyerekekkel : programok Madarak, fák napjára, Erdők hetére és az egész éves erdőjáráshoz",
+      "author": "Mikusné Nádai Magda",
+      "isbn": "9639412236",
+      "total_renewals": 95,
+      "checkouts": 2
+    },
+    {
+      "title": "Lélekmetszés",
+      "author": "Konsalik, Heinz Günther",
+      "isbn": "9638413794",
+      "total_renewals": 95,
+      "checkouts": 1
+    },
+    {
+      "title": "Nézőpontok, motívumok : irodalmi témakörök",
+      "author": null,
+      "isbn": "9639128511",
+      "total_renewals": 93,
+      "checkouts": 1
+    },
+    {
+      "title": "Kommunikációs gyakorlatok : az emberek közti kapcsolatok sikerességéhez, fejlesztéséhez",
+      "author": "Birkenbihl, Vera F.",
+      "isbn": "9789639711112",
+      "total_renewals": 87,
+      "checkouts": 1
+    },
+    {
+      "title": "Gobelin : színes melléklettel",
+      "author": "Horváthné Harkai Marianna",
+      "isbn": "9637138323",
+      "total_renewals": 85,
+      "checkouts": 1
+    },
+    {
+      "title": "Viszontlátni Afrikát : regény",
+      "author": "Zweig, Stefanie",
+      "isbn": "9639379867",
+      "total_renewals": 82,
+      "checkouts": 1
+    },
+    {
+      "title": "A Szent Johanna gimi",
+      "author": "Leiner Laura",
+      "isbn": "9789635397020",
+      "total_renewals": 77,
+      "checkouts": 128
+    }
+  ],
+  "most_active_period": {
+    "busiest_month": {
+      "month": "2021-10",
+      "checkouts": 4276
+    },
+    "busiest_weekday": {
+      "weekday": 0,
+      "checkouts": 11762,
+      "label": "Hétfő"
+    },
+    "busiest_hour": {
+      "hour": 8,
+      "checkouts": 7864
+    }
+  },
+  "monthly_checkouts": [
+    {
+      "month": "2021-01",
+      "checkouts": 3495
+    },
+    {
+      "month": "2021-02",
+      "checkouts": 2423
+    },
+    {
+      "month": "2021-03",
+      "checkouts": 1842
+    },
+    {
+      "month": "2021-04",
+      "checkouts": 2796
+    },
+    {
+      "month": "2021-05",
+      "checkouts": 3208
+    },
+    {
+      "month": "2021-06",
+      "checkouts": 3510
+    },
+    {
+      "month": "2021-07",
+      "checkouts": 3752
+    },
+    {
+      "month": "2021-08",
+      "checkouts": 3809
+    },
+    {
+      "month": "2021-09",
+      "checkouts": 4128
+    },
+    {
+      "month": "2021-10",
+      "checkouts": 4276
+    },
+    {
+      "month": "2021-11",
+      "checkouts": 3686
+    },
+    {
+      "month": "2021-12",
+      "checkouts": 1937
+    }
+  ]
+}

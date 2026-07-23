@@ -30,6 +30,7 @@ export function formatCompact(n: number, lang: Lang = "hu"): string {
 
 /** "2024-09" -> "2024. szept" / "2024 Sep", a megadott rövid hónapnevekkel. */
 export function formatMonth(ym: string, monthsShort: string[], lang: Lang = "hu"): string {
+  if (!ym) return "";
   const [y, m] = ym.split("-");
   const idx = parseInt(m, 10) - 1;
   const name = monthsShort[idx] ?? m;

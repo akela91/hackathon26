@@ -1,0 +1,127 @@
+{
+  "book_quiz": {
+    "top_books": [
+      {
+        "title": "Számítógép száma: 1.",
+        "author": "Számítógép használat",
+        "record_id": "bibTMK00276981",
+        "isbn": null,
+        "checkouts": 255
+      },
+      {
+        "title": "Számítógép száma: 2.",
+        "author": "Számítógép használat",
+        "record_id": "bibTMK00276983",
+        "isbn": null,
+        "checkouts": 223
+      },
+      {
+        "title": "Számítógép száma: 3.",
+        "author": "Számítógép használat",
+        "record_id": "bibTMK00276984",
+        "isbn": null,
+        "checkouts": 161
+      },
+      {
+        "title": "Hunyadi",
+        "author": "Bán János",
+        "record_id": "bibTMK00230241",
+        "isbn": null,
+        "checkouts": 113
+      },
+      {
+        "title": "Számítógép száma: 4.",
+        "author": "Számítógép használat",
+        "record_id": "bibTMK00276985",
+        "isbn": null,
+        "checkouts": 78
+      }
+    ],
+    "decoys": [
+      {
+        "title": "Misszió",
+        "author": "Szobonya Erzsébet",
+        "isbn": "9789635708048",
+        "checkouts": 19
+      },
+      {
+        "title": "Elfojtott vágyak : Elfojtva 2.",
+        "author": "Líbor Erzsébet",
+        "isbn": "9786155692734",
+        "checkouts": 5
+      },
+      {
+        "title": "Akkor is",
+        "author": "Finy Petra",
+        "isbn": "9789632937489",
+        "checkouts": 4
+      },
+      {
+        "title": "A szív térképe",
+        "author": "Wiggs, Susan",
+        "isbn": "9789634486695",
+        "checkouts": 3
+      },
+      {
+        "title": "Egy igaz férfi",
+        "author": "Archer, Jeffrey Howard",
+        "isbn": "9789634520016",
+        "checkouts": 2
+      },
+      {
+        "title": "Tűzgyújtó",
+        "author": "King, Stephen",
+        "isbn": "9637827056",
+        "checkouts": 2
+      },
+      {
+        "title": "Varázslatos kiskutya : mágikus mancsok",
+        "author": "Bentley, Sue",
+        "isbn": "9789634992127",
+        "checkouts": 1
+      },
+      {
+        "title": "Csángó élet : kisprózák, versek",
+        "author": "Gábor Felicia",
+        "isbn": "9786158000109",
+        "checkouts": 1
+      },
+      {
+        "title": "Olvasni tanulok 1. : abc olvasókönyv az általános iskola 1. osztálya számára",
+        "author": "Romankovics András",
+        "isbn": "9631733769",
+        "checkouts": 1
+      },
+      {
+        "title": "Legelső könyvem a számokról",
+        "author": "Carle, Eric",
+        "isbn": "9786155023217",
+        "checkouts": 1
+      }
+    ]
+  },
+  "author_quiz": {
+    "top_authors": [
+      {
+        "author": "Bartos Erika",
+        "checkouts": 836
+      },
+      {
+        "author": "Számítógép használat",
+        "checkouts": 718
+      },
+      {
+        "author": "Berg Judit",
+        "checkouts": 675
+      },
+      {
+        "author": "Marék Veronika",
+        "checkouts": 494
+      },
+      {
+        "author": "Roberts, Nora",
+        "checkouts": 339
+      }
+    ]
+  }
+}

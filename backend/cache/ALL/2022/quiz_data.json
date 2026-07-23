@@ -1,0 +1,127 @@
+{
+  "book_quiz": {
+    "top_books": [
+      {
+        "title": "Zseb-Garfield",
+        "author": "Davis, Jim",
+        "record_id": "bibFSZ00003934",
+        "isbn": null,
+        "checkouts": 2609
+      },
+      {
+        "title": "Garfield",
+        "author": null,
+        "record_id": "bibFSZ00869948",
+        "isbn": null,
+        "checkouts": 2440
+      },
+      {
+        "title": "A Szent Johanna gimi",
+        "author": "Leiner Laura",
+        "record_id": "bibBMK00038946",
+        "isbn": "9789635397020",
+        "checkouts": 1823
+      },
+      {
+        "title": "Ahol a folyami rákok énekelnek",
+        "author": "Owens, Delia",
+        "record_id": "bibBMK00069515",
+        "isbn": "9789634335665",
+        "checkouts": 1276
+      },
+      {
+        "title": "Volt egyszer egy varrodám : ...a valóságos regény folytatódik",
+        "author": "Náray Tamás",
+        "record_id": "bibBMK00080707",
+        "isbn": "9789634337591",
+        "checkouts": 1216
+      }
+    ],
+    "decoys": [
+      {
+        "title": "Boribon és Annipanni",
+        "author": "Marék Veronika",
+        "isbn": "9789634100690",
+        "checkouts": 625
+      },
+      {
+        "title": "200 ezópusi mese : [meséljünk együtt!]",
+        "author": "Aisōpos",
+        "isbn": "9786155240614",
+        "checkouts": 28
+      },
+      {
+        "title": "Ayani : a Sólyom lánya",
+        "author": "Freund, Peter",
+        "isbn": "9789639889903",
+        "checkouts": 10
+      },
+      {
+        "title": "Innováció és vállalkozás az elméletben és a gyakorlatban",
+        "author": "Drucker, Peter F.",
+        "isbn": "963822729X",
+        "checkouts": 6
+      },
+      {
+        "title": "Középkori lovagok : a lovagság aranykorának hős vitézei",
+        "author": "Jestice, Phyllis G.",
+        "isbn": "9789630998208",
+        "checkouts": 3
+      },
+      {
+        "title": "Székely fonó [Nyomtatott kotta] : daljáték egy felvonásban = Spinnstube : ein ungarisches Lebensbild aus Siebenbürgen = Spinnery : a scene from Transylvanian village life",
+        "author": "Kodály Zoltán",
+        "isbn": null,
+        "checkouts": 2
+      },
+      {
+        "title": "Szeret, nem szeret : kilenc történet",
+        "author": "Munro, Alice Anne",
+        "isbn": "9789633550731",
+        "checkouts": 2
+      },
+      {
+        "title": "A sárkánykirály legendája",
+        "author": "Lawhead, Stephen",
+        "isbn": null,
+        "checkouts": 1
+      },
+      {
+        "title": "Metamorphosis Transylvaniae, azaz Erdélynek változása",
+        "author": "Apor Péter",
+        "isbn": null,
+        "checkouts": 1
+      },
+      {
+        "title": "Korai Öröm 2010 [hangfelvétel]",
+        "author": "Korai Öröm",
+        "isbn": null,
+        "checkouts": 1
+      }
+    ]
+  },
+  "author_quiz": {
+    "top_authors": [
+      {
+        "author": "Bartos Erika",
+        "checkouts": 31022
+      },
+      {
+        "author": "Dami, Elisabetta",
+        "checkouts": 30297
+      },
+      {
+        "author": "Berg Judit",
+        "checkouts": 24614
+      },
+      {
+        "author": "Roberts, Nora",
+        "checkouts": 22708
+      },
+      {
+        "author": "Steel, Danielle",
+        "checkouts": 17769
+      }
+    ]
+  }
+}

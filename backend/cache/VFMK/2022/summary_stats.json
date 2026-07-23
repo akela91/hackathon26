@@ -1,0 +1,252 @@
+{
+  "generated_at": "2026-07-23T15:16:51.049503+00:00",
+  "dataset": "full",
+  "scope": "VFMK",
+  "total_checkouts": 52973,
+  "total_value_huf": 118091212,
+  "unique_patrons": 2589,
+  "unique_titles": 23192,
+  "total_renewals": 32748,
+  "avg_renewals": 0.62,
+  "libraries": [
+    "VFMK"
+  ],
+  "by_year": [
+    {
+      "year": "2022",
+      "checkouts": 52973,
+      "value_huf": 118091212.26999998
+    }
+  ],
+  "by_library": [
+    {
+      "library": "VFMK",
+      "checkouts": 52973,
+      "value_huf": 118091212.26999998,
+      "patrons": 2589
+    }
+  ],
+  "by_doc_type": [
+    {
+      "code": "B",
+      "checkouts": 51349,
+      "label": "Könyv"
+    },
+    {
+      "code": "F",
+      "checkouts": 1002,
+      "label": "F"
+    },
+    {
+      "code": "R",
+      "checkouts": 562,
+      "label": "R"
+    },
+    {
+      "code": "M",
+      "checkouts": 42,
+      "label": "Térkép"
+    },
+    {
+      "code": "C",
+      "checkouts": 11,
+      "label": "AV / CD"
+    },
+    {
+      "code": "D",
+      "checkouts": 7,
+      "label": "Disszertáció"
+    }
+  ],
+  "by_language": [
+    {
+      "language": "hun",
+      "checkouts": 52384
+    },
+    {
+      "language": "eng",
+      "checkouts": 382
+    },
+    {
+      "language": "ger",
+      "checkouts": 55
+    },
+    {
+      "language": "ita",
+      "checkouts": 33
+    },
+    {
+      "language": "fre",
+      "checkouts": 27
+    },
+    {
+      "language": "und",
+      "checkouts": 25
+    }
+  ],
+  "top_renewed_books": [
+    {
+      "title": "\"A Szent Korona nevében...\" [Hangfelvétel]",
+      "author": "Pap Gábor",
+      "isbn": null,
+      "total_renewals": 120,
+      "checkouts": 52
+    },
+    {
+      "title": "Irgalmasvérnő",
+      "author": "Kiss Judit Ágnes",
+      "isbn": "9633697093",
+      "total_renewals": 56,
+      "checkouts": 1
+    },
+    {
+      "title": "A színész munkája",
+      "author": null,
+      "isbn": null,
+      "total_renewals": 46,
+      "checkouts": 4
+    },
+    {
+      "title": "Macska-jaj [DVD-film]",
+      "author": "Kusturica, Emir",
+      "isbn": null,
+      "total_renewals": 43,
+      "checkouts": 1
+    },
+    {
+      "title": "Biológia",
+      "author": "Fazekas György",
+      "isbn": "9789632445670",
+      "total_renewals": 39,
+      "checkouts": 4
+    },
+    {
+      "title": "Babalexikon : Tanácsok egészséges és beteg gyermekek gondozásához, neveléséhez",
+      "author": "Leiber, Bernfried",
+      "isbn": "9637922113",
+      "total_renewals": 38,
+      "checkouts": 1
+    },
+    {
+      "title": "Complete orchestral works, Vol. 2. [Hangfelvétel]",
+      "author": "Csajkovszkij, Pjotr Iljics",
+      "isbn": null,
+      "total_renewals": 36,
+      "checkouts": 18
+    },
+    {
+      "title": "Magyar kastélylexikon",
+      "author": "Virág Zsolt",
+      "isbn": "9630042487",
+      "total_renewals": 36,
+      "checkouts": 5
+    },
+    {
+      "title": "Novellaelemző : szempontok, szövegek, elemzések",
+      "author": "Vass Judit",
+      "isbn": "9789631359794",
+      "total_renewals": 35,
+      "checkouts": 1
+    },
+    {
+      "title": "A Szent Johanna gimi : [egy gimi, ahova mindenki szívesen járna...]",
+      "author": "Leiner Laura",
+      "isbn": "9789635397020",
+      "total_renewals": 32,
+      "checkouts": 20
+    }
+  ],
+  "most_active_period": {
+    "busiest_month": {
+      "month": "2022-07",
+      "checkouts": 5857
+    },
+    "busiest_weekday": {
+      "weekday": 1,
+      "checkouts": 15659,
+      "label": "Kedd"
+    },
+    "busiest_hour": {
+      "hour": 9,
+      "checkouts": 7784
+    }
+  },
+  "monthly_checkouts": [
+    {
+      "month": "2021-06",
+      "checkouts": 13
+    },
+    {
+      "month": "2021-07",
+      "checkouts": 85
+    },
+    {
+      "month": "2021-08",
+      "checkouts": 28
+    },
+    {
+      "month": "2021-09",
+      "checkouts": 24
+    },
+    {
+      "month": "2021-10",
+      "checkouts": 102
+    },
+    {
+      "month": "2021-11",
+      "checkouts": 755
+    },
+    {
+      "month": "2021-12",
+      "checkouts": 2755
+    },
+    {
+      "month": "2022-01",
+      "checkouts": 4840
+    },
+    {
+      "month": "2022-02",
+      "checkouts": 4032
+    },
+    {
+      "month": "2022-03",
+      "checkouts": 4686
+    },
+    {
+      "month": "2022-04",
+      "checkouts": 4396
+    },
+    {
+      "month": "2022-05",
+      "checkouts": 4555
+    },
+    {
+      "month": "2022-06",
+      "checkouts": 4689
+    },
+    {
+      "month": "2022-07",
+      "checkouts": 5857
+    },
+    {
+      "month": "2022-08",
+      "checkouts": 2109
+    },
+    {
+      "month": "2022-09",
+      "checkouts": 4881
+    },
+    {
+      "month": "2022-10",
+      "checkouts": 4485
+    },
+    {
+      "month": "2022-11",
+      "checkouts": 3981
+    },
+    {
+      "month": "2022-12",
+      "checkouts": 676
+    }
+  ]
+}

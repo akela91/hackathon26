@@ -6,21 +6,45 @@ import { ChevronDown, Sparkles } from "lucide-react";
 import type { Summary } from "@/lib/types";
 import { formatNumber } from "@/lib/format";
 import { useLanguage } from "@/lib/language-context";
+import { useLibrary } from "@/lib/library-context";
 
 export default function Hero({ summary }: { summary: Summary }) {
-  const { t } = useLanguage();
-  const years = summary.by_year.map((y) => y.year).join(" – ");
+  const { t, lang } = useLanguage();
+  const { manifest, selectedYear, setSelectedYear } = useLibrary();
+  const years = manifest?.years ?? [];
 
   return (
     <section className="relative flex min-h-screen flex-col items-center justify-center px-5 text-center">
+      {/* Év-választó: MIND + minden évszám külön; kattintásra frissül minden adat. */}
       <motion.div
         initial={{ opacity: 0, scale: 0.8 }}
         animate={{ opacity: 1, scale: 1 }}
         transition={{ duration: 0.8, ease: "easeOut" }}
-        className="mb-6 inline-flex items-center gap-2 rounded-full border border-white/10 bg-white/5 px-4 py-2 text-sm text-muted backdrop-blur"
+        role="radiogroup"
+        aria-label={t("hero.yearSelectorLabel")}
+        className="mb-6 inline-flex flex-wrap items-center justify-center gap-1 rounded-full border border-white/10 bg-white/5 p-1 text-sm backdrop-blur"
       >
-        <Sparkles className="h-4 w-4 text-accent-3" />
-        {years}
+        <Sparkles className="ml-2 mr-1 h-4 w-4 shrink-0 text-accent-3" />
+        {[{ code: "ALL", label: t("hero.allYears") }, ...years.map((y) => ({ code: y, label: y }))].map(
+          (opt) => {
+            const active = opt.code === selectedYear;
+            return (
+              <button
+                key={opt.code}
+                role="radio"
+                aria-checked={active}
+                onClick={() => setSelectedYear(opt.code)}
+                className={`rounded-full px-3 py-1 font-semibold transition ${
+                  active
+                    ? "bg-gradient-to-r from-accent-1 to-accent-2 text-white shadow"
+                    : "text-muted hover:text-foreground"
+                }`}
+              >
+                {opt.label}
+              </button>
+            );
+          }
+        )}
       </motion.div>
 
       <motion.div
@@ -58,7 +82,7 @@ export default function Hero({ summary }: { summary: Summary }) {
         ].map((s) => (
           <div key={s.label} className="text-center">
             <div className="text-3xl font-black text-foreground sm:text-4xl">
-              {formatNumber(s.value)}
+              {formatNumber(s.value, lang)}
             </div>
             <div className="text-xs uppercase tracking-widest text-muted">
               {s.label}

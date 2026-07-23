@@ -1,0 +1,281 @@
+{
+  "generated_at": "2026-07-23T15:16:23.110050+00:00",
+  "dataset": "full",
+  "scope": "IGYUK",
+  "total_checkouts": 57180,
+  "total_value_huf": 135166247,
+  "unique_patrons": 2689,
+  "unique_titles": 22920,
+  "total_renewals": 36851,
+  "avg_renewals": 0.64,
+  "libraries": [
+    "IGYUK"
+  ],
+  "by_year": [
+    {
+      "year": "2024",
+      "checkouts": 57180,
+      "value_huf": 135166247.87999994
+    }
+  ],
+  "by_library": [
+    {
+      "library": "IGYUK",
+      "checkouts": 57180,
+      "value_huf": 135166247.87999994,
+      "patrons": 2689
+    }
+  ],
+  "by_doc_type": [
+    {
+      "code": "B",
+      "checkouts": 53608,
+      "label": "Könyv"
+    },
+    {
+      "code": "F",
+      "checkouts": 1714,
+      "label": "F"
+    },
+    {
+      "code": "D",
+      "checkouts": 718,
+      "label": "Disszertáció"
+    },
+    {
+      "code": "R",
+      "checkouts": 713,
+      "label": "R"
+    },
+    {
+      "code": "S",
+      "checkouts": 389,
+      "label": "Periodika / Sorozat"
+    },
+    {
+      "code": "C",
+      "checkouts": 28,
+      "label": "AV / CD"
+    },
+    {
+      "code": "M",
+      "checkouts": 10,
+      "label": "Térkép"
+    }
+  ],
+  "by_language": [
+    {
+      "language": "hun",
+      "checkouts": 56126
+    },
+    {
+      "language": "eng",
+      "checkouts": 704
+    },
+    {
+      "language": "ger",
+      "checkouts": 265
+    },
+    {
+      "language": "fre",
+      "checkouts": 36
+    },
+    {
+      "language": "xxx",
+      "checkouts": 10
+    },
+    {
+      "language": "ita",
+      "checkouts": 8
+    }
+  ],
+  "top_renewed_books": [
+    {
+      "title": "New English file : intermediate",
+      "author": "Oxenden, Clive",
+      "isbn": null,
+      "total_renewals": 144,
+      "checkouts": 4
+    },
+    {
+      "title": "Viktória & Albert [elektronikus vizuális dok.] : egy igaz szerelem története",
+      "author": "Erman, John",
+      "isbn": null,
+      "total_renewals": 118,
+      "checkouts": 1
+    },
+    {
+      "title": "Linda [elektronikus vizuális dok.] : sorozat",
+      "author": "Gát György",
+      "isbn": null,
+      "total_renewals": 100,
+      "checkouts": 6
+    },
+    {
+      "title": "Az első lépésektől a könyvtár stratégiai tervének elkészítéséig",
+      "author": "Skaliczki Judit",
+      "isbn": "9789632016290",
+      "total_renewals": 88,
+      "checkouts": 1
+    },
+    {
+      "title": "Szeretek dohányozni... és most abbahagyom! : hogyan szokjunk le a dohányzásról 30 nap alatt?",
+      "author": "Jopp, Andreas",
+      "isbn": "9789632911564",
+      "total_renewals": 77,
+      "checkouts": 1
+    },
+    {
+      "title": "Szent Péter esernyője",
+      "author": "Mikszáth Kálmán",
+      "isbn": "9789633492024",
+      "total_renewals": 58,
+      "checkouts": 24
+    },
+    {
+      "title": "A Szent Johanna gimi",
+      "author": "Leiner Laura",
+      "isbn": "9789635397020",
+      "total_renewals": 51,
+      "checkouts": 59
+    },
+    {
+      "title": "Én, Kőhalmi Zoltán [elektronikus vizuális dok.] : Kőhalmi Zoltán önálló estje",
+      "author": "László Péter",
+      "isbn": null,
+      "total_renewals": 47,
+      "checkouts": 1
+    },
+    {
+      "title": "Hören & Sprechen B1",
+      "author": "Billina, Anneli",
+      "isbn": "9783196174939",
+      "total_renewals": 45,
+      "checkouts": 3
+    },
+    {
+      "title": "A hipnózis és hipnoterápia alapjai : szöveggyűjtemény",
+      "author": null,
+      "isbn": "9789632840192",
+      "total_renewals": 43,
+      "checkouts": 1
+    }
+  ],
+  "most_active_period": {
+    "busiest_month": {
+      "month": "2024-01",
+      "checkouts": 5915
+    },
+    "busiest_weekday": {
+      "weekday": 0,
+      "checkouts": 16027,
+      "label": "Hétfő"
+    },
+    "busiest_hour": {
+      "hour": 8,
+      "checkouts": 9336
+    }
+  },
+  "monthly_checkouts": [
+    {
+      "month": "2022-08",
+      "checkouts": 10
+    },
+    {
+      "month": "2022-09",
+      "checkouts": 4
+    },
+    {
+      "month": "2022-10",
+      "checkouts": 6
+    },
+    {
+      "month": "2022-12",
+      "checkouts": 1
+    },
+    {
+      "month": "2023-02",
+      "checkouts": 3
+    },
+    {
+      "month": "2023-03",
+      "checkouts": 1
+    },
+    {
+      "month": "2023-04",
+      "checkouts": 1
+    },
+    {
+      "month": "2023-05",
+      "checkouts": 5
+    },
+    {
+      "month": "2023-07",
+      "checkouts": 3
+    },
+    {
+      "month": "2023-09",
+      "checkouts": 14
+    },
+    {
+      "month": "2023-10",
+      "checkouts": 14
+    },
+    {
+      "month": "2023-11",
+      "checkouts": 730
+    },
+    {
+      "month": "2023-12",
+      "checkouts": 2729
+    },
+    {
+      "month": "2024-01",
+      "checkouts": 5915
+    },
+    {
+      "month": "2024-02",
+      "checkouts": 5313
+    },
+    {
+      "month": "2024-03",
+      "checkouts": 4944
+    },
+    {
+      "month": "2024-04",
+      "checkouts": 4851
+    },
+    {
+      "month": "2024-05",
+      "checkouts": 5215
+    },
+    {
+      "month": "2024-06",
+      "checkouts": 4887
+    },
+    {
+      "month": "2024-07",
+      "checkouts": 4461
+    },
+    {
+      "month": "2024-08",
+      "checkouts": 3089
+    },
+    {
+      "month": "2024-09",
+      "checkouts": 3993
+    },
+    {
+      "month": "2024-10",
+      "checkouts": 5559
+    },
+    {
+      "month": "2024-11",
+      "checkouts": 4336
+    },
+    {
+      "month": "2024-12",
+      "checkouts": 1078
+    }
+  ]
+}

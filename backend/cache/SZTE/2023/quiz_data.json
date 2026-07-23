@@ -1,0 +1,127 @@
+{
+  "book_quiz": {
+    "top_books": [
+      {
+        "title": "Az orvosi élettan tankönyve",
+        "author": "Fonyó Attila",
+        "record_id": "bibJAT00872007",
+        "isbn": "9789632267340",
+        "checkouts": 303
+      },
+      {
+        "title": "Munkajog",
+        "author": "Radnay József",
+        "record_id": "bibJAT00831806",
+        "isbn": "9786155337901",
+        "checkouts": 157
+      },
+      {
+        "title": "Szerződési jog : általános rész",
+        "author": "Vékás Lajos",
+        "record_id": "bibJAT00940861",
+        "isbn": "9789633122655",
+        "checkouts": 148
+      },
+      {
+        "title": "Európai jog- és alkotmánytörténelem",
+        "author": "Ruszoly József",
+        "record_id": "bibJAT00814930",
+        "isbn": "9789639650787",
+        "checkouts": 144
+      },
+      {
+        "title": "Szövettan : [egyetemi tankönyv]",
+        "author": null,
+        "record_id": "bibJAT00688734",
+        "isbn": "9789633313220",
+        "checkouts": 143
+      }
+    ],
+    "decoys": [
+      {
+        "title": "Pénzügyi jog II.",
+        "author": "Simon István",
+        "isbn": "9789633123256",
+        "checkouts": 39
+      },
+      {
+        "title": "Leviatán bukása : [fantasztikus regény]",
+        "author": "Corey, James S. A.",
+        "isbn": "9789634702306",
+        "checkouts": 4
+      },
+      {
+        "title": "Bogyó és Babóca kertészkedik",
+        "author": "Bartos Erika",
+        "isbn": "9786155883231",
+        "checkouts": 2
+      },
+      {
+        "title": "Bartók Béla",
+        "author": "Tallián Tibor",
+        "isbn": "9786155062308",
+        "checkouts": 2
+      },
+      {
+        "title": "Készségfejlesztő eljárások tanulási zavarral küzdő kisiskolásoknak",
+        "author": "Balogh Katalin, Porkolábné",
+        "isbn": null,
+        "checkouts": 1
+      },
+      {
+        "title": "Slawisch-awarisches Gräberfeld in Holiare",
+        "author": "Tocík, Anton",
+        "isbn": null,
+        "checkouts": 1
+      },
+      {
+        "title": "A személyi jog vázlata : [oktatási segédanyag]",
+        "author": "Lenkovics Barnabás",
+        "isbn": "9639316326",
+        "checkouts": 1
+      },
+      {
+        "title": "Hó és hamu lehelete : 2. köt.",
+        "author": "Gabaldon, Diana",
+        "isbn": "9789634577577",
+        "checkouts": 1
+      },
+      {
+        "title": "Az olimpia hőse",
+        "author": "Dami, Elisabetta",
+        "isbn": "9789632977614",
+        "checkouts": 1
+      },
+      {
+        "title": "Social density and consumer response : empirical investigations in online and offline environments",
+        "author": "Messer, Uwe",
+        "isbn": null,
+        "checkouts": 1
+      }
+    ]
+  },
+  "author_quiz": {
+    "top_authors": [
+      {
+        "author": "Fonyó Attila",
+        "checkouts": 396
+      },
+      {
+        "author": "Dami, Elisabetta",
+        "checkouts": 293
+      },
+      {
+        "author": "Kinney, Jeff",
+        "checkouts": 280
+      },
+      {
+        "author": "Szentágothai János",
+        "checkouts": 251
+      },
+      {
+        "author": "Hajdu Ferenc",
+        "checkouts": 213
+      }
+    ]
+  }
+}

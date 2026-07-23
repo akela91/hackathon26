@@ -1,0 +1,282 @@
+{
+  "generated_at": "2026-07-23T15:16:27.750114+00:00",
+  "dataset": "full",
+  "scope": "PMVE",
+  "total_checkouts": 259397,
+  "total_value_huf": 629621508,
+  "unique_patrons": 16586,
+  "unique_titles": 68105,
+  "total_renewals": 215088,
+  "avg_renewals": 0.83,
+  "libraries": [
+    "PMVE"
+  ],
+  "by_year": [
+    {
+      "year": "2022",
+      "checkouts": 259397,
+      "value_huf": 629621508.340002
+    }
+  ],
+  "by_library": [
+    {
+      "library": "PMVE",
+      "checkouts": 259397,
+      "value_huf": 629621508.340002,
+      "patrons": 16586
+    }
+  ],
+  "by_doc_type": [
+    {
+      "code": "B",
+      "checkouts": 252400,
+      "label": "Könyv"
+    },
+    {
+      "code": "C",
+      "checkouts": 2264,
+      "label": "AV / CD"
+    },
+    {
+      "code": "F",
+      "checkouts": 2180,
+      "label": "F"
+    },
+    {
+      "code": "R",
+      "checkouts": 2067,
+      "label": "R"
+    },
+    {
+      "code": "M",
+      "checkouts": 181,
+      "label": "Térkép"
+    },
+    {
+      "code": "S",
+      "checkouts": 145,
+      "label": "Periodika / Sorozat"
+    },
+    {
+      "code": "D",
+      "checkouts": 123,
+      "label": "Disszertáció"
+    },
+    {
+      "code": "a",
+      "checkouts": 31,
+      "label": "a"
+    }
+  ],
+  "by_language": [
+    {
+      "language": "hun",
+      "checkouts": 247723
+    },
+    {
+      "language": "eng",
+      "checkouts": 6475
+    },
+    {
+      "language": "ger",
+      "checkouts": 2888
+    },
+    {
+      "language": "mul",
+      "checkouts": 763
+    },
+    {
+      "language": "fre",
+      "checkouts": 306
+    },
+    {
+      "language": "ita",
+      "checkouts": 197
+    }
+  ],
+  "top_renewed_books": [
+    {
+      "title": "A Szent Johanna gimi",
+      "author": "Leiner Laura",
+      "isbn": "9789635397020",
+      "total_renewals": 351,
+      "checkouts": 507
+    },
+    {
+      "title": "Klinikai gyermekgyógyászat",
+      "author": null,
+      "isbn": "9789632266398",
+      "total_renewals": 309,
+      "checkouts": 211
+    },
+    {
+      "title": "Sobotta : az ember anatómiájának atlasza",
+      "author": "Sobotta, Johannes",
+      "isbn": "9789632263663",
+      "total_renewals": 300,
+      "checkouts": 210
+    },
+    {
+      "title": "Az orvosi élettan tankönyve",
+      "author": "Fonyó Attila",
+      "isbn": "9789632267340",
+      "total_renewals": 293,
+      "checkouts": 193
+    },
+    {
+      "title": "Gyakorlati neurológia és neuroanatómia : Egyetemi tankönyv",
+      "author": "Komoly Sámuel",
+      "isbn": "9789632266817",
+      "total_renewals": 242,
+      "checkouts": 171
+    },
+    {
+      "title": "Kórélettani alapok",
+      "author": null,
+      "isbn": "9789632262802",
+      "total_renewals": 242,
+      "checkouts": 158
+    },
+    {
+      "title": "Szövettan",
+      "author": "Lüllmann-Rauch, Renate",
+      "isbn": "9789633313220",
+      "total_renewals": 225,
+      "checkouts": 154
+    },
+    {
+      "title": "Sebészet",
+      "author": null,
+      "isbn": "9789632266275",
+      "total_renewals": 225,
+      "checkouts": 153
+    },
+    {
+      "title": "Az orvosi mikrobiológia tankönyve",
+      "author": null,
+      "isbn": "9789632267722",
+      "total_renewals": 223,
+      "checkouts": 137
+    },
+    {
+      "title": "Az ember anatómiájának atlasza",
+      "author": "Sobotta, Johannes",
+      "isbn": "9789632263663",
+      "total_renewals": 216,
+      "checkouts": 120
+    }
+  ],
+  "most_active_period": {
+    "busiest_month": {
+      "month": "2022-01",
+      "checkouts": 22947
+    },
+    "busiest_weekday": {
+      "weekday": 1,
+      "checkouts": 51144,
+      "label": "Kedd"
+    },
+    "busiest_hour": {
+      "hour": 9,
+      "checkouts": 31794
+    }
+  },
+  "monthly_checkouts": [
+    {
+      "month": "2021-01",
+      "checkouts": 50
+    },
+    {
+      "month": "2021-02",
+      "checkouts": 43
+    },
+    {
+      "month": "2021-03",
+      "checkouts": 21
+    },
+    {
+      "month": "2021-04",
+      "checkouts": 19
+    },
+    {
+      "month": "2021-05",
+      "checkouts": 41
+    },
+    {
+      "month": "2021-06",
+      "checkouts": 88
+    },
+    {
+      "month": "2021-07",
+      "checkouts": 149
+    },
+    {
+      "month": "2021-08",
+      "checkouts": 128
+    },
+    {
+      "month": "2021-09",
+      "checkouts": 343
+    },
+    {
+      "month": "2021-10",
+      "checkouts": 755
+    },
+    {
+      "month": "2021-11",
+      "checkouts": 3344
+    },
+    {
+      "month": "2021-12",
+      "checkouts": 13268
+    },
+    {
+      "month": "2022-01",
+      "checkouts": 22947
+    },
+    {
+      "month": "2022-02",
+      "checkouts": 19997
+    },
+    {
+      "month": "2022-03",
+      "checkouts": 22291
+    },
+    {
+      "month": "2022-04",
+      "checkouts": 21869
+    },
+    {
+      "month": "2022-05",
+      "checkouts": 22904
+    },
+    {
+      "month": "2022-06",
+      "checkouts": 20810
+    },
+    {
+      "month": "2022-07",
+      "checkouts": 18355
+    },
+    {
+      "month": "2022-08",
+      "checkouts": 20319
+    },
+    {
+      "month": "2022-09",
+      "checkouts": 21944
+    },
+    {
+      "month": "2022-10",
+      "checkouts": 21528
+    },
+    {
+      "month": "2022-11",
+      "checkouts": 21329
+    },
+    {
+      "month": "2022-12",
+      "checkouts": 4732
+    }
+  ]
+}

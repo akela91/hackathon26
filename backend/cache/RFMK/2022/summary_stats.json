@@ -1,0 +1,282 @@
+{
+  "generated_at": "2026-07-23T15:16:33.621543+00:00",
+  "dataset": "full",
+  "scope": "RFMK",
+  "total_checkouts": 144987,
+  "total_value_huf": 282698692,
+  "unique_patrons": 6670,
+  "unique_titles": 39965,
+  "total_renewals": 119014,
+  "avg_renewals": 0.82,
+  "libraries": [
+    "RFMK"
+  ],
+  "by_year": [
+    {
+      "year": "2022",
+      "checkouts": 144987,
+      "value_huf": 282698692.61
+    }
+  ],
+  "by_library": [
+    {
+      "library": "RFMK",
+      "checkouts": 144987,
+      "value_huf": 282698692.61,
+      "patrons": 6670
+    }
+  ],
+  "by_doc_type": [
+    {
+      "code": "B",
+      "checkouts": 139682,
+      "label": "Könyv"
+    },
+    {
+      "code": "F",
+      "checkouts": 2461,
+      "label": "F"
+    },
+    {
+      "code": "R",
+      "checkouts": 1603,
+      "label": "R"
+    },
+    {
+      "code": "S",
+      "checkouts": 721,
+      "label": "Periodika / Sorozat"
+    },
+    {
+      "code": "C",
+      "checkouts": 338,
+      "label": "AV / CD"
+    },
+    {
+      "code": "D",
+      "checkouts": 74,
+      "label": "Disszertáció"
+    },
+    {
+      "code": "a",
+      "checkouts": 62,
+      "label": "a"
+    },
+    {
+      "code": "M",
+      "checkouts": 46,
+      "label": "Térkép"
+    }
+  ],
+  "by_language": [
+    {
+      "language": "hun",
+      "checkouts": 141022
+    },
+    {
+      "language": "eng",
+      "checkouts": 2287
+    },
+    {
+      "language": "ger",
+      "checkouts": 718
+    },
+    {
+      "language": "und",
+      "checkouts": 185
+    },
+    {
+      "language": "rus",
+      "checkouts": 147
+    },
+    {
+      "language": "ita",
+      "checkouts": 109
+    }
+  ],
+  "top_renewed_books": [
+    {
+      "title": "Angol nyelv kezdőtől az alapfokú nyelvvizsgáig",
+      "author": "Bajczi Tünde",
+      "isbn": "9639328049",
+      "total_renewals": 304,
+      "checkouts": 2
+    },
+    {
+      "title": "Magyar szinonima kéziszótár : [A-Z-ig]",
+      "author": "Póra Ferenc",
+      "isbn": "9636980470",
+      "total_renewals": 261,
+      "checkouts": 1
+    },
+    {
+      "title": "A Szent Johanna gimi",
+      "author": "Leiner Laura",
+      "isbn": "9789635397020",
+      "total_renewals": 227,
+      "checkouts": 361
+    },
+    {
+      "title": "The complete winnie-the-pooh containing winnie-the-pooh and the house at pooh corner",
+      "author": "Milne, Alan Alexander",
+      "isbn": "0603562132",
+      "total_renewals": 183,
+      "checkouts": 1
+    },
+    {
+      "title": "Egri csillagok",
+      "author": "Gárdonyi Géza",
+      "isbn": "9789633490983",
+      "total_renewals": 155,
+      "checkouts": 76
+    },
+    {
+      "title": "Kis máj- és epekönyv : a máj, az epe és az epeutak betegségei, étrendi tanácsok és receptek",
+      "author": "Pár Alajos",
+      "isbn": "9637746714",
+      "total_renewals": 152,
+      "checkouts": 1
+    },
+    {
+      "title": "A magas vérnyomás és étrendi kezelése : mintaétrendek, receptek, főzési fortélyok, táblázatok",
+      "author": null,
+      "isbn": "9638232641",
+      "total_renewals": 152,
+      "checkouts": 1
+    },
+    {
+      "title": "Magas vérnyomás : diéta magas vérnyomásban szenvedők számára : sószegény étrend",
+      "author": "Gaálné Póda Bernadette",
+      "isbn": "9632417720",
+      "total_renewals": 152,
+      "checkouts": 1
+    },
+    {
+      "title": "A Pál utcai fiúk",
+      "author": "Molnár Ferenc",
+      "isbn": "9789634158851",
+      "total_renewals": 129,
+      "checkouts": 84
+    },
+    {
+      "title": "A sirály a király?",
+      "author": "Bosnyák Viktória",
+      "isbn": "9789634158936",
+      "total_renewals": 119,
+      "checkouts": 74
+    }
+  ],
+  "most_active_period": {
+    "busiest_month": {
+      "month": "2022-07",
+      "checkouts": 13764
+    },
+    "busiest_weekday": {
+      "weekday": 0,
+      "checkouts": 32184,
+      "label": "Hétfő"
+    },
+    "busiest_hour": {
+      "hour": 9,
+      "checkouts": 19169
+    }
+  },
+  "monthly_checkouts": [
+    {
+      "month": "2021-01",
+      "checkouts": 5
+    },
+    {
+      "month": "2021-02",
+      "checkouts": 20
+    },
+    {
+      "month": "2021-03",
+      "checkouts": 25
+    },
+    {
+      "month": "2021-04",
+      "checkouts": 9
+    },
+    {
+      "month": "2021-05",
+      "checkouts": 34
+    },
+    {
+      "month": "2021-06",
+      "checkouts": 33
+    },
+    {
+      "month": "2021-07",
+      "checkouts": 79
+    },
+    {
+      "month": "2021-08",
+      "checkouts": 51
+    },
+    {
+      "month": "2021-09",
+      "checkouts": 91
+    },
+    {
+      "month": "2021-10",
+      "checkouts": 182
+    },
+    {
+      "month": "2021-11",
+      "checkouts": 516
+    },
+    {
+      "month": "2021-12",
+      "checkouts": 5992
+    },
+    {
+      "month": "2022-01",
+      "checkouts": 13366
+    },
+    {
+      "month": "2022-02",
+      "checkouts": 11304
+    },
+    {
+      "month": "2022-03",
+      "checkouts": 13479
+    },
+    {
+      "month": "2022-04",
+      "checkouts": 12329
+    },
+    {
+      "month": "2022-05",
+      "checkouts": 12784
+    },
+    {
+      "month": "2022-06",
+      "checkouts": 12372
+    },
+    {
+      "month": "2022-07",
+      "checkouts": 13764
+    },
+    {
+      "month": "2022-08",
+      "checkouts": 11766
+    },
+    {
+      "month": "2022-09",
+      "checkouts": 12537
+    },
+    {
+      "month": "2022-10",
+      "checkouts": 11741
+    },
+    {
+      "month": "2022-11",
+      "checkouts": 10723
+    },
+    {
+      "month": "2022-12",
+      "checkouts": 1602
+    }
+  ]
+}

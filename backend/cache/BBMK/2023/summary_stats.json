@@ -1,0 +1,291 @@
+{
+  "generated_at": "2026-07-23T15:15:35.001130+00:00",
+  "dataset": "full",
+  "scope": "BBMK",
+  "total_checkouts": 28751,
+  "total_value_huf": 65128317,
+  "unique_patrons": 1462,
+  "unique_titles": 12207,
+  "total_renewals": 19947,
+  "avg_renewals": 0.69,
+  "libraries": [
+    "BBMK"
+  ],
+  "by_year": [
+    {
+      "year": "2023",
+      "checkouts": 28751,
+      "value_huf": 65128317.76999998
+    }
+  ],
+  "by_library": [
+    {
+      "library": "BBMK",
+      "checkouts": 28751,
+      "value_huf": 65128317.76999998,
+      "patrons": 1462
+    }
+  ],
+  "by_doc_type": [
+    {
+      "code": "B",
+      "checkouts": 28598,
+      "label": "Könyv"
+    },
+    {
+      "code": "F",
+      "checkouts": 102,
+      "label": "F"
+    },
+    {
+      "code": "R",
+      "checkouts": 44,
+      "label": "R"
+    },
+    {
+      "code": "M",
+      "checkouts": 6,
+      "label": "Térkép"
+    },
+    {
+      "code": "D",
+      "checkouts": 1,
+      "label": "Disszertáció"
+    }
+  ],
+  "by_language": [
+    {
+      "language": "hun",
+      "checkouts": 28394
+    },
+    {
+      "language": "eng",
+      "checkouts": 274
+    },
+    {
+      "language": "ger",
+      "checkouts": 38
+    },
+    {
+      "language": "mul",
+      "checkouts": 6
+    },
+    {
+      "language": "esp",
+      "checkouts": 5
+    },
+    {
+      "language": "slo",
+      "checkouts": 5
+    }
+  ],
+  "top_renewed_books": [
+    {
+      "title": "A Szent Johanna gimi / Leiner Laura",
+      "author": "Leiner Laura",
+      "isbn": "97896353970061",
+      "total_renewals": 56,
+      "checkouts": 32
+    },
+    {
+      "title": "Egri csillagok",
+      "author": "Gárdonyi Géza",
+      "isbn": "9789633490983",
+      "total_renewals": 40,
+      "checkouts": 17
+    },
+    {
+      "title": "A sirály a király?",
+      "author": "Bosnyák Viktória",
+      "isbn": "9786150107233",
+      "total_renewals": 34,
+      "checkouts": 18
+    },
+    {
+      "title": "Sherlock Holmes : The sign of four",
+      "author": "Doyle, Arthur Conan",
+      "isbn": "9780194247818",
+      "total_renewals": 33,
+      "checkouts": 8
+    },
+    {
+      "title": "Robinson Crusoe",
+      "author": "Defoe, Daniel",
+      "isbn": "9780194790703",
+      "total_renewals": 28,
+      "checkouts": 8
+    },
+    {
+      "title": "Stories from the five towns",
+      "author": "Bennett, Arnold",
+      "isbn": "9780194790727",
+      "total_renewals": 27,
+      "checkouts": 8
+    },
+    {
+      "title": "MagyarOK : 2. kötet : A2+",
+      "author": "Szita Szilvia",
+      "isbn": "9789636426811",
+      "total_renewals": 26,
+      "checkouts": 8
+    },
+    {
+      "title": "Oceans",
+      "author": "Newbolt, Barnaby",
+      "isbn": "9780194794435",
+      "total_renewals": 25,
+      "checkouts": 6
+    },
+    {
+      "title": "Nagy Lajos",
+      "author": "Benkő László",
+      "isbn": null,
+      "total_renewals": 24,
+      "checkouts": 22
+    },
+    {
+      "title": "Pons nyelvtanfolyam kezdőknek : spanyol",
+      "author": "Görrissen, Margarita",
+      "isbn": "9789639572188",
+      "total_renewals": 24,
+      "checkouts": 4
+    }
+  ],
+  "most_active_period": {
+    "busiest_month": {
+      "month": "2023-08",
+      "checkouts": 2994
+    },
+    "busiest_weekday": {
+      "weekday": 1,
+      "checkouts": 10818,
+      "label": "Kedd"
+    },
+    "busiest_hour": {
+      "hour": 9,
+      "checkouts": 6172
+    }
+  },
+  "monthly_checkouts": [
+    {
+      "month": "2021-06",
+      "checkouts": 1
+    },
+    {
+      "month": "2021-07",
+      "checkouts": 5
+    },
+    {
+      "month": "2021-09",
+      "checkouts": 5
+    },
+    {
+      "month": "2021-10",
+      "checkouts": 5
+    },
+    {
+      "month": "2021-11",
+      "checkouts": 8
+    },
+    {
+      "month": "2021-12",
+      "checkouts": 4
+    },
+    {
+      "month": "2022-01",
+      "checkouts": 1
+    },
+    {
+      "month": "2022-02",
+      "checkouts": 3
+    },
+    {
+      "month": "2022-03",
+      "checkouts": 3
+    },
+    {
+      "month": "2022-04",
+      "checkouts": 7
+    },
+    {
+      "month": "2022-05",
+      "checkouts": 14
+    },
+    {
+      "month": "2022-06",
+      "checkouts": 1
+    },
+    {
+      "month": "2022-07",
+      "checkouts": 20
+    },
+    {
+      "month": "2022-08",
+      "checkouts": 15
+    },
+    {
+      "month": "2022-09",
+      "checkouts": 26
+    },
+    {
+      "month": "2022-10",
+      "checkouts": 60
+    },
+    {
+      "month": "2022-11",
+      "checkouts": 560
+    },
+    {
+      "month": "2022-12",
+      "checkouts": 1302
+    },
+    {
+      "month": "2023-01",
+      "checkouts": 1540
+    },
+    {
+      "month": "2023-02",
+      "checkouts": 1800
+    },
+    {
+      "month": "2023-03",
+      "checkouts": 2329
+    },
+    {
+      "month": "2023-04",
+      "checkouts": 2011
+    },
+    {
+      "month": "2023-05",
+      "checkouts": 2681
+    },
+    {
+      "month": "2023-06",
+      "checkouts": 2482
+    },
+    {
+      "month": "2023-07",
+      "checkouts": 2592
+    },
+    {
+      "month": "2023-08",
+      "checkouts": 2994
+    },
+    {
+      "month": "2023-09",
+      "checkouts": 2622
+    },
+    {
+      "month": "2023-10",
+      "checkouts": 2713
+    },
+    {
+      "month": "2023-11",
+      "checkouts": 2373
+    },
+    {
+      "month": "2023-12",
+      "checkouts": 500
+    }
+  ]
+}

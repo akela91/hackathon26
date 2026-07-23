@@ -1,0 +1,127 @@
+{
+  "book_quiz": {
+    "top_books": [
+      {
+        "title": "Nők lapja : heti női magazin",
+        "author": null,
+        "record_id": "bibRFK00005231",
+        "isbn": null,
+        "checkouts": 552
+      },
+      {
+        "title": "A Szent Johanna gimi",
+        "author": "Leiner Laura",
+        "record_id": "bibRFM00180905",
+        "isbn": "9789635397020",
+        "checkouts": 329
+      },
+      {
+        "title": "Zseb-Garfield",
+        "author": null,
+        "record_id": "bibRFM00238337",
+        "isbn": null,
+        "checkouts": 258
+      },
+      {
+        "title": "Hunyadi",
+        "author": "Bán János",
+        "record_id": "bibRFM00434036",
+        "isbn": null,
+        "checkouts": 215
+      },
+      {
+        "title": "Hot! : képes szórakoztató hetilap",
+        "author": null,
+        "record_id": "bibRFM00313010",
+        "isbn": null,
+        "checkouts": 171
+      }
+    ],
+    "decoys": [
+      {
+        "title": "Abigél",
+        "author": "Szabó Magda",
+        "isbn": "9789634158493",
+        "checkouts": 56
+      },
+      {
+        "title": "Mimi az iskolában",
+        "author": "Tamás Zsuzsa",
+        "isbn": "9789634760467",
+        "checkouts": 9
+      },
+      {
+        "title": "Mit titkol Cara Winter?",
+        "author": "Harper, Annika",
+        "isbn": "9789635091140",
+        "checkouts": 6
+      },
+      {
+        "title": "A fizika evangéliuma",
+        "author": "Al-Khalili, Jim",
+        "isbn": "9789634337447",
+        "checkouts": 4
+      },
+      {
+        "title": "Hívójele: bravo kettő nulla : egy SAS-járőr igaz kalandjai a sivatagban",
+        "author": "McNab, Andy",
+        "isbn": "9635483708",
+        "checkouts": 3
+      },
+      {
+        "title": "Ábrándok bűvöletében : a fenntartható fejlődés korlátai",
+        "author": "Gelencsér András",
+        "isbn": "9789634548997",
+        "checkouts": 2
+      },
+      {
+        "title": "Bourgogne strázsamester emlékezései Napóleon oroszországi hadjáratáról",
+        "author": "Bourgogne, Adrien-Jean-Baptiste-François",
+        "isbn": "9630740575",
+        "checkouts": 1
+      },
+      {
+        "title": "The secret adversary",
+        "author": "Christie, Agatha",
+        "isbn": "9780007590599",
+        "checkouts": 1
+      },
+      {
+        "title": "\"Aminek hamarosan meg kell történnie...\" : a Jelenések könyvének magyarázata",
+        "author": "Dönges, Emil",
+        "isbn": "9639012025",
+        "checkouts": 1
+      },
+      {
+        "title": "Komikum, szatíra, humor",
+        "author": "Szalay Károly",
+        "isbn": "9630921960",
+        "checkouts": 1
+      }
+    ]
+  },
+  "author_quiz": {
+    "top_authors": [
+      {
+        "author": "Bartos Erika",
+        "checkouts": 2665
+      },
+      {
+        "author": "Roberts, Nora",
+        "checkouts": 2002
+      },
+      {
+        "author": "Berg Judit",
+        "checkouts": 1784
+      },
+      {
+        "author": "Stilton, Geronimo",
+        "checkouts": 1669
+      },
+      {
+        "author": "Kinney, Jeff",
+        "checkouts": 1238
+      }
+    ]
+  }
+}

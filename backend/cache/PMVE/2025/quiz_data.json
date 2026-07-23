@@ -1,0 +1,127 @@
+{
+  "book_quiz": {
+    "top_books": [
+      {
+        "title": "[Koponya] [tárgy]",
+        "author": null,
+        "record_id": "bibPMV00812521",
+        "isbn": null,
+        "checkouts": 582
+      },
+      {
+        "title": "A Szent Johanna gimi",
+        "author": "Leiner Laura",
+        "record_id": "bibPMV01050957",
+        "isbn": "9789635397020",
+        "checkouts": 401
+      },
+      {
+        "title": "Hunyadi",
+        "author": "Bán János",
+        "record_id": "bibDEK00728196",
+        "isbn": null,
+        "checkouts": 388
+      },
+      {
+        "title": "Angol-magyar, magyar-angol orvosi szótár = Medical dictionary English-Hungarian, Hungarian-English",
+        "author": "Unseld, Dieter Werner",
+        "record_id": "MOKKAN0003887876",
+        "isbn": "9632260155",
+        "checkouts": 308
+      },
+      {
+        "title": "Sobotta : az ember anatómiájának atlasza",
+        "author": "Sobotta, Johannes",
+        "record_id": "bibPMV01049809",
+        "isbn": "9789632267081",
+        "checkouts": 208
+      }
+    ],
+    "decoys": [
+      {
+        "title": "Bogyó és Babóca énekel",
+        "author": "Bartos Erika",
+        "isbn": "9786158056533",
+        "checkouts": 73
+      },
+      {
+        "title": "Elrabolt az apám",
+        "author": "Picoult, Jodi",
+        "isbn": "9789639615724",
+        "checkouts": 10
+      },
+      {
+        "title": "Tortadara, a sütipóni",
+        "author": "KilBride, Sarah",
+        "isbn": "9789634152064",
+        "checkouts": 6
+      },
+      {
+        "title": "A fiú, aki megszöktette az oroszlánokat",
+        "author": "Hammarbäck, Peter",
+        "isbn": "9789636145040",
+        "checkouts": 4
+      },
+      {
+        "title": "Leonardo da Vinci élete [DVD-felvétel] : digitálisan felújított változat",
+        "author": "Castellani, Renato",
+        "isbn": null,
+        "checkouts": 3
+      },
+      {
+        "title": "Légtechnika gyakorlati kézikönyv : Az épületgépész szakirány hallgatói számára",
+        "author": "Fodor A. Csaba",
+        "isbn": null,
+        "checkouts": 2
+      },
+      {
+        "title": "Populus, plebs, rusticus : Szabó István \"harmadik utas\" társadalomtörténete",
+        "author": "Erős Vilmos",
+        "isbn": "9786155675669",
+        "checkouts": 1
+      },
+      {
+        "title": "50 tény, amit tudnod kell a találmányokról",
+        "author": "Gifford, Clive",
+        "isbn": "9789634157564",
+        "checkouts": 1
+      },
+      {
+        "title": "A szellem szimbolikája : Két tanulmány",
+        "author": "Jung, Carl Gustav",
+        "isbn": "9630761823",
+        "checkouts": 1
+      },
+      {
+        "title": "A szerető anya : az anyai érzés története a 17-20. században",
+        "author": "Badinter, Elisabeth",
+        "isbn": "9632601408",
+        "checkouts": 1
+      }
+    ]
+  },
+  "author_quiz": {
+    "top_authors": [
+      {
+        "author": "Bartos Erika",
+        "checkouts": 3989
+      },
+      {
+        "author": "Berg Judit",
+        "checkouts": 3299
+      },
+      {
+        "author": "Roberts, Nora",
+        "checkouts": 2248
+      },
+      {
+        "author": "Steel, Danielle",
+        "checkouts": 1875
+      },
+      {
+        "author": "Marék Veronika",
+        "checkouts": 1715
+      }
+    ]
+  }
+}

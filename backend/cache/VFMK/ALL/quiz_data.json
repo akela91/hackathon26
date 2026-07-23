@@ -1,0 +1,127 @@
+{
+  "book_quiz": {
+    "top_books": [
+      {
+        "title": "Hunyadi",
+        "author": "Bán János",
+        "record_id": "bibVFM00053354",
+        "isbn": null,
+        "checkouts": 507
+      },
+      {
+        "title": "Naruto",
+        "author": "Kishimoto Masashi",
+        "record_id": "bibVFM00168598",
+        "isbn": null,
+        "checkouts": 362
+      },
+      {
+        "title": "A Bridgerton család",
+        "author": "Quinn, Julia",
+        "record_id": "bibVFM00230345",
+        "isbn": null,
+        "checkouts": 344
+      },
+      {
+        "title": "A Szent Johanna gimi",
+        "author": "Leiner Laura",
+        "record_id": "bibVFM00200112",
+        "isbn": "9786155653339",
+        "checkouts": 232
+      },
+      {
+        "title": "Vaják = the witcher",
+        "author": "Sapkowski, Andrzej",
+        "record_id": "bibVFM00171880",
+        "isbn": null,
+        "checkouts": 227
+      }
+    ],
+    "decoys": [
+      {
+        "title": "Olaszország, szeretlek!",
+        "author": "Pellegrino, Nicky",
+        "isbn": "9786155733666",
+        "checkouts": 84
+      },
+      {
+        "title": "Összeomlás",
+        "author": "Eddy, Paul",
+        "isbn": "9789633708378",
+        "checkouts": 14
+      },
+      {
+        "title": "Szuper jó fej mai lányok kreatív kézikönyve : [elfoglaltságok, infók, tippek, játék, kihívás]",
+        "author": "Meyer, Aurore",
+        "isbn": "9789635160198",
+        "checkouts": 8
+      },
+      {
+        "title": "A magyar holokauszt főpróbája : 1941 - a tömeggyilkosságok nyara",
+        "author": "Eisen, George",
+        "isbn": "9789636330330",
+        "checkouts": 5
+      },
+      {
+        "title": "Szív",
+        "author": "De Amicis, Edmondo",
+        "isbn": "9631153150",
+        "checkouts": 4
+      },
+      {
+        "title": "Kazohinia",
+        "author": "Szathmári Sándor",
+        "isbn": "9786150181295",
+        "checkouts": 3
+      },
+      {
+        "title": "Közlekedés három az egyben : kézikönyv a kresz, műszaki, valamint közlekedési igazgatási jogszabályok értelmezéséhez és alkalmazásához",
+        "author": "Lázár László",
+        "isbn": null,
+        "checkouts": 2
+      },
+      {
+        "title": "A hajnal : elbeszélés",
+        "author": "Wiesel, Elie",
+        "isbn": "9639348279",
+        "checkouts": 1
+      },
+      {
+        "title": "Csak úgy : ragyogtató versek, csak úgy : [színezhető rajzokkal]",
+        "author": "Vámos Róbert",
+        "isbn": "9786150077673",
+        "checkouts": 1
+      },
+      {
+        "title": "The jazz cuts [Hangfelvétel]",
+        "author": "Mándoki László",
+        "isbn": null,
+        "checkouts": 1
+      }
+    ]
+  },
+  "author_quiz": {
+    "top_authors": [
+      {
+        "author": "Bartos Erika",
+        "checkouts": 3619
+      },
+      {
+        "author": "Roberts, Nora",
+        "checkouts": 2929
+      },
+      {
+        "author": "Steel, Danielle",
+        "checkouts": 2637
+      },
+      {
+        "author": "Dami, Elisabetta",
+        "checkouts": 2414
+      },
+      {
+        "author": "Berg Judit",
+        "checkouts": 1926
+      }
+    ]
+  }
+}

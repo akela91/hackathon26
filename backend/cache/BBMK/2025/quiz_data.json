@@ -1,0 +1,127 @@
+{
+  "book_quiz": {
+    "top_books": [
+      {
+        "title": "Hunyadi",
+        "author": "Bán János",
+        "record_id": "bibBBM00357596",
+        "isbn": "97896342613772",
+        "checkouts": 84
+      },
+      {
+        "title": "Márciusi napló",
+        "author": "Fábián Janka",
+        "record_id": "bibBBM00416120",
+        "isbn": "9789636040383",
+        "checkouts": 80
+      },
+      {
+        "title": "Árvízi napló",
+        "author": "Fábián Janka",
+        "record_id": "bibBBM00404252",
+        "isbn": "9789634339663",
+        "checkouts": 75
+      },
+      {
+        "title": "Légy/ott",
+        "author": "Szlavicsek Judit",
+        "record_id": "bibBBM00419076",
+        "isbn": "9789636045272",
+        "checkouts": 59
+      },
+      {
+        "title": "A kereszt halála : a gyilkos is imádkozik?",
+        "author": "Gyurcsány Ferenc",
+        "record_id": "bibBBM00419571",
+        "isbn": "9786150213576",
+        "checkouts": 56
+      }
+    ],
+    "decoys": [
+      {
+        "title": "Bajban Dubajban",
+        "author": "Brown, Borsa (álnév)",
+        "isbn": "9789635707300",
+        "checkouts": 19
+      },
+      {
+        "title": "Bálnák és delfinek",
+        "author": "Kiefmann, Elisabeth",
+        "isbn": "9789632945545",
+        "checkouts": 5
+      },
+      {
+        "title": "Bori zsebpénzt kap",
+        "author": "Schneider, Liane",
+        "isbn": "9789634030317",
+        "checkouts": 3
+      },
+      {
+        "title": "Ezeregy nagyszerű ötlet autizmussal élő vagy Asperger-szindrómás gyerekek neveléséhez és tanításához",
+        "author": "Notbohm, Ellen",
+        "isbn": "9789630597104",
+        "checkouts": 2
+      },
+      {
+        "title": "Az öngyógyítás teljes rendszere : belső taoista gyakorlatok",
+        "author": "Chang, Stephen T.",
+        "isbn": "9789638844927",
+        "checkouts": 2
+      },
+      {
+        "title": "Bánatos kurváim emlékezete",
+        "author": "García Márquez, Gabriel",
+        "isbn": "9631424278",
+        "checkouts": 1
+      },
+      {
+        "title": "Az étkezés ártalmasságáról : előadás",
+        "author": "Parti Nagy Lajos",
+        "isbn": "9789631428667",
+        "checkouts": 1
+      },
+      {
+        "title": "Vágyaim listája",
+        "author": "Delacourt, Grégoire",
+        "isbn": "9789633550748",
+        "checkouts": 1
+      },
+      {
+        "title": "Vackor a hóban",
+        "author": "Kormos István",
+        "isbn": "9789636038427",
+        "checkouts": 1
+      },
+      {
+        "title": "Mi, szemüvegesek",
+        "author": "Fehér Klára",
+        "isbn": "9635392974",
+        "checkouts": 1
+      }
+    ]
+  },
+  "author_quiz": {
+    "top_authors": [
+      {
+        "author": "Bartos Erika",
+        "checkouts": 589
+      },
+      {
+        "author": "Steel, Danielle",
+        "checkouts": 398
+      },
+      {
+        "author": "Roberts, Nora",
+        "checkouts": 343
+      },
+      {
+        "author": "Brown, Borsa (álnév)",
+        "checkouts": 326
+      },
+      {
+        "author": "Dami, Elisabetta",
+        "checkouts": 323
+      }
+    ]
+  }
+}

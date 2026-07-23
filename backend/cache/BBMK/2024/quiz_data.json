@@ -1,0 +1,127 @@
+{
+  "book_quiz": {
+    "top_books": [
+      {
+        "title": "A Szent Johanna gimi / Leiner Laura",
+        "author": "Leiner Laura",
+        "record_id": "bibBBM00398276",
+        "isbn": "97896353970061",
+        "checkouts": 43
+      },
+      {
+        "title": "A sirály a király?",
+        "author": "Bosnyák Viktória",
+        "record_id": "bibBBM00402715",
+        "isbn": "9786150107233",
+        "checkouts": 29
+      },
+      {
+        "title": "Védelem",
+        "author": "Brown, Borsa (álnév)",
+        "record_id": "bibBBM00411130",
+        "isbn": "9789635706426",
+        "checkouts": 27
+      },
+      {
+        "title": "Barbara : a végzet",
+        "author": "Náray Tamás",
+        "record_id": "bibBBM00411141",
+        "isbn": "9789636041984",
+        "checkouts": 26
+      },
+      {
+        "title": "Bajban Dubajban",
+        "author": "Brown, Borsa (álnév)",
+        "record_id": "bibBBM00412549",
+        "isbn": "9789635707300",
+        "checkouts": 26
+      }
+    ],
+    "decoys": [
+      {
+        "title": "Zserbó : a múlt tengerén",
+        "author": "Karády Anna",
+        "isbn": "9786150167848",
+        "checkouts": 14
+      },
+      {
+        "title": "Ne keress",
+        "author": "Mafi, Tahereh",
+        "isbn": "9789634060604",
+        "checkouts": 5
+      },
+      {
+        "title": "Télikrumpligombóc",
+        "author": "Falk, Rita",
+        "isbn": "9786155617874",
+        "checkouts": 3
+      },
+      {
+        "title": "Berci kisállatot szeretne",
+        "author": "Tielmann, Christian",
+        "isbn": "9786155385308",
+        "checkouts": 2
+      },
+      {
+        "title": "Kicsi sárga méhecske : kukucskálós könyv",
+        "author": "Longhi, Katya",
+        "isbn": "9789636034504",
+        "checkouts": 2
+      },
+      {
+        "title": "12 szabály az élethez : így kerüld el a káoszt!",
+        "author": "Peterson, Jordan B.",
+        "isbn": "9786155759369",
+        "checkouts": 1
+      },
+      {
+        "title": "A kutya szerint a világ : mit és miért csinál a kutyánk?",
+        "author": "Horowitz, Alexandra",
+        "isbn": "9786155285844",
+        "checkouts": 1
+      },
+      {
+        "title": "Dumaszínház : tankönyv és munkafüzet",
+        "author": "Kormos Anett",
+        "isbn": "9789632543796",
+        "checkouts": 1
+      },
+      {
+        "title": "Pons német nyelvtan röviden és érthetően : [egyszerű, érthető, áttekinthető]",
+        "author": "Voit, Heike",
+        "isbn": "9786155127151",
+        "checkouts": 1
+      },
+      {
+        "title": "Csücsök avagy A nagy pudinghajsza hajmeresztő és igaz története tíz fejezetben elmesélve",
+        "author": "Keresztesi József",
+        "isbn": "9789634860426",
+        "checkouts": 1
+      }
+    ]
+  },
+  "author_quiz": {
+    "top_authors": [
+      {
+        "author": "Steel, Danielle",
+        "checkouts": 330
+      },
+      {
+        "author": "Roberts, Nora",
+        "checkouts": 300
+      },
+      {
+        "author": "Brown, Borsa (álnév)",
+        "checkouts": 298
+      },
+      {
+        "author": "Kinney, Jeff",
+        "checkouts": 233
+      },
+      {
+        "author": "Bartos Erika",
+        "checkouts": 232
+      }
+    ]
+  }
+}

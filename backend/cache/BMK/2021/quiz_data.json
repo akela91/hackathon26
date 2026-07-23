@@ -1,0 +1,127 @@
+{
+  "book_quiz": {
+    "top_books": [
+      {
+        "title": "A Szent Johanna gimi",
+        "author": "Leiner Laura",
+        "record_id": "bibBMK00068110",
+        "isbn": "9789635397020",
+        "checkouts": 95
+      },
+      {
+        "title": "Brúnó Budapesten",
+        "author": "Bartos Erika",
+        "record_id": "bibBMK00060126",
+        "isbn": null,
+        "checkouts": 54
+      },
+      {
+        "title": "Nana",
+        "author": "Yazawa Ai",
+        "record_id": "bibBMK00048744",
+        "isbn": "9630724448",
+        "checkouts": 54
+      },
+      {
+        "title": "Thomas, a gőzmozdony : válogatott mesék",
+        "author": "Awdry, Wilbert",
+        "record_id": "bibBMK00021018",
+        "isbn": null,
+        "checkouts": 53
+      },
+      {
+        "title": "Naruto",
+        "author": "Kishimoto Masashi",
+        "record_id": "bibBMK00048741",
+        "isbn": null,
+        "checkouts": 52
+      }
+    ],
+    "decoys": [
+      {
+        "title": "A villa",
+        "author": "Jacobs, Anne",
+        "isbn": "9789633246443",
+        "checkouts": 24
+      },
+      {
+        "title": "A kelta menyasszony",
+        "author": "Maguire, Margo",
+        "isbn": "9635362914",
+        "checkouts": 6
+      },
+      {
+        "title": "Add meg magad, szerelmem",
+        "author": "Lindsey, Johanna",
+        "isbn": "9789636895174",
+        "checkouts": 4
+      },
+      {
+        "title": "Marci iskolás lesz",
+        "author": "Wéber Anikó",
+        "isbn": "9789634104711",
+        "checkouts": 3
+      },
+      {
+        "title": "Focitörténetek",
+        "author": "Schubert, Ulli",
+        "isbn": "9637461124",
+        "checkouts": 2
+      },
+      {
+        "title": "... hol nem volt",
+        "author": "Roberts, Nora",
+        "isbn": "9789635379552",
+        "checkouts": 2
+      },
+      {
+        "title": "Kemény lányok",
+        "author": "Cole, Martina",
+        "isbn": "9789632976792",
+        "checkouts": 1
+      },
+      {
+        "title": "A fény, amit elvesztettünk",
+        "author": "Santopolo, Jill",
+        "isbn": "9786155638626",
+        "checkouts": 1
+      },
+      {
+        "title": "A Palatinus-domb lányai",
+        "author": "Smith, Phyllis T.",
+        "isbn": "9789634192268",
+        "checkouts": 1
+      },
+      {
+        "title": "Csak egy kis pánik [DVD-felvétel]",
+        "author": "Ramis, Harold",
+        "isbn": null,
+        "checkouts": 1
+      }
+    ]
+  },
+  "author_quiz": {
+    "top_authors": [
+      {
+        "author": "Roberts, Nora",
+        "checkouts": 825
+      },
+      {
+        "author": "Bartos Erika",
+        "checkouts": 703
+      },
+      {
+        "author": "Steel, Danielle",
+        "checkouts": 603
+      },
+      {
+        "author": "Berg Judit",
+        "checkouts": 435
+      },
+      {
+        "author": "Stilton, Geronimo",
+        "checkouts": 401
+      }
+    ]
+  }
+}

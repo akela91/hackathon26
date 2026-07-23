@@ -1,0 +1,446 @@
+{
+  "by_zip": [
+    {
+      "zip": "3100",
+      "city": "Salgótarján",
+      "checkouts": 10165,
+      "patrons": 526
+    },
+    {
+      "zip": "3104",
+      "city": "Salgótarján",
+      "checkouts": 1451,
+      "patrons": 82
+    },
+    {
+      "zip": "3078",
+      "city": "Bátonyterenye",
+      "checkouts": 470,
+      "patrons": 24
+    },
+    {
+      "zip": "3070",
+      "city": "Bátonyterenye",
+      "checkouts": 377,
+      "patrons": 28
+    },
+    {
+      "zip": "3141",
+      "city": "Salgótarján",
+      "checkouts": 363,
+      "patrons": 26
+    },
+    {
+      "zip": "3121",
+      "city": "Somoskőújfalu",
+      "checkouts": 302,
+      "patrons": 24
+    },
+    {
+      "zip": "3137",
+      "city": "Karancsberény",
+      "checkouts": 272,
+      "patrons": 12
+    },
+    {
+      "zip": "3181",
+      "city": "Karancsalja",
+      "checkouts": 239,
+      "patrons": 20
+    },
+    {
+      "zip": "3182",
+      "city": "Karancslapujtő",
+      "checkouts": 199,
+      "patrons": 10
+    },
+    {
+      "zip": "3100.",
+      "city": "Salgótarján",
+      "checkouts": 190,
+      "patrons": 17
+    },
+    {
+      "zip": "3129",
+      "city": "Nagykeresztúr",
+      "checkouts": 186,
+      "patrons": 6
+    },
+    {
+      "zip": "3109",
+      "city": "Salgótarján",
+      "checkouts": 153,
+      "patrons": 7
+    },
+    {
+      "zip": "3183",
+      "city": "Karancskeszi",
+      "checkouts": 148,
+      "patrons": 11
+    },
+    {
+      "zip": "3161",
+      "city": "Kishartyán",
+      "checkouts": 142,
+      "patrons": 7
+    },
+    {
+      "zip": "3102",
+      "city": "Salgótarján",
+      "checkouts": 130,
+      "patrons": 7
+    },
+    {
+      "zip": "3073",
+      "city": "Tar",
+      "checkouts": 108,
+      "patrons": 10
+    },
+    {
+      "zip": "3145",
+      "city": "Mátraterenye",
+      "checkouts": 104,
+      "patrons": 9
+    },
+    {
+      "zip": "3126",
+      "city": "Bárna",
+      "checkouts": 84,
+      "patrons": 7
+    },
+    {
+      "zip": "3131",
+      "city": "Sóshartyán",
+      "checkouts": 72,
+      "patrons": 7
+    },
+    {
+      "zip": "3143",
+      "city": "Mátranovák",
+      "checkouts": 66,
+      "patrons": 5
+    },
+    {
+      "zip": "3138",
+      "city": "Ipolytarnóc",
+      "checkouts": 63,
+      "patrons": 3
+    },
+    {
+      "zip": "1125",
+      "city": "Budapest",
+      "checkouts": 59,
+      "patrons": 2
+    },
+    {
+      "zip": "3128",
+      "city": "Vizslás",
+      "checkouts": 58,
+      "patrons": 7
+    },
+    {
+      "zip": "3134",
+      "city": "Piliny",
+      "checkouts": 58,
+      "patrons": 4
+    },
+    {
+      "zip": "3136",
+      "city": "Etes",
+      "checkouts": 51,
+      "patrons": 8
+    },
+    {
+      "zip": "3142",
+      "city": "Mátraszele",
+      "checkouts": 51,
+      "patrons": 6
+    },
+    {
+      "zip": "3162",
+      "city": "Ságújfalu",
+      "checkouts": 49,
+      "patrons": 7
+    },
+    {
+      "zip": "3123",
+      "city": "Cered",
+      "checkouts": 48,
+      "patrons": 4
+    },
+    {
+      "zip": "2120",
+      "city": "Dunakeszi",
+      "checkouts": 47,
+      "patrons": 2
+    },
+    {
+      "zip": "3127",
+      "city": "Kazár",
+      "checkouts": 47,
+      "patrons": 6
+    },
+    {
+      "zip": "3170",
+      "city": "Szécsény",
+      "checkouts": 46,
+      "patrons": 4
+    },
+    {
+      "zip": "98601",
+      "city": "Fülek",
+      "checkouts": 46,
+      "patrons": 6
+    },
+    {
+      "zip": "3152",
+      "city": "Nemti",
+      "checkouts": 45,
+      "patrons": 7
+    },
+    {
+      "zip": "1048",
+      "city": "Budapest",
+      "checkouts": 45,
+      "patrons": 1
+    },
+    {
+      "zip": "3184",
+      "city": "Salgótarján",
+      "checkouts": 43,
+      "patrons": 4
+    },
+    {
+      "zip": "3102.",
+      "city": "Salgótarján",
+      "checkouts": 42,
+      "patrons": 1
+    },
+    {
+      "zip": "98002",
+      "city": "Feled",
+      "checkouts": 41,
+      "patrons": 1
+    },
+    {
+      "zip": "98034",
+      "city": "Rimaszombat",
+      "checkouts": 40,
+      "patrons": 4
+    },
+    {
+      "zip": "3146",
+      "city": "Mátraterenye",
+      "checkouts": 39,
+      "patrons": 4
+    },
+    {
+      "zip": "3179",
+      "city": "Nógrádsipek",
+      "checkouts": 39,
+      "patrons": 2
+    }
+  ],
+  "by_city": [
+    {
+      "city": "Salgótarján",
+      "checkouts": 12550,
+      "patrons": 677
+    },
+    {
+      "city": "Bátonyterenye",
+      "checkouts": 856,
+      "patrons": 52
+    },
+    {
+      "city": "Karancsalja",
+      "checkouts": 300,
+      "patrons": 22
+    },
+    {
+      "city": "Somoskőújfalu",
+      "checkouts": 241,
+      "patrons": 15
+    },
+    {
+      "city": "Karancsberény",
+      "checkouts": 234,
+      "patrons": 11
+    },
+    {
+      "city": "Karancslapujtő",
+      "checkouts": 199,
+      "patrons": 10
+    },
+    {
+      "city": "Budapest",
+      "checkouts": 185,
+      "patrons": 16
+    },
+    {
+      "city": "Karancskeszi",
+      "checkouts": 148,
+      "patrons": 11
+    },
+    {
+      "city": "Mátraterenye",
+      "checkouts": 143,
+      "patrons": 13
+    },
+    {
+      "city": "Kishartyán",
+      "checkouts": 142,
+      "patrons": 7
+    },
+    {
+      "city": "Nagykeresztúr",
+      "checkouts": 136,
+      "patrons": 4
+    },
+    {
+      "city": "Tar",
+      "checkouts": 112,
+      "patrons": 12
+    },
+    {
+      "city": "Bárna",
+      "checkouts": 84,
+      "patrons": 7
+    },
+    {
+      "city": "Szécsény",
+      "checkouts": 84,
+      "patrons": 7
+    },
+    {
+      "city": "Vizslás",
+      "checkouts": 74,
+      "patrons": 8
+    },
+    {
+      "city": "Sóshartyán",
+      "checkouts": 72,
+      "patrons": 7
+    },
+    {
+      "city": "Mátranovák",
+      "checkouts": 66,
+      "patrons": 5
+    },
+    {
+      "city": "Ipolytarnóc",
+      "checkouts": 65,
+      "patrons": 4
+    },
+    {
+      "city": "Piliny",
+      "checkouts": 61,
+      "patrons": 5
+    },
+    {
+      "city": "Etes",
+      "checkouts": 55,
+      "patrons": 8
+    },
+    {
+      "city": "Mátraszele",
+      "checkouts": 51,
+      "patrons": 6
+    },
+    {
+      "city": "Cered",
+      "checkouts": 51,
+      "patrons": 5
+    },
+    {
+      "city": "Lucfalva",
+      "checkouts": 50,
+      "patrons": 2
+    },
+    {
+      "city": "Ságújfalu",
+      "checkouts": 49,
+      "patrons": 7
+    },
+    {
+      "city": "Kazár",
+      "checkouts": 47,
+      "patrons": 6
+    },
+    {
+      "city": "Dunakeszi",
+      "checkouts": 47,
+      "patrons": 2
+    },
+    {
+      "city": "Nemti",
+      "checkouts": 44,
+      "patrons": 6
+    },
+    {
+      "city": "Fülek",
+      "checkouts": 41,
+      "patrons": 5
+    },
+    {
+      "city": "Feled",
+      "checkouts": 41,
+      "patrons": 1
+    },
+    {
+      "city": "Nógrádsipek",
+      "checkouts": 39,
+      "patrons": 2
+    },
+    {
+      "city": "Egyházasgerge",
+      "checkouts": 29,
+      "patrons": 3
+    },
+    {
+      "city": "Somoskőujfalu",
+      "checkouts": 29,
+      "patrons": 4
+    },
+    {
+      "city": "Losonc",
+      "checkouts": 29,
+      "patrons": 2
+    },
+    {
+      "city": "Pásztó",
+      "checkouts": 28,
+      "patrons": 5
+    },
+    {
+      "city": "Istenmezeje",
+      "checkouts": 27,
+      "patrons": 2
+    },
+    {
+      "city": "Salgótajrán",
+      "checkouts": 25,
+      "patrons": 2
+    },
+    {
+      "city": "Nógrádmegyer",
+      "checkouts": 24,
+      "patrons": 3
+    },
+    {
+      "city": "Rimaszombat",
+      "checkouts": 23,
+      "patrons": 1
+    },
+    {
+      "city": "Mihálygerge",
+      "checkouts": 19,
+      "patrons": 3
+    },
+    {
+      "city": "Karancsság",
+      "checkouts": 18,
+      "patrons": 3
+    }
+  ]
+}

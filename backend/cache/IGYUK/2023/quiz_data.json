@@ -1,0 +1,127 @@
+{
+  "book_quiz": {
+    "top_books": [
+      {
+        "title": "Számítógép száma: 1.",
+        "author": "Számítógép használat",
+        "record_id": "bibTMK00276981",
+        "isbn": null,
+        "checkouts": 208
+      },
+      {
+        "title": "Számítógép száma: 3.",
+        "author": "Számítógép használat",
+        "record_id": "bibTMK00276984",
+        "isbn": null,
+        "checkouts": 198
+      },
+      {
+        "title": "Számítógép száma: 2.",
+        "author": "Számítógép használat",
+        "record_id": "bibTMK00276983",
+        "isbn": null,
+        "checkouts": 139
+      },
+      {
+        "title": "A Szent Johanna gimi",
+        "author": "Leiner Laura",
+        "record_id": "bibTMK00236530",
+        "isbn": "9789635397020",
+        "checkouts": 101
+      },
+      {
+        "title": "Hunyadi",
+        "author": "Bán János",
+        "record_id": "bibTMK00238536",
+        "isbn": null,
+        "checkouts": 61
+      }
+    ],
+    "decoys": [
+      {
+        "title": "Zog, a sárkány",
+        "author": "Donaldson, Julia",
+        "isbn": "9786155291500",
+        "checkouts": 17
+      },
+      {
+        "title": "Figyelő szemek",
+        "author": "Link, Charlotte",
+        "isbn": "9789634521693",
+        "checkouts": 5
+      },
+      {
+        "title": "E-sportok : útmutató kezdőknek és profiknak",
+        "author": "Pettman, Kevin",
+        "isbn": "9789634377658",
+        "checkouts": 3
+      },
+      {
+        "title": "A bicikli kultúrtörténete",
+        "author": "Lessing, Hans-Erhard",
+        "isbn": "9786068994109",
+        "checkouts": 2
+      },
+      {
+        "title": "Hanga régi karácsonyai",
+        "author": "Wéber Anikó",
+        "isbn": "9789634106883",
+        "checkouts": 2
+      },
+      {
+        "title": "Mágiák",
+        "author": "Scott, Carey",
+        "isbn": "9789639619616",
+        "checkouts": 1
+      },
+      {
+        "title": "Hajóroncsok",
+        "author": "Stewart, James",
+        "isbn": "9789639747531",
+        "checkouts": 1
+      },
+      {
+        "title": "1970 [hangfelvétel]",
+        "author": "Cohen, Avishai",
+        "isbn": null,
+        "checkouts": 1
+      },
+      {
+        "title": "A belső hang : hogyan győzhetjük le negatív gondolatainkat",
+        "author": "Kross, Ethan",
+        "isbn": "9789634333401",
+        "checkouts": 1
+      },
+      {
+        "title": "Túrázások a Balaton-felvidéken : Kapolcs, Ábrahámhegytől - Szigliget, Tapolcáig",
+        "author": "Kiss Ernő",
+        "isbn": "9634401805",
+        "checkouts": 1
+      }
+    ]
+  },
+  "author_quiz": {
+    "top_authors": [
+      {
+        "author": "Bartos Erika",
+        "checkouts": 808
+      },
+      {
+        "author": "Számítógép használat",
+        "checkouts": 596
+      },
+      {
+        "author": "Marék Veronika",
+        "checkouts": 495
+      },
+      {
+        "author": "Berg Judit",
+        "checkouts": 492
+      },
+      {
+        "author": "Steel, Danielle",
+        "checkouts": 354
+      }
+    ]
+  }
+}

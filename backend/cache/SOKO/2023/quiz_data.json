@@ -1,0 +1,127 @@
+{
+  "book_quiz": {
+    "top_books": [
+      {
+        "title": "A Szent Johanna gimi",
+        "author": "Leiner Laura",
+        "record_id": "bibSOK00461852",
+        "isbn": "9789635397020",
+        "checkouts": 470
+      },
+      {
+        "title": "Idődetektívek",
+        "author": "Lenk, Fabian",
+        "record_id": "bibMOK00598142",
+        "isbn": null,
+        "checkouts": 274
+      },
+      {
+        "title": "Időfutár",
+        "author": "Gimesi Dóra",
+        "record_id": "bibSOK00536025",
+        "isbn": null,
+        "checkouts": 234
+      },
+      {
+        "title": "Percy Jackson és az olimposziak",
+        "author": "Riordan, Rick",
+        "record_id": "bibSOK00532336",
+        "isbn": null,
+        "checkouts": 227
+      },
+      {
+        "title": "Lengemesék",
+        "author": "Berg Judit",
+        "record_id": "bibSOK00551072",
+        "isbn": null,
+        "checkouts": 210
+      }
+    ],
+    "decoys": [
+      {
+        "title": "A leggazdagabb árva",
+        "author": "Bauer Barbara",
+        "isbn": "9786155715006",
+        "checkouts": 80
+      },
+      {
+        "title": "Nagy sportböngésző : mozogj!",
+        "author": "Kőszeghy Csilla",
+        "isbn": "9789639869691",
+        "checkouts": 13
+      },
+      {
+        "title": "A császár hagyatéka",
+        "author": "Korman, Gordon",
+        "isbn": "9789632455976",
+        "checkouts": 7
+      },
+      {
+        "title": "Holló a hollónak",
+        "author": "Grisham, John",
+        "isbn": "9789639765764",
+        "checkouts": 4
+      },
+      {
+        "title": "Kamaszhatárok : mikor mondjunk igent, és hogyan mondjunk nemet kamaszoknak?",
+        "author": "Townsend, John",
+        "isbn": "9789632885889",
+        "checkouts": 3
+      },
+      {
+        "title": "Minyonok [DVD-felvétel]",
+        "author": "Coffin, Pierre",
+        "isbn": null,
+        "checkouts": 2
+      },
+      {
+        "title": "Az Antikrisztus és a pásztorok : regény",
+        "author": "Wass Albert",
+        "isbn": "9639472328",
+        "checkouts": 2
+      },
+      {
+        "title": "Túlélőtúra",
+        "author": "Münz András",
+        "isbn": "9638642874",
+        "checkouts": 1
+      },
+      {
+        "title": "Jégtörő Mátyás",
+        "author": "Tamási Áron",
+        "isbn": "9789638962508",
+        "checkouts": 1
+      },
+      {
+        "title": "Nélküled : [regény]",
+        "author": "Singer Magdolna",
+        "isbn": "9789633101216",
+        "checkouts": 1
+      }
+    ]
+  },
+  "author_quiz": {
+    "top_authors": [
+      {
+        "author": "Dami, Elisabetta",
+        "checkouts": 3782
+      },
+      {
+        "author": "Bartos Erika",
+        "checkouts": 3461
+      },
+      {
+        "author": "Berg Judit",
+        "checkouts": 3172
+      },
+      {
+        "author": "Roberts, Nora",
+        "checkouts": 1957
+      },
+      {
+        "author": "Schneider, Liane",
+        "checkouts": 1694
+      }
+    ]
+  }
+}

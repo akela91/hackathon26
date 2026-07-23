@@ -1,0 +1,234 @@
+{
+  "generated_at": "2026-07-23T15:15:43.704255+00:00",
+  "dataset": "full",
+  "scope": "DEENK",
+  "total_checkouts": 9443,
+  "total_value_huf": 27397219,
+  "unique_patrons": 1030,
+  "unique_titles": 7547,
+  "total_renewals": 19511,
+  "avg_renewals": 2.07,
+  "libraries": [
+    "DEENK"
+  ],
+  "by_year": [
+    {
+      "year": "2021",
+      "checkouts": 9443,
+      "value_huf": 27397219.65000001
+    }
+  ],
+  "by_library": [
+    {
+      "library": "DEENK",
+      "checkouts": 9443,
+      "value_huf": 27397219.65000001,
+      "patrons": 1030
+    }
+  ],
+  "by_doc_type": [
+    {
+      "code": "B",
+      "checkouts": 9004,
+      "label": "Könyv"
+    },
+    {
+      "code": "C",
+      "checkouts": 228,
+      "label": "AV / CD"
+    },
+    {
+      "code": "R",
+      "checkouts": 125,
+      "label": "R"
+    },
+    {
+      "code": "a",
+      "checkouts": 44,
+      "label": "a"
+    },
+    {
+      "code": "F",
+      "checkouts": 22,
+      "label": "F"
+    },
+    {
+      "code": "S",
+      "checkouts": 14,
+      "label": "Periodika / Sorozat"
+    },
+    {
+      "code": "M",
+      "checkouts": 4,
+      "label": "Térkép"
+    },
+    {
+      "code": "D",
+      "checkouts": 2,
+      "label": "Disszertáció"
+    }
+  ],
+  "by_language": [
+    {
+      "language": "hun",
+      "checkouts": 8321
+    },
+    {
+      "language": "eng",
+      "checkouts": 661
+    },
+    {
+      "language": "ger",
+      "checkouts": 209
+    },
+    {
+      "language": "mul",
+      "checkouts": 68
+    },
+    {
+      "language": "lat",
+      "checkouts": 45
+    },
+    {
+      "language": "fre",
+      "checkouts": 28
+    }
+  ],
+  "top_renewed_books": [
+    {
+      "title": "American Civil War : the definitive encyclopedia and document collection",
+      "author": null,
+      "isbn": "9781851096770",
+      "total_renewals": 126,
+      "checkouts": 6
+    },
+    {
+      "title": "Igazság és módszer : egy filozófiai hermeneutika vázlata",
+      "author": "Gadamer, Hans-Georg",
+      "isbn": "9633892139",
+      "total_renewals": 97,
+      "checkouts": 2
+    },
+    {
+      "title": "Pszichiátria és művészet : válogatott írások",
+      "author": "Tényi Tamás",
+      "isbn": "9789636425517",
+      "total_renewals": 74,
+      "checkouts": 1
+    },
+    {
+      "title": "John Wick [mozgókép] : 2. felvonás = Chapter 2",
+      "author": "Stahelski, Chad",
+      "isbn": null,
+      "total_renewals": 73,
+      "checkouts": 1
+    },
+    {
+      "title": "Sophia : a női bölcsesség",
+      "author": "Szabó Judit",
+      "isbn": "9634305164",
+      "total_renewals": 73,
+      "checkouts": 1
+    },
+    {
+      "title": "Akupunktúra :  elmélet, gyakorlat : a hagyományos kínai orvoslás Pálos professzor előadásai alapján",
+      "author": "Dravetzky Éva",
+      "isbn": "9789638907103",
+      "total_renewals": 73,
+      "checkouts": 1
+    },
+    {
+      "title": "A túlélés tudománya : L. Ron Hubbard előadásai : átirat, szójegyzék : 1951. május 21. - 1951. június 26.",
+      "author": "Hubbard, L. Ron",
+      "isbn": null,
+      "total_renewals": 65,
+      "checkouts": 5
+    },
+    {
+      "title": "Lelki eredetű betegségek lexikona",
+      "author": "Martel, Jacques",
+      "isbn": "9789639644625",
+      "total_renewals": 60,
+      "checkouts": 2
+    },
+    {
+      "title": "A tiszta magyar nyelv kincseinek megőrzése és tanítása",
+      "author": "Molnár Zsolt",
+      "isbn": "9789639592933",
+      "total_renewals": 57,
+      "checkouts": 1
+    },
+    {
+      "title": "Rasszizmus a tudományban",
+      "author": null,
+      "isbn": "9789639697010",
+      "total_renewals": 53,
+      "checkouts": 1
+    }
+  ],
+  "most_active_period": {
+    "busiest_month": {
+      "month": "2021-09",
+      "checkouts": 1220
+    },
+    "busiest_weekday": {
+      "weekday": 0,
+      "checkouts": 3020,
+      "label": "Hétfő"
+    },
+    "busiest_hour": {
+      "hour": 7,
+      "checkouts": 1545
+    }
+  },
+  "monthly_checkouts": [
+    {
+      "month": "2021-01",
+      "checkouts": 551
+    },
+    {
+      "month": "2021-02",
+      "checkouts": 612
+    },
+    {
+      "month": "2021-03",
+      "checkouts": 357
+    },
+    {
+      "month": "2021-04",
+      "checkouts": 542
+    },
+    {
+      "month": "2021-05",
+      "checkouts": 649
+    },
+    {
+      "month": "2021-06",
+      "checkouts": 1030
+    },
+    {
+      "month": "2021-07",
+      "checkouts": 693
+    },
+    {
+      "month": "2021-08",
+      "checkouts": 701
+    },
+    {
+      "month": "2021-09",
+      "checkouts": 1220
+    },
+    {
+      "month": "2021-10",
+      "checkouts": 1130
+    },
+    {
+      "month": "2021-11",
+      "checkouts": 1173
+    },
+    {
+      "month": "2021-12",
+      "checkouts": 311
+    }
+  ]
+}

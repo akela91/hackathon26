@@ -1,0 +1,234 @@
+{
+  "generated_at": "2026-07-23T15:16:33.085334+00:00",
+  "dataset": "full",
+  "scope": "RFMK",
+  "total_checkouts": 115015,
+  "total_value_huf": 218124455,
+  "unique_patrons": 5907,
+  "unique_titles": 35258,
+  "total_renewals": 119932,
+  "avg_renewals": 1.04,
+  "libraries": [
+    "RFMK"
+  ],
+  "by_year": [
+    {
+      "year": "2021",
+      "checkouts": 115015,
+      "value_huf": 218124455.76000005
+    }
+  ],
+  "by_library": [
+    {
+      "library": "RFMK",
+      "checkouts": 115015,
+      "value_huf": 218124455.76000005,
+      "patrons": 5907
+    }
+  ],
+  "by_doc_type": [
+    {
+      "code": "B",
+      "checkouts": 110838,
+      "label": "Könyv"
+    },
+    {
+      "code": "F",
+      "checkouts": 2354,
+      "label": "F"
+    },
+    {
+      "code": "R",
+      "checkouts": 1103,
+      "label": "R"
+    },
+    {
+      "code": "S",
+      "checkouts": 340,
+      "label": "Periodika / Sorozat"
+    },
+    {
+      "code": "C",
+      "checkouts": 268,
+      "label": "AV / CD"
+    },
+    {
+      "code": "D",
+      "checkouts": 68,
+      "label": "Disszertáció"
+    },
+    {
+      "code": "M",
+      "checkouts": 43,
+      "label": "Térkép"
+    },
+    {
+      "code": "a",
+      "checkouts": 1,
+      "label": "a"
+    }
+  ],
+  "by_language": [
+    {
+      "language": "hun",
+      "checkouts": 112105
+    },
+    {
+      "language": "eng",
+      "checkouts": 1743
+    },
+    {
+      "language": "ger",
+      "checkouts": 567
+    },
+    {
+      "language": "und",
+      "checkouts": 168
+    },
+    {
+      "language": "fre",
+      "checkouts": 60
+    },
+    {
+      "language": "ita",
+      "checkouts": 58
+    }
+  ],
+  "top_renewed_books": [
+    {
+      "title": "A Szent Johanna gimi",
+      "author": "Leiner Laura",
+      "isbn": "9789635397020",
+      "total_renewals": 241,
+      "checkouts": 228
+    },
+    {
+      "title": "Rumini",
+      "author": "Berg Judit",
+      "isbn": "9789634106159",
+      "total_renewals": 152,
+      "checkouts": 81
+    },
+    {
+      "title": "Fizika : szakközépiskolai összefoglaló feladatgyűjtemény : megoldások",
+      "author": "Lövey Zsuzsa",
+      "isbn": "9630400456",
+      "total_renewals": 138,
+      "checkouts": 6
+    },
+    {
+      "title": "Szavakkal verve... : szóbeli erőszak a párkapcsolatban",
+      "author": "Evans, Patricia",
+      "isbn": "9639365351",
+      "total_renewals": 127,
+      "checkouts": 6
+    },
+    {
+      "title": "Idődetektívek",
+      "author": "Lenk, Fabian",
+      "isbn": null,
+      "total_renewals": 120,
+      "checkouts": 149
+    },
+    {
+      "title": "Hétlépcsős hegy",
+      "author": "Merton, Thomas",
+      "isbn": "9633605237",
+      "total_renewals": 118,
+      "checkouts": 1
+    },
+    {
+      "title": "Fizika",
+      "author": "Vermes Miklós",
+      "isbn": "9635450168",
+      "total_renewals": 116,
+      "checkouts": 22
+    },
+    {
+      "title": "A csend szava : Válogatás Thomas Merton műveiből",
+      "author": "Merton, Thomas",
+      "isbn": "9633605318",
+      "total_renewals": 112,
+      "checkouts": 1
+    },
+    {
+      "title": "A Pál utcai fiúk",
+      "author": "Molnár Ferenc",
+      "isbn": "9789634158851",
+      "total_renewals": 110,
+      "checkouts": 78
+    },
+    {
+      "title": "Krakkó",
+      "author": "Sco",
+      "isbn": "9789630957540",
+      "total_renewals": 108,
+      "checkouts": 2
+    }
+  ],
+  "most_active_period": {
+    "busiest_month": {
+      "month": "2021-11",
+      "checkouts": 12889
+    },
+    "busiest_weekday": {
+      "weekday": 0,
+      "checkouts": 23744,
+      "label": "Hétfő"
+    },
+    "busiest_hour": {
+      "hour": 9,
+      "checkouts": 14875
+    }
+  },
+  "monthly_checkouts": [
+    {
+      "month": "2021-01",
+      "checkouts": 4432
+    },
+    {
+      "month": "2021-02",
+      "checkouts": 5960
+    },
+    {
+      "month": "2021-03",
+      "checkouts": 2739
+    },
+    {
+      "month": "2021-04",
+      "checkouts": 9905
+    },
+    {
+      "month": "2021-05",
+      "checkouts": 8241
+    },
+    {
+      "month": "2021-06",
+      "checkouts": 9781
+    },
+    {
+      "month": "2021-07",
+      "checkouts": 11112
+    },
+    {
+      "month": "2021-08",
+      "checkouts": 12885
+    },
+    {
+      "month": "2021-09",
+      "checkouts": 11765
+    },
+    {
+      "month": "2021-10",
+      "checkouts": 11720
+    },
+    {
+      "month": "2021-11",
+      "checkouts": 12889
+    },
+    {
+      "month": "2021-12",
+      "checkouts": 5550
+    }
+  ]
+}

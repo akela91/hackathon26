@@ -1,0 +1,127 @@
+{
+  "book_quiz": {
+    "top_books": [
+      {
+        "title": "A Bridgerton család",
+        "author": "Quinn, Julia",
+        "record_id": "bibVFM00230345",
+        "isbn": null,
+        "checkouts": 69
+      },
+      {
+        "title": "Anyám szerint",
+        "author": "Náray Tamás",
+        "record_id": "bibVFM00244792",
+        "isbn": "9789636040338",
+        "checkouts": 63
+      },
+      {
+        "title": "Naruto",
+        "author": "Kishimoto Masashi",
+        "record_id": "bibVFM00168598",
+        "isbn": null,
+        "checkouts": 62
+      },
+      {
+        "title": "Hunyadi",
+        "author": "Bán János",
+        "record_id": "bibVFM00053354",
+        "isbn": null,
+        "checkouts": 60
+      },
+      {
+        "title": "A Szent Johanna gimi",
+        "author": "Leiner Laura",
+        "record_id": "bibVFM00200112",
+        "isbn": "9786155653339",
+        "checkouts": 45
+      }
+    ],
+    "decoys": [
+      {
+        "title": "Végtelen kísértés",
+        "author": "Peller Mariann",
+        "isbn": "9786150096407",
+        "checkouts": 19
+      },
+      {
+        "title": "Egy csepp méz : sütikirálynők",
+        "author": "Mallery, Susan",
+        "isbn": "9789635388660",
+        "checkouts": 5
+      },
+      {
+        "title": "Hegyek között",
+        "author": "Molnár Eszter",
+        "isbn": "9789631250114",
+        "checkouts": 3
+      },
+      {
+        "title": "Torment = Kín",
+        "author": "Kate, Lauren",
+        "isbn": "9789632455945",
+        "checkouts": 2
+      },
+      {
+        "title": "A kockától az aktig",
+        "author": "Szalai Zoltán",
+        "isbn": "9635642415",
+        "checkouts": 2
+      },
+      {
+        "title": "Elveszett rózsák",
+        "author": "Kelly, Martha Hall",
+        "isbn": "9789633991596",
+        "checkouts": 1
+      },
+      {
+        "title": "Mesélő ABC",
+        "author": "Balázs Ágnes",
+        "isbn": "9789631192889",
+        "checkouts": 1
+      },
+      {
+        "title": "\"Modernnek kell lenni mindenestül\"",
+        "author": "Somlyó György",
+        "isbn": "9632708857",
+        "checkouts": 1
+      },
+      {
+        "title": "Malaceső!",
+        "author": "Spink, Les",
+        "isbn": "9789638998095",
+        "checkouts": 1
+      },
+      {
+        "title": "Gina",
+        "author": "Méhes György",
+        "isbn": "9637253343",
+        "checkouts": 1
+      }
+    ]
+  },
+  "author_quiz": {
+    "top_authors": [
+      {
+        "author": "Roberts, Nora",
+        "checkouts": 584
+      },
+      {
+        "author": "Bartos Erika",
+        "checkouts": 564
+      },
+      {
+        "author": "Steel, Danielle",
+        "checkouts": 476
+      },
+      {
+        "author": "Dami, Elisabetta",
+        "checkouts": 367
+      },
+      {
+        "author": "Marék Veronika",
+        "checkouts": 340
+      }
+    ]
+  }
+}

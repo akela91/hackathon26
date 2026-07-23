@@ -1,0 +1,277 @@
+{
+  "generated_at": "2026-07-23T15:15:36.825262+00:00",
+  "dataset": "full",
+  "scope": "BMK",
+  "total_checkouts": 75920,
+  "total_value_huf": 167817776,
+  "unique_patrons": 3554,
+  "unique_titles": 25327,
+  "total_renewals": 39614,
+  "avg_renewals": 0.52,
+  "libraries": [
+    "BMK"
+  ],
+  "by_year": [
+    {
+      "year": "2022",
+      "checkouts": 75920,
+      "value_huf": 167817776.0
+    }
+  ],
+  "by_library": [
+    {
+      "library": "BMK",
+      "checkouts": 75920,
+      "value_huf": 167817776.0,
+      "patrons": 3554
+    }
+  ],
+  "by_doc_type": [
+    {
+      "code": "B",
+      "checkouts": 71940,
+      "label": "Könyv"
+    },
+    {
+      "code": "F",
+      "checkouts": 2802,
+      "label": "F"
+    },
+    {
+      "code": "R",
+      "checkouts": 1088,
+      "label": "R"
+    },
+    {
+      "code": "S",
+      "checkouts": 64,
+      "label": "Periodika / Sorozat"
+    },
+    {
+      "code": "C",
+      "checkouts": 19,
+      "label": "AV / CD"
+    },
+    {
+      "code": "M",
+      "checkouts": 6,
+      "label": "Térkép"
+    },
+    {
+      "code": "D",
+      "checkouts": 1,
+      "label": "Disszertáció"
+    }
+  ],
+  "by_language": [
+    {
+      "language": "hun",
+      "checkouts": 74953
+    },
+    {
+      "language": "eng",
+      "checkouts": 534
+    },
+    {
+      "language": "und",
+      "checkouts": 128
+    },
+    {
+      "language": "mul",
+      "checkouts": 77
+    },
+    {
+      "language": "ger",
+      "checkouts": 73
+    },
+    {
+      "language": "ita",
+      "checkouts": 66
+    }
+  ],
+  "top_renewed_books": [
+    {
+      "title": "Brúnó Budapesten",
+      "author": "Bartos Erika",
+      "isbn": null,
+      "total_renewals": 100,
+      "checkouts": 122
+    },
+    {
+      "title": "Gól!",
+      "author": "Garlando, Luigi",
+      "isbn": null,
+      "total_renewals": 39,
+      "checkouts": 39
+    },
+    {
+      "title": "Mágikus állatok iskolája",
+      "author": "Auer, Margit",
+      "isbn": null,
+      "total_renewals": 36,
+      "checkouts": 109
+    },
+    {
+      "title": "A várakozás művészete [Hangfelvétel] : Gondviselés",
+      "author": "Müller Péter",
+      "isbn": "9789630990585",
+      "total_renewals": 36,
+      "checkouts": 22
+    },
+    {
+      "title": "Thomas, a gőzmozdony : válogatott mesék",
+      "author": "Awdry, Wilbert",
+      "isbn": null,
+      "total_renewals": 34,
+      "checkouts": 75
+    },
+    {
+      "title": "Egri csillagok",
+      "author": "Gárdonyi Géza",
+      "isbn": "963077383X",
+      "total_renewals": 34,
+      "checkouts": 25
+    },
+    {
+      "title": "A boldog hülye és az okos depressziós",
+      "author": "Kepes András",
+      "isbn": "9789634338086",
+      "total_renewals": 33,
+      "checkouts": 47
+    },
+    {
+      "title": "István, a király [Hangfelvétel] : Rockopera Boldizsár Miklós \"Ezredforduló\" c. drámája nyomán",
+      "author": "Boldizsár Miklós",
+      "isbn": null,
+      "total_renewals": 32,
+      "checkouts": 16
+    },
+    {
+      "title": "Kings of country [Hangfelvétel]",
+      "author": null,
+      "isbn": null,
+      "total_renewals": 32,
+      "checkouts": 3
+    },
+    {
+      "title": "Country greats [Hangfelvétel] : 40 essential track",
+      "author": null,
+      "isbn": null,
+      "total_renewals": 32,
+      "checkouts": 2
+    }
+  ],
+  "most_active_period": {
+    "busiest_month": {
+      "month": "2022-08",
+      "checkouts": 7290
+    },
+    "busiest_weekday": {
+      "weekday": 1,
+      "checkouts": 14751,
+      "label": "Kedd"
+    },
+    "busiest_hour": {
+      "hour": 13,
+      "checkouts": 10923
+    }
+  },
+  "monthly_checkouts": [
+    {
+      "month": "2021-01",
+      "checkouts": 5
+    },
+    {
+      "month": "2021-02",
+      "checkouts": 8
+    },
+    {
+      "month": "2021-03",
+      "checkouts": 1
+    },
+    {
+      "month": "2021-04",
+      "checkouts": 8
+    },
+    {
+      "month": "2021-05",
+      "checkouts": 9
+    },
+    {
+      "month": "2021-06",
+      "checkouts": 12
+    },
+    {
+      "month": "2021-07",
+      "checkouts": 20
+    },
+    {
+      "month": "2021-08",
+      "checkouts": 51
+    },
+    {
+      "month": "2021-09",
+      "checkouts": 51
+    },
+    {
+      "month": "2021-10",
+      "checkouts": 101
+    },
+    {
+      "month": "2021-11",
+      "checkouts": 493
+    },
+    {
+      "month": "2021-12",
+      "checkouts": 4147
+    },
+    {
+      "month": "2022-01",
+      "checkouts": 6729
+    },
+    {
+      "month": "2022-02",
+      "checkouts": 6072
+    },
+    {
+      "month": "2022-03",
+      "checkouts": 6626
+    },
+    {
+      "month": "2022-04",
+      "checkouts": 6115
+    },
+    {
+      "month": "2022-05",
+      "checkouts": 6358
+    },
+    {
+      "month": "2022-06",
+      "checkouts": 6143
+    },
+    {
+      "month": "2022-07",
+      "checkouts": 6179
+    },
+    {
+      "month": "2022-08",
+      "checkouts": 7290
+    },
+    {
+      "month": "2022-09",
+      "checkouts": 6226
+    },
+    {
+      "month": "2022-10",
+      "checkouts": 6193
+    },
+    {
+      "month": "2022-11",
+      "checkouts": 5997
+    },
+    {
+      "month": "2022-12",
+      "checkouts": 1049
+    }
+  ]
+}

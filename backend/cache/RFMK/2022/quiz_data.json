@@ -1,0 +1,127 @@
+{
+  "book_quiz": {
+    "top_books": [
+      {
+        "title": "A Szent Johanna gimi",
+        "author": "Leiner Laura",
+        "record_id": "bibSOK00461852",
+        "isbn": "9789635397020",
+        "checkouts": 361
+      },
+      {
+        "title": "Idődetektívek",
+        "author": "Lenk, Fabian",
+        "record_id": "bibRFM00106774",
+        "isbn": null,
+        "checkouts": 157
+      },
+      {
+        "title": "Zseb-Garfield",
+        "author": null,
+        "record_id": "bibRFM00238337",
+        "isbn": null,
+        "checkouts": 111
+      },
+      {
+        "title": "Hunyadi",
+        "author": "Bán János",
+        "record_id": "bibRFM00434036",
+        "isbn": null,
+        "checkouts": 93
+      },
+      {
+        "title": "A Pál utcai fiúk",
+        "author": "Molnár Ferenc",
+        "record_id": "bibRFM00285173",
+        "isbn": "9789634158851",
+        "checkouts": 84
+      }
+    ],
+    "decoys": [
+      {
+        "title": "Boribon házikója",
+        "author": "Marék Veronika",
+        "isbn": "9789634106272",
+        "checkouts": 45
+      },
+      {
+        "title": "Macskanagy rettegés : [fergeteges ötletek és tanácsok egy extraegeres mulatság szervezéséhez]",
+        "author": "Stilton, Geronimo",
+        "isbn": "9789633709016",
+        "checkouts": 9
+      },
+      {
+        "title": "Csók Mikonoszon",
+        "author": "Rider, Catherine",
+        "isbn": "9789635841509",
+        "checkouts": 5
+      },
+      {
+        "title": "A kisvakond és a mackók",
+        "author": "Miler, Zdeněk",
+        "isbn": "9631181456",
+        "checkouts": 3
+      },
+      {
+        "title": "Garantált hepiend",
+        "author": "Bivald, Katarina",
+        "isbn": "9786155469688",
+        "checkouts": 2
+      },
+      {
+        "title": "Horvátország [DVD-felvétel]",
+        "author": "Juhász Jenő",
+        "isbn": null,
+        "checkouts": 2
+      },
+      {
+        "title": "A vén patagóniai expressz",
+        "author": "Theroux, Paul",
+        "isbn": "9632818148",
+        "checkouts": 1
+      },
+      {
+        "title": "Azok a nyolcvanas, kilencvenes évek : Szalay Zoltán fotóalbuma",
+        "author": "Szalay Zoltán",
+        "isbn": "9789635445431",
+        "checkouts": 1
+      },
+      {
+        "title": "A tegnap alkonya",
+        "author": "Hegedüs Géza",
+        "isbn": "9631532658",
+        "checkouts": 1
+      },
+      {
+        "title": "Miért? : novellák",
+        "author": "Amacziné Bíró Zsuzsa",
+        "isbn": "9639297623",
+        "checkouts": 1
+      }
+    ]
+  },
+  "author_quiz": {
+    "top_authors": [
+      {
+        "author": "Roberts, Nora",
+        "checkouts": 1945
+      },
+      {
+        "author": "Bartos Erika",
+        "checkouts": 1673
+      },
+      {
+        "author": "Steel, Danielle",
+        "checkouts": 1420
+      },
+      {
+        "author": "Stilton, Geronimo",
+        "checkouts": 1149
+      },
+      {
+        "author": "Berg Judit",
+        "checkouts": 1092
+      }
+    ]
+  }
+}

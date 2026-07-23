@@ -1,0 +1,127 @@
+{
+  "book_quiz": {
+    "top_books": [
+      {
+        "title": "A Szent Johanna gimi",
+        "author": "Leiner Laura",
+        "record_id": "bibSOK00461852",
+        "isbn": "9789635397020",
+        "checkouts": 501
+      },
+      {
+        "title": "Idődetektívek",
+        "author": "Lenk, Fabian",
+        "record_id": "bibSOK00530147",
+        "isbn": null,
+        "checkouts": 315
+      },
+      {
+        "title": "Időfutár",
+        "author": "Gimesi Dóra",
+        "record_id": "bibSOK00524422",
+        "isbn": null,
+        "checkouts": 269
+      },
+      {
+        "title": "Percy Jackson és az olimposziak",
+        "author": "Riordan, Rick",
+        "record_id": "bibSOK00530140",
+        "isbn": null,
+        "checkouts": 209
+      },
+      {
+        "title": "Hunyadi",
+        "author": "Bán János",
+        "record_id": "bibSOK00515422",
+        "isbn": null,
+        "checkouts": 193
+      }
+    ],
+    "decoys": [
+      {
+        "title": "Kippkopp és a hónapok",
+        "author": "Marék Veronika",
+        "isbn": "9789638746320",
+        "checkouts": 74
+      },
+      {
+        "title": "Hogyan nevelj boldog gyereket : a Montessori-módszer : [ötletek, gyakorlatok és játékok az önbizalom és a kreativitás fejlesztésére]",
+        "author": "Seldin, Tim",
+        "isbn": "9789634379195",
+        "checkouts": 12
+      },
+      {
+        "title": "Buja éjszakák : Magnolia tánca 1.",
+        "author": "March, Meghan",
+        "isbn": "9789635702091",
+        "checkouts": 6
+      },
+      {
+        "title": "Édenkert",
+        "author": "McNaught, Judith",
+        "isbn": "9789636430375",
+        "checkouts": 4
+      },
+      {
+        "title": "Az erdő legendái : tündérek, sárkányok, manók és társaik",
+        "author": "Busquets, Jordi",
+        "isbn": "9639621412",
+        "checkouts": 3
+      },
+      {
+        "title": "A bolondság története a klasszicizmus korában",
+        "author": "Foucault, Michel",
+        "isbn": "963916576X",
+        "checkouts": 2
+      },
+      {
+        "title": "A csillagszemű juhász",
+        "author": "Benedek Elek",
+        "isbn": "9789633540480",
+        "checkouts": 1
+      },
+      {
+        "title": "Virágorigami",
+        "author": "Täubner, Armin",
+        "isbn": "9789632781532",
+        "checkouts": 1
+      },
+      {
+        "title": "The professor",
+        "author": "Brontë, Charlotte",
+        "isbn": "9780199536672",
+        "checkouts": 1
+      },
+      {
+        "title": "Varázslatos Napkelet : a boldogság nyomában Ázsiában",
+        "author": "Varga Csaba Béla",
+        "isbn": "9786155334764",
+        "checkouts": 1
+      }
+    ]
+  },
+  "author_quiz": {
+    "top_authors": [
+      {
+        "author": "Bartos Erika",
+        "checkouts": 2930
+      },
+      {
+        "author": "Dami, Elisabetta",
+        "checkouts": 2889
+      },
+      {
+        "author": "Berg Judit",
+        "checkouts": 2452
+      },
+      {
+        "author": "Steel, Danielle",
+        "checkouts": 1571
+      },
+      {
+        "author": "Roberts, Nora",
+        "checkouts": 1563
+      }
+    ]
+  }
+}

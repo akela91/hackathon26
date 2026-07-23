@@ -1,0 +1,127 @@
+{
+  "book_quiz": {
+    "top_books": [
+      {
+        "title": "Zseb-Garfield",
+        "author": "Davis, Jim",
+        "record_id": "bibBSM00252572",
+        "isbn": null,
+        "checkouts": 7576
+      },
+      {
+        "title": "Garfield",
+        "author": null,
+        "record_id": "bibBSM00122697",
+        "isbn": null,
+        "checkouts": 6992
+      },
+      {
+        "title": "Nők lapja",
+        "author": null,
+        "record_id": "bibBSM00000113",
+        "isbn": null,
+        "checkouts": 4136
+      },
+      {
+        "title": "Story : a sztármagazin : képes heti magazin",
+        "author": null,
+        "record_id": "bibFSZ00862542",
+        "isbn": null,
+        "checkouts": 1866
+      },
+      {
+        "title": "Hunyadi",
+        "author": "Bán János",
+        "record_id": "bibBBM00357596",
+        "isbn": "97896342613772",
+        "checkouts": 1824
+      }
+    ],
+    "decoys": [
+      {
+        "title": "Egy ropi naplója : négy fal között",
+        "author": "Kinney, Jeff",
+        "isbn": "9789633730690",
+        "checkouts": 773
+      },
+      {
+        "title": "A kékpöttyös elefánt",
+        "author": "Richly Zsolt",
+        "isbn": "9789638883957",
+        "checkouts": 32
+      },
+      {
+        "title": "A zene története : tankönyv és kézikönyv egy kötetben",
+        "author": "Wörner, Karl Heinrich",
+        "isbn": "9789630620024",
+        "checkouts": 12
+      },
+      {
+        "title": "Klasszikus mesegyűjtemény",
+        "author": "Awdry, Wilbert",
+        "isbn": null,
+        "checkouts": 6
+      },
+      {
+        "title": "Locke család",
+        "author": "Lindsey, Johanna",
+        "isbn": null,
+        "checkouts": 4
+      },
+      {
+        "title": "Introducción a la filológia románica",
+        "author": "Renzi, Lorenzo",
+        "isbn": "8424902939",
+        "checkouts": 2
+      },
+      {
+        "title": "A magyarországi kősó bányászata és kereskedelme : 1440-1530-as évek",
+        "author": "Draskóczy István",
+        "isbn": "9789634161141",
+        "checkouts": 2
+      },
+      {
+        "title": "Kozmikus otthonunk",
+        "author": "Rees, Martin J.",
+        "isbn": "963942935X",
+        "checkouts": 1
+      },
+      {
+        "title": "A Veszedelem színházai : az amerikai dráma a hidegháború alatt",
+        "author": "Seress Ákos",
+        "isbn": "9786155497735",
+        "checkouts": 1
+      },
+      {
+        "title": "Dzseni",
+        "author": "Preston, Douglas",
+        "isbn": "9630761548",
+        "checkouts": 1
+      }
+    ]
+  },
+  "author_quiz": {
+    "top_authors": [
+      {
+        "author": "Bartos Erika",
+        "checkouts": 53615
+      },
+      {
+        "author": "Dami, Elisabetta",
+        "checkouts": 43930
+      },
+      {
+        "author": "Berg Judit",
+        "checkouts": 39927
+      },
+      {
+        "author": "Marék Veronika",
+        "checkouts": 24111
+      },
+      {
+        "author": "Schneider, Liane",
+        "checkouts": 22639
+      }
+    ]
+  }
+}

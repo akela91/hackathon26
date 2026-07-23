@@ -1,0 +1,127 @@
+{
+  "book_quiz": {
+    "top_books": [
+      {
+        "title": "Sobotta : az ember anatómiájának atlasza",
+        "author": "Sobotta, Johannes",
+        "record_id": "bibKLT00061042",
+        "isbn": "9789632267081",
+        "checkouts": 234
+      },
+      {
+        "title": "Funkcionális anatómia : egyetemi tankönyv",
+        "author": "Szentágothai János",
+        "record_id": "bibKLT00319995",
+        "isbn": "9632425642",
+        "checkouts": 106
+      },
+      {
+        "title": "Az orvosi élettan tankönyve",
+        "author": "Fonyó Attila",
+        "record_id": "bibKLT00389996",
+        "isbn": "9789632267340",
+        "checkouts": 102
+      },
+      {
+        "title": "Orvosi biokémia : egyetemi tankönyv",
+        "author": null,
+        "record_id": "bibMOK05935860",
+        "isbn": "9789633314005",
+        "checkouts": 97
+      },
+      {
+        "title": "Langman orvosi embriológia",
+        "author": "Sadler, Thomas W.",
+        "record_id": "bibDEK00897708",
+        "isbn": "9789632266831",
+        "checkouts": 95
+      }
+    ],
+    "decoys": [
+      {
+        "title": "Anatómiai atlasz",
+        "author": "Donáth Tibor",
+        "isbn": "9789632266732",
+        "checkouts": 18
+      },
+      {
+        "title": "Napsütötte Nightingale tér",
+        "author": "Swain, Heidi",
+        "isbn": "9786156414106",
+        "checkouts": 3
+      },
+      {
+        "title": "Megyünk haza",
+        "author": "Moesko Péter",
+        "isbn": "9786155355288",
+        "checkouts": 2
+      },
+      {
+        "title": "Ich find das alles : Märchenvirus",
+        "author": "Jakabovics Tibor",
+        "isbn": "9786158204644",
+        "checkouts": 1
+      },
+      {
+        "title": "Humor in contemporary Native North American literature : reimagining nativeness",
+        "author": "Gruber, Eva",
+        "isbn": "9781571132574",
+        "checkouts": 1
+      },
+      {
+        "title": "A görög - perzsa háború",
+        "author": "'Erodotos",
+        "isbn": "9633793092",
+        "checkouts": 1
+      },
+      {
+        "title": "Utópiából az amerikai álomig",
+        "author": "Czingula János",
+        "isbn": "9789636150723",
+        "checkouts": 1
+      },
+      {
+        "title": "Előkelő álarcosbál : a Hawthorne-ház 1.",
+        "author": "Hunter, Kristi Ann",
+        "isbn": "9789634570332",
+        "checkouts": 1
+      },
+      {
+        "title": "Pécs",
+        "author": "Bezerédy Győző",
+        "isbn": "9632436180",
+        "checkouts": 1
+      },
+      {
+        "title": "Vidd magaddal, amit csak elbírsz",
+        "author": "Sardar, Gian",
+        "isbn": "9789636358464",
+        "checkouts": 1
+      }
+    ]
+  },
+  "author_quiz": {
+    "top_authors": [
+      {
+        "author": "Sobotta, Johannes",
+        "checkouts": 263
+      },
+      {
+        "author": "Bach, Johann Sebastian",
+        "checkouts": 209
+      },
+      {
+        "author": "Kodály Zoltán",
+        "checkouts": 189
+      },
+      {
+        "author": "Bartók Béla",
+        "checkouts": 172
+      },
+      {
+        "author": "Mozart, Wolfgang Amadeus",
+        "checkouts": 163
+      }
+    ]
+  }
+}

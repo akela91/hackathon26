@@ -1,0 +1,342 @@
+{
+  "generated_at": "2026-07-23T15:16:17.057443+00:00",
+  "dataset": "full",
+  "scope": "FSZEK",
+  "total_checkouts": 2000403,
+  "total_value_huf": 6516400907,
+  "unique_patrons": 83643,
+  "unique_titles": 137987,
+  "total_renewals": 1469222,
+  "avg_renewals": 0.73,
+  "libraries": [
+    "FSZEK"
+  ],
+  "by_year": [
+    {
+      "year": "2025",
+      "checkouts": 2000403,
+      "value_huf": 6516400907.920053
+    }
+  ],
+  "by_library": [
+    {
+      "library": "FSZEK",
+      "checkouts": 2000403,
+      "value_huf": 6516400907.920052,
+      "patrons": 83643
+    }
+  ],
+  "by_doc_type": [
+    {
+      "code": "B",
+      "checkouts": 1904799,
+      "label": "Könyv"
+    },
+    {
+      "code": "F",
+      "checkouts": 43589,
+      "label": "F"
+    },
+    {
+      "code": "S",
+      "checkouts": 37077,
+      "label": "Periodika / Sorozat"
+    },
+    {
+      "code": "R",
+      "checkouts": 8896,
+      "label": "R"
+    },
+    {
+      "code": "C",
+      "checkouts": 3635,
+      "label": "AV / CD"
+    },
+    {
+      "code": "D",
+      "checkouts": 1650,
+      "label": "Disszertáció"
+    },
+    {
+      "code": "M",
+      "checkouts": 756,
+      "label": "Térkép"
+    },
+    {
+      "code": "A",
+      "checkouts": 1,
+      "label": "A"
+    }
+  ],
+  "by_language": [
+    {
+      "language": "hun",
+      "checkouts": 1951680
+    },
+    {
+      "language": "eng",
+      "checkouts": 35042
+    },
+    {
+      "language": "ger",
+      "checkouts": 6379
+    },
+    {
+      "language": "zxx",
+      "checkouts": 1878
+    },
+    {
+      "language": "fre",
+      "checkouts": 1418
+    },
+    {
+      "language": "ita",
+      "checkouts": 1153
+    }
+  ],
+  "top_renewed_books": [
+    {
+      "title": "Zseb-Garfield",
+      "author": "Davis, Jim",
+      "isbn": null,
+      "total_renewals": 5156,
+      "checkouts": 7011
+    },
+    {
+      "title": "Garfield",
+      "author": null,
+      "isbn": null,
+      "total_renewals": 4263,
+      "checkouts": 5668
+    },
+    {
+      "title": "Nők lapja",
+      "author": null,
+      "isbn": null,
+      "total_renewals": 1773,
+      "checkouts": 3797
+    },
+    {
+      "title": "Thomas, a gőzmozdony : válogatott mesék",
+      "author": "Awdry, Wilbert",
+      "isbn": null,
+      "total_renewals": 1164,
+      "checkouts": 1366
+    },
+    {
+      "title": "Rumini",
+      "author": "Berg Judit",
+      "isbn": "9789634100904",
+      "total_renewals": 940,
+      "checkouts": 863
+    },
+    {
+      "title": "A Pál utcai fiúk",
+      "author": "Molnár Ferenc",
+      "isbn": "9789635992997",
+      "total_renewals": 931,
+      "checkouts": 827
+    },
+    {
+      "title": "Egri csillagok",
+      "author": "Korcsmáros Pál",
+      "isbn": "9786155385674",
+      "total_renewals": 783,
+      "checkouts": 620
+    },
+    {
+      "title": "Magyar Burda : divat & stílus : havonta megjelenő divatmagazin",
+      "author": null,
+      "isbn": null,
+      "total_renewals": 782,
+      "checkouts": 604
+    },
+    {
+      "title": "Rubicon : történelmi magazin",
+      "author": null,
+      "isbn": null,
+      "total_renewals": 723,
+      "checkouts": 763
+    },
+    {
+      "title": "Dinoszauruszok",
+      "author": "Weinhold, Angela",
+      "isbn": "9789632442686",
+      "total_renewals": 712,
+      "checkouts": 695
+    }
+  ],
+  "most_active_period": {
+    "busiest_month": {
+      "month": "2025-01",
+      "checkouts": 190361
+    },
+    "busiest_weekday": {
+      "weekday": 0,
+      "checkouts": 501300,
+      "label": "Hétfő"
+    },
+    "busiest_hour": {
+      "hour": 12,
+      "checkouts": 192417
+    }
+  },
+  "monthly_checkouts": [
+    {
+      "month": "2021-08",
+      "checkouts": 4
+    },
+    {
+      "month": "2021-09",
+      "checkouts": 2
+    },
+    {
+      "month": "2021-12",
+      "checkouts": 1
+    },
+    {
+      "month": "2022-01",
+      "checkouts": 5
+    },
+    {
+      "month": "2022-08",
+      "checkouts": 1
+    },
+    {
+      "month": "2022-09",
+      "checkouts": 6
+    },
+    {
+      "month": "2022-10",
+      "checkouts": 1
+    },
+    {
+      "month": "2022-11",
+      "checkouts": 2
+    },
+    {
+      "month": "2023-01",
+      "checkouts": 2
+    },
+    {
+      "month": "2023-03",
+      "checkouts": 2
+    },
+    {
+      "month": "2023-05",
+      "checkouts": 6
+    },
+    {
+      "month": "2023-07",
+      "checkouts": 2
+    },
+    {
+      "month": "2023-08",
+      "checkouts": 6
+    },
+    {
+      "month": "2023-09",
+      "checkouts": 9
+    },
+    {
+      "month": "2023-10",
+      "checkouts": 2
+    },
+    {
+      "month": "2023-11",
+      "checkouts": 1
+    },
+    {
+      "month": "2024-02",
+      "checkouts": 2
+    },
+    {
+      "month": "2024-03",
+      "checkouts": 10
+    },
+    {
+      "month": "2024-04",
+      "checkouts": 39
+    },
+    {
+      "month": "2024-05",
+      "checkouts": 27
+    },
+    {
+      "month": "2024-06",
+      "checkouts": 25
+    },
+    {
+      "month": "2024-07",
+      "checkouts": 41
+    },
+    {
+      "month": "2024-08",
+      "checkouts": 26
+    },
+    {
+      "month": "2024-09",
+      "checkouts": 130
+    },
+    {
+      "month": "2024-10",
+      "checkouts": 1008
+    },
+    {
+      "month": "2024-11",
+      "checkouts": 14676
+    },
+    {
+      "month": "2024-12",
+      "checkouts": 91786
+    },
+    {
+      "month": "2025-01",
+      "checkouts": 190361
+    },
+    {
+      "month": "2025-02",
+      "checkouts": 165001
+    },
+    {
+      "month": "2025-03",
+      "checkouts": 182107
+    },
+    {
+      "month": "2025-04",
+      "checkouts": 173781
+    },
+    {
+      "month": "2025-05",
+      "checkouts": 159268
+    },
+    {
+      "month": "2025-06",
+      "checkouts": 174517
+    },
+    {
+      "month": "2025-07",
+      "checkouts": 137150
+    },
+    {
+      "month": "2025-08",
+      "checkouts": 151355
+    },
+    {
+      "month": "2025-09",
+      "checkouts": 180179
+    },
+    {
+      "month": "2025-10",
+      "checkouts": 176431
+    },
+    {
+      "month": "2025-11",
+      "checkouts": 160958
+    },
+    {
+      "month": "2025-12",
+      "checkouts": 41393
+    }
+  ]
+}

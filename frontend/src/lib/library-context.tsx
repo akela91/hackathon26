@@ -9,6 +9,7 @@ export interface Manifest {
   total_checkouts: number;
   libraries: string[];
   scopes: string[];
+  years: string[];
 }
 
 interface LibraryContextValue {
@@ -16,6 +17,9 @@ interface LibraryContextValue {
   /** "ALL" vagy pontosan egy könyvtár kódja – sosem több egyszerre. */
   selectedLibrary: string;
   setSelectedLibrary: (lib: string) => void;
+  /** "ALL" (összes év) vagy pontosan egy évszám. */
+  selectedYear: string;
+  setSelectedYear: (year: string) => void;
   loading: boolean;
   error: string | null;
 }
@@ -23,16 +27,20 @@ interface LibraryContextValue {
 const LibraryContext = createContext<LibraryContextValue | null>(null);
 
 const STORAGE_KEY = "lw-library";
+const YEAR_KEY = "lw-year";
 
 export function LibraryProvider({ children }: { children: ReactNode }) {
   const [manifest, setManifest] = useState<Manifest | null>(null);
   const [selectedLibrary, setSelectedLibraryState] = useState<string>("ALL");
+  const [selectedYear, setSelectedYearState] = useState<string>("ALL");
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
 
   useEffect(() => {
     const saved = localStorage.getItem(STORAGE_KEY);
     if (saved) setSelectedLibraryState(saved);
+    const savedYear = localStorage.getItem(YEAR_KEY);
+    if (savedYear) setSelectedYearState(savedYear);
 
     fetch(`${API_URL}/api/manifest`, { cache: "no-store" })
       .then((r) => {
@@ -41,9 +49,12 @@ export function LibraryProvider({ children }: { children: ReactNode }) {
       })
       .then((m) => {
         setManifest(m);
-        // Ha a mentett könyvtár már nem szerepel a manifestben, essünk vissza "ALL"-ra.
+        // Ha a mentett választás már nem érvényes, essünk vissza "ALL"-ra.
         if (saved && saved !== "ALL" && !m.libraries.includes(saved)) {
           setSelectedLibraryState("ALL");
+        }
+        if (savedYear && savedYear !== "ALL" && !(m.years || []).includes(savedYear)) {
+          setSelectedYearState("ALL");
         }
       })
       .catch((e: Error) => setError(e.message))
@@ -55,9 +66,22 @@ export function LibraryProvider({ children }: { children: ReactNode }) {
     localStorage.setItem(STORAGE_KEY, lib);
   }
 
+  function setSelectedYear(year: string) {
+    setSelectedYearState(year);
+    localStorage.setItem(YEAR_KEY, year);
+  }
+
   return (
     <LibraryContext.Provider
-      value={{ manifest, selectedLibrary, setSelectedLibrary, loading, error }}
+      value={{
+        manifest,
+        selectedLibrary,
+        setSelectedLibrary,
+        selectedYear,
+        setSelectedYear,
+        loading,
+        error,
+      }}
     >
       {children}
     </LibraryContext.Provider>

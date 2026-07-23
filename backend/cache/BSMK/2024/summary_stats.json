@@ -1,0 +1,378 @@
+{
+  "generated_at": "2026-07-23T15:15:41.943015+00:00",
+  "dataset": "full",
+  "scope": "BSMK",
+  "total_checkouts": 149541,
+  "total_value_huf": 359290857,
+  "unique_patrons": 7902,
+  "unique_titles": 34161,
+  "total_renewals": 43718,
+  "avg_renewals": 0.29,
+  "libraries": [
+    "BSMK"
+  ],
+  "by_year": [
+    {
+      "year": "2024",
+      "checkouts": 149541,
+      "value_huf": 359290857.5899999
+    }
+  ],
+  "by_library": [
+    {
+      "library": "BSMK",
+      "checkouts": 149541,
+      "value_huf": 359290857.5899999,
+      "patrons": 7902
+    }
+  ],
+  "by_doc_type": [
+    {
+      "code": "B",
+      "checkouts": 145675,
+      "label": "Könyv"
+    },
+    {
+      "code": "F",
+      "checkouts": 1584,
+      "label": "F"
+    },
+    {
+      "code": "R",
+      "checkouts": 1113,
+      "label": "R"
+    },
+    {
+      "code": "S",
+      "checkouts": 956,
+      "label": "Periodika / Sorozat"
+    },
+    {
+      "code": "C",
+      "checkouts": 142,
+      "label": "AV / CD"
+    },
+    {
+      "code": "M",
+      "checkouts": 48,
+      "label": "Térkép"
+    },
+    {
+      "code": "D",
+      "checkouts": 21,
+      "label": "Disszertáció"
+    },
+    {
+      "code": "U",
+      "checkouts": 2,
+      "label": "U"
+    }
+  ],
+  "by_language": [
+    {
+      "language": "hun",
+      "checkouts": 142861
+    },
+    {
+      "language": "eng",
+      "checkouts": 4004
+    },
+    {
+      "language": "ger",
+      "checkouts": 1052
+    },
+    {
+      "language": "spa",
+      "checkouts": 253
+    },
+    {
+      "language": "ita",
+      "checkouts": 235
+    },
+    {
+      "language": "mul",
+      "checkouts": 215
+    }
+  ],
+  "top_renewed_books": [
+    {
+      "title": "Garfield",
+      "author": null,
+      "isbn": null,
+      "total_renewals": 194,
+      "checkouts": 516
+    },
+    {
+      "title": "A nagy vetélkedő : A rettenthetetlen pindur pandúrok",
+      "author": "Dewin, Howie",
+      "isbn": "9789639763449",
+      "total_renewals": 137,
+      "checkouts": 1
+    },
+    {
+      "title": "Forma-1 : minden, amit a 2001-es világbajnokságról tudni kell",
+      "author": "Méhes Károly",
+      "isbn": "9633677866",
+      "total_renewals": 135,
+      "checkouts": 1
+    },
+    {
+      "title": "Nagy salátakönyv : 205 recept",
+      "author": "Turós Emil",
+      "isbn": "9631328252",
+      "total_renewals": 114,
+      "checkouts": 1
+    },
+    {
+      "title": "Foltvarrás : [szabásminta melléklettel]",
+      "author": "Hidasiné Felber Irén",
+      "isbn": null,
+      "total_renewals": 97,
+      "checkouts": 1
+    },
+    {
+      "title": "Reform szakácskönyv",
+      "author": "Liscsinszky Béla",
+      "isbn": "9631328120",
+      "total_renewals": 94,
+      "checkouts": 1
+    },
+    {
+      "title": "Mountain bike : amit a hegyi-kerékpározásról tudni kell : felépítés, kezelés, javítás, fontos tudnivalók",
+      "author": "Körmendi Ádám",
+      "isbn": "9632536347",
+      "total_renewals": 91,
+      "checkouts": 1
+    },
+    {
+      "title": "Három nővér",
+      "author": "Čehov, Anton Pavlovič",
+      "isbn": "9639388521",
+      "total_renewals": 90,
+      "checkouts": 1
+    },
+    {
+      "title": "Az étel a legjobb orvosság",
+      "author": "Hargitai György",
+      "isbn": "9638043415",
+      "total_renewals": 90,
+      "checkouts": 1
+    },
+    {
+      "title": "Boldogulj angolul : a leghasznosabb kifejezések extraegeres tárháza szituációk szerint rendszerezve : az egész családnak 6-tól 99 éves korig",
+      "author": "Dami, Elisabetta",
+      "isbn": "9789633709061",
+      "total_renewals": 88,
+      "checkouts": 15
+    }
+  ],
+  "most_active_period": {
+    "busiest_month": {
+      "month": "2024-01",
+      "checkouts": 14161
+    },
+    "busiest_weekday": {
+      "weekday": 1,
+      "checkouts": 33043,
+      "label": "Kedd"
+    },
+    "busiest_hour": {
+      "hour": 9,
+      "checkouts": 22292
+    }
+  },
+  "monthly_checkouts": [
+    {
+      "month": "2021-01",
+      "checkouts": 4
+    },
+    {
+      "month": "2021-02",
+      "checkouts": 12
+    },
+    {
+      "month": "2021-03",
+      "checkouts": 3
+    },
+    {
+      "month": "2021-04",
+      "checkouts": 16
+    },
+    {
+      "month": "2021-05",
+      "checkouts": 2
+    },
+    {
+      "month": "2021-06",
+      "checkouts": 3
+    },
+    {
+      "month": "2021-07",
+      "checkouts": 17
+    },
+    {
+      "month": "2021-08",
+      "checkouts": 5
+    },
+    {
+      "month": "2021-09",
+      "checkouts": 3
+    },
+    {
+      "month": "2021-10",
+      "checkouts": 19
+    },
+    {
+      "month": "2021-11",
+      "checkouts": 22
+    },
+    {
+      "month": "2021-12",
+      "checkouts": 2
+    },
+    {
+      "month": "2022-01",
+      "checkouts": 39
+    },
+    {
+      "month": "2022-02",
+      "checkouts": 38
+    },
+    {
+      "month": "2022-03",
+      "checkouts": 16
+    },
+    {
+      "month": "2022-04",
+      "checkouts": 11
+    },
+    {
+      "month": "2022-05",
+      "checkouts": 42
+    },
+    {
+      "month": "2022-06",
+      "checkouts": 21
+    },
+    {
+      "month": "2022-07",
+      "checkouts": 21
+    },
+    {
+      "month": "2022-08",
+      "checkouts": 25
+    },
+    {
+      "month": "2022-09",
+      "checkouts": 56
+    },
+    {
+      "month": "2022-10",
+      "checkouts": 44
+    },
+    {
+      "month": "2022-11",
+      "checkouts": 66
+    },
+    {
+      "month": "2022-12",
+      "checkouts": 32
+    },
+    {
+      "month": "2023-01",
+      "checkouts": 71
+    },
+    {
+      "month": "2023-02",
+      "checkouts": 97
+    },
+    {
+      "month": "2023-03",
+      "checkouts": 83
+    },
+    {
+      "month": "2023-04",
+      "checkouts": 52
+    },
+    {
+      "month": "2023-05",
+      "checkouts": 111
+    },
+    {
+      "month": "2023-06",
+      "checkouts": 189
+    },
+    {
+      "month": "2023-07",
+      "checkouts": 251
+    },
+    {
+      "month": "2023-08",
+      "checkouts": 381
+    },
+    {
+      "month": "2023-09",
+      "checkouts": 412
+    },
+    {
+      "month": "2023-10",
+      "checkouts": 934
+    },
+    {
+      "month": "2023-11",
+      "checkouts": 3223
+    },
+    {
+      "month": "2023-12",
+      "checkouts": 8377
+    },
+    {
+      "month": "2024-01",
+      "checkouts": 14161
+    },
+    {
+      "month": "2024-02",
+      "checkouts": 12747
+    },
+    {
+      "month": "2024-03",
+      "checkouts": 12404
+    },
+    {
+      "month": "2024-04",
+      "checkouts": 13150
+    },
+    {
+      "month": "2024-05",
+      "checkouts": 12429
+    },
+    {
+      "month": "2024-06",
+      "checkouts": 11650
+    },
+    {
+      "month": "2024-07",
+      "checkouts": 12156
+    },
+    {
+      "month": "2024-08",
+      "checkouts": 10875
+    },
+    {
+      "month": "2024-09",
+      "checkouts": 11565
+    },
+    {
+      "month": "2024-10",
+      "checkouts": 13249
+    },
+    {
+      "month": "2024-11",
+      "checkouts": 8826
+    },
+    {
+      "month": "2024-12",
+      "checkouts": 1468
+    }
+  ]
+}
