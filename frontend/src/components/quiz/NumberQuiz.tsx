@@ -13,9 +13,9 @@ interface NumberQuestion {
   answer: number;
 }
 
-// ±10% tolerancia a valós érték körül — a nagy, kerek számokat (kölcsönzés,
+// ±20% tolerancia a valós érték körül — a nagy, kerek számokat (kölcsönzés,
 // olvasó, cím) reális eséllyel el lehet találni pontos egyezés nélkül is.
-const TOLERANCE = 0.1;
+const TOLERANCE = 0.2;
 
 export default function NumberQuiz({
   summary,

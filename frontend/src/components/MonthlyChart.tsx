@@ -73,7 +73,15 @@ export default function MonthlyChart({ summary }: { summary: Summary }) {
     },
     tooltip: {
       theme: palette.mode,
-      x: { formatter: (val) => (val ? fmtMonth(String(val)) : "") },
+      // Kategória-tengelynél az ApexCharts a belső sorszámot (nem a
+      // kategória-stringet) adja át `val`-ként — a valós hónapot a
+      // dataPointIndex alapján, a `categories` tömbből kell kikeresni.
+      x: {
+        formatter: (_val, opts) => {
+          const month = categories[opts?.dataPointIndex ?? -1];
+          return month ? fmtMonth(month) : "";
+        },
+      },
       y: { formatter: (v: number) => `${formatNumber(v, lang)} ${t("stats.checkoutsSuffix")}` },
     },
     markers: { size: 0, hover: { size: 6 } },

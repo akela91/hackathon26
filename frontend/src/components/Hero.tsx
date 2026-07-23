@@ -2,31 +2,18 @@
 
 import Image from "next/image";
 import { motion } from "framer-motion";
-import { ChevronDown, Sparkles } from "lucide-react";
+import { ChevronDown } from "lucide-react";
 import type { Summary } from "@/lib/types";
 import { formatNumber } from "@/lib/format";
 import { useLanguage } from "@/lib/language-context";
-import { useLibrary } from "@/lib/library-context";
 
 export default function Hero({ summary }: { summary: Summary }) {
   const { t, lang } = useLanguage();
-  const { selectedYear } = useLibrary();
-  const yearLabel = selectedYear === "ALL" ? t("hero.allYears") : selectedYear;
 
   return (
     <section className="relative flex min-h-[calc(100vh-9.5rem)] flex-col items-center justify-center px-5 text-center sm:min-h-[calc(100vh-7.5rem)]">
-      {/* Az interaktív év-választó a fejléc sticky második sorában él
-          (nav/YearSelector.tsx) — itt csak a jelenlegi választás látszik. */}
-      <motion.div
-        initial={{ opacity: 0, scale: 0.8 }}
-        animate={{ opacity: 1, scale: 1 }}
-        transition={{ duration: 0.8, ease: "easeOut" }}
-        className="mb-6 inline-flex items-center gap-2 rounded-full border border-white/10 bg-white/5 px-4 py-2 text-sm text-muted backdrop-blur"
-      >
-        <Sparkles className="h-4 w-4 text-accent-3" />
-        {yearLabel}
-      </motion.div>
-
+      {/* A kiválasztott évet a fejléc sticky második sora mutatja
+          (nav/YearSelector.tsx) — itt duplikálva már nem jelenítjük meg. */}
       <motion.div
         initial={{ opacity: 0, y: 40 }}
         animate={{ opacity: 1, y: 0 }}
@@ -36,10 +23,10 @@ export default function Hero({ summary }: { summary: Summary }) {
         <Image
           src="/logo.png"
           alt="Library Wrapped logó"
-          width={140}
-          height={140}
+          width={168}
+          height={168}
           priority
-          className="mb-5 h-28 w-28 rounded-3xl shadow-lg sm:h-36 sm:w-36"
+          className="mb-5 h-[134px] w-[134px] rounded-3xl shadow-lg sm:h-[173px] sm:w-[173px]"
         />
         <h1 className="text-6xl font-black leading-[0.95] tracking-tight sm:text-8xl">
           <span className="gradient-text">{t("hero.titleLine1")}</span>

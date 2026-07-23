@@ -17,7 +17,21 @@ export default function AuthorRaceChart({ data }: { data: AuthorsMonthly }) {
   const { selectedLibrary, selectedYear } = useLibrary();
   const palette = getChartPalette(theme);
   const PALETTE = palette.categorical;
-  const { months, authors } = data;
+  // A backend file_year scope-ja (a nyitott/megújított kölcsönzések miatt)
+  // korábbi hónapokat is tartalmazhat egy adott év kiválasztásakor — itt
+  // szűkítjük a hónapokat (és a szerzők havi adatait ugyanarra az indexekre)
+  // a kiválasztott évre, hogy a lejátszás onnan induljon, ne 2021-től.
+  const { months, authors } = useMemo(() => {
+    if (selectedYear === "ALL") return data;
+    const idxs: number[] = [];
+    data.months.forEach((m, i) => {
+      if (m.startsWith(selectedYear)) idxs.push(i);
+    });
+    return {
+      months: idxs.map((i) => data.months[i]),
+      authors: data.authors.map((a) => ({ ...a, data: idxs.map((i) => a.data[i]) })),
+    };
+  }, [data, selectedYear]);
   const chartKey = `${theme}-${selectedLibrary}-${selectedYear}`;
   const [idx, setIdx] = useState(months.length - 1);
   const [playing, setPlaying] = useState(false);
