@@ -23,6 +23,7 @@ export interface LabeledCount {
 export interface RenewedBook {
   title: string;
   author: string | null;
+  isbn?: string | null;
   total_renewals: number;
   checkouts: number;
 }
@@ -70,6 +71,7 @@ export interface QuizBook {
   title: string;
   author: string | null;
   record_id?: string | null;
+  isbn?: string | null;
   checkouts: number;
 }
 

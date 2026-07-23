@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-23T14:14:04.120767+00:00",
+  "generated_at": "2026-07-23T14:55:21.812724+00:00",
   "dataset": "full",
   "scope": "PMVE",
   "total_checkouts": 1297140,
@@ -35,14 +35,14 @@
     {
       "year": "2025",
       "checkouts": 295252,
-      "value_huf": 776946289.4100063
+      "value_huf": 776946289.4100062
     }
   ],
   "by_library": [
     {
       "library": "PMVE",
       "checkouts": 1297140,
-      "value_huf": 3241534844.299929,
+      "value_huf": 3241534844.2999287,
       "patrons": 37356
     }
   ],
@@ -118,60 +118,70 @@
     {
       "title": "A Szent Johanna gimi",
       "author": "Leiner Laura",
+      "isbn": "9789635397020",
       "total_renewals": 1463,
       "checkouts": 2349
     },
     {
       "title": "Sobotta : az ember anatómiájának atlasza",
       "author": "Sobotta, Johannes",
+      "isbn": "9789632267081",
       "total_renewals": 1298,
       "checkouts": 927
     },
     {
       "title": "Kórélettani alapok",
       "author": null,
+      "isbn": "9789632266756",
       "total_renewals": 1188,
       "checkouts": 771
     },
     {
       "title": "Az orvosi élettan tankönyve",
       "author": "Fonyó Attila",
+      "isbn": "9789632267340",
       "total_renewals": 1170,
       "checkouts": 756
     },
     {
       "title": "Klinikai gyermekgyógyászat",
       "author": null,
+      "isbn": "9789632266398",
       "total_renewals": 1078,
       "checkouts": 735
     },
     {
       "title": "Molekuláris sejtbiológia",
       "author": "Szeberényi József",
+      "isbn": "9789639950542",
       "total_renewals": 974,
       "checkouts": 675
     },
     {
       "title": "Szövettan",
       "author": "Lüllmann-Rauch, Renate",
+      "isbn": "9789633313220",
       "total_renewals": 927,
       "checkouts": 647
     },
     {
       "title": "Gyakorlati neurológia és neuroanatómia : Egyetemi tankönyv",
       "author": "Komoly Sámuel",
+      "isbn": "9789632266817",
       "total_renewals": 890,
       "checkouts": 652
     },
     {
       "title": "Idődetektívek",
       "author": "Lenk, Fabian",
+      "isbn": null,
       "total_renewals": 878,
       "checkouts": 1140
     },
     {
       "title": "Az ember anatómiájának atlasza",
       "author": "Sobotta, Johannes",
+      "isbn": "9789632263663",
       "total_renewals": 856,
       "checkouts": 474
     }

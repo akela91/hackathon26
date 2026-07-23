@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-23T14:13:52.293105+00:00",
+  "generated_at": "2026-07-23T14:55:04.698069+00:00",
   "dataset": "full",
   "scope": "BBMK",
   "total_checkouts": 144353,
@@ -108,60 +108,70 @@
     {
       "title": "A Szent Johanna gimi / Leiner Laura",
       "author": "Leiner Laura",
+      "isbn": "97896353970061",
       "total_renewals": 165,
       "checkouts": 170
     },
     {
       "title": "A sirály a király?",
       "author": "Bosnyák Viktória",
+      "isbn": "9786150107233",
       "total_renewals": 149,
       "checkouts": 96
     },
     {
       "title": "Hunyadi",
       "author": "Bán János",
+      "isbn": "97896342613772",
       "total_renewals": 113,
       "checkouts": 219
     },
     {
       "title": "Egri csillagok",
       "author": "Gárdonyi Géza",
+      "isbn": "9789633490983",
       "total_renewals": 111,
       "checkouts": 73
     },
     {
       "title": "Szent Péter esernyője",
       "author": "Mikszáth Kálmán",
+      "isbn": "9789633493182",
       "total_renewals": 110,
       "checkouts": 76
     },
     {
       "title": "A farm, ahol élünk",
       "author": "Wilder, Laura Ingalls",
+      "isbn": "97861580296051",
       "total_renewals": 90,
       "checkouts": 34
     },
     {
       "title": "A Pál utcai fiúk",
       "author": "Molnár Ferenc",
+      "isbn": "9789634158127",
       "total_renewals": 78,
       "checkouts": 63
     },
     {
       "title": "Ahol a folyami rákok énekelnek",
       "author": "Owens, Delia",
+      "isbn": "9789634335665",
       "total_renewals": 69,
       "checkouts": 61
     },
     {
       "title": "New English file : intermediate",
       "author": "Oxenden, Clive",
+      "isbn": null,
       "total_renewals": 68,
       "checkouts": 26
     },
     {
       "title": "Szeleburdi család",
       "author": "Bálint Ágnes",
+      "isbn": "9789634152613",
       "total_renewals": 65,
       "checkouts": 48
     }

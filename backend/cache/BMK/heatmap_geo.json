@@ -175,16 +175,16 @@
       "patrons": 10
     },
     {
-      "zip": "5520",
-      "city": "Szeghalom",
-      "checkouts": 283,
-      "patrons": 17
-    },
-    {
       "zip": "5622",
       "city": "Köröstarcsa",
       "checkouts": 283,
       "patrons": 12
+    },
+    {
+      "zip": "5520",
+      "city": "Szeghalom",
+      "checkouts": 283,
+      "patrons": 17
     },
     {
       "zip": "5711",
@@ -423,14 +423,14 @@
       "patrons": 5
     },
     {
-      "city": "Gerla",
-      "checkouts": 159,
-      "patrons": 3
-    },
-    {
       "city": "Gádoros",
       "checkouts": 159,
       "patrons": 7
+    },
+    {
+      "city": "Gerla",
+      "checkouts": 159,
+      "patrons": 3
     },
     {
       "city": "Tótkomlós",

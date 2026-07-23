@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-23T14:14:07.472951+00:00",
+  "generated_at": "2026-07-23T14:55:28.542014+00:00",
   "dataset": "full",
   "scope": "SZTE",
   "total_checkouts": 298844,
@@ -118,60 +118,70 @@
     {
       "title": "Humán anatómiai atlasz",
       "author": "Netter, Frank Henry",
+      "isbn": "963242848X",
       "total_renewals": 87,
       "checkouts": 134
     },
     {
       "title": "Sobotta : az ember anatómiájának atlasza : Fej, nyak, felső végtag. 1. köt.",
       "author": "Sobotta, Johannes",
+      "isbn": "9638154527",
       "total_renewals": 58,
       "checkouts": 134
     },
     {
       "title": "Vadbiológia : [az egyetemek és főiskolák vadgazdálkodási, erdészeti és természetvédelmi képzésében javasolt tankönyv]",
       "author": "Csányi Sándor",
+      "isbn": "9789632863672",
       "total_renewals": 57,
       "checkouts": 57
     },
     {
       "title": "Sobotta : az ember anatómiájának atlasza : Törzs, zsigerek, alsó végtag. 2. köt.",
       "author": "Sobotta, Johannes",
+      "isbn": "9638154535",
       "total_renewals": 56,
       "checkouts": 115
     },
     {
       "title": "Tápanyag-gazdálkodás : [tankönyv]",
       "author": null,
+      "isbn": "9639239089",
       "total_renewals": 55,
       "checkouts": 39
     },
     {
       "title": "Alkalmazott élettan - kórélettan",
       "author": null,
+      "isbn": "9789637152757",
       "total_renewals": 52,
       "checkouts": 163
     },
     {
       "title": "Talajtan",
       "author": "Stefanovits Pál",
+      "isbn": "9639239135",
       "total_renewals": 50,
       "checkouts": 45
     },
     {
       "title": "Hogyan írjunk szakdolgozatot?",
       "author": "Eco, Umberto",
+      "isbn": "9632827082",
       "total_renewals": 45,
       "checkouts": 54
     },
     {
       "title": "A test lázadása : ismerd meg a stresszbetegségeket",
       "author": "Máté Gábor",
+      "isbn": "9789633100646",
       "total_renewals": 45,
       "checkouts": 51
     },
     {
       "title": "Földművelés és földhasználat : [tankönyv]",
       "author": null,
+      "isbn": "9632862384",
       "total_renewals": 45,
       "checkouts": 29
     }

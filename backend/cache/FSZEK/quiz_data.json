@@ -5,30 +5,35 @@
         "title": "Zseb-Garfield",
         "author": "Davis, Jim",
         "record_id": "bibFSZ00003934",
+        "isbn": null,
         "checkouts": 20768
       },
       {
         "title": "Garfield",
         "author": null,
         "record_id": "bibFSZ00869948",
+        "isbn": null,
         "checkouts": 16523
       },
       {
         "title": "Thomas, a gőzmozdony : válogatott mesék",
         "author": "Awdry, Wilbert",
         "record_id": "bibFSZ01370849",
+        "isbn": null,
         "checkouts": 5365
       },
       {
         "title": "Nők lapja",
         "author": null,
         "record_id": "bibFSZ909120",
+        "isbn": null,
         "checkouts": 4270
       },
       {
         "title": "Rumini",
         "author": "Berg Judit",
-        "record_id": "bibFSZ01441414",
+        "record_id": "bibFSZ01579258",
+        "isbn": "9789634100904",
         "checkouts": 3478
       }
     ],
@@ -36,51 +41,61 @@
       {
         "title": "Boribon focizik",
         "author": "Marék Veronika",
+        "isbn": "9789639727908",
         "checkouts": 1906
       },
       {
-        "title": "Az éjszaka réme",
-        "author": "Sepsi László",
+        "title": "Szeder-égbolt",
+        "author": "Kramberger, Nataša",
+        "isbn": "9789639866621",
         "checkouts": 95
       },
       {
-        "title": "Brumi a Balatonon [Elektronikus dokumentum] : hangoskönyv",
-        "author": "Bodó Béla",
+        "title": "Alapítvány",
+        "author": "Asimov, Isaac",
+        "isbn": "9638009772",
         "checkouts": 33
       },
       {
-        "title": "A két koldusdiák ; Beszterce ostroma",
-        "author": "Mikszáth Kálmán",
+        "title": "Páncélos-hadviselés a keleti fronton, 1941-1942 : Schwerpunkt",
+        "author": "Forczyk, Robert A.",
+        "isbn": "9789637054891",
         "checkouts": 16
       },
       {
-        "title": "Emlékek Jordan számára : Ikercsavar krónikák I.",
-        "author": "Eld, Gabriella (álnév)",
+        "title": "Ravenna csodái",
+        "author": "Horváth Zoltán György",
+        "isbn": "9786155037399",
         "checkouts": 9
       },
       {
-        "title": "Lázadó falvak : kollektivizálás elleni tüntetések a vidéki Magyarországon, 1951-1961",
-        "author": "Farkas Gyöngyi",
+        "title": "Makarenko élete és pedagógiája",
+        "author": "Pataki Ferenc",
+        "isbn": "9631813479",
         "checkouts": 5
       },
       {
-        "title": "Megismerés és valóság",
-        "author": "Neisser, Ulrich",
+        "title": "Ne húzzunk zoknit a vízilóra! : és az üzleti élet egyéb szabályai : [hogyan legyünk sikeres beosztottak és főnökök]",
+        "author": "Kelley, Terry",
+        "isbn": "9789632971636",
         "checkouts": 3
       },
       {
-        "title": "Ungarn : das Land im Spiegel der Zeit",
-        "author": "Klaudy Kinga",
+        "title": "Az alkonyat harcosa [DVD-felvétel] = The twilight samurai : Yoji Yamada filmje",
+        "author": "Yamada, Yôji",
+        "isbn": null,
         "checkouts": 2
       },
       {
-        "title": "Mi, spanyol védettek",
-        "author": "Dobos Erzsébet",
+        "title": "Bona makes you sweat [Hangfelvétel]",
+        "author": "Bona, Richard",
+        "isbn": null,
         "checkouts": 1
       },
       {
-        "title": "Stoned raiders [Hangfelvétel]",
-        "author": "Cypress Hill",
+        "title": "Megidézett múlt : tanulmányok, forrásközlések",
+        "author": "Kovács Kiss Gyöngy",
+        "isbn": "9789739373876",
         "checkouts": 1
       }
     ]

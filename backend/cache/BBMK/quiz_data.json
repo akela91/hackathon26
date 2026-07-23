@@ -5,82 +5,97 @@
         "title": "Hunyadi",
         "author": "Bán János",
         "record_id": "bibBBM00357599",
+        "isbn": "97896342613772",
         "checkouts": 219
       },
       {
         "title": "A Szent Johanna gimi / Leiner Laura",
         "author": "Leiner Laura",
         "record_id": "bibBBM00398275",
+        "isbn": "97896353970061",
         "checkouts": 170
       },
       {
         "title": "Az ártatlan",
         "author": "Coben, Harlan",
         "record_id": "bibBBM00398360",
+        "isbn": "9789634754794",
         "checkouts": 107
       },
       {
         "title": "Árvízi napló",
         "author": "Fábián Janka",
         "record_id": "bibBBM00404252",
+        "isbn": "9789634339663",
         "checkouts": 97
       },
       {
         "title": "A sirály a király?",
         "author": "Bosnyák Viktória",
         "record_id": "bibBBM00402715",
+        "isbn": "9786150107233",
         "checkouts": 96
       }
     ],
     "decoys": [
       {
-        "title": "Toszkána vére : Hatalom, mámor, Toszkána 1.",
-        "author": "Líbor Erzsébet",
+        "title": "Képkockák",
+        "author": "Lloyd, Ellery (álnév)",
+        "isbn": "9789634525219",
         "checkouts": 51
       },
       {
-        "title": "A végzet iskolája : a Solomancia első leckéje",
-        "author": "Novik, Naomi",
+        "title": "Egyszer már szerettél",
+        "author": "Michaels, Corinne",
+        "isbn": "9789635703487",
         "checkouts": 11
       },
       {
-        "title": "Merj! Nevess! Szeress!",
-        "author": "Szabó Péter",
+        "title": "A csendgyár",
+        "author": "Collins, Bridget",
+        "isbn": "9789635685110",
         "checkouts": 6
       },
       {
-        "title": "Hazatalál a kisnyuszi : mutasd meg neki az utat!",
-        "author": "Búzio, Carolina",
+        "title": "A nyár, amikor megszépültem : Nyár-trilógia I. rész",
+        "author": "Han, Jenny",
+        "isbn": "9789635616756",
         "checkouts": 4
       },
       {
-        "title": "Vajon ránk talál a szerencse?",
-        "author": "Smith, Jennifer E.",
+        "title": "Tatu és Patu sínen van : elbeszélés arról, mi történt, amikor Tatu és Patu életében először utazott vonattal",
+        "author": "Havukainen, Aino",
+        "isbn": "9786155808630",
         "checkouts": 3
       },
       {
-        "title": "A város és a kutyák",
-        "author": "Vargas Llosa, Mario",
+        "title": "Bízz magadban! : hasznos tippek és trükkök az ellazuláshoz",
+        "author": "Becker, Helaine",
+        "isbn": "9789634035589",
         "checkouts": 2
       },
       {
-        "title": "Misu és Cili kockás könyve : sárga-szürke",
-        "author": "Beck Andrea",
+        "title": "A szuperhősök megmentik a karácsonyt! ; Karácsonyi verseny : 2 könyv 1-ben!",
+        "author": "Wrecks, Billy",
+        "isbn": "9786155670077",
         "checkouts": 2
       },
       {
-        "title": "A fából faragott királyfi [Vetíthető kép]",
-        "author": "Balázs Béla",
+        "title": "Hova bújtál, kisróka?",
+        "author": "Taplin, Sam",
+        "isbn": "9789636143589",
         "checkouts": 1
       },
       {
-        "title": "Könyvtári tárgyú magyar- és történelemórák a gimnáziumban : óratervek és feladatok a fakultációs csoportok és a humán tagozatos : kézirat gyanánt",
-        "author": "Zsoldos Jánosné",
+        "title": "Élj tovább, élj jobban! : a hosszú élet titka a világ legegészségesebb térségeinek tanításai : gyakorlati útmutató az egészségesebb és hosszabb élethez",
+        "author": "Petitto, Melissa",
+        "isbn": "9789635667390",
         "checkouts": 1
       },
       {
-        "title": "A Kilimandzsáró hava : Válogatott elbeszélések",
-        "author": "Hemingway, Ernest",
+        "title": "Egy, kettő, három : ilyenek a számok",
+        "author": "Flad, Antje",
+        "isbn": "9789632943169",
         "checkouts": 1
       }
     ]

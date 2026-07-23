@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-23T14:14:05.384691+00:00",
+  "generated_at": "2026-07-23T14:55:23.877731+00:00",
   "dataset": "full",
   "scope": "RFMK",
   "total_checkouts": 839605,
@@ -118,60 +118,70 @@
     {
       "title": "A Szent Johanna gimi",
       "author": "Leiner Laura",
+      "isbn": "9789635397020",
       "total_renewals": 1205,
       "checkouts": 1724
     },
     {
       "title": "Zseb-Garfield",
       "author": null,
+      "isbn": null,
       "total_renewals": 782,
       "checkouts": 872
     },
     {
       "title": "Nők lapja : heti női magazin",
       "author": null,
+      "isbn": null,
       "total_renewals": 779,
       "checkouts": 1560
     },
     {
       "title": "A Pál utcai fiúk",
       "author": "Molnár Ferenc",
+      "isbn": "9789634158851",
       "total_renewals": 751,
       "checkouts": 548
     },
     {
       "title": "Szent Péter esernyője",
       "author": "Mikszáth Kálmán",
+      "isbn": "9789636450496",
       "total_renewals": 651,
       "checkouts": 448
     },
     {
       "title": "Rumini",
       "author": "Berg Judit",
+      "isbn": "9789634106159",
       "total_renewals": 600,
       "checkouts": 481
     },
     {
       "title": "Hunyadi",
       "author": "Bán János",
+      "isbn": null,
       "total_renewals": 547,
       "checkouts": 970
     },
     {
       "title": "A sirály a király?",
       "author": "Bosnyák Viktória",
+      "isbn": "9789634158936",
       "total_renewals": 545,
       "checkouts": 430
     },
     {
       "title": "Egri csillagok",
       "author": "Gárdonyi Géza",
+      "isbn": "9786155385674",
       "total_renewals": 520,
       "checkouts": 390
     },
     {
       "title": "Légy jó mindhalálig",
       "author": "Móricz Zsigmond",
+      "isbn": "9789632520315",
       "total_renewals": 510,
       "checkouts": 297
     }

@@ -5,30 +5,35 @@
         "title": "Az orvosi élettan tankönyve",
         "author": "Fonyó Attila",
         "record_id": "bibJAT00887008",
+        "isbn": "9789632267340",
         "checkouts": 1283
       },
       {
         "title": "Munkajog",
         "author": "Horváth István",
         "record_id": "bibJAT01213982",
+        "isbn": "9786155337901",
         "checkouts": 764
       },
       {
         "title": "Szövettan : [egyetemi tankönyv]",
         "author": null,
         "record_id": "bibJAT00688734",
+        "isbn": "9789633313220",
         "checkouts": 659
       },
       {
         "title": "Szerződési jog : általános rész",
         "author": "Vékás Lajos",
         "record_id": "bibJAT00940861",
+        "isbn": "9789633122655",
         "checkouts": 625
       },
       {
         "title": "Európai jog- és alkotmánytörténelem",
         "author": "Ruszoly József",
         "record_id": "bibJAT01195043",
+        "isbn": "9789639650787",
         "checkouts": 608
       }
     ],
@@ -36,51 +41,61 @@
       {
         "title": "Bevezetés a szociológiába",
         "author": "Andorka Rudolf",
+        "isbn": "963389848X",
         "checkouts": 158
       },
       {
-        "title": "Románc az Adriai-tengeren : [romantikus regény]",
-        "author": "Caplin, Julie",
+        "title": "A motoros képességek és a mozgásos cselekvéstanulás : jegyzet a tanárképző főiskolák hallgatói számára : kézirat",
+        "author": "Nádori László",
+        "isbn": null,
         "checkouts": 7
       },
       {
-        "title": "Bűnös elmék : pszichológiai profilalkotás a bűntények felderítésében",
-        "author": "Innes, Brian",
+        "title": "ECL examination topics : English level C1 : book 1 : Including updated tasks and diy tasks : European consortium for the certificate of attainment in modern languages : [all you need to pass your exams : reading, writing, listening, speaking]",
+        "author": "Szabó Szilvia",
+        "isbn": "9786155386145",
         "checkouts": 4
       },
       {
-        "title": "Végtelen háború : [képregény]",
-        "author": "Starlin, Jim",
+        "title": "Az apostol",
+        "author": "Petőfi Sándor",
+        "isbn": null,
         "checkouts": 3
       },
       {
-        "title": "Kakigyár vidámpark : utazás az emésztőrendszerben",
-        "author": "Baseler, Marja",
+        "title": "Izmael fiai : az arabok története és kultúrája",
+        "author": "Brentjes, Burchard",
+        "isbn": "9630927594",
         "checkouts": 2
       },
       {
-        "title": "Lector in fabula : die Mitarbeit der Interpretation in erzählenden Texten",
-        "author": "Eco, Umberto",
+        "title": "Foglalkoztatottság és munkanélküliség : információk a magyarországi cenzusok eredményeiből : Értékelések, következtetések, jövőkép. 5. [köt.]",
+        "author": "Fóti János",
+        "isbn": "963215658X",
         "checkouts": 1
       },
       {
-        "title": "A Szeged-Csanádi Püspökség Egyházmegyei Múzeum és Kincstár : megjelent a püspökség alapításának 975. a püspöki palota és a székesegyház átadásának 75. évfordulója alkalmából",
-        "author": "Zombori István",
+        "title": "Görög igék használatban",
+        "author": "Purosz Alekszandrosz",
+        "isbn": "9789630855303",
         "checkouts": 1
       },
       {
-        "title": "Az uj [új] Oroszország",
-        "author": "Kovrig Béla",
+        "title": "Gondolatok az irodalom tanításáról és a műelemzés lehetőségeiről a középiskolában",
+        "author": "Cserjés Katalin",
+        "isbn": null,
         "checkouts": 1
       },
       {
-        "title": "Egy bujdosó írónő - Tormay Cécile",
-        "author": "Kollarits Krisztina",
+        "title": "[Százhetvenöt] 175 új megnyitási sakkcsapda.",
+        "author": "Gelenczei Emil",
+        "isbn": null,
         "checkouts": 1
       },
       {
-        "title": "A hajdani halasi nép humora",
-        "author": "Bereznai Zsuzsanna",
+        "title": "Függőség és kegyelem",
+        "author": "May, Gerald G.",
+        "isbn": "9639564362",
         "checkouts": 1
       }
     ]

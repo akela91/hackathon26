@@ -97,16 +97,16 @@
       "patrons": 25
     },
     {
-      "zip": "5435",
-      "city": "Martfű",
-      "checkouts": 751,
-      "patrons": 42
-    },
-    {
       "zip": "5065",
       "city": "Nagykörű",
       "checkouts": 751,
       "patrons": 36
+    },
+    {
+      "zip": "5435",
+      "city": "Martfű",
+      "checkouts": 751,
+      "patrons": 42
     },
     {
       "zip": "2700",
@@ -235,10 +235,10 @@
       "patrons": 11
     },
     {
-      "zip": "5600",
-      "city": "Békéscsaba",
+      "zip": "5093",
+      "city": "Vezseny",
       "checkouts": 168,
-      "patrons": 2
+      "patrons": 13
     }
   ],
   "by_city": [

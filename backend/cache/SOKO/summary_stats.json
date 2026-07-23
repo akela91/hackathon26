@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-23T14:14:06.569125+00:00",
+  "generated_at": "2026-07-23T14:55:26.290822+00:00",
   "dataset": "full",
   "scope": "SOKO",
   "total_checkouts": 1245501,
@@ -42,7 +42,7 @@
     {
       "library": "SOKO",
       "checkouts": 1245501,
-      "value_huf": 2480111443.500004,
+      "value_huf": 2480111443.5000067,
       "patrons": 22576
     }
   ],
@@ -113,60 +113,70 @@
     {
       "title": "A Szent Johanna gimi",
       "author": "Leiner Laura",
+      "isbn": "9789635397020",
       "total_renewals": 1013,
       "checkouts": 2169
     },
     {
       "title": "Idődetektívek",
       "author": "Lenk, Fabian",
+      "isbn": null,
       "total_renewals": 821,
       "checkouts": 1414
     },
     {
       "title": "Időfutár",
       "author": "Gimesi Dóra",
+      "isbn": null,
       "total_renewals": 744,
       "checkouts": 1173
     },
     {
       "title": "Lengemesék",
       "author": "Berg Judit",
+      "isbn": null,
       "total_renewals": 704,
       "checkouts": 973
     },
     {
       "title": "Percy Jackson és az olimposziak",
       "author": "Riordan, Rick",
+      "isbn": null,
       "total_renewals": 529,
       "checkouts": 993
     },
     {
       "title": "Dinoszauruszok",
-      "author": "Oppermann, Joachim",
+      "author": "Oftring, Bärbel",
+      "isbn": "9789632448404",
       "total_renewals": 520,
       "checkouts": 705
     },
     {
       "title": "Rumini",
       "author": "Berg Judit",
+      "isbn": "9789639727649",
       "total_renewals": 511,
       "checkouts": 554
     },
     {
       "title": "Hunyadi",
       "author": "Bán János",
+      "isbn": null,
       "total_renewals": 478,
       "checkouts": 957
     },
     {
       "title": "Egri csillagok",
       "author": "Gárdonyi Géza",
+      "isbn": "9789632763125",
       "total_renewals": 457,
       "checkouts": 434
     },
     {
       "title": "A Pál utcai fiúk",
       "author": "Molnár Ferenc",
+      "isbn": "9789631198263",
       "total_renewals": 421,
       "checkouts": 511
     }

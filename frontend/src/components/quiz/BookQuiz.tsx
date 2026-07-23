@@ -6,10 +6,12 @@ import { Check, X, ThumbsUp, ThumbsDown } from "lucide-react";
 import type { QuizData } from "@/lib/types";
 import { formatNumber } from "@/lib/format";
 import { useLanguage } from "@/lib/language-context";
+import BookCover from "@/components/BookCover";
 
 interface Card {
   title: string;
   author: string | null;
+  isbn?: string | null;
   checkouts: number;
   isTop: boolean;
 }
@@ -118,6 +120,12 @@ export default function BookQuiz({
               )}
             </motion.div>
           )}
+          <BookCover
+            isbn={card.isbn}
+            title={card.title}
+            size="L"
+            className="mx-auto mb-4 w-28 shadow-xl"
+          />
           <div className="mb-2 text-2xl font-black leading-tight">
             {card.title}
           </div>

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-23T14:13:58.050576+00:00",
+  "generated_at": "2026-07-23T14:55:12.042213+00:00",
   "dataset": "full",
   "scope": "FSZEK",
   "total_checkouts": 8153586,
@@ -25,7 +25,7 @@
     {
       "year": "2023",
       "checkouts": 1735135,
-      "value_huf": 5325411173.680003
+      "value_huf": 5325411173.680004
     },
     {
       "year": "2024",
@@ -35,14 +35,14 @@
     {
       "year": "2025",
       "checkouts": 2000403,
-      "value_huf": 6516400907.920049
+      "value_huf": 6516400907.920053
     }
   ],
   "by_library": [
     {
       "library": "FSZEK",
       "checkouts": 8153586,
-      "value_huf": 25227565062.11989,
+      "value_huf": 25227565062.11988,
       "patrons": 151598
     }
   ],
@@ -118,60 +118,70 @@
     {
       "title": "Zseb-Garfield",
       "author": "Davis, Jim",
+      "isbn": null,
       "total_renewals": 15771,
       "checkouts": 20768
     },
     {
       "title": "Garfield",
       "author": null,
+      "isbn": null,
       "total_renewals": 12675,
       "checkouts": 16523
     },
     {
       "title": "Thomas, a gőzmozdony : válogatott mesék",
       "author": "Awdry, Wilbert",
+      "isbn": null,
       "total_renewals": 4259,
       "checkouts": 5365
     },
     {
       "title": "Rumini",
       "author": "Berg Judit",
+      "isbn": "9789634100904",
       "total_renewals": 3807,
       "checkouts": 3478
     },
     {
       "title": "A Pál utcai fiúk",
       "author": "Molnár Ferenc",
+      "isbn": "9789634158127",
       "total_renewals": 3629,
       "checkouts": 3345
     },
     {
       "title": "Egri csillagok",
       "author": "Gárdonyi Géza",
+      "isbn": "9786155385674",
       "total_renewals": 2882,
       "checkouts": 2256
     },
     {
       "title": "Harry Potter és a bölcsek köve",
       "author": "Rowling, Joanne Kathleen",
+      "isbn": "9639307106",
       "total_renewals": 2799,
       "checkouts": 2958
     },
     {
       "title": "Szent Péter esernyője",
       "author": "Mikszáth Kálmán",
+      "isbn": "9636450498",
       "total_renewals": 2665,
       "checkouts": 2224
     },
     {
       "title": "Dinoszauruszok",
-      "author": "Weinhold, Angela",
+      "author": "Lambert, David",
+      "isbn": "9789632442686",
       "total_renewals": 2658,
       "checkouts": 2892
     },
     {
       "title": "Drámák",
-      "author": "Örkény István",
+      "author": "Shakespeare, William",
+      "isbn": "9630761483",
       "total_renewals": 2439,
       "checkouts": 2775
     }

@@ -4,31 +4,36 @@
       {
         "title": "A Szent Johanna gimi",
         "author": "Leiner Laura",
-        "record_id": "bibPMV00754082",
+        "record_id": "bibPMV00785938",
+        "isbn": "9789635397020",
         "checkouts": 2349
       },
       {
         "title": "[Koponya] [tárgy]",
         "author": null,
         "record_id": "bibPMV00812521",
+        "isbn": null,
         "checkouts": 1972
       },
       {
         "title": "Idődetektívek",
         "author": "Lenk, Fabian",
-        "record_id": "bibPMV00728787",
+        "record_id": "bibPMV00797888",
+        "isbn": null,
         "checkouts": 1140
       },
       {
         "title": "Hunyadi",
         "author": "Bán János",
-        "record_id": "bibDEK00728196",
+        "record_id": "bibPMV00796064",
+        "isbn": null,
         "checkouts": 1134
       },
       {
         "title": "Angol-magyar, magyar-angol orvosi szótár = Medical dictionary English-Hungarian, Hungarian-English",
         "author": "Unseld, Dieter Werner",
         "record_id": "MOKKAN0003887876",
+        "isbn": "9632260155",
         "checkouts": 1100
       }
     ],
@@ -36,51 +41,61 @@
       {
         "title": "Fejlődéslélektan",
         "author": "Cole, Michael",
+        "isbn": "9633894735",
         "checkouts": 300
       },
       {
-        "title": "Tökéletes nők társasága",
-        "author": "Bartz, Andrea",
+        "title": "Életciklusok és hangulatzavarok : hogyan küzdjünk meg életünk hullámvölgyeivel?",
+        "author": "Belső Nóra",
+        "isbn": "9789633049334",
         "checkouts": 23
       },
       {
-        "title": "Isten terápiája és a szenvedélybetegségek : a középpontba vezető ima és a tizenkét lépés",
-        "author": "Keating, Thomas",
+        "title": "Mozart : ismerd meg Mozart történetét : az 5 legismertebb mű részletével",
+        "author": "Godeau, Natacha",
+        "isbn": "9789634471400",
         "checkouts": 11
       },
       {
-        "title": "A rijádi lányok",
-        "author": "Sani, Raja Abd Allah",
+        "title": "Az örökkévalóság dala : Éden-trilógia 3.",
+        "author": "Kagawa, Julie",
+        "isbn": "9789635977260",
         "checkouts": 6
       },
       {
-        "title": "Komondor, kuvasz",
-        "author": "Udvardiné Lukács Ildikó",
+        "title": "Johanna a vonaton",
+        "author": "Schärer, Kathrin",
+        "isbn": "9789632443898",
         "checkouts": 4
       },
       {
-        "title": "Juliet : három történet",
-        "author": "Munro, Alice Ann",
+        "title": "A posztmodern, avagy : A késői kapitalizmus kulturális logikája",
+        "author": "Jameson, Fredric",
+        "isbn": "9639134031",
         "checkouts": 3
       },
       {
-        "title": "\"A legnagyobb álmú magyar kultuszminiszter\", gróf Klebelsberg Kuno",
-        "author": "Klebelsberg Kuno Imre Aurél Ferenc",
+        "title": "Tanulmányok meséről, gyermekirodalomról",
+        "author": "Petrolay Margit",
+        "isbn": "9789633770948",
         "checkouts": 2
       },
       {
-        "title": "A nők az Újszövetségben, az Újszövetség a nőkről",
-        "author": "Lenkeyné Semsey Klára",
+        "title": "Godfater. 0 [Hangfelvétel]",
+        "author": "Godfater.",
+        "isbn": null,
         "checkouts": 1
       },
       {
-        "title": "Diagnózis után : a benned lakó mágus",
-        "author": "Oláh Gábor",
+        "title": "Nagy üzleti illemkódex",
+        "author": "Kovács István",
+        "isbn": "9638524243",
         "checkouts": 1
       },
       {
-        "title": "Királyok és királynők : válogatás H. C. Andersen és a Grimm testvérek meséiből",
-        "author": "Andersen, Hans Christian",
+        "title": "A magyar nép tájszemlélete és Magyarország tájnevei",
+        "author": "Kádár László",
+        "isbn": null,
         "checkouts": 1
       }
     ]

@@ -122,6 +122,7 @@ def build_base_view(con: duckdb.DuckDBPyConnection, glob_pattern: str) -> tuple[
             NULLIF(TRIM("Record ID"), '')                       AS record_id,
             NULLIF(TRIM("Author"), '')                          AS author,
             NULLIF(TRIM("Title"), '')                           AS title,
+            NULLIF(TRIM("ISBN"), '')                             AS isbn,
             NULLIF(TRIM("Publisher"), '')                       AS publisher,
             NULLIF(TRIM("Document Type"), '')                   AS document_type,
             NULLIF(TRIM("ETO"), '')                              AS eto,
@@ -223,6 +224,7 @@ def gen_summary(con: duckdb.DuckDBPyConnection, dataset: str, scope: str) -> dic
         """
         SELECT title,
                any_value(author) AS author,
+               NULLIF(regexp_replace(COALESCE(mode(isbn), ''), '[^0-9Xx]', '', 'g'), '') AS isbn,
                SUM(renewals) AS total_renewals,
                COUNT(*) AS checkouts
         FROM tx_cur
@@ -376,6 +378,7 @@ def gen_quiz(con: duckdb.DuckDBPyConnection) -> dict:
         SELECT title,
                any_value(author) AS author,
                any_value(record_id) AS record_id,
+               NULLIF(regexp_replace(COALESCE(mode(isbn), ''), '[^0-9Xx]', '', 'g'), '') AS isbn,
                COUNT(*) AS checkouts
         FROM tx_cur WHERE title IS NOT NULL
         GROUP BY title
@@ -390,6 +393,7 @@ def gen_quiz(con: duckdb.DuckDBPyConnection) -> dict:
         """
         SELECT title,
                any_value(author) AS author,
+               NULLIF(regexp_replace(COALESCE(mode(isbn), ''), '[^0-9Xx]', '', 'g'), '') AS isbn,
                COUNT(*) AS checkouts
         FROM tx_cur WHERE title IS NOT NULL AND author IS NOT NULL
         GROUP BY title

@@ -5,82 +5,97 @@
         "title": "A Szent Johanna gimi",
         "author": "Leiner Laura",
         "record_id": "bibSOK00475591",
+        "isbn": "9789635397020",
         "checkouts": 2169
       },
       {
         "title": "Idődetektívek",
         "author": "Lenk, Fabian",
         "record_id": "bibSOK00456179",
+        "isbn": null,
         "checkouts": 1414
       },
       {
         "title": "Időfutár",
         "author": "Gimesi Dóra",
         "record_id": "bibSOK00507047",
+        "isbn": null,
         "checkouts": 1173
       },
       {
         "title": "Percy Jackson és az olimposziak",
         "author": "Riordan, Rick",
         "record_id": "bibSOK00444479",
+        "isbn": null,
         "checkouts": 993
       },
       {
         "title": "Lengemesék",
         "author": "Berg Judit",
         "record_id": "bibSOK00498353",
+        "isbn": null,
         "checkouts": 973
       }
     ],
     "decoys": [
       {
         "title": "Rendőrség",
-        "author": "Erne, Andrea",
+        "author": "Schreuder, Benjamin",
+        "isbn": "9789632946153",
         "checkouts": 325
       },
       {
-        "title": "Lore Olympus : Olümposzi história : első kötet : [a webtoon legnagyobb képregényszenzációja]",
-        "author": "Smythe, Rachel",
+        "title": "Viszlát legközelebb!",
+        "author": "Lagercrantz, Rose",
+        "isbn": "9786155808173",
         "checkouts": 34
       },
       {
-        "title": "Halálos képzelet",
-        "author": "Roberts, Nora",
+        "title": "A papírsereglet és más történetek",
+        "author": "Liu, Ken",
+        "isbn": "9789634194279",
         "checkouts": 15
       },
       {
-        "title": "Az otthonom",
-        "author": "Busquets, Jordi",
+        "title": "Bosh! : egyszerű receptek, elképesztő ízek, csupa vegán",
+        "author": "Firth, Henry",
+        "isbn": "9789632913797",
         "checkouts": 9
       },
       {
-        "title": "Duna menti kerékpárút Ausztriában : Passau - Bécs - Hainburg : összekötő úttal Rajkáig és Sopronig",
-        "author": "Pollack, Paul",
+        "title": "A Harmadik Birodalom páncélos hadműveletei",
+        "author": "Horváth Zsolt",
+        "isbn": "9789632901688",
         "checkouts": 5
       },
       {
-        "title": "A kistücsök és barátai [DVD-felvétel]",
-        "author": "Miler, Zdenek",
+        "title": "A serdülőkor",
+        "author": "Ranschburg Jenő",
+        "isbn": "9789632482170",
         "checkouts": 4
       },
       {
-        "title": "Teher alatt nő a pálma",
-        "author": "Birkner, Friede",
+        "title": "Kazinczy Lajos ezredes, a tizenötödik aradi vértanú",
+        "author": "Solymosi József",
+        "isbn": "9789634800071",
         "checkouts": 3
       },
       {
-        "title": "Harry Potter és a Titkok kamrája",
-        "author": "Rowling, Joanne Kathleen",
+        "title": "Sárkánymesék",
+        "author": "Horváth Judit",
+        "isbn": "9637437312",
         "checkouts": 2
       },
       {
-        "title": "A Napszarvas",
-        "author": "Miller, Marina",
+        "title": "Holtszezon a krematóriumban : [45 év a Délmagyarországnál]",
+        "author": "Somogyi Károlyné",
+        "isbn": "9789639881655",
         "checkouts": 1
       },
       {
-        "title": "Messziről jött magzatok",
-        "author": "Galgóczi Dóra",
+        "title": "Prédikátor : 2020/06. : DC Vertigo",
+        "author": "Dillon, Steve",
+        "isbn": null,
         "checkouts": 1
       }
     ]

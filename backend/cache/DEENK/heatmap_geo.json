@@ -109,16 +109,16 @@
       "patrons": 34
     },
     {
-      "zip": "4100",
-      "city": "Berettyóújfalu",
-      "checkouts": 1073,
-      "patrons": 53
-    },
-    {
       "zip": "4060",
       "city": "Balmazújváros",
       "checkouts": 1073,
       "patrons": 65
+    },
+    {
+      "zip": "4100",
+      "city": "Berettyóújfalu",
+      "checkouts": 1073,
+      "patrons": 53
     },
     {
       "zip": "5000",
@@ -283,14 +283,14 @@
       "patrons": 107
     },
     {
-      "city": "Balmazújváros",
-      "checkouts": 1073,
-      "patrons": 65
-    },
-    {
       "city": "Berettyóújfalu",
       "checkouts": 1073,
       "patrons": 53
+    },
+    {
+      "city": "Balmazújváros",
+      "checkouts": 1073,
+      "patrons": 65
     },
     {
       "city": "Szolnok",
@@ -423,14 +423,14 @@
       "patrons": 9
     },
     {
-      "city": "Csenger",
-      "checkouts": 304,
-      "patrons": 5
-    },
-    {
       "city": "Nyíracsád",
       "checkouts": 304,
       "patrons": 9
+    },
+    {
+      "city": "Csenger",
+      "checkouts": 304,
+      "patrons": 5
     },
     {
       "city": "Kaba",

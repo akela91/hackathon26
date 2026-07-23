@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-23T14:14:03.332273+00:00",
+  "generated_at": "2026-07-23T14:55:20.603771+00:00",
   "dataset": "full",
   "scope": "IGYUK",
   "total_checkouts": 279943,
@@ -113,60 +113,70 @@
     {
       "title": "A Szent Johanna gimi",
       "author": "Leiner Laura",
+      "isbn": "9789635397020",
       "total_renewals": 336,
       "checkouts": 513
     },
     {
       "title": "Tom Jones",
       "author": "Fielding, Henry",
+      "isbn": "9781405882750",
       "total_renewals": 292,
       "checkouts": 4
     },
     {
       "title": "Egri csillagok",
       "author": "Gárdonyi Géza",
+      "isbn": "9633897793",
       "total_renewals": 276,
       "checkouts": 120
     },
     {
       "title": "A Pál utcai fiúk",
       "author": "Molnár Ferenc",
+      "isbn": "9789634158851",
       "total_renewals": 227,
       "checkouts": 125
     },
     {
       "title": "Rumini",
       "author": "Berg Judit",
+      "isbn": "9789634102427",
       "total_renewals": 219,
       "checkouts": 136
     },
     {
       "title": "Szent Péter esernyője",
       "author": "Mikszáth Kálmán",
+      "isbn": "9789633492024",
       "total_renewals": 180,
       "checkouts": 96
     },
     {
       "title": "New English file : intermediate",
       "author": "Oxenden, Clive",
+      "isbn": null,
       "total_renewals": 168,
       "checkouts": 12
     },
     {
       "title": "A zodiákus [elektronikus vizuális dok.] = Zodiac",
       "author": "Fincher, David",
+      "isbn": null,
       "total_renewals": 164,
       "checkouts": 2
     },
     {
       "title": "A kőszívű ember fiai",
       "author": "Jókai Mór",
+      "isbn": "9789630795364",
       "total_renewals": 145,
       "checkouts": 21
     },
     {
       "title": "Interjú Istennel [elektronikus vizuális dok.]",
       "author": "Lang, Perry",
+      "isbn": null,
       "total_renewals": 141,
       "checkouts": 3
     }

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-23T14:14:07.921915+00:00",
+  "generated_at": "2026-07-23T14:55:29.294875+00:00",
   "dataset": "full",
   "scope": "VFMK",
   "total_checkouts": 330905,
@@ -113,60 +113,70 @@
     {
       "title": "\"A Szent Korona nevében...\" [Hangfelvétel]",
       "author": "Pap Gábor",
+      "isbn": null,
       "total_renewals": 480,
       "checkouts": 212
     },
     {
       "title": "Üvegmatrica-festés a konyhában és a fürdőben",
       "author": "Hettinger, Gudrun",
+      "isbn": "9636840008",
       "total_renewals": 246,
       "checkouts": 10
     },
     {
       "title": "Papírállatok gyöngyökkel : kartonból és gyöngyből",
       "author": "Kipp, Angelika",
+      "isbn": "9639489182",
       "total_renewals": 246,
       "checkouts": 6
     },
     {
       "title": "Kötelezők röviden",
       "author": null,
+      "isbn": null,
       "total_renewals": 235,
       "checkouts": 9
     },
     {
       "title": "Hunyadi",
       "author": "Bán János",
+      "isbn": null,
       "total_renewals": 225,
       "checkouts": 507
     },
     {
       "title": "Drámák",
       "author": "Nádas Péter",
+      "isbn": "9630711273",
       "total_renewals": 222,
       "checkouts": 70
     },
     {
       "title": "Vaják = the witcher",
       "author": "Sapkowski, Andrzej",
+      "isbn": null,
       "total_renewals": 201,
       "checkouts": 227
     },
     {
       "title": "Szent Péter esernyője",
       "author": "Mikszáth Kálmán",
+      "isbn": "9789630980494",
       "total_renewals": 174,
       "checkouts": 121
     },
     {
       "title": "A Szent Johanna gimi",
       "author": "Leiner Laura",
+      "isbn": "9786155653339",
       "total_renewals": 163,
       "checkouts": 232
     },
     {
       "title": "Légy jó mindhalálig",
       "author": "Móricz Zsigmond",
+      "isbn": "9789630980630",
       "total_renewals": 162,
       "checkouts": 104
     }

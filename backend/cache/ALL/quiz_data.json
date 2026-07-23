@@ -5,30 +5,35 @@
         "title": "Zseb-Garfield",
         "author": "Davis, Jim",
         "record_id": "bibBSM00252572",
+        "isbn": null,
         "checkouts": 22295
       },
       {
         "title": "Garfield",
         "author": null,
         "record_id": "bibBSM00122697",
+        "isbn": null,
         "checkouts": 19136
       },
       {
         "title": "A Szent Johanna gimi",
         "author": "Leiner Laura",
         "record_id": "bibBBM00418783",
+        "isbn": "9789635397020",
         "checkouts": 8178
       },
       {
         "title": "Thomas, a gőzmozdony : válogatott mesék",
         "author": "Awdry, Wilbert(1911-1997)",
         "record_id": "bibBBM00292711",
+        "isbn": "9789636295059",
         "checkouts": 6418
       },
       {
         "title": "A Pál utcai fiúk",
         "author": "Molnár Ferenc",
-        "record_id": "bibBBM00362503",
+        "record_id": "bibBBM00382190",
+        "isbn": "9789634158127",
         "checkouts": 6046
       }
     ],
@@ -36,51 +41,61 @@
       {
         "title": "Bogyó és Babóca segít",
         "author": "Bartos Erika",
+        "isbn": "9789639727878",
         "checkouts": 2939
       },
       {
-        "title": "A kegyetlen kelták",
-        "author": "Deary, Terry",
+        "title": "Édeshármas avagy A córesz elmélete és gyakorlata",
+        "author": "Szántó T. Gábor",
+        "isbn": "9789732365527",
         "checkouts": 60
       },
       {
-        "title": "Zöld orr",
-        "author": "Lucado, Max",
+        "title": "A magyar folk története : népzene, táncház, világzene",
+        "author": "Jávorszky Béla Szilárd",
+        "isbn": "9789630974868",
         "checkouts": 19
       },
       {
-        "title": "Légiközlekedési jog az Európai Unióban",
-        "author": "Angyal Zoltán",
+        "title": "Isten jött Thébába : a szerző válogatása életművéből",
+        "author": "Hegedüs Géza",
+        "isbn": "85706879638570687",
         "checkouts": 9
       },
       {
-        "title": "Sí-kresz : kezdő és haladó síelőknek : tanácsadó az erőnléti tréningtől a carving-technikáig : [sport-gyakorlatok]",
-        "author": "Kemmler, Jürgen",
+        "title": "Rózsák zsebkönyve",
+        "author": "Márk Gergely",
+        "isbn": "9632305019",
         "checkouts": 5
       },
       {
-        "title": "Ének-zenei iskolába jártak...",
-        "author": "Bácskai Erika",
+        "title": "A szőlő = vitis vinifera L.",
+        "author": "Hegedűs Ábel",
+        "isbn": null,
         "checkouts": 3
       },
       {
-        "title": "A treatise on the construction the history and the practice of the flute : including of the elements of acoustics and critical notices of sixty celebrated flute-players",
-        "author": "Rockstro, Richard Sheperd",
+        "title": "Gloria victis : 1956 Székesfehérváron és Fejér megyében : bibliográfia",
+        "author": "Bognár Zsuzsanna",
+        "isbn": "9789637591235",
         "checkouts": 2
       },
       {
-        "title": "Önerőből milliomos : 21 sikerkulcs a gazdasághoz",
-        "author": "Tracy, Brian",
+        "title": "Szabadkai sajtó : 1848-1919",
+        "author": "Kolozsi Tibor",
+        "isbn": null,
         "checkouts": 1
       },
       {
-        "title": "Bor : rabszolga vásár a második világháborúban",
-        "author": "Deutsch, Juda",
+        "title": "Társalgókönyv : a magyar irodalompolitika tíz éve",
+        "author": "Demeter Szilárd",
+        "isbn": "9786158182430",
         "checkouts": 1
       },
       {
-        "title": "Tréfás házasító [Nyomtatott kotta] : vegyeskar",
-        "author": "Bárdos Lajos",
+        "title": "The stolen body : three stories = Az ellopott test : Három elbeszélés",
+        "author": "Wells, Herbert George",
+        "isbn": null,
         "checkouts": 1
       }
     ]

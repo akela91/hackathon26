@@ -169,16 +169,16 @@
       "patrons": 2
     },
     {
-      "zip": "7165",
-      "city": "Mórágy",
-      "checkouts": 420,
-      "patrons": 17
-    },
-    {
       "zip": "6353",
       "city": "Dusnok",
       "checkouts": 420,
       "patrons": 6
+    },
+    {
+      "zip": "7165",
+      "city": "Mórágy",
+      "checkouts": 420,
+      "patrons": 17
     },
     {
       "zip": "7044",

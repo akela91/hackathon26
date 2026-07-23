@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-23T14:13:53.777832+00:00",
+  "generated_at": "2026-07-23T14:55:06.250205+00:00",
   "dataset": "full",
   "scope": "BSMK",
   "total_checkouts": 645642,
@@ -118,60 +118,70 @@
     {
       "title": "Garfield",
       "author": null,
+      "isbn": null,
       "total_renewals": 529,
       "checkouts": 1231
     },
     {
       "title": "Egri csillagok",
       "author": "Gárdonyi Géza",
+      "isbn": "9789633490983",
       "total_renewals": 314,
       "checkouts": 363
     },
     {
       "title": "A Pál utcai fiúk",
       "author": "Molnár Ferenc",
+      "isbn": "9789634152590",
       "total_renewals": 291,
       "checkouts": 491
     },
     {
       "title": "?",
       "author": "Kalmár Zoltán",
+      "isbn": "9630747294",
       "total_renewals": 265,
       "checkouts": 485
     },
     {
       "title": "Rumini",
       "author": "Berg Judit",
+      "isbn": "9789634100904",
       "total_renewals": 242,
       "checkouts": 412
     },
     {
       "title": "A Szent Johanna gimi",
       "author": "Leiner Laura",
+      "isbn": "9789635397020",
       "total_renewals": 223,
       "checkouts": 609
     },
     {
       "title": "Zseb-Garfield",
       "author": "Davis, Jim",
+      "isbn": null,
       "total_renewals": 214,
       "checkouts": 654
     },
     {
       "title": "Szent Péter esernyője",
       "author": "Mikszáth Kálmán",
+      "isbn": "9789636450496",
       "total_renewals": 183,
       "checkouts": 242
     },
     {
       "title": "Idődetektívek",
       "author": "Lenk, Fabian",
+      "isbn": null,
       "total_renewals": 162,
       "checkouts": 195
     },
     {
       "title": "Hunyadi",
       "author": "Bán János",
+      "isbn": null,
       "total_renewals": 137,
       "checkouts": 443
     }

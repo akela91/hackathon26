@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-23T14:13:52.762719+00:00",
+  "generated_at": "2026-07-23T14:55:05.428943+00:00",
   "dataset": "full",
   "scope": "BMK",
   "total_checkouts": 392264,
@@ -113,60 +113,70 @@
     {
       "title": "Brúnó Budapesten",
       "author": "Bartos Erika",
+      "isbn": null,
       "total_renewals": 380,
       "checkouts": 538
     },
     {
       "title": "Mágikus állatok iskolája",
       "author": "Auer, Margit",
+      "isbn": null,
       "total_renewals": 216,
       "checkouts": 432
     },
     {
       "title": "A Szent Johanna gimi",
       "author": "Leiner Laura",
+      "isbn": "9789635397020",
       "total_renewals": 193,
       "checkouts": 477
     },
     {
       "title": "Dianetika [Hangfelvétel] : a szellemi egészség modern tudománya",
       "author": "Hubbard, L. Ron",
+      "isbn": "9788764911060",
       "total_renewals": 170,
       "checkouts": 86
     },
     {
       "title": "Brúnó a Balatonon",
       "author": "Bartos Erika",
+      "isbn": null,
       "total_renewals": 157,
       "checkouts": 241
     },
     {
       "title": "Egri csillagok",
       "author": "Gárdonyi Géza",
+      "isbn": "9639492612",
       "total_renewals": 156,
       "checkouts": 127
     },
     {
       "title": "Csengetett, Mylord? [DVD-felvétel] : díszdoboz : a teljes sorozat",
       "author": "Croft, David",
+      "isbn": null,
       "total_renewals": 151,
       "checkouts": 63
     },
     {
       "title": "Thomas, a gőzmozdony : válogatott mesék",
       "author": "Awdry, Wilbert",
+      "isbn": null,
       "total_renewals": 147,
       "checkouts": 355
     },
     {
       "title": "Hunyadi",
       "author": "Bán János",
+      "isbn": null,
       "total_renewals": 143,
       "checkouts": 363
     },
     {
       "title": "Mesél az erdő",
       "author": "Wolf, Tony",
+      "isbn": "9634229123",
       "total_renewals": 140,
       "checkouts": 217
     }

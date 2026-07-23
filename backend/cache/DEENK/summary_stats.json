@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-23T14:13:54.562990+00:00",
+  "generated_at": "2026-07-23T14:55:07.282134+00:00",
   "dataset": "full",
   "scope": "DEENK",
   "total_checkouts": 151105,
@@ -118,60 +118,70 @@
     {
       "title": "Sobotta : az ember anatómiájának atlasza",
       "author": "Sobotta, Johannes",
+      "isbn": "9789632267081",
       "total_renewals": 2143,
       "checkouts": 738
     },
     {
       "title": "Funkcionális anatómia : egyetemi tankönyv",
       "author": "Szentágothai János",
+      "isbn": "9632425642",
       "total_renewals": 1242,
       "checkouts": 408
     },
     {
       "title": "Langman orvosi embriológia",
       "author": "Sadler, Thomas W.",
+      "isbn": "9789632266831",
       "total_renewals": 1173,
       "checkouts": 382
     },
     {
       "title": "Az orvosi élettan tankönyve",
       "author": "Fonyó Attila",
+      "isbn": "9789632267340",
       "total_renewals": 967,
       "checkouts": 330
     },
     {
       "title": "Orvosi biokémia : egyetemi tankönyv",
       "author": null,
+      "isbn": "9789633314005",
       "total_renewals": 767,
       "checkouts": 266
     },
     {
       "title": "Szövettan",
       "author": "Kühnel, Wolfgang",
+      "isbn": "9789633313220",
       "total_renewals": 708,
       "checkouts": 294
     },
     {
       "title": "Funkcionális anatómia",
       "author": "Tarsoly Emil",
+      "isbn": "9789632264653",
       "total_renewals": 654,
       "checkouts": 259
     },
     {
       "title": "Sejtbiológia",
       "author": "Darvas Zsuzsanna",
+      "isbn": "9789632261898",
       "total_renewals": 585,
       "checkouts": 202
     },
     {
       "title": "Robbins a patológia alapjai",
       "author": "Kumar, Vinay",
+      "isbn": "9789632266824",
       "total_renewals": 539,
       "checkouts": 172
     },
     {
       "title": "Orvosi biofizika",
       "author": null,
+      "isbn": "9789632261270",
       "total_renewals": 521,
       "checkouts": 187
     }
