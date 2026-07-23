@@ -1,0 +1,436 @@
+{
+  "generated_at": "2026-07-23T14:14:04.120767+00:00",
+  "dataset": "full",
+  "scope": "PMVE",
+  "total_checkouts": 1297140,
+  "total_value_huf": 3241534844,
+  "unique_patrons": 37356,
+  "unique_titles": 144708,
+  "total_renewals": 1011066,
+  "avg_renewals": 0.78,
+  "libraries": [
+    "PMVE"
+  ],
+  "by_year": [
+    {
+      "year": "2021",
+      "checkouts": 175549,
+      "value_huf": 427222346.2800006
+    },
+    {
+      "year": "2022",
+      "checkouts": 259397,
+      "value_huf": 629621508.340002
+    },
+    {
+      "year": "2023",
+      "checkouts": 277501,
+      "value_huf": 676870232.2500014
+    },
+    {
+      "year": "2024",
+      "checkouts": 289441,
+      "value_huf": 730874468.0200036
+    },
+    {
+      "year": "2025",
+      "checkouts": 295252,
+      "value_huf": 776946289.4100063
+    }
+  ],
+  "by_library": [
+    {
+      "library": "PMVE",
+      "checkouts": 1297140,
+      "value_huf": 3241534844.299929,
+      "patrons": 37356
+    }
+  ],
+  "by_doc_type": [
+    {
+      "code": "B",
+      "checkouts": 1264912,
+      "label": "Könyv"
+    },
+    {
+      "code": "F",
+      "checkouts": 12474,
+      "label": "F"
+    },
+    {
+      "code": "C",
+      "checkouts": 9094,
+      "label": "AV / CD"
+    },
+    {
+      "code": "R",
+      "checkouts": 8555,
+      "label": "R"
+    },
+    {
+      "code": "M",
+      "checkouts": 786,
+      "label": "Térkép"
+    },
+    {
+      "code": "S",
+      "checkouts": 703,
+      "label": "Periodika / Sorozat"
+    },
+    {
+      "code": "D",
+      "checkouts": 505,
+      "label": "Disszertáció"
+    },
+    {
+      "code": "a",
+      "checkouts": 69,
+      "label": "a"
+    }
+  ],
+  "by_language": [
+    {
+      "language": "hun",
+      "checkouts": 1244068
+    },
+    {
+      "language": "eng",
+      "checkouts": 29672
+    },
+    {
+      "language": "ger",
+      "checkouts": 11804
+    },
+    {
+      "language": "mul",
+      "checkouts": 4710
+    },
+    {
+      "language": "fre",
+      "checkouts": 1198
+    },
+    {
+      "language": "ita",
+      "checkouts": 1089
+    }
+  ],
+  "top_renewed_books": [
+    {
+      "title": "A Szent Johanna gimi",
+      "author": "Leiner Laura",
+      "total_renewals": 1463,
+      "checkouts": 2349
+    },
+    {
+      "title": "Sobotta : az ember anatómiájának atlasza",
+      "author": "Sobotta, Johannes",
+      "total_renewals": 1298,
+      "checkouts": 927
+    },
+    {
+      "title": "Kórélettani alapok",
+      "author": null,
+      "total_renewals": 1188,
+      "checkouts": 771
+    },
+    {
+      "title": "Az orvosi élettan tankönyve",
+      "author": "Fonyó Attila",
+      "total_renewals": 1170,
+      "checkouts": 756
+    },
+    {
+      "title": "Klinikai gyermekgyógyászat",
+      "author": null,
+      "total_renewals": 1078,
+      "checkouts": 735
+    },
+    {
+      "title": "Molekuláris sejtbiológia",
+      "author": "Szeberényi József",
+      "total_renewals": 974,
+      "checkouts": 675
+    },
+    {
+      "title": "Szövettan",
+      "author": "Lüllmann-Rauch, Renate",
+      "total_renewals": 927,
+      "checkouts": 647
+    },
+    {
+      "title": "Gyakorlati neurológia és neuroanatómia : Egyetemi tankönyv",
+      "author": "Komoly Sámuel",
+      "total_renewals": 890,
+      "checkouts": 652
+    },
+    {
+      "title": "Idődetektívek",
+      "author": "Lenk, Fabian",
+      "total_renewals": 878,
+      "checkouts": 1140
+    },
+    {
+      "title": "Az ember anatómiájának atlasza",
+      "author": "Sobotta, Johannes",
+      "total_renewals": 856,
+      "checkouts": 474
+    }
+  ],
+  "most_active_period": {
+    "busiest_month": {
+      "month": "2025-01",
+      "checkouts": 28218
+    },
+    "busiest_weekday": {
+      "weekday": 1,
+      "checkouts": 255753,
+      "label": "Kedd"
+    },
+    "busiest_hour": {
+      "hour": 9,
+      "checkouts": 157279
+    }
+  },
+  "monthly_checkouts": [
+    {
+      "month": "2021-01",
+      "checkouts": 4757
+    },
+    {
+      "month": "2021-02",
+      "checkouts": 4937
+    },
+    {
+      "month": "2021-03",
+      "checkouts": 3780
+    },
+    {
+      "month": "2021-04",
+      "checkouts": 3447
+    },
+    {
+      "month": "2021-05",
+      "checkouts": 7648
+    },
+    {
+      "month": "2021-06",
+      "checkouts": 13750
+    },
+    {
+      "month": "2021-07",
+      "checkouts": 18767
+    },
+    {
+      "month": "2021-08",
+      "checkouts": 18169
+    },
+    {
+      "month": "2021-09",
+      "checkouts": 20161
+    },
+    {
+      "month": "2021-10",
+      "checkouts": 21358
+    },
+    {
+      "month": "2021-11",
+      "checkouts": 23144
+    },
+    {
+      "month": "2021-12",
+      "checkouts": 17815
+    },
+    {
+      "month": "2022-01",
+      "checkouts": 22980
+    },
+    {
+      "month": "2022-02",
+      "checkouts": 20058
+    },
+    {
+      "month": "2022-03",
+      "checkouts": 22409
+    },
+    {
+      "month": "2022-04",
+      "checkouts": 21950
+    },
+    {
+      "month": "2022-05",
+      "checkouts": 22969
+    },
+    {
+      "month": "2022-06",
+      "checkouts": 20984
+    },
+    {
+      "month": "2022-07",
+      "checkouts": 18534
+    },
+    {
+      "month": "2022-08",
+      "checkouts": 20462
+    },
+    {
+      "month": "2022-09",
+      "checkouts": 22512
+    },
+    {
+      "month": "2022-10",
+      "checkouts": 22549
+    },
+    {
+      "month": "2022-11",
+      "checkouts": 25303
+    },
+    {
+      "month": "2022-12",
+      "checkouts": 18249
+    },
+    {
+      "month": "2023-01",
+      "checkouts": 24846
+    },
+    {
+      "month": "2023-02",
+      "checkouts": 22446
+    },
+    {
+      "month": "2023-03",
+      "checkouts": 25597
+    },
+    {
+      "month": "2023-04",
+      "checkouts": 23390
+    },
+    {
+      "month": "2023-05",
+      "checkouts": 25422
+    },
+    {
+      "month": "2023-06",
+      "checkouts": 23529
+    },
+    {
+      "month": "2023-07",
+      "checkouts": 20408
+    },
+    {
+      "month": "2023-08",
+      "checkouts": 19761
+    },
+    {
+      "month": "2023-09",
+      "checkouts": 22226
+    },
+    {
+      "month": "2023-10",
+      "checkouts": 25154
+    },
+    {
+      "month": "2023-11",
+      "checkouts": 26251
+    },
+    {
+      "month": "2023-12",
+      "checkouts": 21294
+    },
+    {
+      "month": "2024-01",
+      "checkouts": 26364
+    },
+    {
+      "month": "2024-02",
+      "checkouts": 23656
+    },
+    {
+      "month": "2024-03",
+      "checkouts": 24392
+    },
+    {
+      "month": "2024-04",
+      "checkouts": 26007
+    },
+    {
+      "month": "2024-05",
+      "checkouts": 25614
+    },
+    {
+      "month": "2024-06",
+      "checkouts": 22146
+    },
+    {
+      "month": "2024-07",
+      "checkouts": 25116
+    },
+    {
+      "month": "2024-08",
+      "checkouts": 17536
+    },
+    {
+      "month": "2024-09",
+      "checkouts": 24389
+    },
+    {
+      "month": "2024-10",
+      "checkouts": 26763
+    },
+    {
+      "month": "2024-11",
+      "checkouts": 25718
+    },
+    {
+      "month": "2024-12",
+      "checkouts": 21331
+    },
+    {
+      "month": "2025-01",
+      "checkouts": 28218
+    },
+    {
+      "month": "2025-02",
+      "checkouts": 24148
+    },
+    {
+      "month": "2025-03",
+      "checkouts": 26521
+    },
+    {
+      "month": "2025-04",
+      "checkouts": 26349
+    },
+    {
+      "month": "2025-05",
+      "checkouts": 25545
+    },
+    {
+      "month": "2025-06",
+      "checkouts": 23135
+    },
+    {
+      "month": "2025-07",
+      "checkouts": 27852
+    },
+    {
+      "month": "2025-08",
+      "checkouts": 11705
+    },
+    {
+      "month": "2025-09",
+      "checkouts": 25852
+    },
+    {
+      "month": "2025-10",
+      "checkouts": 25756
+    },
+    {
+      "month": "2025-11",
+      "checkouts": 21067
+    },
+    {
+      "month": "2025-12",
+      "checkouts": 5540
+    }
+  ]
+}

@@ -1,0 +1,112 @@
+{
+  "book_quiz": {
+    "top_books": [
+      {
+        "title": "Garfield",
+        "author": null,
+        "record_id": "bibBSM00122697",
+        "checkouts": 1231
+      },
+      {
+        "title": "Zseb-Garfield",
+        "author": "Davis, Jim",
+        "record_id": "bibBSM00252572",
+        "checkouts": 654
+      },
+      {
+        "title": "A Szent Johanna gimi",
+        "author": "Leiner Laura",
+        "record_id": "SZIKLA_0154_934211",
+        "checkouts": 609
+      },
+      {
+        "title": "A Pál utcai fiúk",
+        "author": "Molnár Ferenc",
+        "record_id": "bibBSM00176314",
+        "checkouts": 491
+      },
+      {
+        "title": "?",
+        "author": "Kalmár Zoltán",
+        "record_id": "SZIKLA_0154_591253",
+        "checkouts": 485
+      }
+    ],
+    "decoys": [
+      {
+        "title": "Egy ropi naplója : a harmadik kerék",
+        "author": "Kinney, Jeff",
+        "checkouts": 202
+      },
+      {
+        "title": "Miért vesz fel mindent Csiperke bácsi?",
+        "author": "Ahlberg, Allan",
+        "checkouts": 26
+      },
+      {
+        "title": "Az úgy volt",
+        "author": "Janikovszky Éva",
+        "checkouts": 14
+      },
+      {
+        "title": "Elég legyen az olvasásból!",
+        "author": "Gratias, Claire",
+        "checkouts": 8
+      },
+      {
+        "title": "Merész álmok",
+        "author": "Roberts, Nora",
+        "checkouts": 5
+      },
+      {
+        "title": "A szerelem egy rinocérosz avagy A világ legkínosabb szerelmes levele",
+        "author": "Leistenschneider, Ulrike",
+        "checkouts": 4
+      },
+      {
+        "title": "Hogyan élheted túl, ha minden a testvéred körül forog?",
+        "author": "Pacskovszky Zsolt",
+        "checkouts": 2
+      },
+      {
+        "title": "Hogyan beszélgessek ismeretlenekkel? : Magyarország első small talk könyve",
+        "author": "Lichtenegger Erdős Zsuzsanna",
+        "checkouts": 2
+      },
+      {
+        "title": "The Blitz [hangfelvétel]",
+        "author": "Krokus",
+        "checkouts": 1
+      },
+      {
+        "title": "A huszadik feleség",
+        "author": "Sundaresan, Indu",
+        "checkouts": 1
+      }
+    ]
+  },
+  "author_quiz": {
+    "top_authors": [
+      {
+        "author": "Bartos Erika",
+        "checkouts": 9921
+      },
+      {
+        "author": "Dami, Elisabetta",
+        "checkouts": 6945
+      },
+      {
+        "author": "Berg Judit",
+        "checkouts": 5543
+      },
+      {
+        "author": "Marék Veronika",
+        "checkouts": 4670
+      },
+      {
+        "author": "Roberts, Nora",
+        "checkouts": 4587
+      }
+    ]
+  }
+}

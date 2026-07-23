@@ -66,6 +66,7 @@ export default function DistributionCharts({ summary }: { summary: Summary }) {
       <div className="glass p-5 sm:p-7">
         <h3 className="mb-3 text-lg font-bold">{t("distribution.docTypesTitle")}</h3>
         <ApexChart
+          key={theme}
           options={donut}
           series={docs.map((d) => d.checkouts)}
           type="donut"

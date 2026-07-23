@@ -34,7 +34,10 @@ const UNICORN_CATEGORICAL = [
   "#ff2e97", "#a24bff", "#ff8a00", "#22c55e", "#2ea6ff",
   "#ffd500", "#ff5fa2", "#7b6bff", "#35d6c3", "#ff6ec7",
 ];
-const UNICORN_HEATMAP = ["#2ea6ff", "#22c55e", "#ffd500", "#ff8a00", "#ff2e97", "#a24bff"];
+// 7 lépcsős (0–6): a heatmap komponensek a [6] indexet is használják, ezért
+// FONTOS, hogy legalább 7 elem legyen — különben ApexCharts undefined színt
+// próbál árnyékolni és elszáll (shadeRGBColor .split crash).
+const UNICORN_HEATMAP = ["#2ea6ff", "#4bc0ff", "#22c55e", "#ffd500", "#ff8a00", "#ff2e97", "#a24bff"];
 
 const DARK = {
   mode: "dark" as const,

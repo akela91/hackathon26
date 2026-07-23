@@ -1,0 +1,112 @@
+{
+  "book_quiz": {
+    "top_books": [
+      {
+        "title": "Brúnó Budapesten",
+        "author": "Bartos Erika",
+        "record_id": "bibBMK00060126",
+        "checkouts": 538
+      },
+      {
+        "title": "A Szent Johanna gimi",
+        "author": "Leiner Laura",
+        "record_id": "bibBMK00091051",
+        "checkouts": 477
+      },
+      {
+        "title": "Mágikus állatok iskolája",
+        "author": "Auer, Margit",
+        "record_id": "bibBMK00050524",
+        "checkouts": 432
+      },
+      {
+        "title": "Hunyadi",
+        "author": "Bán János",
+        "record_id": "bibBMK00029706",
+        "checkouts": 363
+      },
+      {
+        "title": "Thomas, a gőzmozdony : válogatott mesék",
+        "author": "Awdry, Wilbert",
+        "record_id": "bibBMK00021018",
+        "checkouts": 355
+      }
+    ],
+    "decoys": [
+      {
+        "title": "Az utolsó boszorkány történetei",
+        "author": "Fábián Janka",
+        "checkouts": 132
+      },
+      {
+        "title": "A párizsi építész",
+        "author": "Belfoure, Charles",
+        "checkouts": 17
+      },
+      {
+        "title": "Pushing the limits = Feszülő húr",
+        "author": "McGarry, Katie",
+        "checkouts": 9
+      },
+      {
+        "title": "Tükrök könyve",
+        "author": "Chirovici, Eugen Ovidiu",
+        "checkouts": 6
+      },
+      {
+        "title": "Világosság Sionban",
+        "author": "Thoene, Bodie",
+        "checkouts": 4
+      },
+      {
+        "title": "Vezetés- és szervezetpszichológia",
+        "author": "Klein Sándor",
+        "checkouts": 3
+      },
+      {
+        "title": "Színezd újra az otthonod!",
+        "author": "Csulák Dóra",
+        "checkouts": 2
+      },
+      {
+        "title": "Isten veled, Berlin",
+        "author": "Isherwood, Christopher",
+        "checkouts": 2
+      },
+      {
+        "title": "Vakrandi [DVD-felvétel]",
+        "author": "Keach, James",
+        "checkouts": 1
+      },
+      {
+        "title": "Velencei álarcok",
+        "author": "Erdei Diána",
+        "checkouts": 1
+      }
+    ]
+  },
+  "author_quiz": {
+    "top_authors": [
+      {
+        "author": "Bartos Erika",
+        "checkouts": 5919
+      },
+      {
+        "author": "Roberts, Nora",
+        "checkouts": 3302
+      },
+      {
+        "author": "Stilton, Geronimo",
+        "checkouts": 3164
+      },
+      {
+        "author": "Berg Judit",
+        "checkouts": 3106
+      },
+      {
+        "author": "Steel, Danielle",
+        "checkouts": 2890
+      }
+    ]
+  }
+}

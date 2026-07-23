@@ -1,0 +1,112 @@
+{
+  "book_quiz": {
+    "top_books": [
+      {
+        "title": "Hunyadi",
+        "author": "Bán János",
+        "record_id": "bibVFM00261063",
+        "checkouts": 507
+      },
+      {
+        "title": "Naruto",
+        "author": "Kishimoto Masashi",
+        "record_id": "bibVFM00168598",
+        "checkouts": 362
+      },
+      {
+        "title": "A Bridgerton család",
+        "author": "Quinn, Julia",
+        "record_id": "bibVFM00230345",
+        "checkouts": 344
+      },
+      {
+        "title": "A Szent Johanna gimi",
+        "author": "Leiner Laura",
+        "record_id": "bibVFM00200112",
+        "checkouts": 232
+      },
+      {
+        "title": "Vaják = the witcher",
+        "author": "Sapkowski, Andrzej",
+        "record_id": "bibVFM00171880",
+        "checkouts": 227
+      }
+    ],
+    "decoys": [
+      {
+        "title": "Olaszország, szeretlek!",
+        "author": "Pellegrino, Nicky",
+        "checkouts": 84
+      },
+      {
+        "title": "Az élet mégis csodaszép",
+        "author": "Harrington, Carmel",
+        "checkouts": 14
+      },
+      {
+        "title": "Assassin's creed : jelenések",
+        "author": "Bowden, Oliver",
+        "checkouts": 8
+      },
+      {
+        "title": "A nyelv enciklopédiája",
+        "author": "Crystal, David",
+        "checkouts": 5
+      },
+      {
+        "title": "Egymásba bolondulva",
+        "author": "Shalvis, Jill",
+        "checkouts": 4
+      },
+      {
+        "title": "Túlélőnek születtünk : Auschwitz gyermekei",
+        "author": "Holden, Wendy",
+        "checkouts": 3
+      },
+      {
+        "title": "Innovációs folyamatok menedzselése az iskolában",
+        "author": "Gáspár László",
+        "checkouts": 2
+      },
+      {
+        "title": "Johannesz ifjúsága",
+        "author": "Waltari, Mika",
+        "checkouts": 1
+      },
+      {
+        "title": "A fekete tükör",
+        "author": "Danella, Utta",
+        "checkouts": 1
+      },
+      {
+        "title": "Az álom nyelve : álomesemény, álomemlék, álomelbeszélés, álomértelmezés",
+        "author": "Balázs Géza",
+        "checkouts": 1
+      }
+    ]
+  },
+  "author_quiz": {
+    "top_authors": [
+      {
+        "author": "Bartos Erika",
+        "checkouts": 3619
+      },
+      {
+        "author": "Roberts, Nora",
+        "checkouts": 2929
+      },
+      {
+        "author": "Steel, Danielle",
+        "checkouts": 2637
+      },
+      {
+        "author": "Dami, Elisabetta",
+        "checkouts": 2414
+      },
+      {
+        "author": "Berg Judit",
+        "checkouts": 1926
+      }
+    ]
+  }
+}

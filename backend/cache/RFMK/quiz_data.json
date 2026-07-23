@@ -1,0 +1,112 @@
+{
+  "book_quiz": {
+    "top_books": [
+      {
+        "title": "A Szent Johanna gimi",
+        "author": "Leiner Laura",
+        "record_id": "bibRFM00189877",
+        "checkouts": 1724
+      },
+      {
+        "title": "Nők lapja : heti női magazin",
+        "author": null,
+        "record_id": "bibRFK00005231",
+        "checkouts": 1560
+      },
+      {
+        "title": "Hunyadi",
+        "author": "Bán János",
+        "record_id": "bibRFM00119486",
+        "checkouts": 970
+      },
+      {
+        "title": "Zseb-Garfield",
+        "author": null,
+        "record_id": "bibRFM00238337",
+        "checkouts": 872
+      },
+      {
+        "title": "Idődetektívek",
+        "author": "Lenk, Fabian",
+        "record_id": "bibRFM00301400",
+        "checkouts": 704
+      }
+    ],
+    "decoys": [
+      {
+        "title": "A hét nővér : Maia története",
+        "author": "Riley, Lucinda",
+        "checkouts": 215
+      },
+      {
+        "title": "V-2",
+        "author": "Harris, Robert",
+        "checkouts": 23
+      },
+      {
+        "title": "Robin Hood [DVD-felvétel] : a vagány változat = most wanted edition",
+        "author": "Reitherman, Wolfgang",
+        "checkouts": 11
+      },
+      {
+        "title": "Ádám és Éva naplója",
+        "author": "Twain, Mark",
+        "checkouts": 6
+      },
+      {
+        "title": "Moondial",
+        "author": "Cresswell, Helen",
+        "checkouts": 4
+      },
+      {
+        "title": "Képes Biblia gyermekeknek",
+        "author": "Morris, Neil",
+        "checkouts": 3
+      },
+      {
+        "title": "Kontinentális filozófia a XX. században",
+        "author": "Olay Csaba",
+        "checkouts": 2
+      },
+      {
+        "title": "Gyöngyvarázs : a gyöngyfűzés titkai",
+        "author": "Valkó Andrea",
+        "checkouts": 1
+      },
+      {
+        "title": "Sorszámozott éjszakák",
+        "author": "Üveges Tamás",
+        "checkouts": 1
+      },
+      {
+        "title": "Lány a kötélen",
+        "author": "Bond, Gwenda",
+        "checkouts": 1
+      }
+    ]
+  },
+  "author_quiz": {
+    "top_authors": [
+      {
+        "author": "Bartos Erika",
+        "checkouts": 11375
+      },
+      {
+        "author": "Roberts, Nora",
+        "checkouts": 9762
+      },
+      {
+        "author": "Berg Judit",
+        "checkouts": 7426
+      },
+      {
+        "author": "Steel, Danielle",
+        "checkouts": 6875
+      },
+      {
+        "author": "Stilton, Geronimo",
+        "checkouts": 6289
+      }
+    ]
+  }
+}

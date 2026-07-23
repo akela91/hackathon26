@@ -1,0 +1,112 @@
+{
+  "book_quiz": {
+    "top_books": [
+      {
+        "title": "Hunyadi",
+        "author": "Bán János",
+        "record_id": "bibBBM00357599",
+        "checkouts": 219
+      },
+      {
+        "title": "A Szent Johanna gimi / Leiner Laura",
+        "author": "Leiner Laura",
+        "record_id": "bibBBM00398275",
+        "checkouts": 170
+      },
+      {
+        "title": "Az ártatlan",
+        "author": "Coben, Harlan",
+        "record_id": "bibBBM00398360",
+        "checkouts": 107
+      },
+      {
+        "title": "Árvízi napló",
+        "author": "Fábián Janka",
+        "record_id": "bibBBM00404252",
+        "checkouts": 97
+      },
+      {
+        "title": "A sirály a király?",
+        "author": "Bosnyák Viktória",
+        "record_id": "bibBBM00402715",
+        "checkouts": 96
+      }
+    ],
+    "decoys": [
+      {
+        "title": "Toszkána vére : Hatalom, mámor, Toszkána 1.",
+        "author": "Líbor Erzsébet",
+        "checkouts": 51
+      },
+      {
+        "title": "A végzet iskolája : a Solomancia első leckéje",
+        "author": "Novik, Naomi",
+        "checkouts": 11
+      },
+      {
+        "title": "Merj! Nevess! Szeress!",
+        "author": "Szabó Péter",
+        "checkouts": 6
+      },
+      {
+        "title": "Hazatalál a kisnyuszi : mutasd meg neki az utat!",
+        "author": "Búzio, Carolina",
+        "checkouts": 4
+      },
+      {
+        "title": "Vajon ránk talál a szerencse?",
+        "author": "Smith, Jennifer E.",
+        "checkouts": 3
+      },
+      {
+        "title": "A város és a kutyák",
+        "author": "Vargas Llosa, Mario",
+        "checkouts": 2
+      },
+      {
+        "title": "Misu és Cili kockás könyve : sárga-szürke",
+        "author": "Beck Andrea",
+        "checkouts": 2
+      },
+      {
+        "title": "A fából faragott királyfi [Vetíthető kép]",
+        "author": "Balázs Béla",
+        "checkouts": 1
+      },
+      {
+        "title": "Könyvtári tárgyú magyar- és történelemórák a gimnáziumban : óratervek és feladatok a fakultációs csoportok és a humán tagozatos : kézirat gyanánt",
+        "author": "Zsoldos Jánosné",
+        "checkouts": 1
+      },
+      {
+        "title": "A Kilimandzsáró hava : Válogatott elbeszélések",
+        "author": "Hemingway, Ernest",
+        "checkouts": 1
+      }
+    ]
+  },
+  "author_quiz": {
+    "top_authors": [
+      {
+        "author": "Roberts, Nora",
+        "checkouts": 1470
+      },
+      {
+        "author": "Steel, Danielle",
+        "checkouts": 1413
+      },
+      {
+        "author": "Brown, Borsa (álnév)",
+        "checkouts": 1186
+      },
+      {
+        "author": "Bartos Erika",
+        "checkouts": 1102
+      },
+      {
+        "author": "Dami, Elisabetta",
+        "checkouts": 1010
+      }
+    ]
+  }
+}

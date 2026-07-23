@@ -1,0 +1,112 @@
+{
+  "book_quiz": {
+    "top_books": [
+      {
+        "title": "Számítógép száma: 1.",
+        "author": "Számítógép használat",
+        "record_id": "bibTMK00276981",
+        "checkouts": 1261
+      },
+      {
+        "title": "Számítógép száma: 2.",
+        "author": "Számítógép használat",
+        "record_id": "bibTMK00276983",
+        "checkouts": 798
+      },
+      {
+        "title": "Számítógép száma: 3.",
+        "author": "Számítógép használat",
+        "record_id": "bibTMK00276984",
+        "checkouts": 716
+      },
+      {
+        "title": "A Szent Johanna gimi",
+        "author": "Leiner Laura",
+        "record_id": "bibTMK00236530",
+        "checkouts": 513
+      },
+      {
+        "title": "Hunyadi",
+        "author": "Bán János",
+        "record_id": "bibTMK00230241",
+        "checkouts": 399
+      }
+    ],
+    "decoys": [
+      {
+        "title": "Borsi mesék",
+        "author": "Gáll Viktória Emese",
+        "checkouts": 75
+      },
+      {
+        "title": "Az élet olyan, mint a szél",
+        "author": "Innes, Shona",
+        "checkouts": 13
+      },
+      {
+        "title": "Vonaton",
+        "author": "Braun, Sebastien",
+        "checkouts": 7
+      },
+      {
+        "title": "Tarot : ezotéria mindenkinek",
+        "author": "Gray, Eden",
+        "checkouts": 5
+      },
+      {
+        "title": "Történetek az innen is túlról",
+        "author": "Konok Péter",
+        "checkouts": 3
+      },
+      {
+        "title": "Valami baj van",
+        "author": "Haddon, Mark",
+        "checkouts": 2
+      },
+      {
+        "title": "Apocalypto [elektronikus vizuális dok.] /rend. Mel Gibson ; írta Mel Gibson és Farhad Safina]",
+        "author": "Gibson, Mel",
+        "checkouts": 2
+      },
+      {
+        "title": "Stressz és szabadság",
+        "author": "Sloterdijk, Peter",
+        "checkouts": 1
+      },
+      {
+        "title": "Csipkerózsika [elektronikus vizuális dok.]",
+        "author": "Geronimi, Clyde",
+        "checkouts": 1
+      },
+      {
+        "title": "Mira és Tűzmondó",
+        "author": "Chisholm, Alastair",
+        "checkouts": 1
+      }
+    ]
+  },
+  "author_quiz": {
+    "top_authors": [
+      {
+        "author": "Bartos Erika",
+        "checkouts": 4114
+      },
+      {
+        "author": "Számítógép használat",
+        "checkouts": 3418
+      },
+      {
+        "author": "Berg Judit",
+        "checkouts": 2760
+      },
+      {
+        "author": "Marék Veronika",
+        "checkouts": 2375
+      },
+      {
+        "author": "Roberts, Nora",
+        "checkouts": 2053
+      }
+    ]
+  }
+}

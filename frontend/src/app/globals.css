@@ -160,6 +160,13 @@ body {
   100% { background-position: 0% 50%; }
 }
 
+/* Unicorn témában animált egérkurzor (.ani – Chrome/Edge Windowson animálja).
+   Minden elemre kiterjed (a gombok pointer-kurzorát is felülírja). */
+:root[data-theme="unicorn"],
+:root[data-theme="unicorn"] * {
+  cursor: url("/cursor.ani"), auto;
+}
+
 /* Gradiens szöveg */
 .gradient-text {
   background: linear-gradient(110deg, var(--grad-from), var(--grad-to));

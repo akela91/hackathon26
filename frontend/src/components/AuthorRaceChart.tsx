@@ -145,7 +145,7 @@ export default function AuthorRaceChart({ data }: { data: AuthorsMonthly }) {
         className="mb-4 w-full accent-fuchsia-500"
       />
 
-      <ApexChart options={options} series={series} type="bar" height={460} />
+      <ApexChart key={theme} options={options} series={series} type="bar" height={460} />
     </div>
   );
 }

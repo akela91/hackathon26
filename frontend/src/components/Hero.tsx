@@ -1,7 +1,8 @@
 "use client";
 
+import Image from "next/image";
 import { motion } from "framer-motion";
-import { BookOpen, ChevronDown, Sparkles } from "lucide-react";
+import { ChevronDown, Sparkles } from "lucide-react";
 import type { Summary } from "@/lib/types";
 import { formatNumber } from "@/lib/format";
 import { useLanguage } from "@/lib/language-context";
@@ -28,7 +29,14 @@ export default function Hero({ summary }: { summary: Summary }) {
         transition={{ duration: 0.9, ease: "easeOut", delay: 0.1 }}
         className="flex flex-col items-center"
       >
-        <BookOpen className="mb-4 h-16 w-16 text-accent-1" />
+        <Image
+          src="/logo.png"
+          alt="Library Wrapped logó"
+          width={140}
+          height={140}
+          priority
+          className="mb-5 h-28 w-28 rounded-3xl shadow-lg sm:h-36 sm:w-36"
+        />
         <h1 className="text-6xl font-black leading-[0.95] tracking-tight sm:text-8xl">
           <span className="gradient-text">{t("hero.titleLine1")}</span>
           <br />

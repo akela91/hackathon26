@@ -127,7 +127,7 @@ export default function EtoAgeHeatmap({ data }: { data: EtoAgeData }) {
 
       <div className="grid grid-cols-1 gap-6 lg:grid-cols-3">
         <div className="glass p-5 sm:p-7 lg:col-span-2">
-          <ApexChart options={options} series={series} type="heatmap" height={420} />
+          <ApexChart key={theme} options={options} series={series} type="heatmap" height={420} />
         </div>
 
         <div className="glass p-5 sm:p-7">

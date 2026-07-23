@@ -69,7 +69,7 @@ export default function TimeHeatmap({ data }: { data: HeatmapTime }) {
 
   return (
     <div className="glass p-5 sm:p-7">
-      <ApexChart options={options} series={series} type="heatmap" height={380} />
+      <ApexChart key={theme} options={options} series={series} type="heatmap" height={380} />
     </div>
   );
 }

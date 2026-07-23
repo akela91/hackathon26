@@ -1,0 +1,112 @@
+{
+  "book_quiz": {
+    "top_books": [
+      {
+        "title": "Sobotta : az ember anatómiájának atlasza",
+        "author": "Sobotta, Johannes",
+        "record_id": "bibKLT00061042",
+        "checkouts": 738
+      },
+      {
+        "title": "Funkcionális anatómia : egyetemi tankönyv",
+        "author": "Szentágothai János",
+        "record_id": "bibKLT00319995",
+        "checkouts": 408
+      },
+      {
+        "title": "Langman orvosi embriológia",
+        "author": "Sadler, Thomas W.",
+        "record_id": "bibDEK00948770",
+        "checkouts": 382
+      },
+      {
+        "title": "Az orvosi élettan tankönyve",
+        "author": "Fonyó Attila",
+        "record_id": "bibDEK01044710",
+        "checkouts": 330
+      },
+      {
+        "title": "Szövettan",
+        "author": "Kühnel, Wolfgang",
+        "record_id": "bibDEK00899248",
+        "checkouts": 294
+      }
+    ],
+    "decoys": [
+      {
+        "title": "Zweistimmige Inventionen [nyomtatott kotta] : BWV 772-786 = Two-part Inventions = Kétszólamú invenciók",
+        "author": "Bach, Johann Sebastian",
+        "checkouts": 55
+      },
+      {
+        "title": "Őrület határán : [Őrületben 2.]",
+        "author": "Hunt, Diana",
+        "checkouts": 4
+      },
+      {
+        "title": "Eshtar",
+        "author": "Waldmann Szabolcs",
+        "checkouts": 3
+      },
+      {
+        "title": "Renewable energy resources",
+        "author": "Twidell, John",
+        "checkouts": 2
+      },
+      {
+        "title": "Öt év múlva decemberben",
+        "author": "Serle, Rebecca",
+        "checkouts": 2
+      },
+      {
+        "title": "Fejére szakad az ég",
+        "author": "Uderzo, Albert",
+        "checkouts": 1
+      },
+      {
+        "title": "Modern mítoszok és az újraírás lehetőségei : a líraolvasás esélyei a 21. században",
+        "author": "Bednanics Gábor",
+        "checkouts": 1
+      },
+      {
+        "title": "Diszkurzív politikatudomány : bevezetés a politika interpretatív szemléletébe és kutatásába",
+        "author": "Szabó Márton",
+        "checkouts": 1
+      },
+      {
+        "title": "Citogenetika",
+        "author": "Sutka József",
+        "checkouts": 1
+      },
+      {
+        "title": "Először a fontosat! : élni, szeretni, tanulni, maradandót alkotni",
+        "author": "Covey, Stephen M. R.",
+        "checkouts": 1
+      }
+    ]
+  },
+  "author_quiz": {
+    "top_authors": [
+      {
+        "author": "Sobotta, Johannes",
+        "checkouts": 856
+      },
+      {
+        "author": "Mozart, Wolfgang Amadeus",
+        "checkouts": 712
+      },
+      {
+        "author": "Bach, Johann Sebastian",
+        "checkouts": 664
+      },
+      {
+        "author": "Kodály Zoltán",
+        "checkouts": 636
+      },
+      {
+        "author": "Sadler, Thomas W.",
+        "checkouts": 587
+      }
+    ]
+  }
+}

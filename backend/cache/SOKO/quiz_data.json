@@ -4,83 +4,83 @@
       {
         "title": "A Szent Johanna gimi",
         "author": "Leiner Laura",
-        "record_id": "bibSOK00529007",
-        "checkouts": 862
-      },
-      {
-        "title": "Garfield",
-        "author": null,
-        "record_id": "bibSOK00465733",
-        "checkouts": 655
+        "record_id": "bibSOK00475591",
+        "checkouts": 2169
       },
       {
         "title": "Idődetektívek",
         "author": "Lenk, Fabian",
         "record_id": "bibSOK00456179",
-        "checkouts": 586
+        "checkouts": 1414
       },
       {
         "title": "Időfutár",
         "author": "Gimesi Dóra",
-        "record_id": "bibSOK00536026",
-        "checkouts": 459
+        "record_id": "bibSOK00507047",
+        "checkouts": 1173
+      },
+      {
+        "title": "Percy Jackson és az olimposziak",
+        "author": "Riordan, Rick",
+        "record_id": "bibSOK00444479",
+        "checkouts": 993
       },
       {
         "title": "Lengemesék",
         "author": "Berg Judit",
-        "record_id": "bibSOK00537281",
-        "checkouts": 441
+        "record_id": "bibSOK00498353",
+        "checkouts": 973
       }
     ],
     "decoys": [
       {
-        "title": "A füredi lány",
-        "author": "Karády Anna",
-        "checkouts": 163
+        "title": "Rendőrség",
+        "author": "Erne, Andrea",
+        "checkouts": 325
       },
       {
-        "title": "Borzalmak városa",
-        "author": "King, Stephen",
-        "checkouts": 20
+        "title": "Lore Olympus : Olümposzi história : első kötet : [a webtoon legnagyobb képregényszenzációja]",
+        "author": "Smythe, Rachel",
+        "checkouts": 34
       },
       {
-        "title": "Paddington folytatja : a legsötétebb Peruból érkezett medve újabb kalandjai",
-        "author": "Bond, Michael",
-        "checkouts": 10
+        "title": "Halálos képzelet",
+        "author": "Roberts, Nora",
+        "checkouts": 15
       },
       {
-        "title": "PONS angol szókincs : magolás helyett tanulás a Nefelejcs-módszerrel",
-        "author": "Tammada, Tien",
-        "checkouts": 6
+        "title": "Az otthonom",
+        "author": "Busquets, Jordi",
+        "checkouts": 9
       },
       {
-        "title": "The lottery winner",
-        "author": "Border, Rosemary",
+        "title": "Duna menti kerékpárút Ausztriában : Passau - Bécs - Hainburg : összekötő úttal Rajkáig és Sopronig",
+        "author": "Pollack, Paul",
+        "checkouts": 5
+      },
+      {
+        "title": "A kistücsök és barátai [DVD-felvétel]",
+        "author": "Miler, Zdenek",
         "checkouts": 4
       },
       {
-        "title": "A Spinjitzu könyve : LEGO Ninjago Masters of Spinjitzu",
-        "author": "Beechen, Adam",
+        "title": "Teher alatt nő a pálma",
+        "author": "Birkner, Friede",
         "checkouts": 3
       },
       {
-        "title": "Világló éjszaka : válogatott novellák",
-        "author": "Tamási Áron",
+        "title": "Harry Potter és a Titkok kamrája",
+        "author": "Rowling, Joanne Kathleen",
         "checkouts": 2
       },
       {
-        "title": "Godzilla [DVD-felvétel]",
-        "author": "Emmerich, Roland",
+        "title": "A Napszarvas",
+        "author": "Miller, Marina",
         "checkouts": 1
       },
       {
-        "title": "Népi konyha : velünk élő nemzeti és etnikai kisebbségek ételei : szlovák, szlovén, horvát, szerb, ruszin, ukrán, lengyel, cigány",
-        "author": "Szigeti Andor",
-        "checkouts": 1
-      },
-      {
-        "title": "Don Camillo és a fiatalok",
-        "author": "Guareschi, Giovannino",
+        "title": "Messziről jött magzatok",
+        "author": "Galgóczi Dóra",
         "checkouts": 1
       }
     ]
@@ -89,23 +89,23 @@
     "top_authors": [
       {
         "author": "Bartos Erika",
-        "checkouts": 9254
+        "checkouts": 17426
       },
       {
         "author": "Dami, Elisabetta",
-        "checkouts": 8539
+        "checkouts": 17180
       },
       {
         "author": "Berg Judit",
-        "checkouts": 7867
+        "checkouts": 15275
       },
       {
         "author": "Marék Veronika",
-        "checkouts": 4040
+        "checkouts": 7876
       },
       {
-        "author": "Schneider, Liane",
-        "checkouts": 3905
+        "author": "Roberts, Nora",
+        "checkouts": 7562
       }
     ]
   }

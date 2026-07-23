@@ -73,7 +73,7 @@ export default function MonthlyChart({ summary }: { summary: Summary }) {
 
   return (
     <div className="glass p-5 sm:p-7">
-      <ApexChart options={options} series={series} type="area" height={340} />
+      <ApexChart key={theme} options={options} series={series} type="area" height={340} />
     </div>
   );
 }

@@ -1,14 +1,32 @@
 {
-  "generated_at": "2026-07-23T13:45:35.619912+00:00",
-  "dataset": "mini",
-  "total_checkouts": 732493,
+  "generated_at": "2026-07-23T14:14:08.254751+00:00",
+  "dataset": "full",
+  "total_checkouts": 13778888,
   "libraries": [
+    "BBMK",
+    "BMK",
+    "BSMK",
+    "DEENK",
+    "FSZEK",
+    "IGYUK",
+    "PMVE",
+    "RFMK",
     "SOKO",
-    "SZTE"
+    "SZTE",
+    "VFMK"
   ],
   "scopes": [
     "ALL",
+    "BBMK",
+    "BMK",
+    "BSMK",
+    "DEENK",
+    "FSZEK",
+    "IGYUK",
+    "PMVE",
+    "RFMK",
     "SOKO",
-    "SZTE"
+    "SZTE",
+    "VFMK"
   ]
 }

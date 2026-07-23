@@ -2,85 +2,85 @@
   "book_quiz": {
     "top_books": [
       {
-        "title": "A Szent Johanna gimi",
-        "author": "Leiner Laura",
-        "record_id": "bibSOK00461852",
-        "checkouts": 862
+        "title": "Zseb-Garfield",
+        "author": "Davis, Jim",
+        "record_id": "bibBSM00252572",
+        "checkouts": 22295
       },
       {
         "title": "Garfield",
         "author": null,
-        "record_id": "bibSOK00465733",
-        "checkouts": 655
+        "record_id": "bibBSM00122697",
+        "checkouts": 19136
       },
       {
-        "title": "Az orvosi élettan tankönyve",
-        "author": "Fonyó Attila",
-        "record_id": "bibJAT00887008",
-        "checkouts": 612
+        "title": "A Szent Johanna gimi",
+        "author": "Leiner Laura",
+        "record_id": "bibBBM00418783",
+        "checkouts": 8178
       },
       {
-        "title": "Idődetektívek",
-        "author": "Lenk, Fabian",
-        "record_id": "bibSOK00507632",
-        "checkouts": 586
+        "title": "Thomas, a gőzmozdony : válogatott mesék",
+        "author": "Awdry, Wilbert(1911-1997)",
+        "record_id": "bibBBM00292711",
+        "checkouts": 6418
       },
       {
-        "title": "Munkajog",
-        "author": "Kiss György",
-        "record_id": "bibMOK07572380",
-        "checkouts": 468
+        "title": "A Pál utcai fiúk",
+        "author": "Molnár Ferenc",
+        "record_id": "bibBBM00362503",
+        "checkouts": 6046
       }
     ],
     "decoys": [
       {
-        "title": "Személyiségpszichológia",
-        "author": "Carver, Charles S.",
-        "checkouts": 180
+        "title": "Bogyó és Babóca segít",
+        "author": "Bartos Erika",
+        "checkouts": 2939
       },
       {
-        "title": "A városi egér és a mezei egér",
-        "author": "Bevens, Emily",
-        "checkouts": 16
+        "title": "A kegyetlen kelták",
+        "author": "Deary, Terry",
+        "checkouts": 60
       },
       {
-        "title": "A bájos kis bűvész",
-        "author": "Harris, Neil Patrick",
-        "checkouts": 7
+        "title": "Zöld orr",
+        "author": "Lucado, Max",
+        "checkouts": 19
       },
       {
-        "title": "Öltözködés : [az ősi ágyékkötőtől és a római tógától a krinolinon át a nagy divatszalonok világáig]",
-        "author": "Rowland-Warne, K.",
-        "checkouts": 4
+        "title": "Légiközlekedési jog az Európai Unióban",
+        "author": "Angyal Zoltán",
+        "checkouts": 9
       },
       {
-        "title": "Hajnali hegedűszó : regény",
-        "author": "Erdős Renée",
+        "title": "Sí-kresz : kezdő és haladó síelőknek : tanácsadó az erőnléti tréningtől a carving-technikáig : [sport-gyakorlatok]",
+        "author": "Kemmler, Jürgen",
+        "checkouts": 5
+      },
+      {
+        "title": "Ének-zenei iskolába jártak...",
+        "author": "Bácskai Erika",
         "checkouts": 3
       },
       {
-        "title": "A halál orvosa",
-        "author": "Radnai Gáborné",
+        "title": "A treatise on the construction the history and the practice of the flute : including of the elements of acoustics and critical notices of sixty celebrated flute-players",
+        "author": "Rockstro, Richard Sheperd",
         "checkouts": 2
       },
       {
-        "title": "Task mix in English : [olvasott szöveg értése, nyelvhelyesség, beszédkészség, íráskészség] : [B1/B2]",
-        "author": "Farkas Árpádné",
-        "checkouts": 2
-      },
-      {
-        "title": "Tej-szerek",
-        "author": "Réczey Kata",
+        "title": "Önerőből milliomos : 21 sikerkulcs a gazdasághoz",
+        "author": "Tracy, Brian",
         "checkouts": 1
       },
       {
-        "title": "Leíró magyar hangtan : [egyetemi tankönyv]",
-        "author": "Papp István",
+        "title": "Bor : rabszolga vásár a második világháborúban",
+        "author": "Deutsch, Juda",
         "checkouts": 1
       },
       {
-        "title": "A diszkrimináció személyes és társadalmi észlelése és az egyenlő bánásmóddal kapcsolatos jogtudatosság  = Personal and social perception of discrimination and legal awarness of the right to equal treatment : kutatási eredmények = survey findings",
-        "author": "Neményi Mária",
+        "title": "Tréfás házasító [Nyomtatott kotta] : vegyeskar",
+        "author": "Bárdos Lajos",
         "checkouts": 1
       }
     ]
@@ -89,23 +89,23 @@
     "top_authors": [
       {
         "author": "Bartos Erika",
-        "checkouts": 9396
+        "checkouts": 183078
       },
       {
         "author": "Dami, Elisabetta",
-        "checkouts": 9107
+        "checkouts": 171064
       },
       {
         "author": "Berg Judit",
-        "checkouts": 8050
+        "checkouts": 146487
+      },
+      {
+        "author": "Roberts, Nora",
+        "checkouts": 103839
       },
       {
         "author": "Marék Veronika",
-        "checkouts": 4078
-      },
-      {
-        "author": "Schneider, Liane",
-        "checkouts": 3905
+        "checkouts": 92602
       }
     ]
   }

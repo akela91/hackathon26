@@ -1,0 +1,112 @@
+{
+  "book_quiz": {
+    "top_books": [
+      {
+        "title": "Zseb-Garfield",
+        "author": "Davis, Jim",
+        "record_id": "bibFSZ00003934",
+        "checkouts": 20768
+      },
+      {
+        "title": "Garfield",
+        "author": null,
+        "record_id": "bibFSZ00869948",
+        "checkouts": 16523
+      },
+      {
+        "title": "Thomas, a gőzmozdony : válogatott mesék",
+        "author": "Awdry, Wilbert",
+        "record_id": "bibFSZ01370849",
+        "checkouts": 5365
+      },
+      {
+        "title": "Nők lapja",
+        "author": null,
+        "record_id": "bibFSZ909120",
+        "checkouts": 4270
+      },
+      {
+        "title": "Rumini",
+        "author": "Berg Judit",
+        "record_id": "bibFSZ01441414",
+        "checkouts": 3478
+      }
+    ],
+    "decoys": [
+      {
+        "title": "Boribon focizik",
+        "author": "Marék Veronika",
+        "checkouts": 1906
+      },
+      {
+        "title": "Az éjszaka réme",
+        "author": "Sepsi László",
+        "checkouts": 95
+      },
+      {
+        "title": "Brumi a Balatonon [Elektronikus dokumentum] : hangoskönyv",
+        "author": "Bodó Béla",
+        "checkouts": 33
+      },
+      {
+        "title": "A két koldusdiák ; Beszterce ostroma",
+        "author": "Mikszáth Kálmán",
+        "checkouts": 16
+      },
+      {
+        "title": "Emlékek Jordan számára : Ikercsavar krónikák I.",
+        "author": "Eld, Gabriella (álnév)",
+        "checkouts": 9
+      },
+      {
+        "title": "Lázadó falvak : kollektivizálás elleni tüntetések a vidéki Magyarországon, 1951-1961",
+        "author": "Farkas Gyöngyi",
+        "checkouts": 5
+      },
+      {
+        "title": "Megismerés és valóság",
+        "author": "Neisser, Ulrich",
+        "checkouts": 3
+      },
+      {
+        "title": "Ungarn : das Land im Spiegel der Zeit",
+        "author": "Klaudy Kinga",
+        "checkouts": 2
+      },
+      {
+        "title": "Mi, spanyol védettek",
+        "author": "Dobos Erzsébet",
+        "checkouts": 1
+      },
+      {
+        "title": "Stoned raiders [Hangfelvétel]",
+        "author": "Cypress Hill",
+        "checkouts": 1
+      }
+    ]
+  },
+  "author_quiz": {
+    "top_authors": [
+      {
+        "author": "Dami, Elisabetta",
+        "checkouts": 136113
+      },
+      {
+        "author": "Bartos Erika",
+        "checkouts": 114838
+      },
+      {
+        "author": "Berg Judit",
+        "checkouts": 97327
+      },
+      {
+        "author": "Schneider, Liane",
+        "checkouts": 60709
+      },
+      {
+        "author": "Marék Veronika",
+        "checkouts": 60438
+      }
+    ]
+  }
+}
