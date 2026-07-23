@@ -131,7 +131,7 @@ export interface Dictionary {
 export const dictionaries: Record<Lang, Dictionary> = {
   hu: {
     nav: {
-      tagline: "Az évünk könyvekben",
+      tagline: "Lapozzuk fel az évet!",
       themeToLight: "Váltás világos témára",
       themeToDark: "Váltás sötét témára",
       languageLabel: "Nyelv",
@@ -327,7 +327,7 @@ export const dictionaries: Record<Lang, Dictionary> = {
   },
   en: {
     nav: {
-      tagline: "Our year in books",
+      tagline: "Let's turn the Page on the Year!",
       themeToLight: "Switch to light theme",
       themeToDark: "Switch to dark theme",
       languageLabel: "Language",
@@ -520,7 +520,7 @@ export const dictionaries: Record<Lang, Dictionary> = {
   },
   zh: {
     nav: {
-      tagline: "我们的读书年度",
+      tagline: "翻开这一年的篇章！",
       themeToLight: "切换到浅色主题",
       themeToDark: "切换到深色主题",
       languageLabel: "语言",

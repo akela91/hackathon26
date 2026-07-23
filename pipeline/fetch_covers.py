@@ -22,6 +22,7 @@ from __future__ import annotations
 import argparse
 import hashlib
 import json
+import os
 import re
 import sys
 import time
@@ -149,6 +150,27 @@ def try_openlibrary(isbn: str) -> bytes | None:
     return data if s == 200 and is_valid_image(data, ct) else None
 
 
+# Moly.hu API kulcs (env felülírható). A moly.hu jó magyar borító-lefedettséggel bír.
+MOLY_KEY = os.environ.get("MOLY_API_KEY", "3984519dacf4a56618d49a59ff0e40df")
+
+
+def try_moly(isbn: str) -> bytes | None:
+    """moly.hu book_by_isbn API → 'cover' URL letöltése."""
+    status, body, _ = http_get(
+        f"https://moly.hu/api/book_by_isbn.json?q={isbn}&key={MOLY_KEY}"
+    )
+    if status != 200 or not body:
+        return None
+    try:
+        url = json.loads(body).get("cover")
+        if not url:
+            return None
+        s, data, ct = http_get(url)
+        return data if s == 200 and is_valid_image(data, ct) else None
+    except Exception:  # noqa: BLE001
+        return None
+
+
 def main() -> int:
     parser = argparse.ArgumentParser(description="Könyvborító-cache builder")
     parser.add_argument("--limit", type=int, default=0, help="max ennyi ISBN-t próbál (0 = mind)")
@@ -171,7 +193,12 @@ def main() -> int:
     if not args.no_libri and todo:
         libri = build_libri_index({norm_isbn(i) for i in todo})
 
-    web_sources = [] if args.no_web else [("google", try_google), ("openlibrary", try_openlibrary)]
+    # Libri után: moly.hu (jó magyar lefedettség), majd Google Books, Open Library.
+    web_sources = [] if args.no_web else [
+        ("moly", try_moly),
+        ("google", try_google),
+        ("openlibrary", try_openlibrary),
+    ]
 
     ok, fail = 0, 0
     for isbn in todo:
