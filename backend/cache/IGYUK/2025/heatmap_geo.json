@@ -245,202 +245,282 @@
     {
       "city": "Szekszárd",
       "checkouts": 52550,
-      "patrons": 2268
+      "patrons": 2268,
+      "lat": 46.34849,
+      "lng": 18.70166
     },
     {
       "city": "Tolna",
       "checkouts": 2268,
-      "patrons": 134
+      "patrons": 134,
+      "lat": 46.48834,
+      "lng": 18.505
     },
     {
       "city": "Decs",
       "checkouts": 1350,
-      "patrons": 80
+      "patrons": 80,
+      "lat": 46.28433,
+      "lng": 18.76007
     },
     {
       "city": "Sióagárd",
       "checkouts": 1046,
-      "patrons": 55
+      "patrons": 55,
+      "lat": 46.39079,
+      "lng": 18.6536
     },
     {
       "city": "Bátaszék",
       "checkouts": 1018,
-      "patrons": 41
+      "patrons": 41,
+      "lat": 46.19321,
+      "lng": 18.72315
     },
     {
       "city": "Zomba",
       "checkouts": 959,
-      "patrons": 43
+      "patrons": 43,
+      "lat": 46.41081,
+      "lng": 18.56592
     },
     {
       "city": "Tengelic",
       "checkouts": 898,
-      "patrons": 27
+      "patrons": 27,
+      "lat": 46.53195,
+      "lng": 18.71085
     },
     {
       "city": "Szedres",
       "checkouts": 804,
-      "patrons": 48
+      "patrons": 48,
+      "lat": 46.47441,
+      "lng": 18.68489
     },
     {
       "city": "Szálka",
       "checkouts": 772,
-      "patrons": 30
+      "patrons": 30,
+      "lat": 46.27737,
+      "lng": 18.6372
     },
     {
       "city": "Őcsény",
       "checkouts": 665,
-      "patrons": 48
+      "patrons": 48,
+      "lat": 46.31186,
+      "lng": 18.75891
     },
     {
       "city": "Bonyhád",
       "checkouts": 579,
-      "patrons": 30
+      "patrons": 30,
+      "lat": 46.29842,
+      "lng": 18.53219
     },
     {
       "city": "Harc",
       "checkouts": 555,
-      "patrons": 20
+      "patrons": 20,
+      "lat": 46.40299,
+      "lng": 18.61773
     },
     {
       "city": "Bogyiszló",
       "checkouts": 510,
-      "patrons": 24
+      "patrons": 24,
+      "lat": 46.38324,
+      "lng": 18.8167
     },
     {
       "city": "Paks",
       "checkouts": 480,
-      "patrons": 18
+      "patrons": 18,
+      "lat": 46.62295,
+      "lng": 18.85894
     },
     {
       "city": "Hőgyész",
       "checkouts": 466,
-      "patrons": 15
+      "patrons": 15,
+      "lat": 46.49575,
+      "lng": 18.41874
     },
     {
       "city": "Medina",
       "checkouts": 423,
-      "patrons": 16
+      "patrons": 16,
+      "lat": 46.47386,
+      "lng": 18.64336
     },
     {
       "city": "Budapest",
       "checkouts": 387,
-      "patrons": 22
+      "patrons": 22,
+      "lat": 47.49788,
+      "lng": 19.04024
     },
     {
       "city": "Várdomb",
       "checkouts": 352,
-      "patrons": 30
+      "patrons": 30,
+      "lat": 46.24857,
+      "lng": 18.68486
     },
     {
       "city": "Dusnok",
       "checkouts": 293,
-      "patrons": 5
+      "patrons": 5,
+      "lat": 46.39002,
+      "lng": 18.95896
     },
     {
       "city": "Fadd",
       "checkouts": 292,
-      "patrons": 17
+      "patrons": 17,
+      "lat": 46.46639,
+      "lng": 18.82526
     },
     {
       "city": "Sárpilis",
       "checkouts": 260,
-      "patrons": 8
+      "patrons": 8,
+      "lat": 46.24706,
+      "lng": 18.73719
     },
     {
       "city": "Pécs",
       "checkouts": 244,
-      "patrons": 10
+      "patrons": 10,
+      "lat": 46.07651,
+      "lng": 18.22803
     },
     {
       "city": "Gerjen",
       "checkouts": 235,
-      "patrons": 10
+      "patrons": 10,
+      "lat": 46.49361,
+      "lng": 18.90324
     },
     {
       "city": "Tamási",
       "checkouts": 232,
-      "patrons": 7
+      "patrons": 7,
+      "lat": 46.6294,
+      "lng": 18.28503
     },
     {
       "city": "Fácánkert",
       "checkouts": 231,
-      "patrons": 11
+      "patrons": 11,
+      "lat": 46.44801,
+      "lng": 18.73615
     },
     {
       "city": "Kölesd",
       "checkouts": 214,
-      "patrons": 13
+      "patrons": 13,
+      "lat": 46.50841,
+      "lng": 18.58713
     },
     {
       "city": "Kakasd",
       "checkouts": 196,
-      "patrons": 12
+      "patrons": 12,
+      "lat": 46.34627,
+      "lng": 18.5927
     },
     {
       "city": "Báta",
       "checkouts": 175,
-      "patrons": 13
+      "patrons": 13,
+      "lat": 46.12868,
+      "lng": 18.77492
     },
     {
       "city": "Kéty",
       "checkouts": 173,
-      "patrons": 10
+      "patrons": 10,
+      "lat": 46.4404,
+      "lng": 18.51774
     },
     {
       "city": "Alsónána",
       "checkouts": 166,
-      "patrons": 9
+      "patrons": 9,
+      "lat": 46.25101,
+      "lng": 18.66241
     },
     {
       "city": "Alsónyék",
       "checkouts": 146,
-      "patrons": 5
+      "patrons": 5,
+      "lat": 46.20256,
+      "lng": 18.73741
     },
     {
       "city": "Nagydorog",
       "checkouts": 137,
-      "patrons": 14
+      "patrons": 14,
+      "lat": 46.62306,
+      "lng": 18.65788
     },
     {
       "city": "Szakadát",
       "checkouts": 129,
-      "patrons": 1
+      "patrons": 1,
+      "lat": 46.53886,
+      "lng": 18.47329
     },
     {
       "city": "Mórágy",
       "checkouts": 127,
-      "patrons": 8
+      "patrons": 8,
+      "lat": 46.21583,
+      "lng": 18.64295
     },
     {
       "city": "Aparhant",
       "checkouts": 110,
-      "patrons": 4
+      "patrons": 4,
+      "lat": 46.32959,
+      "lng": 18.44869
     },
     {
       "city": "Grábóc",
       "checkouts": 107,
-      "patrons": 4
+      "patrons": 4,
+      "lat": 46.28907,
+      "lng": 18.60694
     },
     {
       "city": "Lengyel",
       "checkouts": 107,
-      "patrons": 3
+      "patrons": 3,
+      "lat": 46.37502,
+      "lng": 18.36864
     },
     {
       "city": "Zámoly",
       "checkouts": 100,
-      "patrons": 3
+      "patrons": 3,
+      "lat": 47.31831,
+      "lng": 18.41397
     },
     {
       "city": "Érd",
       "checkouts": 92,
-      "patrons": 2
+      "patrons": 2,
+      "lat": 47.37725,
+      "lng": 18.92138
     },
     {
       "city": "Felsőnána",
       "checkouts": 89,
-      "patrons": 9
+      "patrons": 9,
+      "lat": 46.46727,
+      "lng": 18.52876
     }
   ]
 }

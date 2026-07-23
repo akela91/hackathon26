@@ -245,162 +245,226 @@
     {
       "city": "Szeged",
       "checkouts": 22709,
-      "patrons": 2925
+      "patrons": 2925,
+      "lat": 46.25463,
+      "lng": 20.1486
     },
     {
       "city": "SZTE",
       "checkouts": 1921,
-      "patrons": 273
+      "patrons": 273,
+      "lat": 46.25005,
+      "lng": 20.1465
     },
     {
       "city": "Hódmezővásárhely",
       "checkouts": 857,
-      "patrons": 109
+      "patrons": 109,
+      "lat": 46.41713,
+      "lng": 20.31961
     },
     {
       "city": "Budapest",
       "checkouts": 412,
-      "patrons": 81
+      "patrons": 81,
+      "lat": 47.49788,
+      "lng": 19.04024
     },
     {
       "city": "Makó",
       "checkouts": 333,
-      "patrons": 44
+      "patrons": 44,
+      "lat": 46.21504,
+      "lng": 20.4751
     },
     {
       "city": "Kecskemét",
       "checkouts": 176,
-      "patrons": 21
+      "patrons": 21,
+      "lat": 46.90748,
+      "lng": 19.69209
     },
     {
       "city": "Kiskunfélegyháza",
       "checkouts": 166,
-      "patrons": 23
+      "patrons": 23,
+      "lat": 46.71144,
+      "lng": 19.85016
     },
     {
       "city": "Sándorfalva",
       "checkouts": 161,
-      "patrons": 25
+      "patrons": 25,
+      "lat": 46.36574,
+      "lng": 20.10422
     },
     {
       "city": "Zsombó",
       "checkouts": 145,
-      "patrons": 21
+      "patrons": 21,
+      "lat": 46.32806,
+      "lng": 19.97257
     },
     {
       "city": "Szatymaz",
       "checkouts": 144,
-      "patrons": 17
+      "patrons": 17,
+      "lat": 46.34168,
+      "lng": 20.04158
     },
     {
       "city": "SZTE JGYPK",
       "checkouts": 138,
-      "patrons": 3
+      "patrons": 3,
+      "lat": 46.23579,
+      "lng": 20.1395
     },
     {
       "city": "Kistelek",
       "checkouts": 124,
-      "patrons": 15
+      "patrons": 15,
+      "lat": 46.47046,
+      "lng": 19.9812
     },
     {
       "city": "Deszk",
       "checkouts": 120,
-      "patrons": 24
+      "patrons": 24,
+      "lat": 46.21793,
+      "lng": 20.23889
     },
     {
       "city": "Békéscsaba",
       "checkouts": 114,
-      "patrons": 20
+      "patrons": 20,
+      "lat": 46.6798,
+      "lng": 21.09854
     },
     {
       "city": "Domaszék",
       "checkouts": 99,
-      "patrons": 17
+      "patrons": 17,
+      "lat": 46.24514,
+      "lng": 20.00345
     },
     {
       "city": "Orosháza",
       "checkouts": 96,
-      "patrons": 19
+      "patrons": 19,
+      "lat": 46.55828,
+      "lng": 20.67201
     },
     {
       "city": "Csongrád",
       "checkouts": 88,
-      "patrons": 12
+      "patrons": 12,
+      "lat": 46.70976,
+      "lng": 20.15373
     },
     {
       "city": "Mórahalom",
       "checkouts": 87,
-      "patrons": 14
+      "patrons": 14,
+      "lat": 46.21632,
+      "lng": 19.88948
     },
     {
       "city": "SZTE BTK",
       "checkouts": 86,
-      "patrons": 10
+      "patrons": 10,
+      "lat": 46.2475,
+      "lng": 20.14131
     },
     {
       "city": "Kiskunhalas",
       "checkouts": 83,
-      "patrons": 11
+      "patrons": 11,
+      "lat": 46.43045,
+      "lng": 19.48126
     },
     {
       "city": "Forráskút",
       "checkouts": 74,
-      "patrons": 10
+      "patrons": 10,
+      "lat": 46.36603,
+      "lng": 19.9093
     },
     {
       "city": "Algyő",
       "checkouts": 73,
-      "patrons": 19
+      "patrons": 19,
+      "lat": 46.33538,
+      "lng": 20.20836
     },
     {
       "city": "Baja",
       "checkouts": 67,
-      "patrons": 8
+      "patrons": 8,
+      "lat": 46.17855,
+      "lng": 18.95173
     },
     {
       "city": "Kiskunmajsa",
       "checkouts": 66,
-      "patrons": 4
+      "patrons": 4,
+      "lat": 46.49062,
+      "lng": 19.73931
     },
     {
       "city": "Szentes",
       "checkouts": 64,
-      "patrons": 18
+      "patrons": 18,
+      "lat": 46.6524,
+      "lng": 20.25664
     },
     {
       "city": "Szolnok",
       "checkouts": 57,
-      "patrons": 8
+      "patrons": 8,
+      "lat": 47.17538,
+      "lng": 20.19463
     },
     {
       "city": "Szeged-Szentmihály",
       "checkouts": 56,
-      "patrons": 1
+      "patrons": 1,
+      "lat": 46.22149,
+      "lng": 20.08297
     },
     {
       "city": "Miskolc",
       "checkouts": 54,
-      "patrons": 4
+      "patrons": 4,
+      "lat": 48.10306,
+      "lng": 20.79004
     },
     {
       "city": "Bordány",
       "checkouts": 50,
-      "patrons": 8
+      "patrons": 8,
+      "lat": 46.32163,
+      "lng": 19.92178
     },
     {
       "city": "Pécs",
       "checkouts": 49,
-      "patrons": 9
+      "patrons": 9,
+      "lat": 46.07651,
+      "lng": 18.22803
     },
     {
       "city": "Maroslele",
       "checkouts": 47,
-      "patrons": 11
+      "patrons": 11,
+      "lat": 46.27067,
+      "lng": 20.34186
     },
     {
       "city": "Békés",
       "checkouts": 46,
-      "patrons": 3
+      "patrons": 3,
+      "lat": 46.7863,
+      "lng": 20.98207
     },
     {
       "city": "SZTE KK",
@@ -410,37 +474,51 @@
     {
       "city": "Bátya",
       "checkouts": 41,
-      "patrons": 1
+      "patrons": 1,
+      "lat": 46.48742,
+      "lng": 18.95452
     },
     {
       "city": "Mindszent",
       "checkouts": 38,
-      "patrons": 9
+      "patrons": 9,
+      "lat": 46.52402,
+      "lng": 20.186
     },
     {
       "city": "Ruzsa",
       "checkouts": 38,
-      "patrons": 4
+      "patrons": 4,
+      "lat": 46.28787,
+      "lng": 19.7464
     },
     {
       "city": "Ásotthalom",
       "checkouts": 37,
-      "patrons": 5
+      "patrons": 5,
+      "lat": 46.20011,
+      "lng": 19.78408
     },
     {
       "city": "Debrecen",
       "checkouts": 37,
-      "patrons": 8
+      "patrons": 8,
+      "lat": 47.5314,
+      "lng": 21.62598
     },
     {
       "city": "Nagymaros",
       "checkouts": 35,
-      "patrons": 1
+      "patrons": 1,
+      "lat": 47.78911,
+      "lng": 18.95873
     },
     {
       "city": "Pusztaszer",
       "checkouts": 35,
-      "patrons": 3
+      "patrons": 3,
+      "lat": 46.54965,
+      "lng": 19.9849
     }
   ]
 }

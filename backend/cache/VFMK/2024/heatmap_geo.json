@@ -245,202 +245,282 @@
     {
       "city": "Szolnok",
       "checkouts": 58614,
-      "patrons": 3209
+      "patrons": 3209,
+      "lat": 47.17538,
+      "lng": 20.19463
     },
     {
       "city": "Besenyszög",
       "checkouts": 920,
-      "patrons": 47
+      "patrons": 47,
+      "lat": 47.296,
+      "lng": 20.25715
     },
     {
       "city": "Rákóczifalva",
       "checkouts": 870,
-      "patrons": 60
+      "patrons": 60,
+      "lat": 47.08982,
+      "lng": 20.23434
     },
     {
       "city": "Budapest",
       "checkouts": 647,
-      "patrons": 30
+      "patrons": 30,
+      "lat": 47.49788,
+      "lng": 19.04024
     },
     {
       "city": "Abony",
       "checkouts": 637,
-      "patrons": 50
+      "patrons": 50,
+      "lat": 47.18874,
+      "lng": 20.00478
     },
     {
       "city": "Tószeg",
       "checkouts": 565,
-      "patrons": 42
+      "patrons": 42,
+      "lat": 47.10058,
+      "lng": 20.14746
     },
     {
       "city": "Törökszentmiklós",
       "checkouts": 519,
-      "patrons": 32
+      "patrons": 32,
+      "lat": 47.17936,
+      "lng": 20.40915
     },
     {
       "city": "Szajol",
       "checkouts": 486,
-      "patrons": 35
+      "patrons": 35,
+      "lat": 47.17575,
+      "lng": 20.30064
     },
     {
       "city": "Zagyvarékas",
       "checkouts": 419,
-      "patrons": 29
+      "patrons": 29,
+      "lat": 47.26771,
+      "lng": 20.12777
     },
     {
       "city": "Tiszaföldvár",
       "checkouts": 396,
-      "patrons": 13
+      "patrons": 13,
+      "lat": 46.98035,
+      "lng": 20.25412
     },
     {
       "city": "Újszász",
       "checkouts": 371,
-      "patrons": 23
+      "patrons": 23,
+      "lat": 47.28444,
+      "lng": 20.07027
     },
     {
       "city": "Öcsöd",
       "checkouts": 284,
-      "patrons": 2
+      "patrons": 2,
+      "lat": 46.90123,
+      "lng": 20.3897
     },
     {
       "city": "Tiszajenő",
       "checkouts": 217,
-      "patrons": 8
+      "patrons": 8,
+      "lat": 47.03118,
+      "lng": 20.14158
     },
     {
       "city": "Fegyvernek",
       "checkouts": 215,
-      "patrons": 12
+      "patrons": 12,
+      "lat": 47.25265,
+      "lng": 20.52594
     },
     {
       "city": "Újszilvás",
       "checkouts": 202,
-      "patrons": 2
+      "patrons": 2,
+      "lat": 47.26971,
+      "lng": 19.9142
     },
     {
       "city": "Cibakháza",
       "checkouts": 201,
-      "patrons": 5
+      "patrons": 5,
+      "lat": 46.95902,
+      "lng": 20.20624
     },
     {
       "city": "Martfű",
       "checkouts": 172,
-      "patrons": 16
+      "patrons": 16,
+      "lat": 47.01862,
+      "lng": 20.28139
     },
     {
       "city": "Cegléd",
       "checkouts": 165,
-      "patrons": 9
+      "patrons": 9,
+      "lat": 47.17164,
+      "lng": 19.79775
     },
     {
       "city": "Szászberek",
       "checkouts": 162,
-      "patrons": 9
+      "patrons": 9,
+      "lat": 47.31073,
+      "lng": 20.09325
     },
     {
       "city": "Nagykörű",
       "checkouts": 147,
-      "patrons": 16
+      "patrons": 16,
+      "lat": 47.27428,
+      "lng": 20.44837
     },
     {
       "city": "Tiszavárkony",
       "checkouts": 135,
-      "patrons": 13
+      "patrons": 13,
+      "lat": 47.06463,
+      "lng": 20.18106
     },
     {
       "city": "Tiszapüspöki",
       "checkouts": 123,
-      "patrons": 7
+      "patrons": 7,
+      "lat": 47.21453,
+      "lng": 20.3173
     },
     {
       "city": "Jászalsószentgyörgy",
       "checkouts": 115,
-      "patrons": 13
+      "patrons": 13,
+      "lat": 47.37185,
+      "lng": 20.09115
     },
     {
       "city": "Tiszanagyfalu",
       "checkouts": 113,
-      "patrons": 1
+      "patrons": 1,
+      "lat": 48.09352,
+      "lng": 21.47052
     },
     {
       "city": "Jászladány",
       "checkouts": 102,
-      "patrons": 8
+      "patrons": 8,
+      "lat": 47.36495,
+      "lng": 20.16536
     },
     {
       "city": "Rákócziújfalu",
       "checkouts": 101,
-      "patrons": 12
+      "patrons": 12,
+      "lat": 47.06004,
+      "lng": 20.26241
     },
     {
       "city": "Mezőtúr",
       "checkouts": 94,
-      "patrons": 10
+      "patrons": 10,
+      "lat": 47.00047,
+      "lng": 20.62995
     },
     {
       "city": "Balatonfüred",
       "checkouts": 77,
-      "patrons": 1
+      "patrons": 1,
+      "lat": 46.95673,
+      "lng": 17.88889
     },
     {
       "city": "Karcag",
       "checkouts": 67,
-      "patrons": 4
+      "patrons": 4,
+      "lat": 47.31465,
+      "lng": 20.92409
     },
     {
       "city": "Tápiógyörgye",
       "checkouts": 67,
-      "patrons": 3
+      "patrons": 3,
+      "lat": 47.33411,
+      "lng": 19.95199
     },
     {
       "city": "Kisújszállás",
       "checkouts": 66,
-      "patrons": 4
+      "patrons": 4,
+      "lat": 47.21621,
+      "lng": 20.75467
     },
     {
       "city": "Hajdúsámson",
       "checkouts": 62,
-      "patrons": 1
+      "patrons": 1,
+      "lat": 47.59895,
+      "lng": 21.75371
     },
     {
       "city": "Örményes",
       "checkouts": 61,
-      "patrons": 3
+      "patrons": 3,
+      "lat": 47.1909,
+      "lng": 20.56763
     },
     {
       "city": "Kengyel",
       "checkouts": 54,
-      "patrons": 4
+      "patrons": 4,
+      "lat": 47.09463,
+      "lng": 20.34237
     },
     {
       "city": "Jászberény",
       "checkouts": 52,
-      "patrons": 3
+      "patrons": 3,
+      "lat": 47.50305,
+      "lng": 19.91179
     },
     {
       "city": "Alattyán",
       "checkouts": 51,
-      "patrons": 6
+      "patrons": 6,
+      "lat": 47.42568,
+      "lng": 20.04759
     },
     {
       "city": "Farmos",
       "checkouts": 48,
-      "patrons": 2
+      "patrons": 2,
+      "lat": 47.36164,
+      "lng": 19.84896
     },
     {
       "city": "Halásztelek",
       "checkouts": 46,
-      "patrons": 2
+      "patrons": 2,
+      "lat": 47.3631,
+      "lng": 18.98114
     },
     {
       "city": "Tiszatenyő",
       "checkouts": 44,
-      "patrons": 3
+      "patrons": 3,
+      "lat": 47.13599,
+      "lng": 20.37976
     },
     {
       "city": "Csataszög",
       "checkouts": 40,
-      "patrons": 4
+      "patrons": 4,
+      "lat": 47.28259,
+      "lng": 20.38338
     }
   ]
 }

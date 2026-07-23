@@ -245,202 +245,282 @@
     {
       "city": "Budapest",
       "checkouts": 7520107,
-      "patrons": 129229
+      "patrons": 129229,
+      "lat": 47.49788,
+      "lng": 19.04024
     },
     {
       "city": "Érd",
       "checkouts": 23026,
-      "patrons": 794
+      "patrons": 794,
+      "lat": 47.37725,
+      "lng": 18.92138
     },
     {
       "city": "Budaörs",
       "checkouts": 18018,
-      "patrons": 549
+      "patrons": 549,
+      "lat": 47.46113,
+      "lng": 18.96118
     },
     {
       "city": "Dunakeszi",
       "checkouts": 17184,
-      "patrons": 491
+      "patrons": 491,
+      "lat": 47.63167,
+      "lng": 19.12941
     },
     {
       "city": "Szigetszentmiklós",
       "checkouts": 16474,
-      "patrons": 490
+      "patrons": 490,
+      "lat": 47.34871,
+      "lng": 19.04524
     },
     {
       "city": "Pécel",
       "checkouts": 16022,
-      "patrons": 379
+      "patrons": 379,
+      "lat": 47.49112,
+      "lng": 19.34468
     },
     {
       "city": "Budakeszi",
       "checkouts": 13433,
-      "patrons": 327
+      "patrons": 327,
+      "lat": 47.50994,
+      "lng": 18.92938
     },
     {
       "city": "Budakalász",
       "checkouts": 11391,
-      "patrons": 271
+      "patrons": 271,
+      "lat": 47.61928,
+      "lng": 19.04686
     },
     {
       "city": "Pomáz",
       "checkouts": 10990,
-      "patrons": 260
+      "patrons": 260,
+      "lat": 47.64682,
+      "lng": 19.02363
     },
     {
       "city": "Göd",
       "checkouts": 10064,
-      "patrons": 321
+      "patrons": 321,
+      "lat": 47.68343,
+      "lng": 19.13416
     },
     {
       "city": "Fót",
       "checkouts": 8992,
-      "patrons": 236
+      "patrons": 236,
+      "lat": 47.61259,
+      "lng": 19.19801
     },
     {
       "city": "Gyál",
       "checkouts": 8524,
-      "patrons": 279
+      "patrons": 279,
+      "lat": 47.38455,
+      "lng": 19.21731
     },
     {
       "city": "Piliscsaba",
       "checkouts": 8031,
-      "patrons": 159
+      "patrons": 159,
+      "lat": 47.63294,
+      "lng": 18.82612
     },
     {
       "city": "Kistarcsa",
       "checkouts": 7455,
-      "patrons": 190
+      "patrons": 190,
+      "lat": 47.54473,
+      "lng": 19.26364
     },
     {
       "city": "Vác",
       "checkouts": 7316,
-      "patrons": 236
+      "patrons": 236,
+      "lat": 47.77829,
+      "lng": 19.12783
     },
     {
       "city": "Solymár",
       "checkouts": 7204,
-      "patrons": 187
+      "patrons": 187,
+      "lat": 47.59133,
+      "lng": 18.92849
     },
     {
       "city": "Diósd",
       "checkouts": 6959,
-      "patrons": 190
+      "patrons": 190,
+      "lat": 47.40626,
+      "lng": 18.94486
     },
     {
       "city": "Üröm",
       "checkouts": 6822,
-      "patrons": 216
+      "patrons": 216,
+      "lat": 47.5987,
+      "lng": 19.01343
     },
     {
       "city": "Nagykovácsi",
       "checkouts": 6757,
-      "patrons": 162
+      "patrons": 162,
+      "lat": 47.57624,
+      "lng": 18.88206
     },
     {
       "city": "Törökbálint",
       "checkouts": 6720,
-      "patrons": 209
+      "patrons": 209,
+      "lat": 47.43496,
+      "lng": 18.91303
     },
     {
       "city": "Szentendre",
       "checkouts": 6551,
-      "patrons": 282
+      "patrons": 282,
+      "lat": 47.66776,
+      "lng": 19.07605
     },
     {
       "city": "Szeged",
       "checkouts": 6378,
-      "patrons": 273
+      "patrons": 273,
+      "lat": 46.25463,
+      "lng": 20.1486
     },
     {
       "city": "Veresegyház",
       "checkouts": 6240,
-      "patrons": 171
+      "patrons": 171,
+      "lat": 47.65523,
+      "lng": 19.28688
     },
     {
       "city": "Pécs",
       "checkouts": 5841,
-      "patrons": 243
+      "patrons": 243,
+      "lat": 46.07651,
+      "lng": 18.22803
     },
     {
       "city": "Debrecen",
       "checkouts": 5804,
-      "patrons": 309
+      "patrons": 309,
+      "lat": 47.5314,
+      "lng": 21.62598
     },
     {
       "city": "Gödöllő",
       "checkouts": 5673,
-      "patrons": 216
+      "patrons": 216,
+      "lat": 47.60153,
+      "lng": 19.3477
     },
     {
       "city": "Halásztelek",
       "checkouts": 5655,
-      "patrons": 132
+      "patrons": 132,
+      "lat": 47.3631,
+      "lng": 18.98114
     },
     {
       "city": "Csömör",
       "checkouts": 5496,
-      "patrons": 165
+      "patrons": 165,
+      "lat": 47.54892,
+      "lng": 19.22421
     },
     {
       "city": "Pilisborosjenő",
       "checkouts": 5305,
-      "patrons": 117
+      "patrons": 117,
+      "lat": 47.60728,
+      "lng": 18.99203
     },
     {
       "city": "Nagytarcsa",
       "checkouts": 5273,
-      "patrons": 122
+      "patrons": 122,
+      "lat": 47.52678,
+      "lng": 19.28352
     },
     {
       "city": "Tárnok",
       "checkouts": 5219,
-      "patrons": 118
+      "patrons": 118,
+      "lat": 47.36686,
+      "lng": 18.86601
     },
     {
       "city": "Gyömrő",
       "checkouts": 5214,
-      "patrons": 182
+      "patrons": 182,
+      "lat": 47.42234,
+      "lng": 19.3945
     },
     {
       "city": "Páty",
       "checkouts": 5004,
-      "patrons": 99
+      "patrons": 99,
+      "lat": 47.51545,
+      "lng": 18.82717
     },
     {
       "city": "Dunaharaszti",
       "checkouts": 4918,
-      "patrons": 203
+      "patrons": 203,
+      "lat": 47.35415,
+      "lng": 19.09122
     },
     {
       "city": "Vecsés",
       "checkouts": 4771,
-      "patrons": 161
+      "patrons": 161,
+      "lat": 47.4069,
+      "lng": 19.26431
     },
     {
       "city": "Biatorbágy",
       "checkouts": 4749,
-      "patrons": 166
+      "patrons": 166,
+      "lat": 47.47394,
+      "lng": 18.82329
     },
     {
       "city": "Pilisvörösvár",
       "checkouts": 4596,
-      "patrons": 135
+      "patrons": 135,
+      "lat": 47.62108,
+      "lng": 18.91158
     },
     {
       "city": "Győr",
       "checkouts": 4309,
-      "patrons": 227
+      "patrons": 227,
+      "lat": 47.6835,
+      "lng": 17.63428
     },
     {
       "city": "Kerepes",
       "checkouts": 4294,
-      "patrons": 118
+      "patrons": 118,
+      "lat": 47.56161,
+      "lng": 19.28691
     },
     {
       "city": "Miskolc",
       "checkouts": 4125,
-      "patrons": 239
+      "patrons": 239,
+      "lat": 48.10306,
+      "lng": 20.79004
     }
   ]
 }
