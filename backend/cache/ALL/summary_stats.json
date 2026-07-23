@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-23T13:03:12.349771+00:00",
+  "generated_at": "2026-07-23T13:45:34.058926+00:00",
   "dataset": "mini",
   "scope": "ALL",
   "total_checkouts": 732493,
@@ -28,7 +28,7 @@
     {
       "library": "SOKO",
       "checkouts": 581682,
-      "value_huf": 1236306095.4799998,
+      "value_huf": 1236306095.4799993,
       "patrons": 16167
     },
     {

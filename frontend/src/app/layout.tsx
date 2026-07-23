@@ -1,18 +1,29 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
-import Script from "next/script";
+import { Fira_Sans, IBM_Plex_Mono, Varela_Round } from "next/font/google";
 import "./globals.css";
 import Providers from "@/lib/providers";
 import Navbar from "@/components/nav/Navbar";
 
-const geistSans = Geist({
-  variable: "--font-geist-sans",
-  subsets: ["latin"],
+// Qulto Design System tipográfia:
+//  • Fira Sans     → UI + display + body
+//  • IBM Plex Mono → azonosítók, kódok, MARC mezők
+//  • Varela Round  → logó / wordmark
+const firaSans = Fira_Sans({
+  variable: "--font-sans",
+  subsets: ["latin", "latin-ext"],
+  weight: ["300", "400", "500", "600", "700", "800"],
 });
 
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
+const plexMono = IBM_Plex_Mono({
+  variable: "--font-mono",
+  subsets: ["latin", "latin-ext"],
+  weight: ["400", "500", "600"],
+});
+
+const varelaRound = Varela_Round({
+  variable: "--font-logo",
   subsets: ["latin"],
+  weight: "400",
 });
 
 export const metadata: Metadata = {
@@ -28,9 +39,9 @@ const THEME_INIT_SCRIPT = `
 (function () {
   try {
     var saved = localStorage.getItem('lw-theme');
-    var theme = saved === 'light' || saved === 'dark'
+    var theme = saved === 'light' || saved === 'dark' || saved === 'unicorn'
       ? saved
-      : (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+      : (window.matchMedia('(prefers-color-scheme: light)').matches ? 'light' : 'dark');
     document.documentElement.setAttribute('data-theme', theme);
   } catch (e) {}
 })();
@@ -44,13 +55,12 @@ export default function RootLayout({
   return (
     <html
       lang="hu"
-      className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
+      className={`${firaSans.variable} ${plexMono.variable} ${varelaRound.variable} h-full antialiased`}
       suppressHydrationWarning
     >
       <head>
-        <Script id="theme-init" strategy="beforeInteractive">
-          {THEME_INIT_SCRIPT}
-        </Script>
+        {/* No-FOUC téma-inicializálás a hidratáció előtt (klasszikus inline script). */}
+        <script dangerouslySetInnerHTML={{ __html: THEME_INIT_SCRIPT }} />
       </head>
       <body className="min-h-full flex flex-col" suppressHydrationWarning>
         <div className="bg-aurora" />

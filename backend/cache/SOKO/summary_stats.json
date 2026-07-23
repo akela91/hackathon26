@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-23T13:03:13.284581+00:00",
+  "generated_at": "2026-07-23T13:45:35.046465+00:00",
   "dataset": "mini",
   "scope": "SOKO",
   "total_checkouts": 581682,
@@ -15,7 +15,7 @@
     {
       "year": "2024",
       "checkouts": 282955,
-      "value_huf": 587851507.4399999
+      "value_huf": 587851507.44
     },
     {
       "year": "2025",

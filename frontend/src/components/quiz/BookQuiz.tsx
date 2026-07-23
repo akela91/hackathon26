@@ -56,18 +56,20 @@ export default function BookQuiz({
     answeredRef.current = true;
     const right = guessTop === card.isTop;
     const finalCorrect = correct + (right ? 1 : 0);
+    const isLast = i >= cards.length - 1;
     setFeedback(right);
     if (right) setCorrect(finalCorrect);
     setTimeout(() => {
-      setI((prevI) => {
-        if (prevI >= cards.length - 1) {
-          onComplete(finalCorrect, cards.length);
-          return prevI;
-        }
-        return prevI + 1;
-      });
-      setFeedback(null);
-      answeredRef.current = false;
+      // Az onComplete a szülő (QuizSection) state-jét frissíti — ezt NEM
+      // szabad egy állapot-updater függvényből (renderfázis) hívni. A
+      // setTimeout callbackje viszont a renderen kívül fut, itt biztonságos.
+      if (isLast) {
+        onComplete(finalCorrect, cards.length);
+      } else {
+        setI(i + 1);
+        setFeedback(null);
+        answeredRef.current = false;
+      }
     }, 1100);
   }
 

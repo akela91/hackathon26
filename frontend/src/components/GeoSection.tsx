@@ -29,11 +29,7 @@ export default function GeoSection({ data }: { data: HeatmapGeo }) {
     plotOptions: {
       bar: { horizontal: true, borderRadius: 6, barHeight: "70%", distributed: true },
     },
-    colors: [
-      "#8b5cf6", "#9333ea", "#a855f7", "#c026d3", "#d946ef",
-      "#ec4899", "#f43f5e", "#fb7185", "#f59e0b", "#fbbf24",
-      "#22d3ee", "#38bdf8",
-    ],
+    colors: palette.categorical,
     dataLabels: {
       enabled: true,
       formatter: (v: number) => formatNumber(v, lang),

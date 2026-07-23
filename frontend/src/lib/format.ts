@@ -1,7 +1,9 @@
 import type { Lang } from "./dictionaries";
 
 function locale(lang: Lang = "hu"): string {
-  return lang === "en" ? "en-US" : "hu-HU";
+  if (lang === "en") return "en-US";
+  if (lang === "zh") return "zh-CN";
+  return "hu-HU";
 }
 
 /** Ezres tagolás a megadott nyelv konvenciója szerint. */
@@ -11,7 +13,7 @@ export function formatNumber(n: number, lang: Lang = "hu"): string {
 
 /** HUF összeg rövidítve (pl. 1,89 Mrd Ft / 1.89B Ft). */
 export function formatHUF(n: number, lang: Lang = "hu"): string {
-  const suffix = lang === "en" ? { b: "B", m: "M", k: "K" } : { b: "Mrd", m: "M", k: "E" };
+  const suffix = lang === "hu" ? { b: "Mrd", m: "M", k: "E" } : { b: "B", m: "M", k: "K" };
   if (n >= 1_000_000_000) return `${(n / 1_000_000_000).toFixed(2)} ${suffix.b} Ft`;
   if (n >= 1_000_000) return `${(n / 1_000_000).toFixed(1)} ${suffix.m} Ft`;
   if (n >= 1_000) return `${(n / 1_000).toFixed(0)} ${suffix.k} Ft`;
@@ -20,7 +22,7 @@ export function formatHUF(n: number, lang: Lang = "hu"): string {
 
 /** Rövid szám (pl. 12,3 E / 12.3K). */
 export function formatCompact(n: number, lang: Lang = "hu"): string {
-  const suffix = lang === "en" ? { m: "M", k: "K" } : { m: "M", k: "E" };
+  const suffix = lang === "hu" ? { m: "M", k: "E" } : { m: "M", k: "K" };
   if (n >= 1_000_000) return `${(n / 1_000_000).toFixed(1)}${suffix.m}`;
   if (n >= 1_000) return `${(n / 1_000).toFixed(1)}${suffix.k}`;
   return formatNumber(n, lang);
@@ -31,5 +33,7 @@ export function formatMonth(ym: string, monthsShort: string[], lang: Lang = "hu"
   const [y, m] = ym.split("-");
   const idx = parseInt(m, 10) - 1;
   const name = monthsShort[idx] ?? m;
-  return lang === "en" ? `${name} ${y}` : `${y}. ${name}`;
+  if (lang === "en") return `${name} ${y}`;
+  if (lang === "zh") return `${y}年${name}`;
+  return `${y}. ${name}`;
 }

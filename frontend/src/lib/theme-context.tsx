@@ -2,36 +2,50 @@
 
 import { createContext, useContext, useEffect, useState, type ReactNode } from "react";
 
-export type Theme = "dark" | "light";
+export type Theme = "dark" | "light" | "unicorn";
 
 interface ThemeContextValue {
   theme: Theme;
+  /** Dark ↔ Light váltás (unicornból is ide tér vissza). */
   toggleTheme: () => void;
+  /** Bármely téma közvetlen beállítása (pl. unicorn a szivárvány gombhoz). */
+  setTheme: (t: Theme) => void;
 }
 
 const ThemeContext = createContext<ThemeContextValue | null>(null);
 
 const STORAGE_KEY = "lw-theme";
 
+function apply(theme: Theme) {
+  document.documentElement.setAttribute("data-theme", theme);
+  localStorage.setItem(STORAGE_KEY, theme);
+}
+
 export function ThemeProvider({ children }: { children: ReactNode }) {
-  // Az inline bootstrap script (layout.tsx, beforeInteractive) már beállítja a
-  // data-theme attribútumot a hidratáció előtt, hogy ne legyen FOUC.
-  const [theme, setTheme] = useState<Theme>("dark");
+  const [theme, setThemeState] = useState<Theme>("dark");
 
   useEffect(() => {
     const current = document.documentElement.getAttribute("data-theme");
-    if (current === "light" || current === "dark") setTheme(current);
+    if (current === "light" || current === "dark" || current === "unicorn") {
+      setThemeState(current);
+    }
   }, []);
 
+  function setTheme(next: Theme) {
+    setThemeState(next);
+    apply(next);
+  }
+
   function toggleTheme() {
+    // Unicornból mindig a sötétbe lépünk vissza; egyébként dark↔light.
     const next: Theme = theme === "dark" ? "light" : "dark";
     setTheme(next);
-    document.documentElement.setAttribute("data-theme", next);
-    localStorage.setItem(STORAGE_KEY, next);
   }
 
   return (
-    <ThemeContext.Provider value={{ theme, toggleTheme }}>{children}</ThemeContext.Provider>
+    <ThemeContext.Provider value={{ theme, toggleTheme, setTheme }}>
+      {children}
+    </ThemeContext.Provider>
   );
 }
 

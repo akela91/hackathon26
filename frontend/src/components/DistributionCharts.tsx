@@ -27,7 +27,7 @@ export default function DistributionCharts({ summary }: { summary: Summary }) {
     },
     theme: { mode: palette.mode },
     labels: docs.map((d) => docLabel(d.code, d.label)),
-    colors: ["#8b5cf6", "#ec4899", "#f59e0b", "#22d3ee", "#34d399", "#f472b6", "#a78bfa", "#fbbf24"],
+    colors: palette.categorical,
     stroke: { width: 2, colors: [palette.mode === "dark" ? "#07060f" : "#f6f5fb"] },
     dataLabels: {
       enabled: true,

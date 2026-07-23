@@ -27,7 +27,7 @@ export default function MonthlyChart({ summary }: { summary: Summary }) {
       animations: { enabled: true, speed: 900 },
     },
     theme: { mode: palette.mode },
-    colors: ["#8b5cf6"],
+    colors: [palette.primary],
     dataLabels: { enabled: false },
     stroke: { curve: "smooth", width: 3 },
     fill: {
@@ -38,8 +38,8 @@ export default function MonthlyChart({ summary }: { summary: Summary }) {
         opacityTo: 0.02,
         stops: [0, 90, 100],
         colorStops: [
-          { offset: 0, color: "#ec4899", opacity: 0.5 },
-          { offset: 100, color: "#8b5cf6", opacity: 0 },
+          { offset: 0, color: palette.categorical[1], opacity: 0.45 },
+          { offset: 100, color: palette.primary, opacity: 0 },
         ],
       },
     },

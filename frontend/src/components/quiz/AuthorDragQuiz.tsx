@@ -21,6 +21,7 @@ import { CSS } from "@dnd-kit/utilities";
 import { GripVertical, Trophy, Check, X } from "lucide-react";
 import { motion } from "framer-motion";
 import type { QuizData } from "@/lib/types";
+import type { Lang } from "@/lib/dictionaries";
 import { formatNumber } from "@/lib/format";
 import { useLanguage } from "@/lib/language-context";
 
@@ -51,7 +52,7 @@ function SortableRow({
   revealed: boolean;
   correctIndex: number;
   dragLabel: string;
-  lang: "hu" | "en";
+  lang: Lang;
 }) {
   const { attributes, listeners, setNodeRef, transform, transition, isDragging } =
     useSortable({ id: item.author, disabled: revealed });

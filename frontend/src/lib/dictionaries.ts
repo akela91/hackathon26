@@ -1,4 +1,4 @@
-export type Lang = "hu" | "en";
+export type Lang = "hu" | "en" | "zh";
 
 export interface Dictionary {
   nav: {
@@ -69,6 +69,7 @@ export interface Dictionary {
   };
   etoAge: {
     ageRangeLabel: string;
+    selectedAgeLabel: string;
     selectionTitle: string;
     selectionEmpty: string;
     checkoutsInRange: string;
@@ -235,7 +236,6 @@ export const dictionaries: Record<Lang, Dictionary> = {
       "1": "Filozófia, Pszichológia",
       "2": "Vallás, Teológia",
       "3": "Társadalomtud.",
-      "4": "Fenntartott",
       "5": "Természettud.",
       "6": "Alkalm. tud., Orvostud.",
       "7": "Művészet, Sport",
@@ -262,12 +262,13 @@ export const dictionaries: Record<Lang, Dictionary> = {
       intro: "Ezeket a köteteket nem akarták visszaadni — a legtöbbször hosszabbított könyvek.",
     },
     etoAge: {
-      ageRangeLabel: "Életkor tartomány",
-      selectionTitle: "A kiválasztott korosztály olvasmányai",
-      selectionEmpty: "Nincs adat ebben a tartományban.",
-      checkoutsInRange: "kölcsönzés a tartományban",
+      ageRangeLabel: "Életkor",
+      selectedAgeLabel: "Kiválasztott életkor",
+      selectionTitle: "Amit ez a korosztály olvas",
+      selectionEmpty: "Nincs adat ehhez az életkorhoz.",
+      checkoutsInRange: "kölcsönzés ennél a korosztálynál",
       topCategoriesLabel: "Legnépszerűbb tudományterületek",
-      yearsSuffix: "év",
+      yearsSuffix: "éves",
       ofTotalSuffix: "az összes kölcsönzés",
     },
     quiz: {
@@ -427,7 +428,6 @@ export const dictionaries: Record<Lang, Dictionary> = {
       "1": "Philosophy, Psychology",
       "2": "Religion, Theology",
       "3": "Social sciences",
-      "4": "Reserved",
       "5": "Natural sciences",
       "6": "Applied sci., Medicine",
       "7": "Arts, Sports",
@@ -454,10 +454,11 @@ export const dictionaries: Record<Lang, Dictionary> = {
       intro: "These titles just wouldn't come back — the most renewed books.",
     },
     etoAge: {
-      ageRangeLabel: "Age range",
+      ageRangeLabel: "Age",
+      selectedAgeLabel: "Selected age",
       selectionTitle: "What this age group reads",
-      selectionEmpty: "No data in this range.",
-      checkoutsInRange: "checkouts in range",
+      selectionEmpty: "No data for this age.",
+      checkoutsInRange: "checkouts for this age group",
       topCategoriesLabel: "Top subject areas",
       yearsSuffix: "yrs",
       ofTotalSuffix: "of all checkouts",
@@ -509,6 +510,194 @@ export const dictionaries: Record<Lang, Dictionary> = {
       backendUnavailable: "Backend unavailable",
       startBackendHint: "Start the backend from the repo root:",
       loading: "Loading data…",
+    },
+  },
+  zh: {
+    nav: {
+      tagline: "我们的读书年度",
+      themeToLight: "切换到浅色主题",
+      themeToDark: "切换到深色主题",
+      languageLabel: "语言",
+    },
+    librarySelector: {
+      all: "全部",
+      ariaLabel: "选择图书馆",
+    },
+    hero: {
+      titleLine1: "图书馆",
+      titleLine2: "年度回顾",
+      subtitle:
+        "我们的读书年度。看看大家读了什么——统计数据、动态图表和趣味测验。",
+      statCheckouts: "借阅",
+      statPatrons: "读者",
+      statTitles: "独立书目",
+      scrollHint: "向下滚动",
+    },
+    sections: {
+      stats: {
+        eyebrow: "年度数字",
+        title: "总览",
+        subtitle: "今年社区借阅的一切——一目了然。",
+      },
+      monthly: {
+        eyebrow: "节奏",
+        title: "这一年的走势",
+        subtitle: "整个期间的月度借阅趋势。",
+      },
+      authorRace: {
+        eyebrow: "竞赛",
+        title: "作者竞速",
+        subtitle: "点击播放，观看最受欢迎的作者如何逐月你追我赶。",
+      },
+      distribution: {
+        eyebrow: "分布",
+        title: "读什么，用什么语言？",
+        subtitle: "借阅中的文献类型与语言。",
+      },
+      timeHeatmap: {
+        eyebrow: "何时？",
+        title: "图书馆的脉搏",
+        subtitle: "按星期与小时划分的借阅量。颜色越暖代表越繁忙。",
+      },
+      etoAge: {
+        eyebrow: "谁在读什么？",
+        title: "年龄与主题选择",
+        subtitle: "选择一个年龄，看看该年龄段最受欢迎的学科领域（UDC 主类）。",
+      },
+      geo: {
+        eyebrow: "来自何处？",
+        title: "读者地图",
+        subtitle: "大多数读者来自哪里——按城市和邮政编码划分。",
+      },
+      renewed: {
+        eyebrow: "最爱",
+        title: "舍不得还的书",
+        subtitle: "续借次数最多的图书。",
+      },
+      quiz: {
+        eyebrow: "游戏",
+        title: "趣味测验",
+        subtitle: "考考自己：你有多了解图书馆的数据？",
+      },
+    },
+    stats: {
+      totalCheckouts: "总借阅量",
+      totalValue: "馆藏价值",
+      totalValueHint: "所借馆藏的登记价值",
+      activePatrons: "活跃读者",
+      totalRenewals: "总续借次数",
+      avgRenewalsHint: "平均 {{avg}} / 每次借阅",
+      busiestMonth: "最繁忙的月份",
+      busiestWeekday: "最繁忙的一天",
+      busiestHour: "高峰时段",
+      checkoutsSuffix: "次借阅",
+    },
+    weekdays: ["星期一", "星期二", "星期三", "星期四", "星期五", "星期六", "星期日"],
+    monthsShort: ["1月", "2月", "3月", "4月", "5月", "6月", "7月", "8月", "9月", "10月", "11月", "12月"],
+    docTypes: {
+      B: "图书",
+      C: "音像 / CD",
+      S: "期刊 / 丛书",
+      M: "地图",
+      D: "学位论文",
+    },
+    languages: {
+      hun: "匈牙利语",
+      ger: "德语",
+      eng: "英语",
+      fre: "法语",
+      lat: "拉丁语",
+      rus: "俄语",
+      ita: "意大利语",
+      spa: "西班牙语",
+      mul: "多语种",
+    },
+    etoClassShort: {
+      "0": "总类",
+      "1": "哲学、心理学",
+      "2": "宗教、神学",
+      "3": "社会科学",
+      "5": "自然科学",
+      "6": "应用科学、医学",
+      "7": "艺术、体育",
+      "8": "语言、文学",
+      "9": "历史、地理",
+    },
+    authorRace: {
+      cumulativeUntil: "累计借阅（截至）：",
+      play: "播放",
+      pause: "暂停",
+      resetTitle: "完整期间",
+      checkoutsSuffix: "次借阅",
+    },
+    distribution: {
+      docTypesTitle: "文献类型",
+      languagesTitle: "语言",
+      totalLabel: "文献",
+    },
+    geo: {
+      topCitiesTitle: "热门城市",
+      topZipsTitle: "热门邮编",
+    },
+    renewed: {
+      intro: "这些书舍不得还——续借次数最多的图书。",
+    },
+    etoAge: {
+      ageRangeLabel: "年龄",
+      selectedAgeLabel: "所选年龄",
+      selectionTitle: "该年龄段在读什么",
+      selectionEmpty: "此年龄暂无数据。",
+      checkoutsInRange: "次借阅（该年龄段）",
+      topCategoriesLabel: "热门学科领域",
+      yearsSuffix: "岁",
+      ofTotalSuffix: "占全部借阅",
+    },
+    quiz: {
+      intro: {
+        title: "你有多了解这些数据？",
+        subtitle: "两个回合：先猜热门图书，再把最热门的作者排序！",
+        round1Title: "第一回合",
+        round1Desc: "热门书还是干扰项？",
+        round2Title: "第二回合",
+        round2Desc: "给作者排序",
+        cta: "开始吧！",
+      },
+      book: {
+        question: "这本书是否位列最受欢迎的前 5 名？",
+        topBadge: "曾是热门书",
+        notTopBadge: "并非热门",
+        checkoutsSuffix: "次借阅",
+        yes: "是，热门书",
+        no: "不是，干扰项",
+        scoreLabel: "得分",
+      },
+      author: {
+        instruction: "按借阅量从高到低给作者排序！拖动到对应位置。",
+        check: "检查",
+        dragLabel: "拖动以重新排序",
+      },
+      result: {
+        yourResult: "你的成绩",
+        accuracySuffix: "% 准确率",
+        books: "图书",
+        authors: "作者",
+        again: "再来一次",
+        ranks: {
+          master: "图书馆大师",
+          enthusiast: "热心读者",
+          beginner: "好奇的浏览者",
+          first: "初次到访",
+        },
+      },
+    },
+    footer: {
+      tagline: "图书馆年度回顾",
+      pipeline: "预聚合数据 — 管线 (DuckDB) → FastAPI → Next.js",
+    },
+    errors: {
+      backendUnavailable: "后端不可用",
+      startBackendHint: "请从仓库根目录启动后端：",
+      loading: "正在加载数据…",
     },
   },
 };

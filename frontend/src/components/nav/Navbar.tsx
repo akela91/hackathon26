@@ -5,6 +5,7 @@ import { useLanguage } from "@/lib/language-context";
 import LibrarySelector from "./LibrarySelector";
 import ThemeToggle from "./ThemeToggle";
 import LanguageSwitcher from "./LanguageSwitcher";
+import RainbowButton from "./RainbowButton";
 
 export default function Navbar() {
   const { t } = useLanguage();
@@ -22,7 +23,12 @@ export default function Navbar() {
             priority
           />
           <span className="hidden flex-col leading-none sm:flex">
-            <span className="text-sm font-black">Library Wrapped</span>
+            <span
+              className="text-base font-normal tracking-tight"
+              style={{ fontFamily: "var(--font-logo), var(--font-sans), sans-serif" }}
+            >
+              Library Wrapped
+            </span>
             <span className="text-[11px] text-muted">{t("nav.tagline")}</span>
           </span>
         </a>
@@ -34,6 +40,7 @@ export default function Navbar() {
         <div className="flex shrink-0 items-center gap-2">
           <LanguageSwitcher />
           <ThemeToggle />
+          <RainbowButton />
         </div>
       </div>
     </header>

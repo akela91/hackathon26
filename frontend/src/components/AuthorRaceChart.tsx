@@ -10,15 +10,11 @@ import { useLanguage } from "@/lib/language-context";
 import { useTheme } from "@/lib/theme-context";
 import { getChartPalette } from "@/lib/chart-theme";
 
-const PALETTE = [
-  "#8b5cf6", "#ec4899", "#f59e0b", "#22d3ee", "#34d399",
-  "#f472b6", "#a78bfa", "#fbbf24", "#38bdf8", "#fb7185",
-];
-
 export default function AuthorRaceChart({ data }: { data: AuthorsMonthly }) {
   const { t, lang, dict } = useLanguage();
   const { theme } = useTheme();
   const palette = getChartPalette(theme);
+  const PALETTE = palette.categorical;
   const { months, authors } = data;
   const [idx, setIdx] = useState(months.length - 1);
   const [playing, setPlaying] = useState(false);
@@ -36,7 +32,7 @@ export default function AuthorRaceChart({ data }: { data: AuthorsMonthly }) {
       values: cum.map((c) => c.value),
       colors: cum.map((_, i) => PALETTE[(cum.length - 1 - i) % PALETTE.length]),
     };
-  }, [authors, idx]);
+  }, [authors, idx, PALETTE]);
 
   useEffect(() => {
     if (!playing) return;

@@ -61,7 +61,7 @@ ETO_MAIN_CLASS_HU = {
     "1": "Filozófia. Pszichológia",
     "2": "Vallás. Teológia",
     "3": "Társadalomtudományok",
-    "4": "Fenntartott (nincs besorolás)",
+    # "4" — Fenntartott/nincs érvényes besorolás: szándékosan kihagyva.
     "5": "Matematika. Természettudományok",
     "6": "Alkalmazott tudományok. Orvostudomány. Műszaki tudományok",
     "7": "Művészetek. Szórakozás. Sport",
@@ -502,7 +502,8 @@ def gen_heatmap_eto_age(con: duckdb.DuckDBPyConnection) -> dict:
             WHERE birth_date IS NOT NULL
               AND checkout_ts IS NOT NULL
               AND eto IS NOT NULL
-              AND substr(eto, 1, 1) IN ('0','1','2','3','4','5','6','7','8','9')
+              -- "4" (Fenntartott) szándékosan kimarad – nincs ilyen kategória.
+              AND substr(eto, 1, 1) IN ('0','1','2','3','5','6','7','8','9')
         )
         SELECT
             (LEAST(age, {AGE_MAX})::INTEGER // {AGE_BUCKET_SIZE}) * {AGE_BUCKET_SIZE} AS age_bucket,

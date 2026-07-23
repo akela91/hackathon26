@@ -33,7 +33,7 @@ export default function TimeHeatmap({ data }: { data: HeatmapTime }) {
     theme: { mode: palette.mode },
     dataLabels: { enabled: false },
     stroke: { width: 2, colors: [palette.mode === "dark" ? "#07060f" : "#f6f5fb"] },
-    colors: ["#8b5cf6"],
+    colors: [palette.primary],
     plotOptions: {
       heatmap: {
         radius: 4,
@@ -42,26 +42,10 @@ export default function TimeHeatmap({ data }: { data: HeatmapTime }) {
         colorScale: {
           ranges: [
             { from: 0, to: 0, color: palette.cellEmpty, name: "0" },
-            {
-              from: 1,
-              to: Math.max(1, Math.round(data.max * 0.15)),
-              color: "#312e81",
-            },
-            {
-              from: Math.round(data.max * 0.15) + 1,
-              to: Math.round(data.max * 0.4),
-              color: "#6d28d9",
-            },
-            {
-              from: Math.round(data.max * 0.4) + 1,
-              to: Math.round(data.max * 0.7),
-              color: "#c026d3",
-            },
-            {
-              from: Math.round(data.max * 0.7) + 1,
-              to: data.max,
-              color: "#f59e0b",
-            },
+            { from: 1, to: Math.max(1, Math.round(data.max * 0.15)), color: palette.heatmap[1] },
+            { from: Math.round(data.max * 0.15) + 1, to: Math.round(data.max * 0.4), color: palette.heatmap[3] },
+            { from: Math.round(data.max * 0.4) + 1, to: Math.round(data.max * 0.7), color: palette.heatmap[5] },
+            { from: Math.round(data.max * 0.7) + 1, to: data.max, color: palette.heatmap[6] },
           ],
         },
       },
