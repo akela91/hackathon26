@@ -45,9 +45,9 @@ export default function Navbar() {
         </div>
       </div>
 
-      {/* Második, sticky sor: évválasztó — a header aljához rögzítve, kis
+      {/* Második, sticky sor: évválasztó — a header aljához rögzítve, szűk
           réssel elválasztva, görgetés után is végig elérhető marad. */}
-      <div className="border-t border-white/5 px-4 py-2 sm:px-8">
+      <div className="border-t border-white/5 px-4 py-1 sm:px-8">
         <div className="mx-auto flex max-w-[86rem] justify-center">
           <YearSelector />
         </div>

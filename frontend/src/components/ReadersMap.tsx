@@ -1,12 +1,34 @@
 "use client";
 
 import "leaflet/dist/leaflet.css";
-import { MapContainer, TileLayer, CircleMarker, Tooltip } from "react-leaflet";
+import { useEffect } from "react";
+import { MapContainer, TileLayer, CircleMarker, Tooltip, useMap } from "react-leaflet";
 import type { LatLngBoundsExpression } from "leaflet";
 import type { GeoRow } from "@/lib/types";
 import { useTheme } from "@/lib/theme-context";
 import { useLanguage } from "@/lib/language-context";
 import { formatNumber } from "@/lib/format";
+
+/**
+ * A görgő-zoom csak akkor aktív, ha a kurzor a térkép fölött van (fókusz),
+ * hogy az oldal görgetése ne akadjon el rajta, de a térkép fölött szabadon
+ * lehessen ki-be zoomolni. Leaflet mouseover/mouseout eseményekre kapcsol.
+ */
+function ScrollZoomOnHover() {
+  const map = useMap();
+  useEffect(() => {
+    const enable = () => map.scrollWheelZoom.enable();
+    const disable = () => map.scrollWheelZoom.disable();
+    disable();
+    map.on("mouseover", enable);
+    map.on("mouseout", disable);
+    return () => {
+      map.off("mouseover", enable);
+      map.off("mouseout", disable);
+    };
+  }, [map]);
+  return null;
+}
 
 // Magyarország befoglaló doboza – erre zoomol alapból a térkép.
 const HU_BOUNDS: LatLngBoundsExpression = [
@@ -37,6 +59,7 @@ export default function ReadersMap({ cities }: { cities: GeoRow[] }) {
         scrollWheelZoom={false}
         style={{ height: "100%", width: "100%", background: "transparent" }}
       >
+        <ScrollZoomOnHover />
         <TileLayer
           url={tileUrl}
           attribution='&copy; <a href="https://openstreetmap.org">OpenStreetMap</a>, &copy; <a href="https://carto.com/">CARTO</a>'

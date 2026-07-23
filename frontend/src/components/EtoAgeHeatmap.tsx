@@ -53,7 +53,7 @@ export default function EtoAgeHeatmap({ data }: { data: EtoAgeData }) {
   const options: ApexOptions = {
     chart: {
       type: "heatmap",
-      height: 420,
+      height: "100%",
       background: "transparent",
       toolbar: { show: false },
       fontFamily: "inherit",
@@ -102,7 +102,9 @@ export default function EtoAgeHeatmap({ data }: { data: EtoAgeData }) {
           korválasztó már nem külön, teljes szélességű sor, hanem a jobb
           oldali panel fölé került. */}
       <div className="glass flex flex-col p-5 sm:p-7 lg:col-span-2 lg:row-span-2">
-        <ApexChart key={chartKey} options={options} series={series} type="heatmap" height={480} />
+        <div className="min-h-[420px] flex-1">
+          <ApexChart key={chartKey} options={options} series={series} type="heatmap" height="100%" />
+        </div>
       </div>
 
       <div className="glass p-5 sm:p-7">

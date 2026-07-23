@@ -23,10 +23,10 @@ export default function Hero({ summary }: { summary: Summary }) {
         <Image
           src="/logo.png"
           alt="Library Wrapped logó"
-          width={168}
-          height={168}
+          width={196}
+          height={196}
           priority
-          className="mb-5 h-[134px] w-[134px] rounded-3xl shadow-lg sm:h-[173px] sm:w-[173px]"
+          className="mb-5 h-[152px] w-[152px] rounded-3xl shadow-lg sm:h-[196px] sm:w-[196px]"
         />
         <h1 className="text-6xl font-black leading-[0.95] tracking-tight sm:text-8xl">
           <span className="gradient-text">{t("hero.titleLine1")}</span>
