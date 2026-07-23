@@ -20,7 +20,7 @@ export default function Hero({ summary }: { summary: Summary }) {
         className="mb-6 inline-flex items-center gap-2 rounded-full border border-white/10 bg-white/5 px-4 py-2 text-sm text-muted backdrop-blur"
       >
         <Sparkles className="h-4 w-4 text-accent-3" />
-        {summary.libraries.join(" • ")} · {years}
+        {years}
       </motion.div>
 
       <motion.div

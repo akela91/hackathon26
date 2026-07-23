@@ -160,11 +160,40 @@ body {
   100% { background-position: 0% 50%; }
 }
 
-/* Unicorn témában animált egérkurzor (.ani – Chrome/Edge Windowson animálja).
-   Minden elemre kiterjed (a gombok pointer-kurzorát is felülírja). */
-:root[data-theme="unicorn"],
-:root[data-theme="unicorn"] * {
-  cursor: url("/cursor.ani"), auto;
+/* Unicorn témában JS-alapú animált unikornis egérmutató (a natív .ani kurzort
+   a böngészők 128px-korlátja miatt gyakran figyelmen kívül hagyják, ezért egy
+   megbízható követő elemet használunk). A natív kurzort elrejtjük. */
+html.unicorn-cursor-active,
+html.unicorn-cursor-active * {
+  cursor: none !important;
+}
+
+.unicorn-cursor {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 2000;
+  pointer-events: none;
+  font-size: 30px;
+  line-height: 1;
+  will-change: transform;
+  filter: drop-shadow(0 2px 4px rgba(123, 45, 155, 0.35));
+  animation: unicorn-wobble 1.1s ease-in-out infinite;
+}
+.unicorn-cursor .spark {
+  position: absolute;
+  left: -6px;
+  top: -6px;
+  font-size: 16px;
+  animation: spark-twinkle 0.9s ease-in-out infinite;
+}
+@keyframes unicorn-wobble {
+  0%, 100% { rotate: -8deg; }
+  50% { rotate: 8deg; }
+}
+@keyframes spark-twinkle {
+  0%, 100% { opacity: 0.3; transform: scale(0.7) rotate(0deg); }
+  50% { opacity: 1; transform: scale(1.15) rotate(25deg); }
 }
 
 /* Gradiens szöveg */
