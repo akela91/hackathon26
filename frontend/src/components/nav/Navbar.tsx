@@ -3,6 +3,7 @@
 import Image from "next/image";
 import { useLanguage } from "@/lib/language-context";
 import LibrarySelector from "./LibrarySelector";
+import YearSelector from "./YearSelector";
 import ThemeToggle from "./ThemeToggle";
 import LanguageSwitcher from "./LanguageSwitcher";
 import RainbowButton from "./RainbowButton";
@@ -41,6 +42,14 @@ export default function Navbar() {
           <LanguageSwitcher />
           <ThemeToggle />
           <RainbowButton />
+        </div>
+      </div>
+
+      {/* Második, sticky sor: évválasztó — a header aljához rögzítve, kis
+          réssel elválasztva, görgetés után is végig elérhető marad. */}
+      <div className="border-t border-white/5 px-4 py-2 sm:px-8">
+        <div className="mx-auto flex max-w-[86rem] justify-center">
+          <YearSelector />
         </div>
       </div>
     </header>

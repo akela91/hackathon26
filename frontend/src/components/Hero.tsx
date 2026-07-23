@@ -10,41 +10,21 @@ import { useLibrary } from "@/lib/library-context";
 
 export default function Hero({ summary }: { summary: Summary }) {
   const { t, lang } = useLanguage();
-  const { manifest, selectedYear, setSelectedYear } = useLibrary();
-  const years = manifest?.years ?? [];
+  const { selectedYear } = useLibrary();
+  const yearLabel = selectedYear === "ALL" ? t("hero.allYears") : selectedYear;
 
   return (
     <section className="relative flex min-h-screen flex-col items-center justify-center px-5 text-center">
-      {/* Év-választó: MIND + minden évszám külön; kattintásra frissül minden adat. */}
+      {/* Az interaktív év-választó a fejléc sticky második sorában él
+          (nav/YearSelector.tsx) — itt csak a jelenlegi választás látszik. */}
       <motion.div
         initial={{ opacity: 0, scale: 0.8 }}
         animate={{ opacity: 1, scale: 1 }}
         transition={{ duration: 0.8, ease: "easeOut" }}
-        role="radiogroup"
-        aria-label={t("hero.yearSelectorLabel")}
-        className="mb-6 inline-flex flex-wrap items-center justify-center gap-1 rounded-full border border-white/10 bg-white/5 p-1 text-sm backdrop-blur"
+        className="mb-6 inline-flex items-center gap-2 rounded-full border border-white/10 bg-white/5 px-4 py-2 text-sm text-muted backdrop-blur"
       >
-        <Sparkles className="ml-2 mr-1 h-4 w-4 shrink-0 text-accent-3" />
-        {[{ code: "ALL", label: t("hero.allYears") }, ...years.map((y) => ({ code: y, label: y }))].map(
-          (opt) => {
-            const active = opt.code === selectedYear;
-            return (
-              <button
-                key={opt.code}
-                role="radio"
-                aria-checked={active}
-                onClick={() => setSelectedYear(opt.code)}
-                className={`rounded-full px-3 py-1 font-semibold transition ${
-                  active
-                    ? "bg-gradient-to-r from-accent-1 to-accent-2 text-white shadow"
-                    : "text-muted hover:text-foreground"
-                }`}
-              >
-                {opt.label}
-              </button>
-            );
-          }
-        )}
+        <Sparkles className="h-4 w-4 text-accent-3" />
+        {yearLabel}
       </motion.div>
 
       <motion.div

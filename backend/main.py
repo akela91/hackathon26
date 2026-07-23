@@ -337,7 +337,7 @@ def get_cover(isbn: str = "", title: str = "", author: str = "") -> Response:
     path = COVERS_DIR / f"{key}.jpg"
     if path.exists():
         return Response(content=path.read_bytes(), media_type="image/jpeg",
-                        headers={"Cache-Control": "public, max-age=31536000"})
+                        headers={"Cache-Control": "public, max-age=3600, must-revalidate"})
 
     data = None
     if len(clean) >= 10:

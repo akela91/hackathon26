@@ -4,6 +4,12 @@ import { useMemo, useState } from "react";
 import { BookOpen } from "lucide-react";
 import { API_URL } from "@/lib/api";
 
+// Bump ezt az értéket, ha egy borítót manuálisan kicseréltünk a szerveren
+// (pl. rossz auto-találat felülírása), hogy a böngészők korábbi, hosszú
+// élettartamú cache-bejegyzései ne "ragadjanak be" — az URL megváltozása
+// mindig friss letöltést kényszerít ki, függetlenül a régi Cache-Control-tól.
+const COVER_CACHE_VERSION = "3";
+
 interface Props {
   isbn?: string | null;
   title?: string | null;
@@ -28,8 +34,9 @@ export default function BookCover({ isbn, title, author, className = "" }: Props
     if (clean.length >= 10) q.set("isbn", clean);
     if (title) q.set("title", title);
     if (author) q.set("author", author);
+    q.set("v", COVER_CACHE_VERSION);
     const list: string[] = [];
-    if (clean.length >= 10) list.push(`/covers/${clean}.jpg`);
+    if (clean.length >= 10) list.push(`/covers/${clean}.jpg?v=${COVER_CACHE_VERSION}`);
     if (clean.length >= 10 || title) list.push(`${API_URL}/api/cover?${q.toString()}`);
     return list;
   }, [clean, title, author]);
