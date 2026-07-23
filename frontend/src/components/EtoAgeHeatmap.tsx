@@ -97,7 +97,14 @@ export default function EtoAgeHeatmap({ data }: { data: EtoAgeData }) {
   const fillPct = ((age - AGE_MIN) / (AGE_MAX - AGE_MIN)) * 100;
 
   return (
-    <div className="space-y-6">
+    <div className="grid grid-cols-1 gap-6 lg:grid-cols-3 lg:grid-rows-[auto_1fr]">
+      {/* A heatmap a bal oldalon mindkét sort kitölti fölfelé, mióta a
+          korválasztó már nem külön, teljes szélességű sor, hanem a jobb
+          oldali panel fölé került. */}
+      <div className="glass flex flex-col p-5 sm:p-7 lg:col-span-2 lg:row-span-2">
+        <ApexChart key={chartKey} options={options} series={series} type="heatmap" height={480} />
+      </div>
+
       <div className="glass p-5 sm:p-7">
         <div className="mb-4 flex items-end justify-between">
           <span className="text-sm text-muted">{t("etoAge.selectedAgeLabel")}</span>
@@ -128,43 +135,37 @@ export default function EtoAgeHeatmap({ data }: { data: EtoAgeData }) {
         </div>
       </div>
 
-      <div className="grid grid-cols-1 gap-6 lg:grid-cols-3">
-        <div className="glass p-5 sm:p-7 lg:col-span-2">
-          <ApexChart key={chartKey} options={options} series={series} type="heatmap" height={420} />
-        </div>
-
-        <div className="glass p-5 sm:p-7">
-          <h3 className="mb-1 text-lg font-bold">{t("etoAge.selectionTitle")}</h3>
-          <p className="mb-4 text-sm text-muted">
-            {formatNumber(grandTotal, lang)} {t("etoAge.checkoutsInRange")}
-          </p>
-          {ranked.length === 0 ? (
-            <p className="text-sm text-muted">{t("etoAge.selectionEmpty")}</p>
-          ) : (
-            <ul className="space-y-3">
-              {ranked.slice(0, 7).map((r) => {
-                const pct = grandTotal ? (r.value / grandTotal) * 100 : 0;
-                return (
-                  <li key={r.code}>
-                    <div className="mb-1 flex items-center justify-between text-sm">
-                      <span className="font-medium">{r.label}</span>
-                      <span className="text-muted">{pct.toFixed(1)}%</span>
-                    </div>
+      <div className="glass p-5 sm:p-7">
+        <h3 className="mb-1 text-lg font-bold">{t("etoAge.selectionTitle")}</h3>
+        <p className="mb-4 text-sm text-muted">
+          {formatNumber(grandTotal, lang)} {t("etoAge.checkoutsInRange")}
+        </p>
+        {ranked.length === 0 ? (
+          <p className="text-sm text-muted">{t("etoAge.selectionEmpty")}</p>
+        ) : (
+          <ul className="space-y-3">
+            {ranked.slice(0, 7).map((r) => {
+              const pct = grandTotal ? (r.value / grandTotal) * 100 : 0;
+              return (
+                <li key={r.code}>
+                  <div className="mb-1 flex items-center justify-between text-sm">
+                    <span className="font-medium">{r.label}</span>
+                    <span className="text-muted">{pct.toFixed(1)}%</span>
+                  </div>
+                  <div
+                    className="h-2 w-full overflow-hidden rounded-full"
+                    style={{ background: "var(--card-border)" }}
+                  >
                     <div
-                      className="h-2 w-full overflow-hidden rounded-full"
-                      style={{ background: "var(--card-border)" }}
-                    >
-                      <div
-                        className="h-full rounded-full bg-gradient-to-r from-accent-1 to-accent-2"
-                        style={{ width: `${pct}%` }}
-                      />
-                    </div>
-                  </li>
-                );
-              })}
-            </ul>
-          )}
-        </div>
+                      className="h-full rounded-full bg-gradient-to-r from-accent-1 to-accent-2"
+                      style={{ width: `${pct}%` }}
+                    />
+                  </div>
+                </li>
+              );
+            })}
+          </ul>
+        )}
       </div>
     </div>
   );

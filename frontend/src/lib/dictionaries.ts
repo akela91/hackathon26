@@ -26,7 +26,6 @@ export interface Dictionary {
     stats: { eyebrow: string; title: string; subtitle: string };
     monthly: { eyebrow: string; title: string; subtitle: string };
     authorRace: { eyebrow: string; title: string; subtitle: string };
-    distribution: { eyebrow: string; title: string; subtitle: string };
     timeHeatmap: { eyebrow: string; title: string; subtitle: string };
     etoAge: { eyebrow: string; title: string; subtitle: string };
     geo: { eyebrow: string; title: string; subtitle: string };
@@ -56,11 +55,6 @@ export interface Dictionary {
     pause: string;
     resetTitle: string;
     checkoutsSuffix: string;
-  };
-  distribution: {
-    docTypesTitle: string;
-    languagesTitle: string;
-    totalLabel: string;
   };
   geo: {
     topCitiesTitle: string;
@@ -185,11 +179,6 @@ export const dictionaries: Record<Lang, Dictionary> = {
         subtitle:
           "Nyomd meg a Lejátszást, és nézd, hogyan előzik egymást a legnépszerűbb szerzők hónapról hónapra.",
       },
-      distribution: {
-        eyebrow: "Megoszlás",
-        title: "Mit és milyen nyelven?",
-        subtitle: "Dokumentumtípusok és nyelvek a kölcsönzésekben.",
-      },
       timeHeatmap: {
         eyebrow: "Mikor?",
         title: "A könyvtár pulzusa",
@@ -268,11 +257,6 @@ export const dictionaries: Record<Lang, Dictionary> = {
       pause: "Szünet",
       resetTitle: "Teljes időszak",
       checkoutsSuffix: "kölcsönzés",
-    },
-    distribution: {
-      docTypesTitle: "Dokumentumtípusok",
-      languagesTitle: "Nyelvek",
-      totalLabel: "Dokumentum",
     },
     geo: {
       topCitiesTitle: "Top települések",
@@ -397,11 +381,6 @@ export const dictionaries: Record<Lang, Dictionary> = {
         subtitle:
           "Hit Play and watch the most popular authors overtake each other month by month.",
       },
-      distribution: {
-        eyebrow: "Breakdown",
-        title: "What, and in which language?",
-        subtitle: "Document types and languages across checkouts.",
-      },
       timeHeatmap: {
         eyebrow: "When?",
         title: "The library's pulse",
@@ -478,11 +457,6 @@ export const dictionaries: Record<Lang, Dictionary> = {
       pause: "Pause",
       resetTitle: "Full period",
       checkoutsSuffix: "checkouts",
-    },
-    distribution: {
-      docTypesTitle: "Document types",
-      languagesTitle: "Languages",
-      totalLabel: "Documents",
     },
     geo: {
       topCitiesTitle: "Top cities",
@@ -605,11 +579,6 @@ export const dictionaries: Record<Lang, Dictionary> = {
         title: "作者竞速",
         subtitle: "点击播放，观看最受欢迎的作者如何逐月你追我赶。",
       },
-      distribution: {
-        eyebrow: "分布",
-        title: "读什么，用什么语言？",
-        subtitle: "借阅中的文献类型与语言。",
-      },
       timeHeatmap: {
         eyebrow: "何时？",
         title: "图书馆的脉搏",
@@ -685,11 +654,6 @@ export const dictionaries: Record<Lang, Dictionary> = {
       pause: "暂停",
       resetTitle: "完整期间",
       checkoutsSuffix: "次借阅",
-    },
-    distribution: {
-      docTypesTitle: "文献类型",
-      languagesTitle: "语言",
-      totalLabel: "文献",
     },
     geo: {
       topCitiesTitle: "热门城市",

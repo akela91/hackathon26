@@ -12,7 +12,6 @@ import Hero from "@/components/Hero";
 import Section from "@/components/ui/Section";
 import StatsGrid from "@/components/StatsGrid";
 import MonthlyChart from "@/components/MonthlyChart";
-import DistributionCharts from "@/components/DistributionCharts";
 import AuthorRaceChart from "@/components/AuthorRaceChart";
 import TimeHeatmap from "@/components/TimeHeatmap";
 import EtoAgeHeatmap from "@/components/EtoAgeHeatmap";
@@ -106,14 +105,6 @@ export default function Home() {
         subtitle={t("sections.authorRace.subtitle")}
       >
         <AuthorRaceChart data={authors} />
-      </Section>
-
-      <Section
-        eyebrow={t("sections.distribution.eyebrow")}
-        title={t("sections.distribution.title")}
-        subtitle={t("sections.distribution.subtitle")}
-      >
-        <DistributionCharts summary={summary} />
       </Section>
 
       <Section
