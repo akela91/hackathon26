@@ -4,8 +4,10 @@ import { motion } from "framer-motion";
 import { BookOpen, ChevronDown, Sparkles } from "lucide-react";
 import type { Summary } from "@/lib/types";
 import { formatNumber } from "@/lib/format";
+import { useLanguage } from "@/lib/language-context";
 
 export default function Hero({ summary }: { summary: Summary }) {
+  const { t } = useLanguage();
   const years = summary.by_year.map((y) => y.year).join(" – ");
 
   return (
@@ -28,14 +30,11 @@ export default function Hero({ summary }: { summary: Summary }) {
       >
         <BookOpen className="mb-4 h-16 w-16 text-accent-1" />
         <h1 className="text-6xl font-black leading-[0.95] tracking-tight sm:text-8xl">
-          <span className="gradient-text">Library</span>
+          <span className="gradient-text">{t("hero.titleLine1")}</span>
           <br />
-          <span className="text-foreground">Wrapped</span>
+          <span className="text-foreground">{t("hero.titleLine2")}</span>
         </h1>
-        <p className="mt-6 max-w-xl text-xl text-muted">
-          Az évünk könyvekben. Nézd meg, mit olvasott a közösség — statisztikák,
-          animált chartok és egy játékos kvíz.
-        </p>
+        <p className="mt-6 max-w-xl text-xl text-muted">{t("hero.subtitle")}</p>
       </motion.div>
 
       <motion.div
@@ -45,9 +44,9 @@ export default function Hero({ summary }: { summary: Summary }) {
         className="mt-12 grid grid-cols-3 gap-6 sm:gap-12"
       >
         {[
-          { label: "kölcsönzés", value: summary.total_checkouts },
-          { label: "olvasó", value: summary.unique_patrons },
-          { label: "egyedi cím", value: summary.unique_titles },
+          { label: t("hero.statCheckouts"), value: summary.total_checkouts },
+          { label: t("hero.statPatrons"), value: summary.unique_patrons },
+          { label: t("hero.statTitles"), value: summary.unique_titles },
         ].map((s) => (
           <div key={s.label} className="text-center">
             <div className="text-3xl font-black text-foreground sm:text-4xl">
@@ -70,7 +69,7 @@ export default function Hero({ summary }: { summary: Summary }) {
         }}
         className="absolute bottom-10 flex flex-col items-center text-muted hover:text-foreground"
       >
-        <span className="text-sm">Görgess</span>
+        <span className="text-sm">{t("hero.scrollHint")}</span>
         <ChevronDown className="h-6 w-6" />
       </motion.a>
     </section>

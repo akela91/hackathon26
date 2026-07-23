@@ -1,40 +1,35 @@
-const nf = new Intl.NumberFormat("hu-HU");
+import type { Lang } from "./dictionaries";
 
-/** Ezres tagolás magyar formátumban. */
-export function formatNumber(n: number): string {
-  return nf.format(Math.round(n));
+function locale(lang: Lang = "hu"): string {
+  return lang === "en" ? "en-US" : "hu-HU";
 }
 
-/** HUF összeg rövidítve (pl. 1,89 Mrd Ft). */
-export function formatHUF(n: number): string {
-  if (n >= 1_000_000_000) return `${(n / 1_000_000_000).toFixed(2)} Mrd Ft`;
-  if (n >= 1_000_000) return `${(n / 1_000_000).toFixed(1)} M Ft`;
-  if (n >= 1_000) return `${(n / 1_000).toFixed(0)} E Ft`;
-  return `${formatNumber(n)} Ft`;
+/** Ezres tagolás a megadott nyelv konvenciója szerint. */
+export function formatNumber(n: number, lang: Lang = "hu"): string {
+  return new Intl.NumberFormat(locale(lang)).format(Math.round(n));
 }
 
-/** Rövid szám (pl. 12,3 E). */
-export function formatCompact(n: number): string {
-  if (n >= 1_000_000) return `${(n / 1_000_000).toFixed(1)}M`;
-  if (n >= 1_000) return `${(n / 1_000).toFixed(1)}E`;
-  return formatNumber(n);
+/** HUF összeg rövidítve (pl. 1,89 Mrd Ft / 1.89B Ft). */
+export function formatHUF(n: number, lang: Lang = "hu"): string {
+  const suffix = lang === "en" ? { b: "B", m: "M", k: "K" } : { b: "Mrd", m: "M", k: "E" };
+  if (n >= 1_000_000_000) return `${(n / 1_000_000_000).toFixed(2)} ${suffix.b} Ft`;
+  if (n >= 1_000_000) return `${(n / 1_000_000).toFixed(1)} ${suffix.m} Ft`;
+  if (n >= 1_000) return `${(n / 1_000).toFixed(0)} ${suffix.k} Ft`;
+  return `${formatNumber(n, lang)} Ft`;
 }
 
-const MONTHS_HU = [
-  "jan", "feb", "márc", "ápr", "máj", "jún",
-  "júl", "aug", "szept", "okt", "nov", "dec",
-];
+/** Rövid szám (pl. 12,3 E / 12.3K). */
+export function formatCompact(n: number, lang: Lang = "hu"): string {
+  const suffix = lang === "en" ? { m: "M", k: "K" } : { m: "M", k: "E" };
+  if (n >= 1_000_000) return `${(n / 1_000_000).toFixed(1)}${suffix.m}`;
+  if (n >= 1_000) return `${(n / 1_000).toFixed(1)}${suffix.k}`;
+  return formatNumber(n, lang);
+}
 
-/** "2024-09" -> "2024. szept" */
-export function formatMonth(ym: string): string {
+/** "2024-09" -> "2024. szept" / "2024 Sep", a megadott rövid hónapnevekkel. */
+export function formatMonth(ym: string, monthsShort: string[], lang: Lang = "hu"): string {
   const [y, m] = ym.split("-");
   const idx = parseInt(m, 10) - 1;
-  return `${y}. ${MONTHS_HU[idx] ?? m}`;
-}
-
-/** "2024-09" -> "szept" (rövid, chart tengelyre) */
-export function formatMonthShort(ym: string): string {
-  const [, m] = ym.split("-");
-  const idx = parseInt(m, 10) - 1;
-  return MONTHS_HU[idx] ?? m;
+  const name = monthsShort[idx] ?? m;
+  return lang === "en" ? `${name} ${y}` : `${y}. ${name}`;
 }

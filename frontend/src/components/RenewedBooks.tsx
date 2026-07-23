@@ -4,17 +4,16 @@ import { motion } from "framer-motion";
 import { RefreshCw } from "lucide-react";
 import type { Summary } from "@/lib/types";
 import { formatNumber } from "@/lib/format";
+import { useLanguage } from "@/lib/language-context";
 
 export default function RenewedBooks({ summary }: { summary: Summary }) {
+  const { t, lang } = useLanguage();
   const books = summary.top_renewed_books.slice(0, 10);
   const max = books[0]?.total_renewals || 1;
 
   return (
     <div className="glass p-5 sm:p-7">
-      <p className="mb-6 text-muted">
-        Ezeket a köteteket nem akarták visszaadni — a legtöbbször hosszabbított
-        könyvek.
-      </p>
+      <p className="mb-6 text-muted">{t("renewed.intro")}</p>
       <ol className="space-y-3">
         {books.map((b, i) => {
           const pct = (b.total_renewals / max) * 100;
@@ -52,7 +51,7 @@ export default function RenewedBooks({ summary }: { summary: Summary }) {
                 <div className="flex shrink-0 items-center gap-1.5 text-right">
                   <RefreshCw className="h-4 w-4 text-accent-3" />
                   <span className="font-bold">
-                    {formatNumber(b.total_renewals)}
+                    {formatNumber(b.total_renewals, lang)}
                   </span>
                 </div>
               </div>

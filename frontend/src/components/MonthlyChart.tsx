@@ -4,10 +4,18 @@ import type { ApexOptions } from "apexcharts";
 import ApexChart from "./charts/ApexChart";
 import type { Summary } from "@/lib/types";
 import { formatMonth, formatNumber } from "@/lib/format";
+import { useLanguage } from "@/lib/language-context";
+import { useTheme } from "@/lib/theme-context";
+import { getChartPalette } from "@/lib/chart-theme";
 
 export default function MonthlyChart({ summary }: { summary: Summary }) {
+  const { t, lang, dict } = useLanguage();
+  const { theme } = useTheme();
+  const palette = getChartPalette(theme);
+
   const data = summary.monthly_checkouts;
   const categories = data.map((d) => d.month);
+  const fmtMonth = (v: string) => formatMonth(v, dict.monthsShort, lang);
 
   const options: ApexOptions = {
     chart: {
@@ -18,7 +26,7 @@ export default function MonthlyChart({ summary }: { summary: Summary }) {
       fontFamily: "inherit",
       animations: { enabled: true, speed: 900 },
     },
-    theme: { mode: "dark" },
+    theme: { mode: palette.mode },
     colors: ["#8b5cf6"],
     dataLabels: { enabled: false },
     stroke: { curve: "smooth", width: 3 },
@@ -35,13 +43,13 @@ export default function MonthlyChart({ summary }: { summary: Summary }) {
         ],
       },
     },
-    grid: { borderColor: "rgba(255,255,255,0.06)", strokeDashArray: 4 },
+    grid: { borderColor: palette.gridBorder, strokeDashArray: 4 },
     xaxis: {
       categories,
       labels: {
         rotate: -45,
-        style: { colors: "#9b96c4", fontSize: "11px" },
-        formatter: (v: string) => (v ? formatMonth(v) : v),
+        style: { colors: palette.textMuted, fontSize: "11px" },
+        formatter: (v: string) => (v ? fmtMonth(v) : v),
       },
       axisBorder: { show: false },
       axisTicks: { show: false },
@@ -49,19 +57,19 @@ export default function MonthlyChart({ summary }: { summary: Summary }) {
     },
     yaxis: {
       labels: {
-        style: { colors: "#9b96c4" },
-        formatter: (v: number) => formatNumber(v),
+        style: { colors: palette.textMuted },
+        formatter: (v: number) => formatNumber(v, lang),
       },
     },
     tooltip: {
-      theme: "dark",
-      x: { formatter: (val) => (val ? formatMonth(String(val)) : "") },
-      y: { formatter: (v: number) => `${formatNumber(v)} kölcsönzés` },
+      theme: palette.mode,
+      x: { formatter: (val) => (val ? fmtMonth(String(val)) : "") },
+      y: { formatter: (v: number) => `${formatNumber(v, lang)} ${t("stats.checkoutsSuffix")}` },
     },
     markers: { size: 0, hover: { size: 6 } },
   };
 
-  const series = [{ name: "Kölcsönzés", data: data.map((d) => d.checkouts) }];
+  const series = [{ name: t("stats.checkoutsSuffix"), data: data.map((d) => d.checkouts) }];
 
   return (
     <div className="glass p-5 sm:p-7">

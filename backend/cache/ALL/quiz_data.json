@@ -1,0 +1,112 @@
+{
+  "book_quiz": {
+    "top_books": [
+      {
+        "title": "A Szent Johanna gimi",
+        "author": "Leiner Laura",
+        "record_id": "bibSOK00529007",
+        "checkouts": 862
+      },
+      {
+        "title": "Garfield",
+        "author": null,
+        "record_id": "bibSOK00465733",
+        "checkouts": 655
+      },
+      {
+        "title": "Az orvosi élettan tankönyve",
+        "author": "Fonyó Attila",
+        "record_id": "bibJAT00887008",
+        "checkouts": 612
+      },
+      {
+        "title": "Idődetektívek",
+        "author": "Lenk, Fabian",
+        "record_id": "bibSOK00456179",
+        "checkouts": 586
+      },
+      {
+        "title": "Munkajog",
+        "author": "Kiss György",
+        "record_id": "bibMOK06495884",
+        "checkouts": 468
+      }
+    ],
+    "decoys": [
+      {
+        "title": "Személyiségpszichológia",
+        "author": "Carver, Charles S.",
+        "checkouts": 180
+      },
+      {
+        "title": "Utazás a Föld középpontja felé : regény",
+        "author": "Verne, Jules",
+        "checkouts": 16
+      },
+      {
+        "title": "Tisztán soul : [Garfield-poénok 2010-ből]",
+        "author": "Davis, Jim",
+        "checkouts": 7
+      },
+      {
+        "title": "Csomagolj a családnak : 95 izgalmas és sokszínű útravaló",
+        "author": "Szabó-Ballók Amarilla",
+        "checkouts": 4
+      },
+      {
+        "title": "Családmesék : a szeretet tankönyve",
+        "author": "Kun Erzsébet",
+        "checkouts": 3
+      },
+      {
+        "title": "Bevezetés az egzisztenciális pszichológiába",
+        "author": "Kőváry Zoltán",
+        "checkouts": 2
+      },
+      {
+        "title": "Sorozatgyilkosok : sorozatgyilkosságok Magyarországon : 1900-2003",
+        "author": "Faragó Ottó",
+        "checkouts": 2
+      },
+      {
+        "title": "Neuróziselmélet, pszichoterápia és pszichoszomatikus medicina",
+        "author": "Hoffmann, Sven Olaf",
+        "checkouts": 1
+      },
+      {
+        "title": "Horda",
+        "author": "Aguirre, Ann",
+        "checkouts": 1
+      },
+      {
+        "title": "Rejtelmes anyanyelvünk : magyar szócsoportok eredete",
+        "author": "Benkóczy György",
+        "checkouts": 1
+      }
+    ]
+  },
+  "author_quiz": {
+    "top_authors": [
+      {
+        "author": "Bartos Erika",
+        "checkouts": 9396
+      },
+      {
+        "author": "Dami, Elisabetta",
+        "checkouts": 9107
+      },
+      {
+        "author": "Berg Judit",
+        "checkouts": 8050
+      },
+      {
+        "author": "Marék Veronika",
+        "checkouts": 4078
+      },
+      {
+        "author": "Schneider, Liane",
+        "checkouts": 3905
+      }
+    ]
+  }
+}

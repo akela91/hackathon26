@@ -1,0 +1,272 @@
+{
+  "generated_at": "2026-07-23T13:03:13.284581+00:00",
+  "dataset": "mini",
+  "scope": "SOKO",
+  "total_checkouts": 581682,
+  "total_value_huf": 1236306095,
+  "unique_patrons": 16167,
+  "unique_titles": 72303,
+  "total_renewals": 324477,
+  "avg_renewals": 0.56,
+  "libraries": [
+    "SOKO"
+  ],
+  "by_year": [
+    {
+      "year": "2024",
+      "checkouts": 282955,
+      "value_huf": 587851507.4399999
+    },
+    {
+      "year": "2025",
+      "checkouts": 298727,
+      "value_huf": 648454588.0399992
+    }
+  ],
+  "by_library": [
+    {
+      "library": "SOKO",
+      "checkouts": 581682,
+      "value_huf": 1236306095.4799995,
+      "patrons": 16167
+    }
+  ],
+  "by_doc_type": [
+    {
+      "code": "B",
+      "checkouts": 567867,
+      "label": "Könyv"
+    },
+    {
+      "code": "F",
+      "checkouts": 5819,
+      "label": "F"
+    },
+    {
+      "code": "S",
+      "checkouts": 4844,
+      "label": "Periodika / Sorozat"
+    },
+    {
+      "code": "R",
+      "checkouts": 2070,
+      "label": "R"
+    },
+    {
+      "code": "C",
+      "checkouts": 877,
+      "label": "AV / CD"
+    },
+    {
+      "code": "M",
+      "checkouts": 197,
+      "label": "Térkép"
+    },
+    {
+      "code": "U",
+      "checkouts": 8,
+      "label": "U"
+    }
+  ],
+  "by_language": [
+    {
+      "language": "hun",
+      "checkouts": 574625
+    },
+    {
+      "language": "eng",
+      "checkouts": 4574
+    },
+    {
+      "language": "ger",
+      "checkouts": 1256
+    },
+    {
+      "language": "fre",
+      "checkouts": 267
+    },
+    {
+      "language": "ita",
+      "checkouts": 246
+    },
+    {
+      "language": "rus",
+      "checkouts": 163
+    }
+  ],
+  "top_renewed_books": [
+    {
+      "title": "A Szent Johanna gimi",
+      "author": "Leiner Laura",
+      "total_renewals": 459,
+      "checkouts": 862
+    },
+    {
+      "title": "Idődetektívek",
+      "author": "Lenk, Fabian",
+      "total_renewals": 338,
+      "checkouts": 586
+    },
+    {
+      "title": "Lengemesék",
+      "author": "Berg Judit",
+      "total_renewals": 332,
+      "checkouts": 441
+    },
+    {
+      "title": "Időfutár",
+      "author": "Gimesi Dóra",
+      "total_renewals": 321,
+      "checkouts": 459
+    },
+    {
+      "title": "Rumini",
+      "author": "Berg Judit",
+      "total_renewals": 244,
+      "checkouts": 246
+    },
+    {
+      "title": "Egri csillagok",
+      "author": "Gárdonyi Géza",
+      "total_renewals": 240,
+      "checkouts": 217
+    },
+    {
+      "title": "Percy Jackson és az olimposziak",
+      "author": "Riordan, Rick",
+      "total_renewals": 230,
+      "checkouts": 392
+    },
+    {
+      "title": "Hunyadi",
+      "author": "Bán János",
+      "total_renewals": 221,
+      "checkouts": 409
+    },
+    {
+      "title": "Dinoszauruszok",
+      "author": "Weinhold, Angela",
+      "total_renewals": 221,
+      "checkouts": 266
+    },
+    {
+      "title": "A Pál utcai fiúk",
+      "author": "Molnár Ferenc",
+      "total_renewals": 214,
+      "checkouts": 249
+    }
+  ],
+  "most_active_period": {
+    "busiest_month": {
+      "month": "2025-01",
+      "checkouts": 29117
+    },
+    "busiest_weekday": {
+      "weekday": 0,
+      "checkouts": 133509,
+      "label": "Hétfő"
+    },
+    "busiest_hour": {
+      "hour": 9,
+      "checkouts": 75088
+    }
+  },
+  "monthly_checkouts": [
+    {
+      "month": "2024-01",
+      "checkouts": 26537
+    },
+    {
+      "month": "2024-02",
+      "checkouts": 24549
+    },
+    {
+      "month": "2024-03",
+      "checkouts": 23268
+    },
+    {
+      "month": "2024-04",
+      "checkouts": 24517
+    },
+    {
+      "month": "2024-05",
+      "checkouts": 23807
+    },
+    {
+      "month": "2024-06",
+      "checkouts": 23188
+    },
+    {
+      "month": "2024-07",
+      "checkouts": 24333
+    },
+    {
+      "month": "2024-08",
+      "checkouts": 20826
+    },
+    {
+      "month": "2024-09",
+      "checkouts": 24061
+    },
+    {
+      "month": "2024-10",
+      "checkouts": 25443
+    },
+    {
+      "month": "2024-11",
+      "checkouts": 24454
+    },
+    {
+      "month": "2024-12",
+      "checkouts": 18686
+    },
+    {
+      "month": "2025-01",
+      "checkouts": 29117
+    },
+    {
+      "month": "2025-02",
+      "checkouts": 23542
+    },
+    {
+      "month": "2025-03",
+      "checkouts": 25485
+    },
+    {
+      "month": "2025-04",
+      "checkouts": 24432
+    },
+    {
+      "month": "2025-05",
+      "checkouts": 23773
+    },
+    {
+      "month": "2025-06",
+      "checkouts": 24492
+    },
+    {
+      "month": "2025-07",
+      "checkouts": 27075
+    },
+    {
+      "month": "2025-08",
+      "checkouts": 19740
+    },
+    {
+      "month": "2025-09",
+      "checkouts": 25750
+    },
+    {
+      "month": "2025-10",
+      "checkouts": 26445
+    },
+    {
+      "month": "2025-11",
+      "checkouts": 23753
+    },
+    {
+      "month": "2025-12",
+      "checkouts": 7395
+    }
+  ]
+}

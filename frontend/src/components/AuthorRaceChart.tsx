@@ -6,6 +6,9 @@ import { Play, Pause, RotateCcw } from "lucide-react";
 import ApexChart from "./charts/ApexChart";
 import type { AuthorsMonthly } from "@/lib/types";
 import { formatMonth, formatNumber } from "@/lib/format";
+import { useLanguage } from "@/lib/language-context";
+import { useTheme } from "@/lib/theme-context";
+import { getChartPalette } from "@/lib/chart-theme";
 
 const PALETTE = [
   "#8b5cf6", "#ec4899", "#f59e0b", "#22d3ee", "#34d399",
@@ -13,6 +16,9 @@ const PALETTE = [
 ];
 
 export default function AuthorRaceChart({ data }: { data: AuthorsMonthly }) {
+  const { t, lang, dict } = useLanguage();
+  const { theme } = useTheme();
+  const palette = getChartPalette(theme);
   const { months, authors } = data;
   const [idx, setIdx] = useState(months.length - 1);
   const [playing, setPlaying] = useState(false);
@@ -62,7 +68,7 @@ export default function AuthorRaceChart({ data }: { data: AuthorsMonthly }) {
         dynamicAnimation: { enabled: true, speed: 650 },
       },
     },
-    theme: { mode: "dark" },
+    theme: { mode: palette.mode },
     plotOptions: {
       bar: {
         horizontal: true,
@@ -75,36 +81,36 @@ export default function AuthorRaceChart({ data }: { data: AuthorsMonthly }) {
     colors,
     dataLabels: {
       enabled: true,
-      formatter: (v: number) => formatNumber(v),
+      formatter: (v: number) => formatNumber(v, lang),
       style: { fontSize: "12px", fontWeight: 700, colors: ["#fff"] },
     },
     legend: { show: false },
-    grid: { borderColor: "rgba(255,255,255,0.06)", xaxis: { lines: { show: true } } },
+    grid: { borderColor: palette.gridBorder, xaxis: { lines: { show: true } } },
     xaxis: {
       categories,
       labels: {
-        style: { colors: "#9b96c4" },
-        formatter: (v: string) => formatNumber(Number(v)),
+        style: { colors: palette.textMuted },
+        formatter: (v: string) => formatNumber(Number(v), lang),
       },
     },
-    yaxis: { labels: { style: { colors: "#f4f2ff", fontSize: "13px" } } },
+    yaxis: { labels: { style: { colors: palette.textStrong, fontSize: "13px" } } },
     tooltip: {
-      theme: "dark",
-      y: { formatter: (v: number) => `${formatNumber(v)} kölcsönzés` },
+      theme: palette.mode,
+      y: { formatter: (v: number) => `${formatNumber(v, lang)} ${t("authorRace.checkoutsSuffix")}` },
     },
   };
 
-  const series = [{ name: "Kölcsönzés", data: values }];
+  const series = [{ name: t("authorRace.checkoutsSuffix"), data: values }];
 
   return (
     <div className="glass p-5 sm:p-7">
       <div className="mb-4 flex flex-col items-start justify-between gap-3 sm:flex-row sm:items-center">
         <div>
           <div className="text-sm uppercase tracking-widest text-muted">
-            Kumulált kölcsönzés eddig:
+            {t("authorRace.cumulativeUntil")}
           </div>
           <div className="text-2xl font-black gradient-text-cool">
-            {formatMonth(months[idx])}
+            {formatMonth(months[idx], dict.monthsShort, lang)}
           </div>
         </div>
         <div className="flex items-center gap-2">
@@ -116,14 +122,14 @@ export default function AuthorRaceChart({ data }: { data: AuthorsMonthly }) {
             className="inline-flex items-center gap-2 rounded-full bg-gradient-to-r from-accent-1 to-accent-2 px-5 py-2.5 font-semibold text-white transition hover:opacity-90"
           >
             {playing ? <Pause className="h-4 w-4" /> : <Play className="h-4 w-4" />}
-            {playing ? "Szünet" : "Lejátszás"}
+            {playing ? t("authorRace.pause") : t("authorRace.play")}
           </button>
           <button
             onClick={() => {
               setPlaying(false);
               setIdx(months.length - 1);
             }}
-            title="Teljes időszak"
+            title={t("authorRace.resetTitle")}
             className="inline-flex rounded-full border border-white/10 bg-white/5 p-2.5 text-muted transition hover:text-foreground"
           >
             <RotateCcw className="h-4 w-4" />

@@ -11,6 +11,7 @@ import {
 } from "lucide-react";
 import type { Summary } from "@/lib/types";
 import { formatNumber, formatHUF, formatMonth } from "@/lib/format";
+import { useLanguage } from "@/lib/language-context";
 import AnimatedCounter from "./ui/AnimatedCounter";
 
 interface Stat {
@@ -23,37 +24,38 @@ interface Stat {
 }
 
 export default function StatsGrid({ summary }: { summary: Summary }) {
+  const { t, lang, dict } = useLanguage();
   const { most_active_period: p } = summary;
 
   const stats: Stat[] = [
     {
       icon: <BookMarked className="h-6 w-6" />,
-      label: "Összes kölcsönzés",
+      label: t("stats.totalCheckouts"),
       value: summary.total_checkouts,
-      format: formatNumber,
+      format: (n) => formatNumber(n, lang),
       accent: "from-violet-500/20 to-transparent",
     },
     {
       icon: <Coins className="h-6 w-6" />,
-      label: "Kiváltott érték",
+      label: t("stats.totalValue"),
       value: summary.total_value_huf,
-      format: (n) => formatHUF(n),
-      hint: "a kölcsönzött állomány nyilvántartási értéke",
+      format: (n) => formatHUF(n, lang),
+      hint: t("stats.totalValueHint"),
       accent: "from-amber-500/20 to-transparent",
     },
     {
       icon: <Users className="h-6 w-6" />,
-      label: "Aktív olvasó",
+      label: t("stats.activePatrons"),
       value: summary.unique_patrons,
-      format: formatNumber,
+      format: (n) => formatNumber(n, lang),
       accent: "from-pink-500/20 to-transparent",
     },
     {
       icon: <RefreshCw className="h-6 w-6" />,
-      label: "Összes hosszabbítás",
+      label: t("stats.totalRenewals"),
       value: summary.total_renewals,
-      format: formatNumber,
-      hint: `átlag ${summary.avg_renewals} / kölcsönzés`,
+      format: (n) => formatNumber(n, lang),
+      hint: t("stats.avgRenewalsHint", { avg: summary.avg_renewals }),
       accent: "from-cyan-500/20 to-transparent",
     },
   ];
@@ -96,25 +98,25 @@ export default function StatsGrid({ summary }: { summary: Summary }) {
         {p.busiest_month && (
           <HighlightCard
             icon={<CalendarClock className="h-5 w-5" />}
-            title="Legpörgősebb hónap"
-            main={formatMonth(p.busiest_month.month)}
-            sub={`${formatNumber(p.busiest_month.checkouts)} kölcsönzés`}
+            title={t("stats.busiestMonth")}
+            main={formatMonth(p.busiest_month.month, dict.monthsShort, lang)}
+            sub={`${formatNumber(p.busiest_month.checkouts, lang)} ${t("stats.checkoutsSuffix")}`}
           />
         )}
         {p.busiest_weekday && (
           <HighlightCard
             icon={<CalendarClock className="h-5 w-5" />}
-            title="Legaktívabb nap"
-            main={p.busiest_weekday.label}
-            sub={`${formatNumber(p.busiest_weekday.checkouts)} kölcsönzés`}
+            title={t("stats.busiestWeekday")}
+            main={dict.weekdays[p.busiest_weekday.weekday] ?? p.busiest_weekday.label}
+            sub={`${formatNumber(p.busiest_weekday.checkouts, lang)} ${t("stats.checkoutsSuffix")}`}
           />
         )}
         {p.busiest_hour && (
           <HighlightCard
             icon={<Clock className="h-5 w-5" />}
-            title="Csúcsidő"
+            title={t("stats.busiestHour")}
             main={`${p.busiest_hour.hour}:00`}
-            sub={`${formatNumber(p.busiest_hour.checkouts)} kölcsönzés`}
+            sub={`${formatNumber(p.busiest_hour.checkouts, lang)} ${t("stats.checkoutsSuffix")}`}
           />
         )}
       </div>

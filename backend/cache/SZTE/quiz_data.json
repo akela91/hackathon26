@@ -1,0 +1,112 @@
+{
+  "book_quiz": {
+    "top_books": [
+      {
+        "title": "Az orvosi élettan tankönyve",
+        "author": "Fonyó Attila",
+        "record_id": "bibJAT00887008",
+        "checkouts": 612
+      },
+      {
+        "title": "Munkajog",
+        "author": "Horváth István",
+        "record_id": "bibJAT00887494",
+        "checkouts": 464
+      },
+      {
+        "title": "Szerződési jog : általános rész",
+        "author": "Vékás Lajos",
+        "record_id": "bibJAT01238222",
+        "checkouts": 383
+      },
+      {
+        "title": "Szövettan : [egyetemi tankönyv]",
+        "author": null,
+        "record_id": "bibJAT00903792",
+        "checkouts": 364
+      },
+      {
+        "title": "Szociálpszichológia",
+        "author": "Smith, Eliot R.",
+        "record_id": "bibJAT00951462",
+        "checkouts": 324
+      }
+    ],
+    "decoys": [
+      {
+        "title": "Érzelmeink",
+        "author": "Oatley, Keith",
+        "checkouts": 81
+      },
+      {
+        "title": "Mi a populizmus",
+        "author": "Müller, Jan-Werner",
+        "checkouts": 5
+      },
+      {
+        "title": "Miért dobtad el az életed? : tabuk nélkül a fiatalkori öngyilkosságról",
+        "author": "Jankovics Éva",
+        "checkouts": 3
+      },
+      {
+        "title": "Kémia 9. : általános kémia",
+        "author": "Villányi Attila",
+        "checkouts": 2
+      },
+      {
+        "title": "Személyes adatok kezelése a munkaviszonyban",
+        "author": "Arany Tóth Mariann",
+        "checkouts": 2
+      },
+      {
+        "title": "Hiszti : [minitréning szülőknek egy elviselhető dackorszakért]",
+        "author": "Pethő Orsolya",
+        "checkouts": 1
+      },
+      {
+        "title": "A practical handbook of language teaching",
+        "author": "Cross, David",
+        "checkouts": 1
+      },
+      {
+        "title": "Mégsem lesz belőle tekintetes asszony ; Vadon virágai : [regények]",
+        "author": "Jókai Mór",
+        "checkouts": 1
+      },
+      {
+        "title": "Gyógynövények a homeopátiában",
+        "author": "Wacker, Andreas",
+        "checkouts": 1
+      },
+      {
+        "title": "Személyiségzavarok gyermekkorban",
+        "author": "Gegesi Kiss Pál",
+        "checkouts": 1
+      }
+    ]
+  },
+  "author_quiz": {
+    "top_authors": [
+      {
+        "author": "Fonyó Attila",
+        "checkouts": 737
+      },
+      {
+        "author": "Dami, Elisabetta",
+        "checkouts": 568
+      },
+      {
+        "author": "Csatlós Erzsébet",
+        "checkouts": 514
+      },
+      {
+        "author": "Sobotta, Johannes",
+        "checkouts": 509
+      },
+      {
+        "author": "Szentágothai János",
+        "checkouts": 484
+      }
+    ]
+  }
+}

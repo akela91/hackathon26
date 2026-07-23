@@ -5,8 +5,15 @@ import { MapPin } from "lucide-react";
 import ApexChart from "./charts/ApexChart";
 import type { HeatmapGeo } from "@/lib/types";
 import { formatNumber } from "@/lib/format";
+import { useLanguage } from "@/lib/language-context";
+import { useTheme } from "@/lib/theme-context";
+import { getChartPalette } from "@/lib/chart-theme";
 
 export default function GeoSection({ data }: { data: HeatmapGeo }) {
+  const { t, lang } = useLanguage();
+  const { theme } = useTheme();
+  const palette = getChartPalette(theme);
+
   const topCities = data.by_city.slice(0, 12).reverse();
 
   const options: ApexOptions = {
@@ -18,7 +25,7 @@ export default function GeoSection({ data }: { data: HeatmapGeo }) {
       fontFamily: "inherit",
       animations: { enabled: true, speed: 800 },
     },
-    theme: { mode: "dark" },
+    theme: { mode: palette.mode },
     plotOptions: {
       bar: { horizontal: true, borderRadius: 6, barHeight: "70%", distributed: true },
     },
@@ -29,37 +36,37 @@ export default function GeoSection({ data }: { data: HeatmapGeo }) {
     ],
     dataLabels: {
       enabled: true,
-      formatter: (v: number) => formatNumber(v),
+      formatter: (v: number) => formatNumber(v, lang),
       style: { fontSize: "11px", fontWeight: 600, colors: ["#fff"] },
     },
     legend: { show: false },
-    grid: { borderColor: "rgba(255,255,255,0.06)" },
+    grid: { borderColor: palette.gridBorder },
     xaxis: {
       categories: topCities.map((c) => c.city),
       labels: {
-        style: { colors: "#9b96c4" },
-        formatter: (v: string) => formatNumber(Number(v)),
+        style: { colors: palette.textMuted },
+        formatter: (v: string) => formatNumber(Number(v), lang),
       },
     },
-    yaxis: { labels: { style: { colors: "#f4f2ff", fontSize: "12px" } } },
+    yaxis: { labels: { style: { colors: palette.textStrong, fontSize: "12px" } } },
     tooltip: {
-      theme: "dark",
-      y: { formatter: (v: number) => `${formatNumber(v)} kölcsönzés` },
+      theme: palette.mode,
+      y: { formatter: (v: number) => `${formatNumber(v, lang)} ${t("stats.checkoutsSuffix")}` },
     },
   };
 
-  const series = [{ name: "Kölcsönzés", data: topCities.map((c) => c.checkouts) }];
+  const series = [{ name: t("stats.checkoutsSuffix"), data: topCities.map((c) => c.checkouts) }];
 
   return (
     <div className="grid grid-cols-1 gap-6 lg:grid-cols-3">
       <div className="glass p-5 sm:p-7 lg:col-span-2">
-        <h3 className="mb-3 text-lg font-bold">Top települések</h3>
+        <h3 className="mb-3 text-lg font-bold">{t("geo.topCitiesTitle")}</h3>
         <ApexChart options={options} series={series} type="bar" height={420} />
       </div>
 
       <div className="glass p-5 sm:p-7">
         <h3 className="mb-4 flex items-center gap-2 text-lg font-bold">
-          <MapPin className="h-5 w-5 text-accent-2" /> Top irányítószámok
+          <MapPin className="h-5 w-5 text-accent-2" /> {t("geo.topZipsTitle")}
         </h3>
         <ul className="space-y-2">
           {data.by_zip.slice(0, 12).map((z, i) => {
@@ -74,7 +81,7 @@ export default function GeoSection({ data }: { data: HeatmapGeo }) {
                 <div className="relative flex items-center justify-between px-3 py-2 text-sm">
                   <span className="font-mono font-semibold">{z.zip}</span>
                   <span className="text-muted">{z.city}</span>
-                  <span className="font-bold">{formatNumber(z.checkouts)}</span>
+                  <span className="font-bold">{formatNumber(z.checkouts, lang)}</span>
                 </div>
               </li>
             );

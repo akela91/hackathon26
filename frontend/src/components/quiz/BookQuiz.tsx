@@ -1,10 +1,11 @@
 "use client";
 
-import { useMemo, useState } from "react";
+import { useMemo, useRef, useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { Check, X, ThumbsUp, ThumbsDown } from "lucide-react";
 import type { QuizData } from "@/lib/types";
 import { formatNumber } from "@/lib/format";
+import { useLanguage } from "@/lib/language-context";
 
 interface Card {
   title: string;
@@ -29,6 +30,7 @@ export default function BookQuiz({
   quiz: QuizData;
   onComplete: (correct: number, total: number) => void;
 }) {
+  const { t, lang } = useLanguage();
   const cards = useMemo<Card[]>(() => {
     const tops = quiz.book_quiz.top_books
       .slice(0, 4)
@@ -42,23 +44,34 @@ export default function BookQuiz({
   const [i, setI] = useState(0);
   const [correct, setCorrect] = useState(0);
   const [feedback, setFeedback] = useState<null | boolean>(null);
+  // Ref-alapú zár: az azonos tick-en belüli (pl. dupla-kattintás) ismételt
+  // answer()-hívások is kizárva, mert a `feedback` state csak a következő
+  // render-nél frissül, addig több hívás is "null"-nak látná.
+  const answeredRef = useRef(false);
 
   const card = cards[i];
 
   function answer(guessTop: boolean) {
-    if (feedback !== null) return;
+    if (answeredRef.current || !card) return;
+    answeredRef.current = true;
     const right = guessTop === card.isTop;
+    const finalCorrect = correct + (right ? 1 : 0);
     setFeedback(right);
-    if (right) setCorrect((c) => c + 1);
+    if (right) setCorrect(finalCorrect);
     setTimeout(() => {
-      if (i >= cards.length - 1) {
-        onComplete(correct + (right ? 1 : 0), cards.length);
-      } else {
-        setI((v) => v + 1);
-        setFeedback(null);
-      }
+      setI((prevI) => {
+        if (prevI >= cards.length - 1) {
+          onComplete(finalCorrect, cards.length);
+          return prevI;
+        }
+        return prevI + 1;
+      });
+      setFeedback(null);
+      answeredRef.current = false;
     }, 1100);
   }
+
+  if (!card) return null;
 
   return (
     <div className="mx-auto max-w-xl">
@@ -67,7 +80,7 @@ export default function BookQuiz({
           {i + 1} / {cards.length}
         </span>
         <span>
-          Pont: <span className="font-bold text-foreground">{correct}</span>
+          {t("quiz.book.scoreLabel")}: <span className="font-bold text-foreground">{correct}</span>
         </span>
       </div>
       <div className="mb-6 h-2 w-full overflow-hidden rounded-full bg-white/5">
@@ -77,10 +90,7 @@ export default function BookQuiz({
         />
       </div>
 
-      <p className="mb-4 text-center text-lg text-muted">
-        Ez a könyv a <span className="gradient-text font-bold">TOP 5</span>{" "}
-        legnépszerűbb közé tartozott?
-      </p>
+      <p className="mb-4 text-center text-lg text-muted">{t("quiz.book.question")}</p>
 
       <AnimatePresence mode="wait">
         <motion.div
@@ -124,9 +134,9 @@ export default function BookQuiz({
                   card.isTop ? "text-emerald-400" : "text-rose-400"
                 }
               >
-                {card.isTop ? "TOP könyv volt" : "Nem volt top"}
+                {card.isTop ? t("quiz.book.topBadge") : t("quiz.book.notTopBadge")}
               </span>{" "}
-              — {formatNumber(card.checkouts)} kölcsönzés
+              — {formatNumber(card.checkouts, lang)} {t("quiz.book.checkoutsSuffix")}
             </motion.div>
           )}
         </motion.div>
@@ -138,14 +148,14 @@ export default function BookQuiz({
           disabled={feedback !== null}
           className="inline-flex items-center justify-center gap-2 rounded-2xl bg-gradient-to-r from-emerald-500 to-teal-500 py-4 font-bold text-white transition hover:opacity-90 disabled:opacity-50"
         >
-          <ThumbsUp className="h-5 w-5" /> Igen, TOP volt
+          <ThumbsUp className="h-5 w-5" /> {t("quiz.book.yes")}
         </button>
         <button
           onClick={() => answer(false)}
           disabled={feedback !== null}
           className="inline-flex items-center justify-center gap-2 rounded-2xl bg-gradient-to-r from-rose-500 to-pink-500 py-4 font-bold text-white transition hover:opacity-90 disabled:opacity-50"
         >
-          <ThumbsDown className="h-5 w-5" /> Nem, kakukktojás
+          <ThumbsDown className="h-5 w-5" /> {t("quiz.book.no")}
         </button>
       </div>
     </div>

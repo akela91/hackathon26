@@ -3,6 +3,7 @@ import type {
   AuthorsMonthly,
   QuizData,
   Heatmaps,
+  EtoAgeHeatmap,
   AppData,
 } from "./types";
 
@@ -17,14 +18,21 @@ async function getJSON<T>(path: string): Promise<T> {
   return (await res.json()) as T;
 }
 
-export async function fetchAppData(): Promise<AppData> {
-  const [summary, authors, quiz, heatmaps] = await Promise.all([
-    getJSON<Summary>("/api/summary"),
-    getJSON<AuthorsMonthly>("/api/authors"),
-    getJSON<QuizData>("/api/quiz"),
-    getJSON<Heatmaps>("/api/heatmaps"),
+/**
+ * Az összes adat lekérése egy adott könyvtár scope-ra ("ALL" vagy egy
+ * konkrét könyvtárkód). A backend minden végpontot előre kiszámolva szolgál
+ * ki scope-onként, így ez is csak statikus JSON-öket olvas fel.
+ */
+export async function fetchAppData(library: string = "ALL"): Promise<AppData> {
+  const q = `?library=${encodeURIComponent(library)}`;
+  const [summary, authors, quiz, heatmaps, etoAge] = await Promise.all([
+    getJSON<Summary>(`/api/summary${q}`),
+    getJSON<AuthorsMonthly>(`/api/authors${q}`),
+    getJSON<QuizData>(`/api/quiz${q}`),
+    getJSON<Heatmaps>(`/api/heatmaps${q}`),
+    getJSON<EtoAgeHeatmap>(`/api/heatmaps/eto-age${q}`),
   ]);
-  return { summary, authors, quiz, heatmaps };
+  return { summary, authors, quiz, heatmaps, etoAge };
 }
 
 export { API_URL };

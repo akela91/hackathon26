@@ -1,0 +1,267 @@
+{
+  "generated_at": "2026-07-23T13:03:13.669885+00:00",
+  "dataset": "mini",
+  "scope": "SZTE",
+  "total_checkouts": 150811,
+  "total_value_huf": 656721722,
+  "unique_patrons": 12305,
+  "unique_titles": 49115,
+  "total_renewals": 31612,
+  "avg_renewals": 0.21,
+  "libraries": [
+    "SZTE"
+  ],
+  "by_year": [
+    {
+      "year": "2024",
+      "checkouts": 76547,
+      "value_huf": 325575202.32
+    },
+    {
+      "year": "2025",
+      "checkouts": 74264,
+      "value_huf": 331146520.35999995
+    }
+  ],
+  "by_library": [
+    {
+      "library": "SZTE",
+      "checkouts": 150811,
+      "value_huf": 656721722.680003,
+      "patrons": 12305
+    }
+  ],
+  "by_doc_type": [
+    {
+      "code": "B",
+      "checkouts": 149763,
+      "label": "Könyv"
+    },
+    {
+      "code": "C",
+      "checkouts": 963,
+      "label": "AV / CD"
+    },
+    {
+      "code": "M",
+      "checkouts": 39,
+      "label": "Térkép"
+    },
+    {
+      "code": "S",
+      "checkouts": 36,
+      "label": "Periodika / Sorozat"
+    },
+    {
+      "code": "D",
+      "checkouts": 5,
+      "label": "Disszertáció"
+    },
+    {
+      "code": "R",
+      "checkouts": 5,
+      "label": "R"
+    }
+  ],
+  "by_language": [
+    {
+      "language": "hun",
+      "checkouts": 133873
+    },
+    {
+      "language": "eng",
+      "checkouts": 9246
+    },
+    {
+      "language": "ger",
+      "checkouts": 3648
+    },
+    {
+      "language": "fre",
+      "checkouts": 885
+    },
+    {
+      "language": "spa",
+      "checkouts": 792
+    },
+    {
+      "language": "ita",
+      "checkouts": 643
+    }
+  ],
+  "top_renewed_books": [
+    {
+      "title": "Összhangzattan : a klasszikus zene összhangrendjének elmélete",
+      "author": "Kesztler Lőrinc",
+      "total_renewals": 38,
+      "checkouts": 50
+    },
+    {
+      "title": "Humán anatómiai atlasz",
+      "author": "Netter, Frank Henry",
+      "total_renewals": 35,
+      "checkouts": 52
+    },
+    {
+      "title": "Elmélkedések",
+      "author": "Marcus Aurelius",
+      "total_renewals": 29,
+      "checkouts": 43
+    },
+    {
+      "title": "A tiszta ész kritikája",
+      "author": "Kant, Immanuel",
+      "total_renewals": 28,
+      "checkouts": 29
+    },
+    {
+      "title": "Alkalmazott élettan - kórélettan",
+      "author": null,
+      "total_renewals": 27,
+      "checkouts": 66
+    },
+    {
+      "title": "Tápanyag-gazdálkodás : [tankönyv]",
+      "author": null,
+      "total_renewals": 27,
+      "checkouts": 19
+    },
+    {
+      "title": "Funkcionális anatómia : [tankönyv]",
+      "author": "Tarsoly Emil",
+      "total_renewals": 26,
+      "checkouts": 69
+    },
+    {
+      "title": "Vadbiológia : [az egyetemek és főiskolák vadgazdálkodási, erdészeti és természetvédelmi képzésében javasolt tankönyv]",
+      "author": "Csányi Sándor",
+      "total_renewals": 26,
+      "checkouts": 29
+    },
+    {
+      "title": "Talajtan",
+      "author": "Stefanovits Pál",
+      "total_renewals": 26,
+      "checkouts": 21
+    },
+    {
+      "title": "Traumatológiai fizioterápia : tankönyv : Az egyes mozgásszervi szegmentumok sérüléseinek fizioterápiája. 2. köt.",
+      "author": "Tim Irma, Darabosné",
+      "total_renewals": 25,
+      "checkouts": 148
+    }
+  ],
+  "most_active_period": {
+    "busiest_month": {
+      "month": "2024-10",
+      "checkouts": 8312
+    },
+    "busiest_weekday": {
+      "weekday": 0,
+      "checkouts": 30131,
+      "label": "Hétfő"
+    },
+    "busiest_hour": {
+      "hour": 10,
+      "checkouts": 13402
+    }
+  },
+  "monthly_checkouts": [
+    {
+      "month": "2024-01",
+      "checkouts": 7178
+    },
+    {
+      "month": "2024-02",
+      "checkouts": 7238
+    },
+    {
+      "month": "2024-03",
+      "checkouts": 7756
+    },
+    {
+      "month": "2024-04",
+      "checkouts": 8178
+    },
+    {
+      "month": "2024-05",
+      "checkouts": 6584
+    },
+    {
+      "month": "2024-06",
+      "checkouts": 4137
+    },
+    {
+      "month": "2024-07",
+      "checkouts": 2837
+    },
+    {
+      "month": "2024-08",
+      "checkouts": 2149
+    },
+    {
+      "month": "2024-09",
+      "checkouts": 7013
+    },
+    {
+      "month": "2024-10",
+      "checkouts": 8312
+    },
+    {
+      "month": "2024-11",
+      "checkouts": 8015
+    },
+    {
+      "month": "2024-12",
+      "checkouts": 6139
+    },
+    {
+      "month": "2025-01",
+      "checkouts": 6727
+    },
+    {
+      "month": "2025-02",
+      "checkouts": 6895
+    },
+    {
+      "month": "2025-03",
+      "checkouts": 8171
+    },
+    {
+      "month": "2025-04",
+      "checkouts": 7381
+    },
+    {
+      "month": "2025-05",
+      "checkouts": 6404
+    },
+    {
+      "month": "2025-06",
+      "checkouts": 4415
+    },
+    {
+      "month": "2025-07",
+      "checkouts": 2503
+    },
+    {
+      "month": "2025-08",
+      "checkouts": 1882
+    },
+    {
+      "month": "2025-09",
+      "checkouts": 6419
+    },
+    {
+      "month": "2025-10",
+      "checkouts": 7297
+    },
+    {
+      "month": "2025-11",
+      "checkouts": 6703
+    },
+    {
+      "month": "2025-12",
+      "checkouts": 1129
+    }
+  ]
+}

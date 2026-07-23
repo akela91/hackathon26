@@ -6,10 +6,22 @@
   --muted: #9b96c4;
   --card: rgba(255, 255, 255, 0.04);
   --card-border: rgba(255, 255, 255, 0.09);
+  --card-solid: #14122a;
+  --navbar-bg: rgba(7, 6, 15, 0.72);
   --accent-1: #8b5cf6; /* violet */
   --accent-2: #ec4899; /* pink   */
   --accent-3: #f59e0b; /* amber  */
   --accent-4: #22d3ee; /* cyan   */
+}
+
+:root[data-theme="light"] {
+  --background: #f6f5fb;
+  --foreground: #1c1830;
+  --muted: #5b5580;
+  --card: rgba(28, 20, 60, 0.045);
+  --card-border: rgba(28, 20, 60, 0.10);
+  --card-solid: #ffffff;
+  --navbar-bg: rgba(246, 245, 251, 0.78);
 }
 
 @theme inline {
@@ -33,6 +45,7 @@ body {
   color: var(--foreground);
   font-family: var(--font-geist-sans), system-ui, sans-serif;
   overflow-x: hidden;
+  transition: background-color 0.3s ease, color 0.3s ease;
 }
 
 /* Élő, mozgó háttér-glow */
@@ -46,6 +59,14 @@ body {
     radial-gradient(50% 45% at 50% 95%, rgba(34, 211, 238, 0.20), transparent 60%),
     var(--background);
   animation: aurora 18s ease-in-out infinite alternate;
+}
+
+:root[data-theme="light"] .bg-aurora {
+  background:
+    radial-gradient(45% 40% at 15% 12%, rgba(139, 92, 246, 0.16), transparent 60%),
+    radial-gradient(40% 35% at 85% 18%, rgba(236, 72, 153, 0.13), transparent 60%),
+    radial-gradient(50% 45% at 50% 95%, rgba(34, 211, 238, 0.10), transparent 60%),
+    var(--background);
 }
 
 @keyframes aurora {
@@ -88,30 +109,115 @@ body {
 
 .text-muted { color: var(--muted); }
 
+.no-scrollbar { scrollbar-width: none; -ms-overflow-style: none; }
+.no-scrollbar::-webkit-scrollbar { display: none; }
+
+/* Sticky navbar */
+.navbar {
+  position: sticky;
+  top: 0;
+  z-index: 40;
+  background: var(--navbar-bg);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border-bottom: 1px solid var(--card-border);
+}
+
 /* Scrollbar */
 ::-webkit-scrollbar { width: 10px; }
-::-webkit-scrollbar-track { background: #0a0916; }
+::-webkit-scrollbar-track { background: var(--background); }
 ::-webkit-scrollbar-thumb {
   background: linear-gradient(var(--accent-1), var(--accent-2));
   border-radius: 10px;
 }
 
-/* ApexCharts sötét téma finomhangolás */
+/* ApexCharts finomhangolás – a saját CSS változóinkkal, hogy témát váltson */
 .apexcharts-tooltip {
-  background: #14122a !important;
+  background: var(--card-solid) !important;
   border: 1px solid var(--card-border) !important;
   color: var(--foreground) !important;
-  box-shadow: 0 10px 40px rgba(0,0,0,0.5) !important;
+  box-shadow: 0 10px 40px rgba(0,0,0,0.25) !important;
 }
 .apexcharts-tooltip-title {
-  background: #1c1938 !important;
+  background: var(--card-solid) !important;
   border-bottom: 1px solid var(--card-border) !important;
 }
 .apexcharts-menu {
-  background: #14122a !important;
+  background: var(--card-solid) !important;
   border: 1px solid var(--card-border) !important;
+  color: var(--foreground) !important;
 }
 .apexcharts-text, .apexcharts-legend-text {
   fill: var(--muted) !important;
   color: var(--muted) !important;
+}
+
+/* Dupla-thumb range slider (életkor tartomány) */
+.range-slider {
+  position: relative;
+  height: 2.5rem;
+}
+.range-slider input[type="range"] {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  width: 100%;
+  transform: translateY(-50%);
+  -webkit-appearance: none;
+  appearance: none;
+  background: transparent;
+  pointer-events: none;
+  margin: 0;
+}
+.range-slider input[type="range"]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  pointer-events: auto;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, var(--accent-1), var(--accent-2));
+  border: 2px solid var(--foreground);
+  cursor: grab;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.3);
+}
+.range-slider input[type="range"]::-moz-range-thumb {
+  pointer-events: auto;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, var(--accent-1), var(--accent-2));
+  border: 2px solid var(--foreground);
+  cursor: grab;
+}
+.range-slider input[type="range"]::-webkit-slider-runnable-track {
+  background: transparent;
+}
+.range-slider .range-track {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  width: 100%;
+  height: 6px;
+  transform: translateY(-50%);
+  border-radius: 999px;
+  background: var(--card-border);
+}
+.range-slider .range-track-fill {
+  position: absolute;
+  top: 50%;
+  height: 6px;
+  transform: translateY(-50%);
+  border-radius: 999px;
+  background: linear-gradient(90deg, var(--accent-1), var(--accent-2));
+}
+
+/* Mongúz easter egg */
+@keyframes mongoose-peek {
+  0%   { transform: translateY(100%) rotate(0deg); opacity: 0; }
+  15%  { transform: translateY(0%) rotate(-4deg); opacity: 1; }
+  85%  { transform: translateY(0%) rotate(3deg); opacity: 1; }
+  100% { transform: translateY(100%) rotate(0deg); opacity: 0; }
+}
+.mongoose-peek {
+  animation: mongoose-peek 3.2s ease-in-out forwards;
 }

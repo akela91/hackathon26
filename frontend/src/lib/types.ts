@@ -113,9 +113,20 @@ export interface Heatmaps {
   geo: HeatmapGeo;
 }
 
+export interface EtoAgeHeatmap {
+  age_buckets: string[];
+  age_bucket_starts: number[];
+  bucket_size: number;
+  eto_classes: string[];
+  eto_labels: Record<string, string>;
+  matrix: number[][];
+  max: number;
+}
+
 export interface AppData {
   summary: Summary;
   authors: AuthorsMonthly;
   quiz: QuizData;
   heatmaps: Heatmaps;
+  etoAge: EtoAgeHeatmap;
 }

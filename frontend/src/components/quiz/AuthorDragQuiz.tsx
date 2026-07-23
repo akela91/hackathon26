@@ -22,6 +22,7 @@ import { GripVertical, Trophy, Check, X } from "lucide-react";
 import { motion } from "framer-motion";
 import type { QuizData } from "@/lib/types";
 import { formatNumber } from "@/lib/format";
+import { useLanguage } from "@/lib/language-context";
 
 function shuffle<T>(arr: T[]): T[] {
   const a = [...arr];
@@ -42,11 +43,15 @@ function SortableRow({
   index,
   revealed,
   correctIndex,
+  dragLabel,
+  lang,
 }: {
   item: Item;
   index: number;
   revealed: boolean;
   correctIndex: number;
+  dragLabel: string;
+  lang: "hu" | "en";
 }) {
   const { attributes, listeners, setNodeRef, transform, transition, isDragging } =
     useSortable({ id: item.author, disabled: revealed });
@@ -81,7 +86,7 @@ function SortableRow({
           {...attributes}
           {...listeners}
           className="cursor-grab touch-none text-muted active:cursor-grabbing"
-          aria-label="Húzd az átrendezéshez"
+          aria-label={dragLabel}
         >
           <GripVertical className="h-5 w-5" />
         </button>
@@ -89,7 +94,7 @@ function SortableRow({
       <span className="flex-1 font-semibold">{item.author}</span>
       {revealed && (
         <span className="flex items-center gap-2 text-sm text-muted">
-          {formatNumber(item.checkouts)}
+          {formatNumber(item.checkouts, lang)}
           {isRight ? (
             <Check className="h-5 w-5 text-emerald-400" />
           ) : (
@@ -108,6 +113,7 @@ export default function AuthorDragQuiz({
   quiz: QuizData;
   onComplete: (correct: number, total: number) => void;
 }) {
+  const { t, lang } = useLanguage();
   const correctOrder = useMemo(
     () =>
       [...quiz.author_quiz.top_authors].sort(
@@ -154,11 +160,7 @@ export default function AuthorDragQuiz({
 
   return (
     <div className="mx-auto max-w-xl">
-      <p className="mb-6 text-center text-lg text-muted">
-        Rendezd sorba a szerzőket a{" "}
-        <span className="gradient-text font-bold">legtöbb kölcsönzéstől</span> a
-        legkevesebbig! Húzd a helyükre őket.
-      </p>
+      <p className="mb-6 text-center text-lg text-muted">{t("quiz.author.instruction")}</p>
 
       <DndContext
         sensors={sensors}
@@ -177,6 +179,8 @@ export default function AuthorDragQuiz({
                 index={idx}
                 revealed={revealed}
                 correctIndex={correctIndexOf(it.author)}
+                dragLabel={t("quiz.author.dragLabel")}
+                lang={lang}
               />
             ))}
           </div>
@@ -189,7 +193,7 @@ export default function AuthorDragQuiz({
           onClick={check}
           className="mt-8 inline-flex w-full items-center justify-center gap-2 rounded-2xl bg-gradient-to-r from-accent-1 to-accent-2 py-4 text-lg font-bold text-white transition hover:opacity-90"
         >
-          <Trophy className="h-5 w-5" /> Ellenőrzés
+          <Trophy className="h-5 w-5" /> {t("quiz.author.check")}
         </motion.button>
       )}
     </div>

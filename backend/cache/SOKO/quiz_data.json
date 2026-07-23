@@ -1,0 +1,112 @@
+{
+  "book_quiz": {
+    "top_books": [
+      {
+        "title": "A Szent Johanna gimi",
+        "author": "Leiner Laura",
+        "record_id": "bibSOK00529007",
+        "checkouts": 862
+      },
+      {
+        "title": "Garfield",
+        "author": null,
+        "record_id": "bibSOK00465733",
+        "checkouts": 655
+      },
+      {
+        "title": "Idődetektívek",
+        "author": "Lenk, Fabian",
+        "record_id": "bibSOK00456179",
+        "checkouts": 586
+      },
+      {
+        "title": "Időfutár",
+        "author": "Gimesi Dóra",
+        "record_id": "bibSOK00536026",
+        "checkouts": 459
+      },
+      {
+        "title": "Lengemesék",
+        "author": "Berg Judit",
+        "record_id": "bibSOK00537281",
+        "checkouts": 441
+      }
+    ],
+    "decoys": [
+      {
+        "title": "A füredi lány",
+        "author": "Karády Anna",
+        "checkouts": 163
+      },
+      {
+        "title": "Hét év távolság",
+        "author": "Poston, Ashley",
+        "checkouts": 20
+      },
+      {
+        "title": "Nagy levegőt!",
+        "author": "Balázsy Panna",
+        "checkouts": 10
+      },
+      {
+        "title": "Felkavaró tartalom : a nyugalom megzavarásdára alkalmas történetek",
+        "author": "Gaiman, Neil",
+        "checkouts": 6
+      },
+      {
+        "title": "Tündérujjak",
+        "author": "Courths-Mahler, Hedwig",
+        "checkouts": 4
+      },
+      {
+        "title": "Claudia és James kiássák a csatabárdot",
+        "author": "Rodkey, Geoff",
+        "checkouts": 3
+      },
+      {
+        "title": "Ausztria története",
+        "author": "Zöllner, Erich",
+        "checkouts": 2
+      },
+      {
+        "title": "Szőlőből bor",
+        "author": "Keszi Imre",
+        "checkouts": 1
+      },
+      {
+        "title": "A gyógyító : afrikai novellák",
+        "author": "Vadas, Marek",
+        "checkouts": 1
+      },
+      {
+        "title": "Marci mosogat ; Árnyjáték",
+        "author": "Tóth Krisztina",
+        "checkouts": 1
+      }
+    ]
+  },
+  "author_quiz": {
+    "top_authors": [
+      {
+        "author": "Bartos Erika",
+        "checkouts": 9254
+      },
+      {
+        "author": "Dami, Elisabetta",
+        "checkouts": 8539
+      },
+      {
+        "author": "Berg Judit",
+        "checkouts": 7867
+      },
+      {
+        "author": "Marék Veronika",
+        "checkouts": 4040
+      },
+      {
+        "author": "Schneider, Liane",
+        "checkouts": 3905
+      }
+    ]
+  }
+}

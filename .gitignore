@@ -21,8 +21,9 @@ env/
 .mypy_cache/
 .ruff_cache/
 
-# Pipeline kimenet (regenerálható: python pipeline/process_data.py)
-backend/cache/*.json
+# A pipeline kimenetét (backend/cache/) SZÁNDÉKOSAN verziózzuk: a nyers data/
+# git-ből kizárt (1.4 GB), így klón után a cache nem regenerálható — ezekkel az
+# előre aggregált JSON-okkal viszont a repo azonnal demózható/futtatható.
 
 # --- Node / Next.js / frontend build ---
 frontend/node_modules/

@@ -4,12 +4,15 @@ import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { Gamepad2, BookOpen, ListOrdered, Award, RotateCcw } from "lucide-react";
 import type { QuizData } from "@/lib/types";
+import { useLanguage } from "@/lib/language-context";
 import BookQuiz from "./BookQuiz";
 import AuthorDragQuiz from "./AuthorDragQuiz";
+import MongooseEgg from "@/components/easter-egg/MongooseEgg";
 
 type Stage = "intro" | "books" | "authors" | "result";
 
 export default function QuizSection({ quiz }: { quiz: QuizData }) {
+  const { t } = useLanguage();
   const [stage, setStage] = useState<Stage>("intro");
   const [bookScore, setBookScore] = useState({ correct: 0, total: 0 });
   const [authorScore, setAuthorScore] = useState({ correct: 0, total: 0 });
@@ -26,15 +29,18 @@ export default function QuizSection({ quiz }: { quiz: QuizData }) {
 
   const rank =
     pct >= 90
-      ? { title: "Könyvtár Nagymester", emoji: "🏆", color: "from-amber-400 to-orange-500" }
+      ? { title: t("quiz.result.ranks.master"), emoji: "🏆", color: "from-amber-400 to-orange-500" }
       : pct >= 60
-      ? { title: "Lelkes Olvasó", emoji: "📚", color: "from-violet-500 to-fuchsia-500" }
+      ? { title: t("quiz.result.ranks.enthusiast"), emoji: "📚", color: "from-violet-500 to-fuchsia-500" }
       : pct >= 30
-      ? { title: "Kezdő Böngésző", emoji: "🔍", color: "from-cyan-500 to-blue-500" }
-      : { title: "Első Látogatás", emoji: "🌱", color: "from-emerald-500 to-teal-500" };
+      ? { title: t("quiz.result.ranks.beginner"), emoji: "🔍", color: "from-cyan-500 to-blue-500" }
+      : { title: t("quiz.result.ranks.first"), emoji: "🌱", color: "from-emerald-500 to-teal-500" };
 
   return (
-    <div className="glass overflow-hidden p-6 sm:p-10">
+    <div className="glass relative overflow-hidden p-6 sm:p-10">
+      {/* Mongúz easter egg: minden kör-váltásnál felbukkan a kártya sarkában */}
+      <MongooseEgg trigger={stage} ambientIntervalMs={null} mode="corner" />
+
       <AnimatePresence mode="wait">
         {stage === "intro" && (
           <motion.div
@@ -47,28 +53,25 @@ export default function QuizSection({ quiz }: { quiz: QuizData }) {
             <div className="mb-4 inline-flex rounded-2xl bg-gradient-to-br from-accent-1 to-accent-2 p-4">
               <Gamepad2 className="h-10 w-10 text-white" />
             </div>
-            <h3 className="text-3xl font-black">Mennyire ismered az adatokat?</h3>
-            <p className="mt-3 text-muted">
-              Két kör vár rád: előbb tippeld meg a népszerű könyveket, majd
-              rendezd sorba a legolvasottabb szerzőket!
-            </p>
+            <h3 className="text-3xl font-black">{t("quiz.intro.title")}</h3>
+            <p className="mt-3 text-muted">{t("quiz.intro.subtitle")}</p>
             <div className="mt-8 grid grid-cols-2 gap-4 text-left">
               <div className="rounded-2xl border border-white/10 bg-white/5 p-4">
                 <BookOpen className="mb-2 h-6 w-6 text-accent-2" />
-                <div className="font-bold">1. kör</div>
-                <div className="text-sm text-muted">TOP könyv vagy kakukktojás?</div>
+                <div className="font-bold">{t("quiz.intro.round1Title")}</div>
+                <div className="text-sm text-muted">{t("quiz.intro.round1Desc")}</div>
               </div>
               <div className="rounded-2xl border border-white/10 bg-white/5 p-4">
                 <ListOrdered className="mb-2 h-6 w-6 text-accent-3" />
-                <div className="font-bold">2. kör</div>
-                <div className="text-sm text-muted">Szerzők sorba rendezése</div>
+                <div className="font-bold">{t("quiz.intro.round2Title")}</div>
+                <div className="text-sm text-muted">{t("quiz.intro.round2Desc")}</div>
               </div>
             </div>
             <button
               onClick={() => setStage("books")}
               className="mt-8 inline-flex items-center gap-2 rounded-full bg-gradient-to-r from-accent-1 to-accent-2 px-8 py-4 text-lg font-bold text-white transition hover:opacity-90"
             >
-              Kezdjük! <Gamepad2 className="h-5 w-5" />
+              {t("quiz.intro.cta")} <Gamepad2 className="h-5 w-5" />
             </button>
           </motion.div>
         )}
@@ -124,7 +127,7 @@ export default function QuizSection({ quiz }: { quiz: QuizData }) {
               {rank.emoji}
             </motion.div>
             <div className="text-sm uppercase tracking-widest text-muted">
-              Az eredményed
+              {t("quiz.result.yourResult")}
             </div>
             <div
               className={`bg-gradient-to-r ${rank.color} bg-clip-text text-4xl font-black text-transparent`}
@@ -137,18 +140,21 @@ export default function QuizSection({ quiz }: { quiz: QuizData }) {
                 {totalCorrect}
                 <span className="text-2xl text-muted">/{totalQuestions}</span>
               </div>
-              <div className="mt-2 text-muted">{pct}% pontosság</div>
+              <div className="mt-2 text-muted">
+                {pct}
+                {t("quiz.result.accuracySuffix")}
+              </div>
             </div>
 
             <div className="mb-8 grid grid-cols-2 gap-4 text-left">
               <ScorePill
                 icon={<BookOpen className="h-5 w-5" />}
-                label="Könyvek"
+                label={t("quiz.result.books")}
                 score={`${bookScore.correct}/${bookScore.total}`}
               />
               <ScorePill
                 icon={<Award className="h-5 w-5" />}
-                label="Szerzők"
+                label={t("quiz.result.authors")}
                 score={`${authorScore.correct}/${authorScore.total}`}
               />
             </div>
@@ -157,7 +163,7 @@ export default function QuizSection({ quiz }: { quiz: QuizData }) {
               onClick={reset}
               className="inline-flex items-center gap-2 rounded-full border border-white/15 bg-white/5 px-6 py-3 font-semibold transition hover:bg-white/10"
             >
-              <RotateCcw className="h-4 w-4" /> Újra
+              <RotateCcw className="h-4 w-4" /> {t("quiz.result.again")}
             </button>
           </motion.div>
         )}

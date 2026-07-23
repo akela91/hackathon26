@@ -4,10 +4,22 @@ import type { ApexOptions } from "apexcharts";
 import ApexChart from "./charts/ApexChart";
 import type { HeatmapTime } from "@/lib/types";
 import { formatNumber } from "@/lib/format";
+import { useLanguage } from "@/lib/language-context";
+import { useTheme } from "@/lib/theme-context";
+import { getChartPalette } from "@/lib/chart-theme";
 
 export default function TimeHeatmap({ data }: { data: HeatmapTime }) {
-  // ApexCharts alulról felfelé rajzol; a hétfőt akarjuk felül -> megfordítjuk.
-  const series = [...data.apex_series].reverse();
+  const { t, lang, dict } = useLanguage();
+  const { theme } = useTheme();
+  const palette = getChartPalette(theme);
+
+  // Saját fordított sorozat építése (a hétfőt akarjuk felül -> megfordítjuk).
+  const series = data.weekdays
+    .map((_, wd) => ({
+      name: dict.weekdays[wd] ?? data.weekdays[wd],
+      data: data.hours.map((h) => ({ x: `${String(h).padStart(2, "0")}`, y: data.matrix[wd][h] })),
+    }))
+    .reverse();
 
   const options: ApexOptions = {
     chart: {
@@ -18,9 +30,9 @@ export default function TimeHeatmap({ data }: { data: HeatmapTime }) {
       fontFamily: "inherit",
       animations: { enabled: true, speed: 500 },
     },
-    theme: { mode: "dark" },
+    theme: { mode: palette.mode },
     dataLabels: { enabled: false },
-    stroke: { width: 2, colors: ["#07060f"] },
+    stroke: { width: 2, colors: [palette.mode === "dark" ? "#07060f" : "#f6f5fb"] },
     colors: ["#8b5cf6"],
     plotOptions: {
       heatmap: {
@@ -29,7 +41,7 @@ export default function TimeHeatmap({ data }: { data: HeatmapTime }) {
         shadeIntensity: 0.6,
         colorScale: {
           ranges: [
-            { from: 0, to: 0, color: "#141228", name: "nincs" },
+            { from: 0, to: 0, color: palette.cellEmpty, name: "0" },
             {
               from: 1,
               to: Math.max(1, Math.round(data.max * 0.15)),
@@ -57,16 +69,16 @@ export default function TimeHeatmap({ data }: { data: HeatmapTime }) {
     xaxis: {
       type: "category",
       labels: {
-        style: { colors: "#9b96c4", fontSize: "11px" },
+        style: { colors: palette.textMuted, fontSize: "11px" },
         formatter: (v: string) => `${v}h`,
       },
       axisBorder: { show: false },
       axisTicks: { show: false },
     },
-    yaxis: { labels: { style: { colors: "#f4f2ff", fontSize: "13px" } } },
+    yaxis: { labels: { style: { colors: palette.textStrong, fontSize: "13px" } } },
     tooltip: {
-      theme: "dark",
-      y: { formatter: (v: number) => `${formatNumber(v)} kölcsönzés` },
+      theme: palette.mode,
+      y: { formatter: (v: number) => `${formatNumber(v, lang)} ${t("stats.checkoutsSuffix")}` },
     },
     legend: { show: false },
   };
