@@ -87,6 +87,8 @@ export interface Dictionary {
       round1Desc: string;
       round2Title: string;
       round2Desc: string;
+      round3Title: string;
+      round3Desc: string;
       cta: string;
     };
     book: {
@@ -103,11 +105,25 @@ export interface Dictionary {
       check: string;
       dragLabel: string;
     };
+    numbers: {
+      instruction: string;
+      questionCheckouts: string;
+      questionPatrons: string;
+      questionTitles: string;
+      placeholder: string;
+      submit: string;
+      next: string;
+      correct: string;
+      incorrect: string;
+      realValueLabel: string;
+      scoreLabel: string;
+    };
     result: {
       yourResult: string;
       accuracySuffix: string;
       books: string;
       authors: string;
+      numbers: string;
       again: string;
       ranks: {
         master: string;
@@ -279,11 +295,13 @@ export const dictionaries: Record<Lang, Dictionary> = {
       intro: {
         title: "Mennyire ismered az adatokat?",
         subtitle:
-          "Két kör vár rád: előbb tippeld meg a népszerű könyveket, majd rendezd sorba a legolvasottabb szerzőket!",
+          "Három kör vár rád: tippeld meg a népszerű könyveket, rendezd sorba a legolvasottabb szerzőket, majd találd el a nagy számokat!",
         round1Title: "1. kör",
         round1Desc: "TOP könyv vagy kakukktojás?",
         round2Title: "2. kör",
         round2Desc: "Szerzők sorba rendezése",
+        round3Title: "3. kör",
+        round3Desc: "Találd el a számot!",
         cta: "Kezdjük!",
       },
       book: {
@@ -301,11 +319,25 @@ export const dictionaries: Record<Lang, Dictionary> = {
         check: "Ellenőrzés",
         dragLabel: "Húzd az átrendezéshez",
       },
+      numbers: {
+        instruction: "Tippeld meg a pontos számot! A valós érték ±10%-án belül talált tippnek számít.",
+        questionCheckouts: "Hány kölcsönzés történt összesen?",
+        questionPatrons: "Hány aktív olvasó kölcsönzött?",
+        questionTitles: "Hány egyedi címet kölcsönöztek?",
+        placeholder: "Írd be a tippedet…",
+        submit: "Tippelek",
+        next: "Következő",
+        correct: "Talált! ±10%-on belül voltál.",
+        incorrect: "Nem talált.",
+        realValueLabel: "A valós szám",
+        scoreLabel: "Pont",
+      },
       result: {
         yourResult: "Az eredményed",
         accuracySuffix: "% pontosság",
         books: "Könyvek",
         authors: "Szerzők",
+        numbers: "Számok",
         again: "Újra",
         ranks: {
           master: "Könyvtár Nagymester",
@@ -473,11 +505,13 @@ export const dictionaries: Record<Lang, Dictionary> = {
       intro: {
         title: "How well do you know the data?",
         subtitle:
-          "Two rounds await: first guess the popular books, then sort the most-read authors!",
+          "Three rounds await: guess the popular books, sort the most-read authors, then nail the big numbers!",
         round1Title: "Round 1",
         round1Desc: "Top book or decoy?",
         round2Title: "Round 2",
         round2Desc: "Sort the authors",
+        round3Title: "Round 3",
+        round3Desc: "Guess the number!",
         cta: "Let's go!",
       },
       book: {
@@ -494,11 +528,25 @@ export const dictionaries: Record<Lang, Dictionary> = {
         check: "Check",
         dragLabel: "Drag to reorder",
       },
+      numbers: {
+        instruction: "Guess the exact number! Within ±10% of the real value counts as a hit.",
+        questionCheckouts: "How many checkouts happened in total?",
+        questionPatrons: "How many active patrons checked out books?",
+        questionTitles: "How many unique titles were checked out?",
+        placeholder: "Type your guess…",
+        submit: "Guess",
+        next: "Next",
+        correct: "Hit! You were within ±10%.",
+        incorrect: "Missed it.",
+        realValueLabel: "The real number",
+        scoreLabel: "Score",
+      },
       result: {
         yourResult: "Your result",
         accuracySuffix: "% accuracy",
         books: "Books",
         authors: "Authors",
+        numbers: "Numbers",
         again: "Again",
         ranks: {
           master: "Library Grandmaster",
@@ -663,11 +711,13 @@ export const dictionaries: Record<Lang, Dictionary> = {
     quiz: {
       intro: {
         title: "你有多了解这些数据？",
-        subtitle: "两个回合：先猜热门图书，再把最热门的作者排序！",
+        subtitle: "三个回合：先猜热门图书，再给最热门的作者排序，最后猜猜大数字！",
         round1Title: "第一回合",
         round1Desc: "热门书还是干扰项？",
         round2Title: "第二回合",
         round2Desc: "给作者排序",
+        round3Title: "第三回合",
+        round3Desc: "猜猜这个数字！",
         cta: "开始吧！",
       },
       book: {
@@ -684,11 +734,25 @@ export const dictionaries: Record<Lang, Dictionary> = {
         check: "检查",
         dragLabel: "拖动以重新排序",
       },
+      numbers: {
+        instruction: "猜猜准确的数字！在真实值的 ±10% 以内就算猜中。",
+        questionCheckouts: "总共发生了多少次借阅？",
+        questionPatrons: "有多少活跃读者借过书？",
+        questionTitles: "借阅了多少个不同的书名？",
+        placeholder: "输入你的猜测…",
+        submit: "提交",
+        next: "下一题",
+        correct: "猜中了！在 ±10% 范围内。",
+        incorrect: "没猜中。",
+        realValueLabel: "真实数字",
+        scoreLabel: "得分",
+      },
       result: {
         yourResult: "你的成绩",
         accuracySuffix: "% 准确率",
         books: "图书",
         authors: "作者",
+        numbers: "数字",
         again: "再来一次",
         ranks: {
           master: "图书馆大师",

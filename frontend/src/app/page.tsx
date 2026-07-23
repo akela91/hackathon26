@@ -154,7 +154,7 @@ export default function Home() {
         title={<span className="gradient-text-cool">{t("sections.quiz.title")}</span>}
         subtitle={t("sections.quiz.subtitle")}
       >
-        <QuizSection quiz={quiz} />
+        <QuizSection quiz={quiz} summary={summary} />
       </Section>
 
       <footer className="border-t border-white/5 py-10 text-center text-sm text-muted">
