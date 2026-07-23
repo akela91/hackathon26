@@ -1,0 +1,187 @@
+"use client";
+
+import { useState } from "react";
+import { motion, AnimatePresence } from "framer-motion";
+import { Gamepad2, BookOpen, ListOrdered, Award, RotateCcw } from "lucide-react";
+import type { QuizData } from "@/lib/types";
+import BookQuiz from "./BookQuiz";
+import AuthorDragQuiz from "./AuthorDragQuiz";
+
+type Stage = "intro" | "books" | "authors" | "result";
+
+export default function QuizSection({ quiz }: { quiz: QuizData }) {
+  const [stage, setStage] = useState<Stage>("intro");
+  const [bookScore, setBookScore] = useState({ correct: 0, total: 0 });
+  const [authorScore, setAuthorScore] = useState({ correct: 0, total: 0 });
+
+  const totalCorrect = bookScore.correct + authorScore.correct;
+  const totalQuestions = bookScore.total + authorScore.total;
+  const pct = totalQuestions ? Math.round((totalCorrect / totalQuestions) * 100) : 0;
+
+  function reset() {
+    setBookScore({ correct: 0, total: 0 });
+    setAuthorScore({ correct: 0, total: 0 });
+    setStage("intro");
+  }
+
+  const rank =
+    pct >= 90
+      ? { title: "Könyvtár Nagymester", emoji: "🏆", color: "from-amber-400 to-orange-500" }
+      : pct >= 60
+      ? { title: "Lelkes Olvasó", emoji: "📚", color: "from-violet-500 to-fuchsia-500" }
+      : pct >= 30
+      ? { title: "Kezdő Böngésző", emoji: "🔍", color: "from-cyan-500 to-blue-500" }
+      : { title: "Első Látogatás", emoji: "🌱", color: "from-emerald-500 to-teal-500" };
+
+  return (
+    <div className="glass overflow-hidden p-6 sm:p-10">
+      <AnimatePresence mode="wait">
+        {stage === "intro" && (
+          <motion.div
+            key="intro"
+            initial={{ opacity: 0, scale: 0.95 }}
+            animate={{ opacity: 1, scale: 1 }}
+            exit={{ opacity: 0, scale: 0.95 }}
+            className="mx-auto max-w-lg text-center"
+          >
+            <div className="mb-4 inline-flex rounded-2xl bg-gradient-to-br from-accent-1 to-accent-2 p-4">
+              <Gamepad2 className="h-10 w-10 text-white" />
+            </div>
+            <h3 className="text-3xl font-black">Mennyire ismered az adatokat?</h3>
+            <p className="mt-3 text-muted">
+              Két kör vár rád: előbb tippeld meg a népszerű könyveket, majd
+              rendezd sorba a legolvasottabb szerzőket!
+            </p>
+            <div className="mt-8 grid grid-cols-2 gap-4 text-left">
+              <div className="rounded-2xl border border-white/10 bg-white/5 p-4">
+                <BookOpen className="mb-2 h-6 w-6 text-accent-2" />
+                <div className="font-bold">1. kör</div>
+                <div className="text-sm text-muted">TOP könyv vagy kakukktojás?</div>
+              </div>
+              <div className="rounded-2xl border border-white/10 bg-white/5 p-4">
+                <ListOrdered className="mb-2 h-6 w-6 text-accent-3" />
+                <div className="font-bold">2. kör</div>
+                <div className="text-sm text-muted">Szerzők sorba rendezése</div>
+              </div>
+            </div>
+            <button
+              onClick={() => setStage("books")}
+              className="mt-8 inline-flex items-center gap-2 rounded-full bg-gradient-to-r from-accent-1 to-accent-2 px-8 py-4 text-lg font-bold text-white transition hover:opacity-90"
+            >
+              Kezdjük! <Gamepad2 className="h-5 w-5" />
+            </button>
+          </motion.div>
+        )}
+
+        {stage === "books" && (
+          <motion.div
+            key="books"
+            initial={{ opacity: 0, x: 40 }}
+            animate={{ opacity: 1, x: 0 }}
+            exit={{ opacity: 0, x: -40 }}
+          >
+            <BookQuiz
+              quiz={quiz}
+              onComplete={(correct, total) => {
+                setBookScore({ correct, total });
+                setStage("authors");
+              }}
+            />
+          </motion.div>
+        )}
+
+        {stage === "authors" && (
+          <motion.div
+            key="authors"
+            initial={{ opacity: 0, x: 40 }}
+            animate={{ opacity: 1, x: 0 }}
+            exit={{ opacity: 0, x: -40 }}
+          >
+            <AuthorDragQuiz
+              quiz={quiz}
+              onComplete={(correct, total) => {
+                setAuthorScore({ correct, total });
+                setStage("result");
+              }}
+            />
+          </motion.div>
+        )}
+
+        {stage === "result" && (
+          <motion.div
+            key="result"
+            initial={{ opacity: 0, scale: 0.9 }}
+            animate={{ opacity: 1, scale: 1 }}
+            exit={{ opacity: 0 }}
+            className="mx-auto max-w-lg text-center"
+          >
+            <motion.div
+              initial={{ scale: 0, rotate: -20 }}
+              animate={{ scale: 1, rotate: 0 }}
+              transition={{ type: "spring", delay: 0.1 }}
+              className="mb-4 text-7xl"
+            >
+              {rank.emoji}
+            </motion.div>
+            <div className="text-sm uppercase tracking-widest text-muted">
+              Az eredményed
+            </div>
+            <div
+              className={`bg-gradient-to-r ${rank.color} bg-clip-text text-4xl font-black text-transparent`}
+            >
+              {rank.title}
+            </div>
+
+            <div className="my-8">
+              <div className="text-6xl font-black">
+                {totalCorrect}
+                <span className="text-2xl text-muted">/{totalQuestions}</span>
+              </div>
+              <div className="mt-2 text-muted">{pct}% pontosság</div>
+            </div>
+
+            <div className="mb-8 grid grid-cols-2 gap-4 text-left">
+              <ScorePill
+                icon={<BookOpen className="h-5 w-5" />}
+                label="Könyvek"
+                score={`${bookScore.correct}/${bookScore.total}`}
+              />
+              <ScorePill
+                icon={<Award className="h-5 w-5" />}
+                label="Szerzők"
+                score={`${authorScore.correct}/${authorScore.total}`}
+              />
+            </div>
+
+            <button
+              onClick={reset}
+              className="inline-flex items-center gap-2 rounded-full border border-white/15 bg-white/5 px-6 py-3 font-semibold transition hover:bg-white/10"
+            >
+              <RotateCcw className="h-4 w-4" /> Újra
+            </button>
+          </motion.div>
+        )}
+      </AnimatePresence>
+    </div>
+  );
+}
+
+function ScorePill({
+  icon,
+  label,
+  score,
+}: {
+  icon: React.ReactNode;
+  label: string;
+  score: string;
+}) {
+  return (
+    <div className="flex items-center gap-3 rounded-2xl border border-white/10 bg-white/5 p-4">
+      <div className="text-accent-1">{icon}</div>
+      <div>
+        <div className="text-xs uppercase tracking-widest text-muted">{label}</div>
+        <div className="text-xl font-bold">{score}</div>
+      </div>
+    </div>
+  );
+}

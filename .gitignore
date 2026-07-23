@@ -1,0 +1,61 @@
+# --- Nyers adat (nagy, nem tartozik verziókezelésbe) ---
+/data/
+*.csv.gz
+*.csv
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+# A rendszer Python (3.14) ide telepíti a csomagokat "pip install" után
+# (helyi, gépfüggő install-artifact — csak a gyökérben, NEM a frontend/src/lib-nek szól)
+/Scripts/
+/Lib/
+/Include/
+/pyvenv.cfg
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Pipeline kimenet (regenerálható: python pipeline/process_data.py)
+backend/cache/*.json
+
+# --- Node / Next.js / frontend build ---
+frontend/node_modules/
+node_modules/
+frontend/.next/
+.next/
+frontend/out/
+out/
+frontend/build/
+dist/
+build/
+target/
+.turbo/
+*.tsbuildinfo
+.vercel/
+
+# --- Env / titkok ---
+.env
+.env.local
+.env.*.local
+
+# --- Editor / IDE ---
+.idea/
+.vscode/
+*.iml
+.claude/
+
+# --- OS ---
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# --- Log / tmp ---
+*.log
+npm-debug.log*
+.cache/

@@ -1,0 +1,117 @@
+@import "tailwindcss";
+
+:root {
+  --background: #07060f;
+  --foreground: #f4f2ff;
+  --muted: #9b96c4;
+  --card: rgba(255, 255, 255, 0.04);
+  --card-border: rgba(255, 255, 255, 0.09);
+  --accent-1: #8b5cf6; /* violet */
+  --accent-2: #ec4899; /* pink   */
+  --accent-3: #f59e0b; /* amber  */
+  --accent-4: #22d3ee; /* cyan   */
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-muted: var(--muted);
+  --color-accent-1: var(--accent-1);
+  --color-accent-2: var(--accent-2);
+  --color-accent-3: var(--accent-3);
+  --color-accent-4: var(--accent-4);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-geist-sans), system-ui, sans-serif;
+  overflow-x: hidden;
+}
+
+/* Élő, mozgó háttér-glow */
+.bg-aurora {
+  position: fixed;
+  inset: 0;
+  z-index: -1;
+  background:
+    radial-gradient(45% 40% at 15% 12%, rgba(139, 92, 246, 0.35), transparent 60%),
+    radial-gradient(40% 35% at 85% 18%, rgba(236, 72, 153, 0.28), transparent 60%),
+    radial-gradient(50% 45% at 50% 95%, rgba(34, 211, 238, 0.20), transparent 60%),
+    var(--background);
+  animation: aurora 18s ease-in-out infinite alternate;
+}
+
+@keyframes aurora {
+  0%   { filter: hue-rotate(0deg) saturate(1); transform: scale(1); }
+  100% { filter: hue-rotate(25deg) saturate(1.25); transform: scale(1.08); }
+}
+
+/* Gradiens szöveg */
+.gradient-text {
+  background: linear-gradient(110deg, var(--accent-1), var(--accent-2) 45%, var(--accent-3));
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.gradient-text-cool {
+  background: linear-gradient(110deg, var(--accent-4), var(--accent-1) 70%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+/* Üveg-kártya */
+.glass {
+  background: var(--card);
+  border: 1px solid var(--card-border);
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+  border-radius: 1.5rem;
+}
+
+.glass-hover {
+  transition: transform 0.25s ease, border-color 0.25s ease, box-shadow 0.25s ease;
+}
+.glass-hover:hover {
+  transform: translateY(-4px);
+  border-color: rgba(139, 92, 246, 0.5);
+  box-shadow: 0 20px 60px -20px rgba(139, 92, 246, 0.4);
+}
+
+.text-muted { color: var(--muted); }
+
+/* Scrollbar */
+::-webkit-scrollbar { width: 10px; }
+::-webkit-scrollbar-track { background: #0a0916; }
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(var(--accent-1), var(--accent-2));
+  border-radius: 10px;
+}
+
+/* ApexCharts sötét téma finomhangolás */
+.apexcharts-tooltip {
+  background: #14122a !important;
+  border: 1px solid var(--card-border) !important;
+  color: var(--foreground) !important;
+  box-shadow: 0 10px 40px rgba(0,0,0,0.5) !important;
+}
+.apexcharts-tooltip-title {
+  background: #1c1938 !important;
+  border-bottom: 1px solid var(--card-border) !important;
+}
+.apexcharts-menu {
+  background: #14122a !important;
+  border: 1px solid var(--card-border) !important;
+}
+.apexcharts-text, .apexcharts-legend-text {
+  fill: var(--muted) !important;
+  color: var(--muted) !important;
+}
