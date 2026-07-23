@@ -7,25 +7,32 @@ import { API_URL } from "@/lib/api";
 interface Props {
   isbn?: string | null;
   title?: string | null;
+  author?: string | null;
   className?: string;
-  size?: "S" | "M" | "L";
 }
 
 /**
  * Könyvborító több forrásból, fallback lánccal:
- *   1) lokális cache (/covers/<isbn>.jpg) — a pipeline/fetch_covers.py tölti fel,
- *      render-időben nincs külső hívás/rate limit;
- *   2) backend LIVE végpont (/api/cover/<isbn>) — ha nincs lokálisan, a backend
- *      élőben lekéri (moly.hu → Google → OL), MEGJELENÍTI és el is MENTI a covers
- *      mappába, így legközelebb már az 1) statikus útról jön;
- *   3) elegáns gradiens placeholder (könyv ikon), ha sehol nincs borító.
+ *   1) lokális cache (/covers/<isbn>.jpg) — a fetch_covers.py tölti fel;
+ *   2) backend LIVE végpont (/api/cover?isbn=&title=&author=) — ha nincs lokálisan,
+ *      a backend élőben lekéri (ISBN: moly→Google→OL; ha az sincs, cím/szerző
+ *      alapján moly-keresés), MEGJELENÍTI és el is MENTI a covers mappába;
+ *   3) elegáns gradiens placeholder, ha sehol nincs borító.
+ * ISBN nélküli könyveknél (pl. Zseb-Garfield) egyből a 2) cím/szerző ág fut.
  */
-export default function BookCover({ isbn, title, className = "" }: Props) {
+export default function BookCover({ isbn, title, author, className = "" }: Props) {
   const clean = (isbn || "").replace(/[^0-9Xx]/g, "").toUpperCase();
+
   const sources = useMemo(() => {
-    if (clean.length < 10) return [] as string[];
-    return [`/covers/${clean}.jpg`, `${API_URL}/api/cover/${clean}`];
-  }, [clean]);
+    const q = new URLSearchParams();
+    if (clean.length >= 10) q.set("isbn", clean);
+    if (title) q.set("title", title);
+    if (author) q.set("author", author);
+    const list: string[] = [];
+    if (clean.length >= 10) list.push(`/covers/${clean}.jpg`);
+    if (clean.length >= 10 || title) list.push(`${API_URL}/api/cover?${q.toString()}`);
+    return list;
+  }, [clean, title, author]);
 
   // Melyik forrásnál tartunk; ha túlfut a listán → placeholder.
   const [idx, setIdx] = useState(0);

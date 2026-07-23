@@ -1,66 +1,31 @@
 "use client";
 
-import type { ApexOptions } from "apexcharts";
+import dynamic from "next/dynamic";
 import { MapPin } from "lucide-react";
-import ApexChart from "./charts/ApexChart";
 import type { HeatmapGeo } from "@/lib/types";
 import { formatNumber } from "@/lib/format";
 import { useLanguage } from "@/lib/language-context";
-import { useTheme } from "@/lib/theme-context";
-import { useLibrary } from "@/lib/library-context";
-import { getChartPalette } from "@/lib/chart-theme";
+
+// A Leaflet térkép csak kliensen fut (a window-ra hivatkozik), ezért ssr:false.
+const ReadersMap = dynamic(() => import("./ReadersMap"), {
+  ssr: false,
+  loading: () => (
+    <div className="flex h-[520px] w-full items-center justify-center rounded-2xl text-muted">
+      Térkép betöltése…
+    </div>
+  ),
+});
 
 export default function GeoSection({ data }: { data: HeatmapGeo }) {
   const { t, lang } = useLanguage();
-  const { theme } = useTheme();
-  const { selectedLibrary, selectedYear } = useLibrary();
-  const palette = getChartPalette(theme);
-  const chartKey = `${theme}-${selectedLibrary}-${selectedYear}`;
-
-  const topCities = data.by_city.slice(0, 12).reverse();
-
-  const options: ApexOptions = {
-    chart: {
-      type: "bar",
-      height: 420,
-      background: "transparent",
-      toolbar: { show: false },
-      fontFamily: "inherit",
-      animations: { enabled: true, speed: 800 },
-    },
-    theme: { mode: palette.mode },
-    plotOptions: {
-      bar: { horizontal: true, borderRadius: 6, barHeight: "70%", distributed: true },
-    },
-    colors: palette.categorical,
-    dataLabels: {
-      enabled: true,
-      formatter: (v: number) => formatNumber(v, lang),
-      style: { fontSize: "11px", fontWeight: 600, colors: ["#fff"] },
-    },
-    legend: { show: false },
-    grid: { borderColor: palette.gridBorder },
-    xaxis: {
-      categories: topCities.map((c) => c.city),
-      labels: {
-        style: { colors: palette.textMuted },
-        formatter: (v: string) => formatNumber(Number(v), lang),
-      },
-    },
-    yaxis: { labels: { style: { colors: palette.textStrong, fontSize: "12px" } } },
-    tooltip: {
-      theme: palette.mode,
-      y: { formatter: (v: number) => `${formatNumber(v, lang)} ${t("stats.checkoutsSuffix")}` },
-    },
-  };
-
-  const series = [{ name: t("stats.checkoutsSuffix"), data: topCities.map((c) => c.checkouts) }];
 
   return (
     <div className="grid grid-cols-1 gap-6 lg:grid-cols-3">
-      <div className="glass p-5 sm:p-7 lg:col-span-2">
+      <div className="glass overflow-hidden p-5 sm:p-7 lg:col-span-2">
         <h3 className="mb-3 text-lg font-bold">{t("geo.topCitiesTitle")}</h3>
-        <ApexChart key={chartKey} options={options} series={series} type="bar" height={420} />
+        {/* Térképdiagram: Magyarországra zoomolva, a körök mérete az olvasók
+            számától függ. */}
+        <ReadersMap cities={data.by_city} />
       </div>
 
       <div className="glass p-5 sm:p-7">

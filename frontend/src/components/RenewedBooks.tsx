@@ -41,7 +41,7 @@ export default function RenewedBooks({ summary }: { summary: Summary }) {
                 >
                   {i + 1}
                 </span>
-                <BookCover isbn={b.isbn} title={b.title} size="M" className="w-9" />
+                <BookCover isbn={b.isbn} title={b.title} author={b.author} className="w-9" />
                 <div className="min-w-0 flex-1">
                   <div className="truncate font-semibold" title={b.title}>
                     {b.title}

@@ -49,7 +49,8 @@ export default function LanguageSwitcher() {
         })}
       </div>
       <ImageFlash src="/byd.jpg" trigger={bydTrigger} durationMs={5000} alt="BYD" variant="zoom-right" />
-      <BydBounce trigger={bydTrigger} durationMs={6000} />
+      {/* A BYD ikon addig pattog, amíg a nyelv kínai. */}
+      <BydBounce active={lang === "zh"} />
     </>
   );
 }

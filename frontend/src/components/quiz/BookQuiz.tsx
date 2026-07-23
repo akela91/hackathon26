@@ -123,7 +123,7 @@ export default function BookQuiz({
           <BookCover
             isbn={card.isbn}
             title={card.title}
-            size="L"
+            author={card.author}
             className="mx-auto mb-4 w-28 shadow-xl"
           />
           <div className="mb-2 text-2xl font-black leading-tight">

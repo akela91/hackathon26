@@ -267,24 +267,85 @@ def _fetch_cover_live(isbn: str) -> bytes | None:
     return None
 
 
-@app.get("/api/cover/{isbn}")
-def get_cover(isbn: str) -> Response:
-    """Egy könyv borítója ISBN alapján. Ha nincs a lokális covers cache-ben,
-    ÉLŐBEN lekéri (moly.hu → Google → OL), elmenti a frontend/public/covers-be
-    (így legközelebb a statikus útról jön), és visszaadja a képet. 404, ha
-    sehol nincs borító."""
-    clean = re.sub(r"[^0-9Xx]", "", isbn).upper()
-    if len(clean) < 10:
-        raise HTTPException(status_code=400, detail="Érvénytelen ISBN.")
+def _moly_search_cover(title: str, author: str) -> bytes | None:
+    """Cím/szerző alapú borító a moly.hu-ról: books.json keresés → első találat
+    id → book/{id}.json → cover. Több lekérdezés-variánst próbál (a pontos cím
+    után egyszerűsítve), hogy 'egy jó vagy hasonló' borítót találjon."""
+    import urllib.parse
 
-    path = COVERS_DIR / f"{clean}.jpg"
+    author_norm = re.sub(r"[,]", " ", author or "").strip()
+    title = (title or "").strip()
+    # A kötőjeles/összetett előtag gyakran elrontja a találatot ("Zseb-Garfield"
+    # → "Garfield"), ezért egyszerűsített variánsokat is próbálunk.
+    first_word = re.split(r"[\s:–-]+", title)[0] if title else ""
+    queries = [
+        f"{title} {author_norm}".strip(),
+        title,
+        f"{first_word} {author_norm}".strip(),
+        first_word,
+    ]
+    seen: set[str] = set()
+    for q in queries:
+        q = q.strip()
+        if not q or q in seen:
+            continue
+        seen.add(q)
+        st, body, _ = _http_get(
+            f"https://moly.hu/api/books.json?q={urllib.parse.quote(q)}&key={MOLY_KEY}"
+        )
+        if st != 200 or not body:
+            continue
+        try:
+            books = json.loads(body).get("books") or []
+        except Exception:  # noqa: BLE001
+            continue
+        for item in books[:3]:
+            bid = item.get("id")
+            if not bid:
+                continue
+            st2, body2, _ = _http_get(f"https://moly.hu/api/book/{bid}.json?key={MOLY_KEY}")
+            if st2 != 200 or not body2:
+                continue
+            try:
+                bk = json.loads(body2).get("book", {})
+            except Exception:  # noqa: BLE001
+                continue
+            url = bk.get("cover")
+            if url:
+                s, data, ct = _http_get(url)
+                if s == 200 and _valid_image(data, ct):
+                    return data
+    return None
+
+
+def _title_key(title: str, author: str) -> str:
+    h = hashlib.md5(f"{(title or '').strip()}|{(author or '').strip()}".encode("utf-8")).hexdigest()
+    return f"t_{h[:16]}"
+
+
+@app.get("/api/cover")
+def get_cover(isbn: str = "", title: str = "", author: str = "") -> Response:
+    """Könyvborító ISBN és/vagy cím+szerző alapján. Sorrend: lokális cache →
+    ISBN-alapú élő lekérés (moly → Google → OL) → cím/szerző alapú moly keresés.
+    A talált képet elmenti a covers mappába (ISBN-kulcs vagy title-hash), és
+    visszaadja. 404, ha sehol nincs borító."""
+    clean = re.sub(r"[^0-9Xx]", "", isbn).upper()
+    key = clean if len(clean) >= 10 else (_title_key(title, author) if title else "")
+    if not key:
+        raise HTTPException(status_code=400, detail="Adj meg ISBN-t vagy címet.")
+
+    path = COVERS_DIR / f"{key}.jpg"
     if path.exists():
         return Response(content=path.read_bytes(), media_type="image/jpeg",
                         headers={"Cache-Control": "public, max-age=31536000"})
 
-    data = _fetch_cover_live(clean)
+    data = None
+    if len(clean) >= 10:
+        data = _fetch_cover_live(clean)
+    if not data and title:
+        data = _moly_search_cover(title, author)
     if not data:
-        raise HTTPException(status_code=404, detail="Nincs borító ehhez az ISBN-hez.")
+        raise HTTPException(status_code=404, detail="Nincs borító.")
 
     try:
         COVERS_DIR.mkdir(parents=True, exist_ok=True)

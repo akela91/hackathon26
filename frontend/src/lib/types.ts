@@ -103,6 +103,8 @@ export interface GeoRow {
   city: string;
   checkouts: number;
   patrons: number;
+  lat?: number;
+  lng?: number;
 }
 
 export interface HeatmapGeo {

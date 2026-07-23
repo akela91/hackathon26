@@ -302,8 +302,15 @@ html.unicorn-cursor-active * {
   100% { transform: scale(2); }
 }
 
-/* BYD ikon: folyamatos pörgés (a pattogó mozgást JS állítja). */
-@keyframes byd-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
+/* BYD ikon: sarok-érintéskor egy villanás (nem pörög, csak pattog). */
+.byd-flash {
+  animation: byd-flash-anim 0.45s ease-out;
+}
+@keyframes byd-flash-anim {
+  0% { filter: drop-shadow(0 4px 10px rgba(0,0,0,0.35)) brightness(1); transform: scale(1); }
+  40% {
+    filter: drop-shadow(0 0 22px rgba(255,255,255,0.95)) brightness(2.2);
+    transform: scale(1.35);
+  }
+  100% { filter: drop-shadow(0 4px 10px rgba(0,0,0,0.35)) brightness(1); transform: scale(1); }
 }
