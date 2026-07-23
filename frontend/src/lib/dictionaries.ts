@@ -144,7 +144,7 @@ export const dictionaries: Record<Lang, Dictionary> = {
       titleLine1: "Library",
       titleLine2: "Wrapped",
       subtitle:
-        "Az évünk könyvekben. Nézd meg, mit olvasott a közösség — statisztikák, animált chartok és egy játékos kvíz.",
+        "Lapozzuk fel az évet!",
       statCheckouts: "kölcsönzés",
       statPatrons: "olvasó",
       statTitles: "egyedi cím",
@@ -340,7 +340,7 @@ export const dictionaries: Record<Lang, Dictionary> = {
       titleLine1: "Library",
       titleLine2: "Wrapped",
       subtitle:
-        "Our year in books. See what the community read — stats, animated charts and a playful quiz.",
+        "Let's turn the Page on the Year!",
       statCheckouts: "checkouts",
       statPatrons: "patrons",
       statTitles: "unique titles",
@@ -533,7 +533,7 @@ export const dictionaries: Record<Lang, Dictionary> = {
       titleLine1: "图书馆",
       titleLine2: "年度回顾",
       subtitle:
-        "我们的读书年度。看看大家读了什么——统计数据、动态图表和趣味测验。",
+        "翻开这一年的篇章！",
       statCheckouts: "借阅",
       statPatrons: "读者",
       statTitles: "独立书目",

@@ -18,7 +18,7 @@ interface Props {
  *   3) elegáns gradiens placeholder (könyv ikon), ha egyik forrás sem ad képet.
  */
 export default function BookCover({ isbn, title, className = "", size = "M" }: Props) {
-  const clean = (isbn || "").replace(/[^0-9Xx]/g, "");
+  const clean = (isbn || "").replace(/[^0-9Xx]/g, "").toUpperCase();
   const sources = useMemo(() => {
     if (clean.length < 10) return [] as string[];
     return [

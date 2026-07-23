@@ -2,6 +2,9 @@
 /data/
 *.csv.gz
 *.csv
+# Libri borító-katalógus (~160 MB, meghaladja a GitHub limitet; borító-forrás
+# a fetch_covers.py-nak, a letöltött képek a public/covers-ben verziózva vannak)
+logo/libri_cover.xml
 
 # --- Python ---
 __pycache__/
