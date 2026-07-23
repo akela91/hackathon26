@@ -295,3 +295,15 @@ html.unicorn-cursor-active * {
   0% { transform: scale(0.8) rotate(-3deg); opacity: 0; }
   100% { transform: scale(1) rotate(0deg); opacity: 1; }
 }
+
+/* BYD kép: lassan belezoomol a JOBB oldalára, a feléig (transform-origin jobb). */
+@keyframes byd-zoom-right {
+  0% { transform: scale(1); }
+  100% { transform: scale(2); }
+}
+
+/* BYD ikon: folyamatos pörgés (a pattogó mozgást JS állítja). */
+@keyframes byd-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}

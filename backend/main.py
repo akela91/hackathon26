@@ -18,13 +18,25 @@ Indítás a repo gyökeréből:
 
 from __future__ import annotations
 
+import hashlib
 import json
+import os
+import re
+import urllib.request
 from pathlib import Path
 
 from fastapi import FastAPI, HTTPException, Query
+from fastapi.responses import Response
 from fastapi.middleware.cors import CORSMiddleware
 
-CACHE_DIR = Path(__file__).resolve().parent / "cache"
+BACKEND_DIR = Path(__file__).resolve().parent
+CACHE_DIR = BACKEND_DIR / "cache"
+# A frontend statikus borító-mappája – ide menti a LIVE lekért borítókat, hogy
+# legközelebb már a /covers/<isbn>.jpg statikus útról (rate limit nélkül) jöjjön.
+COVERS_DIR = BACKEND_DIR.parent / "frontend" / "public" / "covers"
+MOLY_KEY = os.environ.get("MOLY_API_KEY", "3984519dacf4a56618d49a59ff0e40df")
+_UA = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) LibraryWrapped/1.0"
+_BAD_HASHES = {"d7c21c65fc861fc5128753e9e091b23c"}  # Google "no image" placeholder
 
 app = FastAPI(
     title="Library Wrapped API",
@@ -198,3 +210,86 @@ def get_heatmap_geo(library: str = LibraryParam, year: str = YearParam) -> dict:
 def get_heatmap_eto_age(library: str = LibraryParam, year: str = YearParam) -> dict:
     """Életkor (5 éves bucket) x ETO főosztály kölcsönzési mátrix."""
     return _load(library, year, "heatmap_eto_age.json")
+
+
+# --- Könyvborító LIVE lekérés + cache ---------------------------------------
+
+def _http_get(url: str, timeout: int = 12) -> tuple[int, bytes, str]:
+    req = urllib.request.Request(url, headers={"User-Agent": _UA})
+    try:
+        with urllib.request.urlopen(req, timeout=timeout) as r:
+            return r.status, r.read(), r.headers.get("Content-Type", "")
+    except Exception:  # noqa: BLE001
+        return 0, b"", ""
+
+
+def _valid_image(data: bytes, content_type: str) -> bool:
+    if len(data) < 2000:
+        return False
+    if "image" not in content_type.lower() and data[:3] != b"\xff\xd8\xff":
+        return False
+    return hashlib.md5(data).hexdigest() not in _BAD_HASHES
+
+
+def _fetch_cover_live(isbn: str) -> bytes | None:
+    """Élő borító-lekérés: moly.hu → Google Books → Open Library."""
+    # 1) moly.hu
+    st, body, _ = _http_get(f"https://moly.hu/api/book_by_isbn.json?q={isbn}&key={MOLY_KEY}")
+    if st == 200 and body:
+        try:
+            url = json.loads(body).get("cover")
+            if url:
+                s, data, ct = _http_get(url)
+                if s == 200 and _valid_image(data, ct):
+                    return data
+        except Exception:  # noqa: BLE001
+            pass
+    # 2) Google Books
+    st, body, _ = _http_get(f"https://www.googleapis.com/books/v1/volumes?q=isbn:{isbn}&country=HU")
+    if st == 200 and body:
+        try:
+            items = json.loads(body).get("items") or []
+            if items:
+                links = items[0].get("volumeInfo", {}).get("imageLinks", {})
+                url = (links.get("thumbnail") or links.get("smallThumbnail") or "").replace(
+                    "http://", "https://"
+                ).replace("&edge=curl", "")
+                if url:
+                    s, data, ct = _http_get(url)
+                    if s == 200 and _valid_image(data, ct):
+                        return data
+        except Exception:  # noqa: BLE001
+            pass
+    # 3) Open Library
+    s, data, ct = _http_get(f"https://covers.openlibrary.org/b/isbn/{isbn}-L.jpg?default=false")
+    if s == 200 and _valid_image(data, ct):
+        return data
+    return None
+
+
+@app.get("/api/cover/{isbn}")
+def get_cover(isbn: str) -> Response:
+    """Egy könyv borítója ISBN alapján. Ha nincs a lokális covers cache-ben,
+    ÉLŐBEN lekéri (moly.hu → Google → OL), elmenti a frontend/public/covers-be
+    (így legközelebb a statikus útról jön), és visszaadja a képet. 404, ha
+    sehol nincs borító."""
+    clean = re.sub(r"[^0-9Xx]", "", isbn).upper()
+    if len(clean) < 10:
+        raise HTTPException(status_code=400, detail="Érvénytelen ISBN.")
+
+    path = COVERS_DIR / f"{clean}.jpg"
+    if path.exists():
+        return Response(content=path.read_bytes(), media_type="image/jpeg",
+                        headers={"Cache-Control": "public, max-age=31536000"})
+
+    data = _fetch_cover_live(clean)
+    if not data:
+        raise HTTPException(status_code=404, detail="Nincs borító ehhez az ISBN-hez.")
+
+    try:
+        COVERS_DIR.mkdir(parents=True, exist_ok=True)
+        path.write_bytes(data)  # cache-mentés a következő kérésekhez
+    except OSError:
+        pass
+    return Response(content=data, media_type="image/jpeg",
+                    headers={"Cache-Control": "public, max-age=31536000"})

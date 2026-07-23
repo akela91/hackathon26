@@ -2,6 +2,7 @@
 
 import { useMemo, useState } from "react";
 import { BookOpen } from "lucide-react";
+import { API_URL } from "@/lib/api";
 
 interface Props {
   isbn?: string | null;
@@ -13,19 +14,18 @@ interface Props {
 /**
  * Könyvborító több forrásból, fallback lánccal:
  *   1) lokális cache (/covers/<isbn>.jpg) — a pipeline/fetch_covers.py tölti fel,
- *      így render-időben nincs külső hívás/rate limit;
- *   2) Open Library élő API (ISBN alapján), ha nincs lokális;
- *   3) elegáns gradiens placeholder (könyv ikon), ha egyik forrás sem ad képet.
+ *      render-időben nincs külső hívás/rate limit;
+ *   2) backend LIVE végpont (/api/cover/<isbn>) — ha nincs lokálisan, a backend
+ *      élőben lekéri (moly.hu → Google → OL), MEGJELENÍTI és el is MENTI a covers
+ *      mappába, így legközelebb már az 1) statikus útról jön;
+ *   3) elegáns gradiens placeholder (könyv ikon), ha sehol nincs borító.
  */
-export default function BookCover({ isbn, title, className = "", size = "M" }: Props) {
+export default function BookCover({ isbn, title, className = "" }: Props) {
   const clean = (isbn || "").replace(/[^0-9Xx]/g, "").toUpperCase();
   const sources = useMemo(() => {
     if (clean.length < 10) return [] as string[];
-    return [
-      `/covers/${clean}.jpg`,
-      `https://covers.openlibrary.org/b/isbn/${clean}-${size}.jpg?default=false`,
-    ];
-  }, [clean, size]);
+    return [`/covers/${clean}.jpg`, `${API_URL}/api/cover/${clean}`];
+  }, [clean]);
 
   // Melyik forrásnál tartunk; ha túlfut a listán → placeholder.
   const [idx, setIdx] = useState(0);

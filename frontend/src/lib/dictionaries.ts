@@ -199,7 +199,7 @@ export const dictionaries: Record<Lang, Dictionary> = {
       },
       quiz: {
         eyebrow: "Játék",
-        title: "Gamifikált kvíz",
+        title: "Kvíz",
         subtitle: "Teszteld magad: mennyire ismered a könyvtár adatait?",
       },
     },
@@ -393,7 +393,7 @@ export const dictionaries: Record<Lang, Dictionary> = {
       },
       quiz: {
         eyebrow: "Play",
-        title: "Gamified quiz",
+        title: "Quiz",
         subtitle: "Test yourself: how well do you know the library data?",
       },
     },
@@ -584,7 +584,7 @@ export const dictionaries: Record<Lang, Dictionary> = {
       },
       quiz: {
         eyebrow: "游戏",
-        title: "趣味测验",
+        title: "测验",
         subtitle: "考考自己：你有多了解图书馆的数据？",
       },
     },

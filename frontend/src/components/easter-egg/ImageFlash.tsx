@@ -10,13 +10,21 @@ interface Props {
   /** Ha ez az érték változik, újra felvillan a kép. 0/undefined = nem villan. */
   trigger: number;
   alt?: string;
+  /** "pop": bepattan. "zoom-right": lassan a jobb oldalára zoomol a feléig. */
+  variant?: "pop" | "zoom-right";
 }
 
 /**
  * Teljes képernyős, elhalványuló kép-overlay, ami `durationMs` után eltűnik.
  * A `trigger` (számláló) növelésével indítható újra.
  */
-export default function ImageFlash({ src, durationMs = 5000, trigger, alt = "" }: Props) {
+export default function ImageFlash({
+  src,
+  durationMs = 5000,
+  trigger,
+  alt = "",
+  variant = "pop",
+}: Props) {
   const [visible, setVisible] = useState(false);
   const [mounted, setMounted] = useState(false);
 
@@ -31,10 +39,19 @@ export default function ImageFlash({ src, durationMs = 5000, trigger, alt = "" }
 
   if (!mounted || !visible) return null;
 
+  const imgStyle =
+    variant === "zoom-right"
+      ? {
+          // Lassú, a teljes megjelenítési idő alatti belezoomolás a jobb oldalra.
+          transformOrigin: "right center",
+          animation: `byd-zoom-right ${durationMs}ms linear forwards`,
+        }
+      : { animation: "pop-in .4s cubic-bezier(0.16,1,0.3,1)" };
+
   return createPortal(
     <div
       onClick={() => setVisible(false)}
-      className="fixed inset-0 z-[100] flex items-center justify-center bg-black/70 backdrop-blur-sm"
+      className="fixed inset-0 z-[100] flex items-center justify-center overflow-hidden bg-black/70 backdrop-blur-sm"
       style={{ animation: "fadein .25s ease" }}
     >
       {/* eslint-disable-next-line @next/next/no-img-element */}
@@ -42,7 +59,7 @@ export default function ImageFlash({ src, durationMs = 5000, trigger, alt = "" }
         src={src}
         alt={alt}
         className="max-h-[80vh] max-w-[86vw] rounded-2xl border-2 border-white/70 object-contain shadow-2xl"
-        style={{ animation: "pop-in .4s cubic-bezier(0.16,1,0.3,1)" }}
+        style={imgStyle}
       />
     </div>,
     document.body

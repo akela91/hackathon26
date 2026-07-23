@@ -4,6 +4,7 @@ import { useState } from "react";
 import { useLanguage } from "@/lib/language-context";
 import type { Lang } from "@/lib/dictionaries";
 import ImageFlash from "@/components/easter-egg/ImageFlash";
+import BydBounce from "@/components/easter-egg/BydBounce";
 
 const OPTIONS: { code: Lang; label: string }[] = [
   { code: "hu", label: "HU" },
@@ -47,7 +48,8 @@ export default function LanguageSwitcher() {
           );
         })}
       </div>
-      <ImageFlash src="/byd.jpg" trigger={bydTrigger} durationMs={5000} alt="BYD" />
+      <ImageFlash src="/byd.jpg" trigger={bydTrigger} durationMs={5000} alt="BYD" variant="zoom-right" />
+      <BydBounce trigger={bydTrigger} durationMs={6000} />
     </>
   );
 }
